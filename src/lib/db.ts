@@ -39,7 +39,7 @@ function mapRowToProduct(row: any): Product {
  * Retorna todos os produtos ativos (do Supabase ou fallback local)
  */
 export async function getAllProducts(): Promise<Product[]> {
-  if (isSupabaseConfigured) {
+  if (isSupabaseConfigured && supabase) {
     try {
       const { data, error } = await supabase
         .from('produtos')
@@ -59,7 +59,7 @@ export async function getAllProducts(): Promise<Product[]> {
  * Busca um produto pelo seu slug amigável
  */
 export async function getProductBySlug(slug: string): Promise<Product | null> {
-  if (isSupabaseConfigured) {
+  if (isSupabaseConfigured && supabase) {
     try {
       const { data, error } = await supabase
         .from('produtos')
@@ -81,7 +81,7 @@ export async function getProductBySlug(slug: string): Promise<Product | null> {
  * Busca um produto pelo código SKU
  */
 export async function getProductBySku(sku: string): Promise<Product | null> {
-  if (isSupabaseConfigured) {
+  if (isSupabaseConfigured && supabase) {
     try {
       const { data, error } = await supabase
         .from('produtos')
