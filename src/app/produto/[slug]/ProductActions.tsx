@@ -87,7 +87,7 @@ export function ProductActions({ product }: ProductActionsProps) {
       </div>
 
       <p className="text-[11px] text-slate-500 text-center">
-        ⚡ Clique no WhatsApp para falar com a equipe de vendas de Franca - SP ou monte sua lista com vários itens.
+        Clique no WhatsApp para falar com a equipe de vendas de Franca - SP ou monte sua lista com vários itens.
       </p>
     </div>
   );

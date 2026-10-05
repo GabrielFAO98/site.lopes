@@ -81,17 +81,11 @@ export function ProductCard({ product }: ProductCardProps) {
         <div className="pt-2 border-t border-slate-100 mt-2">
           <div className="mb-3">
             <div className="flex items-baseline gap-1.5">
-              <span className="text-xs text-slate-500">Ref.:</span>
               <span className="text-lg font-bold text-slate-900">
                 {product.price !== null ? formatCurrency(product.price) : 'Sob Consulta'}
               </span>
               <span className="text-xs text-slate-500 font-medium">/ {product.unit}</span>
             </div>
-            {product.wholesaleNotice && (
-              <p className="text-[11px] text-lopes-orange-700 font-medium truncate mt-0.5">
-                ⚡ {product.wholesaleNotice}
-              </p>
-            )}
           </div>
 
           {/* Botões de Ação */}

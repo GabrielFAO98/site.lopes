@@ -146,21 +146,14 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
             </p>
           </div>
 
-          {/* Bloco de Preço de Referência */}
-          <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+          {/* Bloco de Preço */}
+          <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
             <div className="flex items-baseline gap-2">
-              <span className="text-xs font-semibold text-slate-500 uppercase">Preço Ref.:</span>
               <span className="text-3xl font-black text-slate-900">
                 {product.price !== null ? formatCurrency(product.price) : 'Sob Consulta'}
               </span>
               <span className="text-sm font-medium text-slate-500">/ {product.unit}</span>
             </div>
-
-            {product.wholesaleNotice && (
-              <p className="text-xs text-lopes-orange-700 font-medium pt-1">
-                ⚡ {product.wholesaleNotice}
-              </p>
-            )}
           </div>
 
           {/* Componente Interativo de Ações WhatsApp e Cotação */}

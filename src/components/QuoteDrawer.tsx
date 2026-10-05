@@ -193,7 +193,7 @@ export function QuoteDrawer() {
 
               {/* Subtotal Estimado */}
               <div className="pt-2 border-t border-slate-200 flex justify-between items-baseline">
-                <span className="text-xs text-slate-500">Estimativa de Referência:</span>
+                <span className="text-xs font-semibold text-slate-600">Total Estimado:</span>
                 <span className="text-base font-bold text-slate-900">
                   {totalEstimado > 0 ? formatCurrency(totalEstimado) : 'Sob Consulta'}
                 </span>

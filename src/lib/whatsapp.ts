@@ -27,7 +27,7 @@ export function getProductWhatsAppUrl(product: Product, currentUrl?: string): st
     `📦 *Item:* ${product.name}`,
     `🏷️ *Código/SKU:* ${product.sku}`,
     `🏭 *Marca:* ${product.brand}`,
-    `💰 *Preço Ref.:* ${priceText} (${product.unit})`,
+    `💰 *Preço:* ${priceText} (${product.unit})`,
     `🔗 *Link:* ${urlText}\n`,
     `Vocês possuem para pronta entrega em Franca - SP? Poderiam me passar as condições de pagamento?`,
   ].join('\n');
@@ -44,7 +44,7 @@ export function getQuoteListWhatsAppUrl(items: QuoteItem[], customerBairro?: str
   const itemsList = items
     .map((item, index) => {
       const priceText = item.product.price ? formatCurrency(item.product.price * item.quantity) : 'A calcular';
-      return `${index + 1}. *${item.product.name}*\n   - Qtd: ${item.quantity} ${item.product.unit} | SKU: ${item.product.sku} | Subtotal Ref: ${priceText}`;
+      return `${index + 1}. *${item.product.name}*\n   - Qtd: ${item.quantity} ${item.product.unit} | SKU: ${item.product.sku} | Subtotal: ${priceText}`;
     })
     .join('\n\n');
 
