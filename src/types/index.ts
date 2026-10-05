@@ -53,4 +53,6 @@ export interface StoreInfo {
     saturday: string;
     sunday: string;
   };
+  cnpj?: string;
+  ie?: string;
 }

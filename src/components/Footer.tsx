@@ -144,8 +144,9 @@ export function Footer() {
 
       {/* Faixa Inferior de Direitos e SEO */}
       <div className="max-w-7xl mx-auto px-4 pt-6 border-t border-slate-800 text-xs text-slate-500 flex flex-col md:flex-row justify-between items-center gap-4">
-        <div>
-          © {new Date().getFullYear()} {STORE_CONFIG.name}. Todos os direitos reservados. Franca - SP.
+        <div className="space-y-1 text-center md:text-left">
+          <p>© {new Date().getFullYear()} {STORE_CONFIG.name}. Todos os direitos reservados. Franca - SP.</p>
+          <p className="text-[11px] text-slate-500">CNPJ: {STORE_CONFIG.cnpj} • Inscrição Estadual: {STORE_CONFIG.ie}</p>
         </div>
         <div className="flex items-center gap-4">
           <span className="flex items-center gap-1">
