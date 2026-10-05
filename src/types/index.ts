@@ -20,6 +20,7 @@ export interface Product {
   applications: string[];
   warranty?: string;
   relatedSkus?: string[];
+  videoUrl?: string;
 }
 
 export interface Department {

@@ -25,6 +25,7 @@ CREATE TABLE IF NOT EXISTS public.produtos (
     applications JSONB DEFAULT '[]'::jsonb,
     warranty TEXT,
     related_skus JSONB DEFAULT '[]'::jsonb,
+    video_url TEXT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );

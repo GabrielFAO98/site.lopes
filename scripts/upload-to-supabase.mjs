@@ -44,12 +44,22 @@ async function syncProducts() {
       applications: p.applications,
       warranty: p.warranty,
       related_skus: p.relatedSkus || [],
+      video_url: p.videoUrl || null,
       updated_at: new Date().toISOString(),
     };
 
-    const { error } = await supabase
+    let { error } = await supabase
       .from('produtos')
       .upsert(row, { onConflict: 'sku' });
+
+    // Se o banco ainda não tiver a coluna video_url, faz o upsert sem ela
+    if (error && error.message.includes('video_url')) {
+      delete row.video_url;
+      const retry = await supabase
+        .from('produtos')
+        .upsert(row, { onConflict: 'sku' });
+      error = retry.error;
+    }
 
     if (error) {
       console.error(`❌ Erro ao enviar produto ${p.sku} (${p.name}):`, error.message);

@@ -16,6 +16,7 @@ import { getProductBySlug, getRelatedProducts, getAllProducts } from '@/lib/db';
 import { formatCurrency } from '@/lib/whatsapp';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
 import { ProductCard } from '@/components/ProductCard';
+import { ProductGallery } from '@/components/ProductGallery';
 import { ProductActions } from './ProductActions';
 
 interface ProductPageProps {
@@ -113,33 +114,14 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
 
       {/* Seção Principal do Produto */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Coluna da Imagem */}
-        <div className="lg:col-span-6 bg-white p-6 rounded-2xl border border-slate-200">
-          <div className="relative aspect-square w-full rounded-xl overflow-hidden bg-slate-50 border border-slate-100">
-            {product.images && product.images[0] ? (
-              <Image
-                src={product.images[0]}
-                alt={product.name}
-                fill
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                className="object-cover"
-                priority
-              />
-            ) : (
-              <div className="w-full h-full flex flex-col items-center justify-center text-slate-400">
-                <span className="text-5xl mb-2">🧱</span>
-                <span className="text-sm font-medium">Lopes e Lopes Materiais</span>
-              </div>
-            )}
-
-            {/* Badges na Foto */}
-            <div className="absolute top-3 left-3">
-              <span className="bg-emerald-600 text-white text-xs font-bold px-2.5 py-1 rounded-md shadow-sm flex items-center gap-1">
-                <ShieldCheck className="w-3.5 h-3.5" />
-                {product.stockBadge || 'Pronta Entrega'}
-              </span>
-            </div>
-          </div>
+        {/* Coluna da Galeria de Imagens e Vídeo */}
+        <div className="lg:col-span-6 bg-white p-5 rounded-2xl border border-slate-200">
+          <ProductGallery
+            images={product.images}
+            name={product.name}
+            stockBadge={product.stockBadge}
+            videoUrl={product.videoUrl}
+          />
         </div>
 
         {/* Coluna de Informações e Ações de Compra */}
