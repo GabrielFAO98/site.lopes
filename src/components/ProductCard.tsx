@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { MessageCircle, Plus, Check, ShieldCheck } from 'lucide-react';
+import { MessageCircle, Plus, Check } from 'lucide-react';
 import { Product } from '@/types';
 import { formatCurrency, getProductWhatsAppUrl } from '@/lib/whatsapp';
 import { useQuote } from './QuoteContext';
@@ -38,16 +38,6 @@ export function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
         </Link>
-
-        {/* Badges Flutuantes */}
-        <div className="absolute top-2 left-2 flex flex-col gap-1">
-          {product.stockBadge && (
-            <span className="inline-flex items-center gap-1 bg-emerald-600 text-white text-[11px] font-semibold px-2 py-0.5 rounded shadow-sm">
-              <ShieldCheck className="w-3 h-3" />
-              {product.stockBadge}
-            </span>
-          )}
-        </div>
 
         <div className="absolute top-2 right-2">
           <span className="bg-white/90 backdrop-blur-sm text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded border border-slate-200 shadow-xs">
