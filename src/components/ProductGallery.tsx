@@ -121,48 +121,39 @@ export function ProductGallery({ images, name, videoUrl }: ProductGalleryProps) 
             </button>
           </>
         )}
+
+        {/* Indicador de Bolinhas quando houver múltiplas mídias */}
+        {hasMultipleMedia && (
+          <div className="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 z-10 bg-slate-900/50 backdrop-blur-xs px-2.5 py-1 rounded-full pointer-events-none">
+            {validImages.map((_, idx) => (
+              <span
+                key={idx}
+                className={`h-1.5 rounded-full transition-all ${
+                  activeMedia === idx ? 'bg-white w-4' : 'bg-white/50 w-1.5'
+                }`}
+              />
+            ))}
+            {videoUrl && (
+              <span
+                className={`h-1.5 rounded-full transition-all ${
+                  activeMedia === 'video' ? 'bg-red-500 w-4' : 'bg-red-400/60 w-1.5'
+                }`}
+              />
+            )}
+          </div>
+        )}
       </div>
 
-      {/* 2. Barra de Miniaturas (Thumbnails) */}
-      {hasMultipleMedia && (
-        <div className="flex items-center gap-3 overflow-x-auto pb-2">
-          {validImages.map((img, idx) => (
-            <button
-              key={idx}
-              onClick={() => setActiveMedia(idx)}
-              className={`relative w-20 h-20 rounded-xl overflow-hidden shrink-0 border-2 transition-all bg-white ${
-                activeMedia === idx
-                  ? 'border-lopes-blue ring-2 ring-lopes-blue/20 scale-102'
-                  : 'border-slate-200 hover:border-slate-300 opacity-80 hover:opacity-100'
-              }`}
-            >
-              <Image
-                src={img}
-                alt={`${name} miniatura ${idx + 1}`}
-                fill
-                className="object-contain p-1"
-              />
-            </button>
-          ))}
-
-          {/* Botão de Miniatura para o Vídeo */}
-          {videoUrl && (
-            <button
-              onClick={() => setActiveMedia('video')}
-              className={`relative w-20 h-20 rounded-xl overflow-hidden shrink-0 border-2 transition-all flex flex-col items-center justify-center bg-slate-900 text-white ${
-                activeMedia === 'video'
-                  ? 'border-red-500 ring-2 ring-red-400/20 scale-102'
-                  : 'border-slate-700 opacity-90 hover:opacity-100'
-              }`}
-              title="Assistir ao vídeo do produto"
-            >
-              <div className="w-7 h-7 rounded-full bg-red-600 flex items-center justify-center mb-1 shadow-sm">
-                <Play className="w-3.5 h-3.5 fill-white text-white ml-0.5" />
-              </div>
-              <span className="text-[10px] font-bold tracking-tight">Vídeo</span>
-            </button>
-          )}
-        </div>
+      {/* Botão de Acesso Rápido ao Vídeo (se houver) */}
+      {videoUrl && (
+        <button
+          type="button"
+          onClick={() => setActiveMedia(activeMedia === 'video' ? 0 : 'video')}
+          className="w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl border border-slate-200 hover:border-red-400 hover:bg-red-50 text-slate-700 hover:text-red-600 text-xs font-semibold transition-all shadow-xs"
+        >
+          <Play className="w-3.5 h-3.5 fill-current text-red-600" />
+          <span>{activeMedia === 'video' ? 'Voltar para fotos do produto' : 'Assistir vídeo do produto'}</span>
+        </button>
       )}
     </div>
   );

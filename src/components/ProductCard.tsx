@@ -47,21 +47,21 @@ export function ProductCard({ product }: ProductCardProps) {
       </div>
 
       {/* Conteúdo do Card */}
-      <div className="p-4 flex-1 flex flex-col justify-between">
+      <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
         <div>
           {/* Marca & Departamento */}
-          <div className="flex items-center justify-between text-xs text-slate-500 mb-1.5">
-            <span className="font-semibold text-lopes-blue uppercase tracking-wider">
+          <div className="flex items-center justify-between text-[11px] sm:text-xs text-slate-500 mb-1 sm:mb-1.5">
+            <span className="font-semibold text-lopes-blue uppercase tracking-wider truncate">
               {product.brand}
             </span>
-            <span className="text-slate-400 truncate max-w-[120px]">
+            <span className="text-slate-400 truncate max-w-[80px] sm:max-w-[120px] hidden min-[380px]:inline">
               {product.departmentName}
             </span>
           </div>
 
           {/* Nome do Produto */}
           <Link href={`/produto/${product.slug}`}>
-            <h3 className="font-semibold text-slate-900 text-sm sm:text-base line-clamp-2 hover:text-lopes-blue transition-colors leading-snug mb-2">
+            <h3 className="font-semibold text-slate-900 text-xs sm:text-base line-clamp-2 hover:text-lopes-blue transition-colors leading-snug mb-1.5 sm:mb-2 min-h-[2rem] sm:min-h-0">
               {product.name}
             </h3>
           </Link>
@@ -69,23 +69,23 @@ export function ProductCard({ product }: ProductCardProps) {
 
         {/* Preço e Botões de Conversão */}
         <div className="pt-2 border-t border-slate-100 mt-2">
-          <div className="mb-3">
-            <div className="flex items-baseline gap-1.5">
-              <span className="text-lg font-bold text-slate-900">
+          <div className="mb-2 sm:mb-3">
+            <div className="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-1.5">
+              <span className="text-base sm:text-lg font-bold text-slate-900">
                 {product.price !== null ? formatCurrency(product.price) : 'Sob Consulta'}
               </span>
-              <span className="text-xs text-slate-500 font-medium">/ {product.unit}</span>
+              <span className="text-[10px] sm:text-xs text-slate-500 font-medium truncate">/ {product.unit}</span>
             </div>
           </div>
 
           {/* Botões de Ação */}
-          <div className="grid grid-cols-2 gap-2">
+          <div className="grid grid-cols-1 min-[420px]:grid-cols-2 gap-1.5 sm:gap-2">
             {/* CTA WhatsApp Direto */}
             <a
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-1.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white text-xs font-semibold py-2 px-2.5 rounded-lg transition-colors shadow-xs"
+              className="flex items-center justify-center gap-1 sm:gap-1.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-lg transition-colors shadow-xs"
               title="Pedir orçamento direto no WhatsApp"
             >
               <MessageCircle className="w-3.5 h-3.5 fill-white shrink-0" />
@@ -95,7 +95,7 @@ export function ProductCard({ product }: ProductCardProps) {
             {/* Adicionar à Lista de Cotação */}
             <button
               onClick={() => addItem(product, 1)}
-              className={`flex items-center justify-center gap-1.5 text-xs font-semibold py-2 px-2 rounded-lg transition-colors border ${
+              className={`flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1 sm:px-2 rounded-lg transition-colors border ${
                 isInQuote
                   ? 'bg-emerald-50 text-emerald-700 border-emerald-300'
                   : 'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-300'
@@ -104,12 +104,12 @@ export function ProductCard({ product }: ProductCardProps) {
             >
               {isInQuote ? (
                 <>
-                  <Check className="w-3.5 h-3.5 text-emerald-600" />
+                  <Check className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
                   <span>Adicionado</span>
                 </>
               ) : (
                 <>
-                  <Plus className="w-3.5 h-3.5 text-slate-600" />
+                  <Plus className="w-3.5 h-3.5 text-slate-600 shrink-0" />
                   <span>+ Cotação</span>
                 </>
               )}
