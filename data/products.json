@@ -1,0 +1,407 @@
+[
+  {
+    "id": "prod-1",
+    "sku": "100101",
+    "name": "Cimento CP II-E-32 Todas as Obras 50kg Votoran",
+    "slug": "cimento-cp-ii-todas-as-obras-50kg-votoran",
+    "description": "O Cimento Votoran Todas as Obras é ideal para reboco, concreto convencional, contrapiso, calçadas e assentamento de blocos e tijolos. Proporciona excelente trabalhabilidade e alta resistência.",
+    "price": 34.90,
+    "wholesaleNotice": "Preço especial para carga fechada ou pedidos acima de 40 sacos.",
+    "unit": "Saco 50kg",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Argamassas",
+    "brand": "Votoran",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Tipo de Cimento": "CP II-E-32 (Portland Composto)",
+      "Peso da Embalagem": "50 kg",
+      "Resistência à Compressão": "≥ 32 MPa aos 28 dias",
+      "Norma Técnica": "NBR 16697",
+      "Validade de Armazenagem": "Até 90 dias em local seco e arejado"
+    },
+    "applications": [
+      "Concreto estrutural e fundações",
+      "Reboco e emboço de paredes",
+      "Contrapiso e calçadas residenciais",
+      "Assentamento de alvenaria"
+    ],
+    "warranty": "Garantia de fábrica contra defeitos de fabricação",
+    "relatedSkus": ["100102", "100103"]
+  },
+  {
+    "id": "prod-2",
+    "sku": "100102",
+    "name": "Argamassa AC-II Cinza Uso Interno e Externo 20kg Quartzolit",
+    "slug": "argamassa-ac-ii-cinza-20kg-quartzolit",
+    "description": "Argamassa colante industrializada para assentamento de placas cerâmicas em pisos e paredes de áreas internas e externas. Alta aderência e flexibilidade para resistir a variações térmicas.",
+    "price": 22.50,
+    "wholesaleNotice": "Consulte desconto para palete fechado (72 sacos).",
+    "unit": "Saco 20kg",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Argamassas",
+    "brand": "Quartzolit",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Classificação": "AC-II conforme NBR 14081",
+      "Rendimento Médio": "4 a 6 kg/m²",
+      "Tempo em Aberto": "≥ 20 minutos",
+      "Liberação para Tráfego Leve": "72 horas",
+      "Cor": "Cinza"
+    },
+    "applications": [
+      "Placas cerâmicas até 80x80cm",
+      "Áreas externas (fachadas residenciais, varandas)",
+      "Pisos e paredes internas molhadas"
+    ],
+    "warranty": "Garantia Quartzolit",
+    "relatedSkus": ["100101", "100501"]
+  },
+  {
+    "id": "prod-3",
+    "sku": "100201",
+    "name": "Tubo PVC Esgoto Série Normal 100mm 3m Tigre",
+    "slug": "tubo-pvc-esgoto-100mm-3m-tigre",
+    "description": "Tubo de PVC rígido para condução de efluentes em instalações prediais de esgoto sanitário e ventilação. Fabricado pela Tigre com paredes reforçadas e encaixe perfeito com anel de vedação.",
+    "price": 43.80,
+    "wholesaleNotice": "Preço diferenciado para compras em feixe fechado para encanadores.",
+    "unit": "Barra 3m",
+    "departmentId": "hidraulica",
+    "departmentName": "Hidráulica",
+    "category": "Tubos e Conexões",
+    "brand": "Tigre",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Diâmetro Nominal": "DN 100 mm (4 polegadas)",
+      "Comprimento": "3 metros",
+      "Material": "PVC rígido",
+      "Junta": "Elástica (com anel) ou soldável",
+      "Norma": "NBR 5688"
+    },
+    "applications": [
+      "Redes coletoras de esgoto predial",
+      "Tubulações de ventilação sanitária",
+      "Tubulação de descida de águas servidas"
+    ],
+    "warranty": "50 anos de garantia do fabricante",
+    "relatedSkus": ["100202", "100203"]
+  },
+  {
+    "id": "prod-4",
+    "sku": "100202",
+    "name": "Tubo PVC Soldável Marrom 25mm 3m Tigre",
+    "slug": "tubo-pvc-soldavel-marrom-25mm-3m-tigre",
+    "description": "Tubo marrom de PVC para condução de água fria potável sob pressão. Excelente acabamento interno liso que evita incrustações e garante vazão máxima em residências e comércios.",
+    "price": 18.90,
+    "wholesaleNotice": "Desconto por feixe fechado para instaladores hidráulicos.",
+    "unit": "Barra 3m",
+    "departmentId": "hidraulica",
+    "departmentName": "Hidráulica",
+    "category": "Tubos e Conexões",
+    "brand": "Tigre",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1621905251918-48416bd8575a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Diâmetro Nominal": "25 mm (3/4 de polegada)",
+      "Comprimento": "3 metros",
+      "Pressão de Serviço": "7,5 kgf/cm² (75 m.c.a.) a 20°C",
+      "Tipo de União": "Soldagem com adesivo plástico para PVC",
+      "Norma": "NBR 5648"
+    },
+    "applications": [
+      "Instalações prediais de água fria",
+      "Redes de distribuição residencial",
+      "Barriletes e colunas de água"
+    ],
+    "warranty": "Garantia Tigre",
+    "relatedSkus": ["100203", "100201"]
+  },
+  {
+    "id": "prod-5",
+    "sku": "100203",
+    "name": "Adesivo Plástico para PVC Bisnaga 75g Tigre",
+    "slug": "adesivo-plastico-pvc-bisnaga-75g-tigre",
+    "description": "Cola adesiva especialmente desenvolvida para colagem rápida e segura de tubos e conexões de PVC marrom para água fria. Cura rápida e estanqueidade garantida.",
+    "price": 8.50,
+    "wholesaleNotice": "Leve a caixa fechada com 24 unidades com preço de atacado.",
+    "unit": "Bisnaga 75g",
+    "departmentId": "hidraulica",
+    "departmentName": "Hidráulica",
+    "category": "Adesivos e Vedações",
+    "brand": "Tigre",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Peso Líquido": "75 gramas",
+      "Tempo de Secagem": "Ao toque em 1 hora, teste de pressão após 12 horas",
+      "Embalagem": "Bisnaga prática com bico dosador",
+      "Composição": "Resina de PVC e solventes orgânicos"
+    },
+    "applications": [
+      "União soldável de tubos e conexões Tigre e Amanco",
+      "Manutenção hidráulica rápida"
+    ],
+    "warranty": "Garantia do fabricante",
+    "relatedSkus": ["100202", "100201"]
+  },
+  {
+    "id": "prod-6",
+    "sku": "100301",
+    "name": "Cabo Flexível 2,5mm² 750V Rolo 100 Metros Sil (Azul)",
+    "slug": "cabo-flexivel-2-5mm-750v-100m-sil-azul",
+    "description": "Fio flexível condutor em cobre puro eletrolítico 99,9% com isolamento em PVC antichama (BWF-B). Recomendado para circuitos de tomadas de uso geral e iluminação residencial.",
+    "price": 189.90,
+    "wholesaleNotice": "Preço de distribuidor para eletricistas e obras residenciais completas.",
+    "unit": "Rolo 100m",
+    "departmentId": "eletrica",
+    "departmentName": "Elétrica",
+    "category": "Condutores e Fios",
+    "brand": "Sil Fios",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Seção Nominal": "2,5 mm²",
+      "Tensão de Isolamento": "450/750 V",
+      "Condutor": "Cobre puro têmpera mole, classe 4 de flexibilidade",
+      "Isolação": "Composto termoplástico polivinílico (PVC) antichama",
+      "Norma": "NBR NM 247-3",
+      "Certificação": "Selo de qualidade INMETRO"
+    },
+    "applications": [
+      "Circuitos de tomadas de 10A e 20A",
+      "Iluminação e tomadas em redes monofásicas e bifásicas",
+      "Instalações embutidas em conduítes ou aparentes"
+    ],
+    "warranty": "Certificação e garantia Sil Fios",
+    "relatedSkus": ["100302"]
+  },
+  {
+    "id": "prod-7",
+    "sku": "100302",
+    "name": "Disjuntor Bipolar Curva C 32A DIN Lorenzetti",
+    "slug": "disjuntor-bipolar-curva-c-32a-din-lorenzetti",
+    "description": "Disjuntor termomagnético bipolar para proteção contra sobrecargas e curtos-circuitos em quadros de distribuição residencial. Ideal para chuveiros elétricos 220V e ar-condicionado.",
+    "price": 42.00,
+    "wholesaleNotice": "Condição para montagem completa de quadro QDT.",
+    "unit": "UN",
+    "departmentId": "eletrica",
+    "departmentName": "Elétrica",
+    "category": "Disjuntores e Quadros",
+    "brand": "Lorenzetti",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Corrente Nominal": "32 Amperes",
+      "Número de Polos": "2 (Bipolar)",
+      "Curva de Disparo": "Curva C (5 a 10 vezes In)",
+      "Capacidade de Interrupção": "3 kA (230/400V)",
+      "Montagem": "Trilho DIN 35mm"
+    },
+    "applications": [
+      "Proteção de chuveiros 220V até 7000W",
+      "Circuitos dedicados de ar-condicionado Split",
+      "Quadros de distribuição residencial em Franca"
+    ],
+    "warranty": "Garantia de 1 ano Lorenzetti",
+    "relatedSkus": ["100301"]
+  },
+  {
+    "id": "prod-8",
+    "sku": "100401",
+    "name": "Tinta Acrílica Fosca Rende Muito 18L Branco Neve Coral",
+    "slug": "tinta-acrilica-fosca-rende-muito-18l-branco-neve-coral",
+    "description": "A Tinta Coral Rende Muito tem alta consistência e permite diluição de até 80% com água. Proporciona rendimento surpreendente de até 500m² por lata com excelente cobertura fosca sem cheiro após 3 horas.",
+    "price": 319.00,
+    "wholesaleNotice": "Consulte condições para pintores e grandes áreas.",
+    "unit": "Lata 18L",
+    "departmentId": "tintas-e-acessorios",
+    "departmentName": "Tintas e Acessórios",
+    "category": "Tintas Imobiliárias",
+    "brand": "Coral",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Volume": "18 Litros",
+      "Acabamento": "Fosco aveludado",
+      "Rendimento": "Até 500 m² por demão",
+      "Diluição": "Até 80% com água potável",
+      "Secagem ao Toque": "30 minutos",
+      "Secagem Final": "4 horas entre demãos"
+    },
+    "applications": [
+      "Paredes internas e externas de alvenaria",
+      "Gesso e drywall",
+      "Massa corrida e massa acrílica"
+    ],
+    "warranty": "Garantia AkzoNobel / Coral",
+    "relatedSkus": ["100402", "100501"]
+  },
+  {
+    "id": "prod-9",
+    "sku": "100402",
+    "name": "Rolo de Lã Sintética Antigota 23cm com Garfo Atlas",
+    "slug": "rolo-la-sintetica-antigota-23cm-garfo-atlas",
+    "description": "Rolo com tecnologia antigota que não respinga durante a pintura em paredes e tetos lisos. Acompanha garfo com cabo anatômico com rosca para extensores.",
+    "price": 28.90,
+    "wholesaleNotice": "Desconto no kit de pintura completo.",
+    "unit": "UN",
+    "departmentId": "tintas-e-acessorios",
+    "departmentName": "Tintas e Acessórios",
+    "category": "Acessórios de Pintura",
+    "brand": "Atlas",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1595428774223-ef52624120d2?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Largura do Rolo": "23 cm (9 polegadas)",
+      "Altura da Lã": "10 mm",
+      "Tecnologia": "Antigota microfibra",
+      "Acompanha": "Garfo metálico com bucha plástica"
+    },
+    "applications": [
+      "Pintura com tintas acrílicas e látex PVA",
+      "Tetos e paredes internas lisas",
+      "Acabamento uniforme sem marcas"
+    ],
+    "warranty": "Garantia Atlas",
+    "relatedSkus": ["100401"]
+  },
+  {
+    "id": "prod-10",
+    "sku": "100501",
+    "name": "Desempenadeira de Aço Dentada 12x29cm Cabo Fechado Castor",
+    "slug": "desempenadeira-aco-dentada-12x29cm-castor",
+    "description": "Ferramenta essencial para o assentamento de pisos, porcelanatos e azulejos. Lâmina em aço especial temperado com dentes de 8mm que garantem a formação ideal de cordões de argamassa.",
+    "price": 31.50,
+    "wholesaleNotice": "Desconto na compra com jogo de colheres de pedreiro.",
+    "unit": "UN",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas & EPIs",
+    "category": "Ferramentas para Alvenaria",
+    "brand": "Castor",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Dimensões": "12 cm de largura x 29 cm de comprimento",
+      "Dentes": "Dentes quadrados de 8 x 8 mm",
+      "Material da Lâmina": "Aço alto carbono temperado",
+      "Cabo": "Madeira envernizada anatômica de fixação reforçada"
+    },
+    "applications": [
+      "Aplicação de argamassa colante AC-I, AC-II e AC-III",
+      "Assentamento de pisos cerâmicos e porcelanatos"
+    ],
+    "warranty": "Garantia Castor ferramentas",
+    "relatedSkus": ["100102"]
+  },
+  {
+    "id": "prod-11",
+    "sku": "100601",
+    "name": "Fechadura Externa de Entrada Cromada Broca 40mm Stam 803/01",
+    "slug": "fechadura-externa-cromada-broca-40mm-stam-803",
+    "description": "Fechadura para portas externas e principais com maçaneta tipo alavanca e acabamento cromado resistente à corrosão. Acompanha 2 chaves e espelhos em aço inox.",
+    "price": 79.90,
+    "wholesaleNotice": "Consulte preço no lote para condomínios e construtoras.",
+    "unit": "UN",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens & Fixação",
+    "category": "Fechaduras e Travas",
+    "brand": "Stam",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1558002038-1055907df827?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Distância de Broca": "40 mm",
+      "Tráfego": "Médio",
+      "Nível de Segurança": "Médio/Alto",
+      "Material da Maçaneta": "Zamac cromado",
+      "Espelhos": "Aço inoxidável ABNT 1010/1020",
+      "Espessura da Porta Recomendada": "25 a 40 mm"
+    },
+    "applications": [
+      "Portas externas de madeira ou metal",
+      "Entradas residenciais e comerciais"
+    ],
+    "warranty": "Garantia de 1 ano Stam",
+    "relatedSkus": []
+  },
+  {
+    "id": "prod-12",
+    "sku": "100701",
+    "name": "Torneira de Mesa para Lavatório Bica Móvel 1/4 Volta Cromada Lorenzetti",
+    "slug": "torneira-mesa-lavatorio-bica-movel-lorenzetti",
+    "description": "Design moderno com acabamento cromado brilhante e mecanismo de 1/4 de volta com pastilha cerâmica para fechamento suave sem pingos e economia de água. Bica móvel 360° para maior comodidade.",
+    "price": 89.90,
+    "wholesaleNotice": "Preço especial em pacote com kit de acessórios para banheiro.",
+    "unit": "UN",
+    "departmentId": "acabamentos",
+    "departmentName": "Acabamentos & Metais",
+    "category": "Metais Sanitários",
+    "brand": "Lorenzetti",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "technicalSpecs": {
+      "Instalação": "Mesa / Bancada",
+      "Acionamento": "1/4 de Volta Cerâmico",
+      "Conexão de Entrada": "1/2 polegada (DN 15)",
+      "Material": "ABS de alta engenharia com banho cromo triplo",
+      "Pressão Mínima de Funcionamento": "2 m.c.a."
+    },
+    "applications": [
+      "Lavatórios de banheiro residencial e comercial",
+      "Cubas de embutir, sobrepor ou apoio"
+    ],
+    "warranty": "Garantia de 12 anos Lorenzetti",
+    "relatedSkus": ["100202"]
+  }
+]

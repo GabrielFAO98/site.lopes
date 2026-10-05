@@ -1,0 +1,60 @@
+import { Department } from '@/types';
+
+export const DEPARTMENTS: Department[] = [
+  {
+    id: 'construcao-basica',
+    slug: 'construcao-basica',
+    name: 'Construção Básica',
+    description: 'Cimento, argamassa, impermeabilizantes, cal, areia, brita e ferro.',
+    iconName: 'Building2',
+    color: 'from-amber-600 to-amber-800',
+  },
+  {
+    id: 'hidraulica',
+    slug: 'hidraulica',
+    name: 'Hidráulica',
+    description: 'Tubos, conexões de esgoto e soldáveis, caixas d’água, registros e sifões.',
+    iconName: 'Droplets',
+    color: 'from-blue-600 to-blue-800',
+  },
+  {
+    id: 'eletrica',
+    slug: 'eletrica',
+    name: 'Elétrica',
+    description: 'Fios, cabos, disjuntores, quadros, eletrodutos, tomadas e iluminação LED.',
+    iconName: 'Zap',
+    color: 'from-yellow-500 to-amber-600',
+  },
+  {
+    id: 'tintas-e-acessorios',
+    slug: 'tintas-e-acessorios',
+    name: 'Tintas e Acessórios',
+    description: 'Tintas imobiliárias, massas corridas, vernizes, rolos, trinchas e lixas.',
+    iconName: 'Paintbrush',
+    color: 'from-orange-500 to-red-600',
+  },
+  {
+    id: 'ferramentas',
+    slug: 'ferramentas',
+    name: 'Ferramentas & EPIs',
+    description: 'Ferramentas manuais, elétricas, discos de corte, pás e proteção para obra.',
+    iconName: 'Hammer',
+    color: 'from-slate-600 to-slate-800',
+  },
+  {
+    id: 'ferragens-e-fixacao',
+    slug: 'ferragens-e-fixacao',
+    name: 'Ferragens & Fixação',
+    description: 'Fechaduras, dobradiças, parafusos, buchas, pregos e cadeados.',
+    iconName: 'Wrench',
+    color: 'from-zinc-600 to-zinc-800',
+  },
+  {
+    id: 'acabamentos',
+    slug: 'acabamentos',
+    name: 'Acabamentos & Metais',
+    description: 'Torneiras, ralos, sifões cromados, louças e acessórios para banheiro e cozinha.',
+    iconName: 'Sparkles',
+    color: 'from-cyan-600 to-teal-800',
+  },
+];
