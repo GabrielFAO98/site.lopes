@@ -85,7 +85,7 @@ export function Footer() {
         {/* Coluna 4: Contato & Endereço em Franca */}
         <div>
           <h4 className="text-white font-semibold text-base mb-4 border-b border-slate-800 pb-2">
-            Onde Estamos & Contato
+            Onde Estamos e Contato
           </h4>
           <div className="space-y-3 text-sm">
             <div className="flex items-start gap-2.5">

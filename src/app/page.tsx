@@ -17,7 +17,6 @@ import {
 } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { getFeaturedProducts, getDepartmentsWithCount, getNewProducts } from '@/lib/db';
-import { ProductCard } from '@/components/ProductCard';
 import { ProductCarousel } from '@/components/ProductCarousel';
 import { HomeBannerSlider } from '@/components/HomeBannerSlider';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
@@ -138,9 +137,9 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 3. Seção de Departamentos (com quebra de linha harmoniosa) */}
+      {/* 3. Seção de Departamentos (Enquadramento ajustado e sem contagem de itens) */}
       <section className="max-w-7xl mx-auto px-4">
-        <div className="flex items-end justify-between mb-6">
+        <div className="flex items-end justify-between mb-5 sm:mb-6">
           <div>
             <span className="text-xs font-bold uppercase tracking-wider text-lopes-orange">Navegue por Categoria</span>
             <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
@@ -161,59 +160,43 @@ export default async function HomePage() {
             <Link
               key={dept.id}
               href={`/produtos?depto=${dept.id}`}
-              className="bg-white p-3 sm:p-4 rounded-xl border border-slate-200 hover:border-lopes-blue hover:shadow-md transition-all group flex flex-col items-center text-center justify-between min-h-[145px]"
+              className="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 hover:border-lopes-blue hover:shadow-md transition-all group flex flex-col items-center text-center justify-center gap-2.5 min-h-[115px] sm:min-h-[120px]"
             >
-              <div className="w-12 h-12 rounded-xl bg-lopes-blue-50 text-lopes-blue group-hover:bg-lopes-blue group-hover:text-white transition-colors flex items-center justify-center mb-2 shrink-0">
+              <div className="w-11 h-11 rounded-xl bg-lopes-blue-50 text-lopes-blue group-hover:bg-lopes-blue group-hover:text-white transition-colors flex items-center justify-center shrink-0">
                 {iconMap[dept.iconName] || <Building2 className="w-6 h-6" />}
               </div>
-              <h3 className="font-bold text-xs sm:text-sm text-slate-800 group-hover:text-lopes-blue transition-colors leading-snug min-h-[2.5rem] flex items-center justify-center break-words px-1">
+              <h3 className="font-bold text-xs sm:text-sm text-slate-800 group-hover:text-lopes-blue transition-colors leading-snug flex items-center justify-center break-words px-1 text-center">
                 {dept.name}
               </h3>
-              <span className="text-[11px] text-slate-400 mt-1 shrink-0">
-                {dept.count} {dept.count === 1 ? 'item' : 'itens'}
-              </span>
             </Link>
           ))}
         </div>
       </section>
 
-      {/* 4. Vitrine: Mais Vendidos (8 produtos) */}
-      <section className="max-w-7xl mx-auto px-4">
-        <div className="flex items-center justify-between mb-6">
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-            Mais Vendidos
-          </h2>
-          <Link
-            href="/produtos"
-            className="text-xs sm:text-sm font-semibold text-lopes-blue hover:text-lopes-blue-700 hover:underline"
-          >
-            Ver catálogo completo →
-          </Link>
-        </div>
+      {/* 4. Vitrine: Mais Vendidos (Padronizado como Carrossel com Prévia da Próxima Imagem) */}
+      <ProductCarousel
+        products={topSellers}
+        title="Mais Vendidos"
+        viewAllHref="/produtos"
+      />
 
-        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-6">
-          {topSellers.map((product) => (
-            <ProductCard key={product.id} product={product} />
-          ))}
-        </div>
-
-        <div className="text-center mt-10">
-          <Link
-            href="/produtos"
-            className="inline-flex items-center gap-2 px-8 py-3.5 bg-lopes-blue hover:bg-lopes-blue-700 text-white font-bold text-sm rounded-xl transition-colors shadow-md"
-          >
-            <span>Explorar Catálogo Completo</span>
-            <ArrowRight className="w-4 h-4" />
-          </Link>
-        </div>
-      </section>
-
-      {/* 5. Seção de Novidades (Carrossel com 8 produtos) */}
+      {/* 5. Seção de Novidades (Carrossel com Prévia da Próxima Imagem) */}
       <ProductCarousel
         products={newProducts}
         title="Novidades"
-        subtitle="Confira os lançamentos e novidades recém-chegados para sua construção ou reforma"
+        viewAllHref="/produtos"
       />
+
+      {/* Botão de Destaque para Catálogo Completo */}
+      <div className="text-center pt-2">
+        <Link
+          href="/produtos"
+          className="inline-flex items-center gap-2 px-8 py-3.5 bg-lopes-blue hover:bg-lopes-blue-700 text-white font-bold text-sm rounded-xl transition-colors shadow-md hover:shadow-lg"
+        >
+          <span>Explorar Catálogo Completo</span>
+          <ArrowRight className="w-4 h-4" />
+        </Link>
+      </div>
 
       {/* 6. Sessão Nossa História */}
       <section className="max-w-7xl mx-auto px-4">
@@ -221,7 +204,7 @@ export default async function HomePage() {
           <div className="lg:col-span-7 space-y-4 sm:space-y-5">
             <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-lopes-blue px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
               <HeartHandshake className="w-3.5 h-3.5" />
-              <span>Tradição &amp; Parceria em Franca</span>
+              <span>Tradição e Parceria em Franca</span>
             </div>
 
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 leading-tight">

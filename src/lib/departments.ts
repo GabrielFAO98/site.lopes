@@ -36,7 +36,7 @@ export const DEPARTMENTS: Department[] = [
   {
     id: 'ferramentas',
     slug: 'ferramentas',
-    name: 'Ferramentas & EPIs',
+    name: 'Ferramentas e EPIs',
     description: 'Ferramentas manuais, elétricas, discos de corte, pás e proteção para obra.',
     iconName: 'Hammer',
     color: 'from-slate-600 to-slate-800',
@@ -44,7 +44,7 @@ export const DEPARTMENTS: Department[] = [
   {
     id: 'ferragens-e-fixacao',
     slug: 'ferragens-e-fixacao',
-    name: 'Ferragens & Fixação',
+    name: 'Ferragens e Fixação',
     description: 'Fechaduras, dobradiças, parafusos, buchas, pregos e cadeados.',
     iconName: 'Wrench',
     color: 'from-zinc-600 to-zinc-800',
@@ -52,7 +52,7 @@ export const DEPARTMENTS: Department[] = [
   {
     id: 'acabamentos',
     slug: 'acabamentos',
-    name: 'Acabamentos & Metais',
+    name: 'Acabamentos e Metais',
     description: 'Torneiras, ralos, sifões cromados, louças e acessórios para banheiro e cozinha.',
     iconName: 'Sparkles',
     color: 'from-cyan-600 to-teal-800',

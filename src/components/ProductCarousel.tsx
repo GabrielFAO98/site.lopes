@@ -1,28 +1,44 @@
 'use client';
 
-import React, { useRef } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
 import { Product } from '@/types';
 import { ProductCard } from './ProductCard';
-import { ChevronLeft, ChevronRight, Sparkles } from 'lucide-react';
+import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
 import Link from 'next/link';
 
 interface ProductCarouselProps {
   products: Product[];
-  title?: string;
-  subtitle?: string;
+  title: string;
+  viewAllHref?: string;
 }
 
 export function ProductCarousel({
   products,
-  title = 'Novidades',
-  subtitle = 'Lançamentos e novos itens adicionados ao catálogo',
+  title,
+  viewAllHref = '/produtos',
 }: ProductCarouselProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
+  const [canScrollLeft, setCanScrollLeft] = useState(false);
+  const [canScrollRight, setCanScrollRight] = useState(true);
+
+  const checkScroll = () => {
+    if (!scrollContainerRef.current) return;
+    const { scrollLeft, scrollWidth, clientWidth } = scrollContainerRef.current;
+    setCanScrollLeft(scrollLeft > 10);
+    setCanScrollRight(scrollLeft + clientWidth < scrollWidth - 10);
+  };
+
+  useEffect(() => {
+    checkScroll();
+    window.addEventListener('resize', checkScroll);
+    return () => window.removeEventListener('resize', checkScroll);
+  }, [products]);
 
   const scroll = (direction: 'left' | 'right') => {
     if (!scrollContainerRef.current) return;
     const container = scrollContainerRef.current;
-    const scrollAmount = container.clientWidth * 0.85;
+    // Rola aproximadamente 80% da largura visível
+    const scrollAmount = container.clientWidth * 0.75;
 
     container.scrollBy({
       left: direction === 'left' ? -scrollAmount : scrollAmount,
@@ -33,67 +49,94 @@ export function ProductCarousel({
   if (!products || products.length === 0) return null;
 
   return (
-    <section className="max-w-7xl mx-auto px-4">
-      {/* Cabeçalho da Seção com Botões de Navegação */}
-      <div className="flex items-end justify-between mb-6">
-        <div>
-          <div className="flex items-center gap-1.5 text-xs font-bold uppercase tracking-wider text-lopes-orange mb-1">
-            <Sparkles className="w-3.5 h-3.5" />
-            <span>Recém-Chegados</span>
-          </div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
-            {title}
-          </h2>
-          {subtitle && (
-            <p className="text-xs sm:text-sm text-slate-500 mt-0.5">
-              {subtitle}
-            </p>
-          )}
-        </div>
+    <section className="max-w-7xl mx-auto px-4 relative">
+      {/* Cabeçalho Limpo da Seção */}
+      <div className="flex items-center justify-between mb-4 sm:mb-6">
+        <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          {title}
+        </h2>
 
-        {/* Botões do Carrossel */}
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-3">
+          {viewAllHref && (
+            <Link
+              href={viewAllHref}
+              className="text-xs sm:text-sm font-semibold text-lopes-blue hover:text-lopes-blue-700 hover:underline flex items-center gap-1"
+            >
+              <span>Ver todos</span>
+              <ArrowRight className="w-3.5 h-3.5" />
+            </Link>
+          )}
+
+          {/* Botões Superiores de Navegação */}
+          <div className="hidden sm:flex items-center gap-1.5 pl-2 border-l border-slate-200">
+            <button
+              onClick={() => scroll('left')}
+              disabled={!canScrollLeft}
+              className={`w-8 h-8 rounded-full border border-slate-200 bg-white flex items-center justify-center transition-all ${
+                canScrollLeft
+                  ? 'hover:bg-slate-50 text-slate-800 shadow-xs cursor-pointer'
+                  : 'text-slate-300 opacity-50 cursor-not-allowed'
+              }`}
+              aria-label="Rolar para a esquerda"
+            >
+              <ChevronLeft className="w-4 h-4" />
+            </button>
+            <button
+              onClick={() => scroll('right')}
+              disabled={!canScrollRight}
+              className={`w-8 h-8 rounded-full border border-slate-200 bg-white flex items-center justify-center transition-all ${
+                canScrollRight
+                  ? 'hover:bg-slate-50 text-slate-800 shadow-xs cursor-pointer'
+                  : 'text-slate-300 opacity-50 cursor-not-allowed'
+              }`}
+              aria-label="Rolar para a direita"
+            >
+              <ChevronRight className="w-4 h-4" />
+            </button>
+          </div>
+        </div>
+      </div>
+
+      {/* Container Relativo para o Trilho e as Setas Flutuantes */}
+      <div className="relative group">
+        {/* Seta Flutuante Esquerda (Desktop) */}
+        {canScrollLeft && (
           <button
             onClick={() => scroll('left')}
-            className="w-9 h-9 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 flex items-center justify-center shadow-xs transition-colors"
-            aria-label="Rolar para a esquerda"
+            className="hidden md:flex absolute -left-5 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white hover:bg-slate-50 text-slate-800 items-center justify-center shadow-lg border border-slate-200 transition-all hover:scale-105 cursor-pointer"
+            aria-label="Anterior"
           >
-            <ChevronLeft className="w-5 h-5" />
+            <ChevronLeft className="w-6 h-6 text-slate-700" />
           </button>
+        )}
+
+        {/* Seta Flutuante Direita (Desktop) */}
+        {canScrollRight && (
           <button
             onClick={() => scroll('right')}
-            className="w-9 h-9 rounded-full border border-slate-200 bg-white hover:bg-slate-50 text-slate-700 flex items-center justify-center shadow-xs transition-colors"
-            aria-label="Rolar para a direita"
+            className="hidden md:flex absolute -right-5 top-1/2 -translate-y-1/2 z-30 w-11 h-11 rounded-full bg-white hover:bg-slate-50 text-slate-800 items-center justify-center shadow-lg border border-slate-200 transition-all hover:scale-105 cursor-pointer"
+            aria-label="Próximo"
           >
-            <ChevronRight className="w-5 h-5" />
+            <ChevronRight className="w-6 h-6 text-slate-700" />
           </button>
-        </div>
-      </div>
+        )}
 
-      {/* Trilho Deslizante (Carrossel com 2 produtos por tela no mobile) */}
-      <div
-        ref={scrollContainerRef}
-        className="flex gap-3 sm:gap-6 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-none"
-        style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
-      >
-        {products.map((product) => (
-          <div
-            key={product.id}
-            className="w-[calc(50%-6px)] sm:w-[calc(33.333%-16px)] lg:w-[calc(25%-18px)] shrink-0 snap-start flex flex-col"
-          >
-            <ProductCard product={product} />
-          </div>
-        ))}
-      </div>
-
-      {/* Link para catálogo completo */}
-      <div className="text-center mt-4 sm:mt-6">
-        <Link
-          href="/produtos"
-          className="text-xs sm:text-sm font-semibold text-lopes-blue hover:text-lopes-blue-700 hover:underline"
+        {/* Trilho Deslizante com Efeito "Peek" (Prévia da Próxima Imagem no Canto) */}
+        <div
+          ref={scrollContainerRef}
+          onScroll={checkScroll}
+          className="flex gap-3 sm:gap-5 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-none"
+          style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
-          Ver todos os {products.length > 8 ? products.length : 'produtos'} do catálogo →
-        </Link>
+          {products.map((product) => (
+            <div
+              key={product.id}
+              className="w-[calc(43vw-6px)] min-[480px]:w-[200px] sm:w-[calc(30%-10px)] md:w-[calc(28%-12px)] lg:w-[calc(22.8%-14px)] shrink-0 snap-start flex flex-col"
+            >
+              <ProductCard product={product} />
+            </div>
+          ))}
+        </div>
       </div>
     </section>
   );

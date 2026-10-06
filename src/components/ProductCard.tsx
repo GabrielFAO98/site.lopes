@@ -39,12 +39,6 @@ export function ProductCard({ product }: ProductCardProps) {
             </div>
           )}
         </Link>
-
-        <div className="absolute top-2 right-2">
-          <span className="bg-white/90 backdrop-blur-sm text-slate-700 text-[11px] font-medium px-2 py-0.5 rounded border border-slate-200 shadow-xs">
-            SKU: {product.sku}
-          </span>
-        </div>
       </div>
 
       {/* Conteúdo do Card */}
