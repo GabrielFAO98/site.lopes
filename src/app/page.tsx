@@ -11,7 +11,6 @@ import {
   Sparkles, 
   Truck, 
   ShieldCheck, 
-  MapPin, 
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
@@ -19,7 +18,7 @@ import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { getFeaturedProducts, getDepartmentsWithCount, getNewProducts } from '@/lib/db';
 import { ProductCarousel } from '@/components/ProductCarousel';
 import { HomeBannerSlider } from '@/components/HomeBannerSlider';
-import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
+import { STORE_CONFIG } from '@/lib/store-config';
 
 // Revalidação periódica (ISR): atualiza a cada 60s com novos produtos do Supabase
 export const revalidate = 60;
@@ -45,97 +44,72 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-12 sm:space-y-16 pb-16">
-      {/* 1. Sessão de Banners Rotativos (Antes de todas as outras) */}
-      <HomeBannerSlider />
+      {/* 1 e 2. Banners Rotativos e Hero Principal (Aproximados) */}
+      <div className="space-y-3 sm:space-y-4">
+        {/* 1. Sessão de Banners Rotativos */}
+        <HomeBannerSlider />
 
-      {/* 2. Hero Banner Principal (Mantido logo abaixo da sessão de banners) */}
-      <section className="relative bg-gradient-to-br from-lopes-blue-900 via-lopes-blue-800 to-lopes-blue-700 text-white overflow-hidden py-12 md:py-16 px-4">
-        <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]" />
-        
-        <div className="max-w-7xl mx-auto relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
-          <div className="lg:col-span-8 space-y-6">
-            <div className="inline-flex items-center gap-2 bg-lopes-orange/20 border border-lopes-orange/40 text-lopes-orange-200 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-              <span className="w-2 h-2 rounded-full bg-lopes-orange animate-ping" />
-              <span>Entregas em Franca e Região</span>
-            </div>
-
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
-              Tudo para sua Obra do <span className="text-lopes-orange-400">Básico</span> ao <span className="text-sky-300">Acabamento</span>
-            </h1>
-
-            <p className="text-slate-200 text-base sm:text-lg max-w-2xl leading-relaxed">
-              Catálogo completo de materiais de construção, hidráulica, elétrica, tintas e ferramentas. Envie sua lista e feche negócio direto com nossos especialistas pelo WhatsApp!
-            </p>
-
-            {/* CTAs do Hero */}
-            <div className="flex flex-wrap items-center gap-3 pt-2">
-              <Link
-                href="/produtos"
-                className="px-6 py-3.5 bg-lopes-orange hover:bg-lopes-orange-600 text-white font-bold text-sm sm:text-base rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
-              >
-                <span>Ver Todos os Materiais</span>
-                <ArrowRight className="w-4 h-4" />
-              </Link>
-
-              <a
-                href={`https://api.whatsapp.com/send?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(
-                  'Olá, equipe Lopes e Lopes! Gostaria de cotar materiais para minha obra.'
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-6 py-3.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm sm:text-base rounded-xl transition-all duration-200 shadow-lg flex items-center gap-2"
-              >
-                <WhatsAppIcon className="w-5 h-5 fill-white" />
-                <span>Pedir Orçamento no WhatsApp</span>
-              </a>
-            </div>
-
-            {/* Pilares de Confiança */}
-            <div className="pt-6 border-t border-lopes-blue-700/60 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-slate-200">
-              <div className="flex items-center gap-2">
-                <Truck className="w-4 h-4 text-lopes-orange-400 shrink-0" />
+        {/* 2. Hero Banner Principal */}
+        <section className="relative bg-gradient-to-br from-lopes-blue-900 via-lopes-blue-800 to-lopes-blue-700 text-white overflow-hidden py-10 md:py-14 px-4">
+          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]" />
+          
+          <div className="max-w-7xl mx-auto relative z-10">
+            <div className="max-w-3xl space-y-5 sm:space-y-6">
+              <div className="inline-flex items-center gap-2 bg-lopes-orange/20 border border-lopes-orange/40 text-lopes-orange-200 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
+                <span className="w-2 h-2 rounded-full bg-lopes-orange animate-ping" />
                 <span>Entregas em Franca e Região</span>
               </div>
-              <div className="flex items-center gap-2">
-                <ShieldCheck className="w-4 h-4 text-sky-300 shrink-0" />
-                <span>As melhores marcas do mercado</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                <span>Retirada no balcão ou entrega na obra</span>
-              </div>
-            </div>
-          </div>
 
-          {/* Card Resumo do Balcão Físico */}
-          <div className="lg:col-span-4 bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20 text-slate-100 space-y-4">
-            <h3 className="font-bold text-lg text-white border-b border-white/20 pb-2 flex items-center gap-2">
-              <MapPin className="w-5 h-5 text-lopes-orange-400" />
-              <span>Loja Física em Franca</span>
-            </h3>
-            <p className="text-sm text-slate-200">
-              Venha retirar no balcão ou receba no canteiro de obras:
-            </p>
-            <p className="text-xs bg-black/20 p-3 rounded-lg leading-relaxed font-mono">
-              {STORE_CONFIG.address} <br />
-              {STORE_CONFIG.neighborhood} — Franca - SP <br />
-              CEP: {STORE_CONFIG.cep}
-            </p>
-            <div className="text-xs space-y-1">
-              <p><strong>Telefone:</strong> {STORE_CONFIG.phone}</p>
-              <p><strong>WhatsApp:</strong> {STORE_CONFIG.whatsappDisplay}</p>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
+                Tudo para sua obra do <span className="text-lopes-orange-400">básico</span> ao <span className="text-sky-300">acabamento</span>
+              </h1>
+
+              <p className="text-slate-200 text-base sm:text-lg max-w-2xl leading-relaxed">
+                Catálogo completo de materiais de construção, hidráulica, elétrica, tintas e ferramentas. Envie sua lista e feche negócio direto com nossos especialistas pelo WhatsApp!
+              </p>
+
+              {/* CTAs do Hero */}
+              <div className="flex flex-wrap items-center gap-3 pt-1">
+                <Link
+                  href="/produtos"
+                  className="px-6 py-3.5 bg-lopes-orange hover:bg-lopes-orange-600 text-white font-bold text-sm sm:text-base rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
+                >
+                  <span>Ver Todos os Materiais</span>
+                  <ArrowRight className="w-4 h-4" />
+                </Link>
+
+                <a
+                  href={`https://api.whatsapp.com/send?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(
+                    'Olá, equipe Lopes e Lopes! Gostaria de cotar materiais para minha obra.'
+                  )}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-6 py-3.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm sm:text-base rounded-xl transition-all duration-200 shadow-lg flex items-center gap-2"
+                >
+                  <WhatsAppIcon className="w-5 h-5 fill-white" />
+                  <span>Pedir Orçamento no WhatsApp</span>
+                </a>
+              </div>
+
+              {/* Pilares de Confiança */}
+              <div className="pt-5 border-t border-lopes-blue-700/60 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-slate-200">
+                <div className="flex items-center gap-2">
+                  <Truck className="w-4 h-4 text-lopes-orange-400 shrink-0" />
+                  <span>Entregas em Franca e Região</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <ShieldCheck className="w-4 h-4 text-sky-300 shrink-0" />
+                  <span>As melhores marcas do mercado</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
+                  <span>Retirada no balcão ou entrega na obra</span>
+                </div>
+              </div>
             </div>
-            <a
-              href={GOOGLE_MAPS_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full text-center block py-2.5 bg-white text-lopes-blue font-bold text-xs rounded-lg hover:bg-slate-100 transition-colors shadow-sm"
-            >
-              Abrir Localização no GPS
-            </a>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
 
       {/* 3. Seção de Departamentos (Enquadramento ajustado e sem contagem de itens) */}
       <section className="max-w-7xl mx-auto px-4">
@@ -198,41 +172,31 @@ export default async function HomePage() {
         </Link>
       </div>
 
-      {/* 6. Seção Nossa História */}
-      <section className="max-w-7xl mx-auto px-4">
-        <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 lg:p-12 shadow-xs">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-            <div className="lg:col-span-7 space-y-4">
-              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-                Nossa História
-              </h2>
-              <div className="space-y-3.5 text-slate-600 text-sm sm:text-base leading-relaxed">
-                <p>
-                  A <strong className="text-slate-900 font-semibold">Lopes e Lopes Materiais para Construção</strong> começou em Franca com um objetivo claro: fornecer o que a obra precisa de forma rápida, com preço justo e atendimento de quem entende do dia a dia da construção civil.
-                </p>
-                <p>
-                  Instalada na Av. Brasil, no Jardim Paulistano, nossa loja atende desde reformas residenciais até grandes canteiros. Mantemos em estoque materiais básicos como areia, brita, cimento, tijolos e ferragens, além de uma linha completa para acabamento, hidráulica, elétrica e ferramentas.
-                </p>
-                <p>
-                  Sabemos que obra parada custa caro. Por isso, priorizamos pontualidade na entrega dos materiais e atendimento direto no balcão e no WhatsApp, ajudando você a encontrar a quantidade certa e a melhor solução para sua obra.
-                </p>
-              </div>
+      {/* 6. Seção Nossa História (Inspirada no modelo: Menos é mais) */}
+      <section className="max-w-7xl mx-auto px-4 py-2 sm:py-4">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-14 items-center">
+          {/* Imagem da Fachada com cantos arredondados */}
+          <div className="lg:col-span-6">
+            <div className="relative aspect-[16/10] sm:aspect-[4/3] lg:aspect-[16/10] w-full rounded-2xl sm:rounded-3xl overflow-hidden shadow-sm bg-slate-100 border border-slate-200">
+              <Image
+                src="/images/fachada-lopes.webp"
+                alt="Fachada da loja Lopes e Lopes Materiais para Construção em Franca"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+              />
             </div>
+          </div>
 
-            <div className="lg:col-span-5 flex flex-col gap-2.5">
-              <div className="relative aspect-[16/10] w-full rounded-xl overflow-hidden border border-slate-200 shadow-sm bg-slate-100">
-                <Image
-                  src="/images/fachada-lopes.webp"
-                  alt="Fachada da loja Lopes e Lopes Materiais para Construção em Franca"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 40vw"
-                />
-              </div>
-              <p className="text-xs text-slate-500 text-center font-medium">
-                Loja física na Av. Brasil, 3640 — Jardim Paulistano, Franca - SP
-              </p>
-            </div>
+          {/* Texto Limpo e Direto */}
+          <div className="lg:col-span-6 flex flex-col justify-center">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
+              Nossa História
+            </h2>
+            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-4 sm:mb-5" />
+            <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
+              Fundada em Franca, a Lopes e Lopes Materiais para Construção sempre atendeu seus clientes com muito compromisso e responsabilidade. Trabalhamos com as melhores marcas e produtos a pronta entrega. Ao longo dos anos nos tornamos referência em materiais para construção em Franca e região, atendendo desde o básico até o acabamento com agilidade, preço justo e dedicação.
+            </p>
           </div>
         </div>
       </section>
