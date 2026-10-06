@@ -18,11 +18,12 @@ export function ProductCard({ product }: ProductCardProps) {
   const isInQuote = items.some((item) => item.product.id === product.id);
 
   const whatsappUrl = getProductWhatsAppUrl(product);
+  const hasVariations = Boolean(product.variations && product.variations.length > 0);
 
   return (
-    <div className="bg-white rounded-xl border border-slate-200 hover:border-lopes-blue-300 hover:shadow-md transition-all duration-200 flex flex-col overflow-hidden group">
-      {/* Imagem do Produto com Badges */}
-      <div className="relative aspect-square w-full bg-slate-50 overflow-hidden border-b border-slate-100">
+    <div className="bg-white rounded-xl border border-slate-200 hover:border-lopes-blue-300 hover:shadow-md transition-all duration-200 flex flex-col h-full overflow-hidden group">
+      {/* Imagem do Produto */}
+      <div className="relative aspect-square w-full bg-slate-50 overflow-hidden border-b border-slate-100 shrink-0">
         <Link href={`/produto/${product.slug}`} className="block w-full h-full">
           {product.images && product.images[0] ? (
             <Image
@@ -43,28 +44,29 @@ export function ProductCard({ product }: ProductCardProps) {
 
       {/* Conteúdo do Card */}
       <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
+        {/* Topo do Card: Marca, Nome e Slot de Variações */}
         <div>
-          {/* Marca */}
-          <div className="text-[11px] sm:text-xs text-slate-500 mb-1 sm:mb-1.5">
-            <span className="font-semibold text-lopes-blue uppercase tracking-wider truncate block">
+          {/* Marca - Altura fixa */}
+          <div className="h-4 sm:h-4.5 mb-1 flex items-center">
+            <span className="font-semibold text-lopes-blue text-[11px] sm:text-xs uppercase tracking-wider truncate block">
               {product.brand}
             </span>
           </div>
 
-          {/* Nome do Produto */}
-          <Link href={`/produto/${product.slug}`}>
-            <h3 className="font-semibold text-slate-900 text-xs sm:text-base line-clamp-2 hover:text-lopes-blue transition-colors leading-snug mb-1.5 sm:mb-2 min-h-[2rem] sm:min-h-0">
+          {/* Nome do Produto - Altura padronizada para 2 linhas */}
+          <Link href={`/produto/${product.slug}`} className="block">
+            <h3 className="font-semibold text-slate-900 text-xs sm:text-sm line-clamp-2 hover:text-lopes-blue transition-colors leading-snug h-9 sm:h-10 flex items-start">
               {product.name}
             </h3>
           </Link>
 
-          {/* Indicador de Variações (Cores ou Opções) */}
-          {product.variations && product.variations.length > 0 && (
-            <div className="mt-1 mb-1">
-              {product.variations.some((v) => Boolean(v.hex)) ? (
+          {/* Indicador de Variações - Altura fixa reservada para manter alinhamento em todos os cards */}
+          <div className="h-6 flex items-center my-1">
+            {hasVariations ? (
+              product.variations!.some((v) => Boolean(v.hex)) ? (
                 <div className="flex items-center gap-1.5">
                   <div className="flex items-center -space-x-1">
-                    {product.variations.slice(0, 4).map((v) => (
+                    {product.variations!.slice(0, 4).map((v) => (
                       <span
                         key={v.sku}
                         className="w-3.5 h-3.5 rounded-full border border-white shadow-2xs inline-block"
@@ -74,27 +76,28 @@ export function ProductCard({ product }: ProductCardProps) {
                     ))}
                   </div>
                   <span className="text-[10px] text-slate-500 font-medium">
-                    {product.variations.length} cores
+                    {product.variations!.length} cores
                   </span>
                 </div>
               ) : (
-                <span className="inline-block text-[10px] font-semibold text-lopes-blue bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100">
-                  {product.variations.length} opções ({product.variationType || 'modelos'})
+                <span className="inline-block text-[10px] font-semibold text-lopes-blue bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100 truncate max-w-full leading-none">
+                  {product.variations!.length} opções ({product.variationType || 'modelos'})
                 </span>
-              )}
-            </div>
-          )}
+              )
+            ) : null}
+          </div>
         </div>
 
-        {/* Preço e Botões de Conversão */}
-        <div className="pt-2 border-t border-slate-100 mt-2">
-          <div className="mb-2 sm:mb-3">
-            <div className="flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-1.5">
-              <span className="text-base sm:text-lg font-bold text-slate-900">
-                {product.price !== null ? formatCurrency(product.price) : 'Sob Consulta'}
-              </span>
-              <span className="text-[10px] sm:text-xs text-slate-500 font-medium truncate">/ {product.unit}</span>
-            </div>
+        {/* Preço e Botões de Conversão - Ancorados no rodapé */}
+        <div className="pt-2 border-t border-slate-100 mt-auto">
+          {/* Preço e Unidade - Altura padronizada */}
+          <div className="h-10 sm:h-9 flex flex-col justify-center mb-2 sm:mb-2.5">
+            <span className="text-base sm:text-lg font-bold text-slate-900 leading-tight">
+              {product.price !== null ? formatCurrency(product.price) : 'Sob Consulta'}
+            </span>
+            <span className="text-[10px] sm:text-xs text-slate-500 font-medium truncate leading-tight">
+              / {product.unit}
+            </span>
           </div>
 
           {/* Botões de Ação */}
@@ -104,7 +107,7 @@ export function ProductCard({ product }: ProductCardProps) {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center gap-1 sm:gap-1.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-lg transition-colors shadow-xs"
+              className="flex items-center justify-center gap-1 sm:gap-1.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white text-[11px] sm:text-xs font-semibold h-8 sm:h-8.5 px-1.5 sm:px-2 rounded-lg transition-colors shadow-xs"
               title="Pedir orçamento direto no WhatsApp"
             >
               <WhatsAppIcon className="w-3.5 h-3.5 fill-white shrink-0" />
@@ -112,10 +115,10 @@ export function ProductCard({ product }: ProductCardProps) {
             </a>
 
             {/* Adicionar à Lista de Cotação ou Ver Opções */}
-            {product.variations && product.variations.length > 0 ? (
+            {hasVariations ? (
               <Link
                 href={`/produto/${product.slug}`}
-                className="flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1 sm:px-2 rounded-lg transition-colors border bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-300"
+                className="flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold h-8 sm:h-8.5 px-1 sm:px-2 rounded-lg transition-colors border bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-300"
                 title="Ver opções disponíveis"
               >
                 <span>Ver Opções</span>
@@ -123,7 +126,7 @@ export function ProductCard({ product }: ProductCardProps) {
             ) : (
               <button
                 onClick={() => addItem(product, 1)}
-                className={`flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1 sm:px-2 rounded-lg transition-colors border ${
+                className={`flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold h-8 sm:h-8.5 px-1 sm:px-2 rounded-lg transition-colors border ${
                   isInQuote
                     ? 'bg-emerald-50 text-emerald-700 border-emerald-300'
                     : 'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-300'

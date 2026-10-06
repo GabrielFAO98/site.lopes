@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { 
   Building2, 
   Droplets, 
@@ -36,11 +37,11 @@ const iconMap: Record<string, React.ReactNode> = {
 
 export default async function HomePage() {
   const featuredProducts = await getFeaturedProducts();
-  const newProducts = await getNewProducts(8);
+  const newProducts = await getNewProducts(20);
   const departments = await getDepartmentsWithCount();
 
-  // 8 produtos para a seção Mais Vendidos
-  const topSellers = featuredProducts.slice(0, 8);
+  // 20 produtos para a seção Mais Vendidos
+  const topSellers = featuredProducts.slice(0, 20);
 
   return (
     <div className="space-y-12 sm:space-y-16 pb-16">
@@ -218,27 +219,19 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <div className="lg:col-span-5 grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1">
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
-                <h3 className="font-bold text-slate-900 text-sm mb-1">Loja Física no Jardim Paulistano</h3>
-                <p className="text-xs text-slate-500 leading-relaxed">
-                  Av. Brasil, 3640. Balcão de atendimento e retirada imediata para profissionais e clientes.
-                </p>
+            <div className="lg:col-span-5 flex flex-col gap-2.5">
+              <div className="relative aspect-[16/10] w-full rounded-xl overflow-hidden border border-slate-200 shadow-sm bg-slate-100">
+                <Image
+                  src="/images/fachada-lopes.webp"
+                  alt="Fachada da loja Lopes e Lopes Materiais para Construção em Franca"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
               </div>
-
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
-                <h3 className="font-bold text-slate-900 text-sm mb-1">Entrega Rápida no Canteiro</h3>
-                <p className="text-xs text-slate-500 leading-relaxed">
-                  Caminhões preparados para descarregar materiais básicos e pesados no seu endereço em Franca e região.
-                </p>
-              </div>
-
-              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
-                <h3 className="font-bold text-slate-900 text-sm mb-1">Cotação Prática pelo WhatsApp</h3>
-                <p className="text-xs text-slate-500 leading-relaxed">
-                  Mande sua lista de materiais por foto ou texto e receba o orçamento sem complicação nem burocracia.
-                </p>
-              </div>
+              <p className="text-xs text-slate-500 text-center font-medium">
+                Loja física na Av. Brasil, 3640 — Jardim Paulistano, Franca - SP
+              </p>
             </div>
           </div>
         </div>

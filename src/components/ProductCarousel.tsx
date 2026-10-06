@@ -125,13 +125,13 @@ export function ProductCarousel({
         <div
           ref={scrollContainerRef}
           onScroll={checkScroll}
-          className="flex gap-3 sm:gap-5 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-none"
+          className="flex items-stretch gap-3 sm:gap-5 overflow-x-auto scroll-smooth snap-x snap-mandatory pb-4 pt-1 -mx-4 px-4 sm:mx-0 sm:px-0 scrollbar-none"
           style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
         >
           {products.map((product) => (
             <div
               key={product.id}
-              className="w-[calc(43vw-6px)] min-[480px]:w-[200px] sm:w-[calc(30%-10px)] md:w-[calc(28%-12px)] lg:w-[calc(22.8%-14px)] shrink-0 snap-start flex flex-col"
+              className="w-[calc(43vw-6px)] min-[480px]:w-[200px] sm:w-[calc(30%-10px)] md:w-[calc(28%-12px)] lg:w-[calc(22.8%-14px)] shrink-0 snap-start flex flex-col self-stretch"
             >
               <ProductCard product={product} />
             </div>
