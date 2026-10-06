@@ -10,12 +10,12 @@ import {
   Sparkles, 
   Truck, 
   ShieldCheck, 
-  MessageCircle, 
   Clock, 
   MapPin, 
   ArrowRight,
   CheckCircle2
 } from 'lucide-react';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { getFeaturedProducts, getDepartmentsWithCount } from '@/lib/db';
 import { ProductCard } from '@/components/ProductCard';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
@@ -77,7 +77,7 @@ export default async function HomePage() {
                 rel="noopener noreferrer"
                 className="px-6 py-3.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm sm:text-base rounded-xl transition-all duration-200 shadow-lg flex items-center gap-2"
               >
-                <MessageCircle className="w-5 h-5 fill-white" />
+                <WhatsAppIcon className="w-5 h-5 fill-white" />
                 <span>Pedir Orçamento no WhatsApp</span>
               </a>
             </div>
@@ -223,7 +223,7 @@ export default async function HomePage() {
                 rel="noopener noreferrer"
                 className="px-6 py-3 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm rounded-lg flex items-center gap-2 shadow-md transition-all"
               >
-                <MessageCircle className="w-5 h-5 fill-white" />
+                <WhatsAppIcon className="w-5 h-5 fill-white" />
                 <span>Cotar Lista de Obra no WhatsApp</span>
               </a>
               <span className="text-xs text-slate-400">

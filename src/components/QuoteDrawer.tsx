@@ -7,11 +7,11 @@ import {
   Trash2, 
   Plus, 
   Minus, 
-  MessageCircle, 
   ClipboardList, 
   MapPin, 
   ArrowRight 
 } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 import { useQuote, getQuoteItemKey } from './QuoteContext';
 import { formatCurrency, getQuoteListWhatsAppUrl } from '@/lib/whatsapp';
 import { STORE_CONFIG } from '@/lib/store-config';
@@ -225,7 +225,7 @@ export function QuoteDrawer() {
                 rel="noopener noreferrer"
                 className="w-full py-3 px-4 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm rounded-lg flex items-center justify-center gap-2 shadow-md transition-all duration-200"
               >
-                <MessageCircle className="w-5 h-5 fill-white" />
+                <WhatsAppIcon className="w-5 h-5 fill-white" />
                 <span>Enviar Orçamento no WhatsApp</span>
               </a>
 

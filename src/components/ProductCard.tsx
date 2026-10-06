@@ -3,7 +3,8 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import { MessageCircle, Plus, Check } from 'lucide-react';
+import { Plus, Check } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 import { Product } from '@/types';
 import { formatCurrency, getProductWhatsAppUrl } from '@/lib/whatsapp';
 import { useQuote } from './QuoteContext';
@@ -115,7 +116,7 @@ export function ProductCard({ product }: ProductCardProps) {
               className="flex items-center justify-center gap-1 sm:gap-1.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1.5 sm:px-2.5 rounded-lg transition-colors shadow-xs"
               title="Pedir orçamento direto no WhatsApp"
             >
-              <MessageCircle className="w-3.5 h-3.5 fill-white shrink-0" />
+              <WhatsAppIcon className="w-3.5 h-3.5 fill-white shrink-0" />
               <span>Orçamento</span>
             </a>
 

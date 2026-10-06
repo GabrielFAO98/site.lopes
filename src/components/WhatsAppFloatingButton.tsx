@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import { MessageCircle } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 import { STORE_CONFIG } from '@/lib/store-config';
 
 export function WhatsAppFloatingButton() {
@@ -15,9 +15,9 @@ export function WhatsAppFloatingButton() {
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Abrir conversa no WhatsApp com a Lopes e Lopes"
-        className="flex items-center gap-2 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white px-4 py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform group-hover:scale-105"
+        className="flex items-center justify-center gap-2 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white p-3.5 sm:px-4 sm:py-3 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform group-hover:scale-105"
       >
-        <MessageCircle className="w-6 h-6 fill-white shrink-0 animate-bounce" />
+        <WhatsAppIcon className="w-6 h-6 fill-white shrink-0" />
         <span className="font-semibold text-sm hidden sm:inline-block pr-1">
           Orçamento WhatsApp
         </span>

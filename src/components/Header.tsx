@@ -9,12 +9,12 @@ import {
   MapPin, 
   Clock, 
   Search, 
-  MessageCircle, 
   ClipboardList, 
   Menu, 
   X,
   ChevronDown
 } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
 import { DEPARTMENTS } from '@/lib/departments';
 import { useQuote } from './QuoteContext';
@@ -44,7 +44,7 @@ export function Header() {
               <span>Tel: <strong className="text-white">{STORE_CONFIG.phone}</strong></span>
             </span>
             <span className="flex items-center gap-1.5">
-              <MessageCircle className="w-3.5 h-3.5 text-lopes-whatsapp" />
+              <WhatsAppIcon className="w-3.5 h-3.5 text-lopes-whatsapp" />
               <span>WhatsApp: <strong className="text-white">{STORE_CONFIG.whatsappDisplay}</strong></span>
             </span>
             <a 
@@ -110,7 +110,7 @@ export function Header() {
             rel="noopener noreferrer"
             className="hidden sm:inline-flex items-center gap-2 px-3.5 py-2.5 bg-lopes-whatsapp text-white text-sm font-semibold rounded-lg hover:bg-lopes-whatsapp-hover transition-colors shadow-sm"
           >
-            <MessageCircle className="w-4 h-4 fill-white" />
+            <WhatsAppIcon className="w-4 h-4 fill-white" />
             <span>Falar no WhatsApp</span>
           </a>
 

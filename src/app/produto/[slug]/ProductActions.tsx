@@ -1,7 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { MessageCircle, Plus, Check, ClipboardList, Minus } from 'lucide-react';
+import { Plus, Check, ClipboardList, Minus } from 'lucide-react';
+import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { Product, ProductVariation } from '@/types';
 import { getProductWhatsAppUrl, formatCurrency } from '@/lib/whatsapp';
 import { useQuote, getQuoteItemKey } from '@/components/QuoteContext';
@@ -168,7 +169,7 @@ export function ProductActions({ product }: ProductActionsProps) {
           rel="noopener noreferrer"
           className="flex-1 py-3.5 px-6 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm sm:text-base rounded-xl flex items-center justify-center gap-2.5 shadow-md hover:shadow-lg transition-all duration-200"
         >
-          <MessageCircle className="w-5 h-5 fill-white shrink-0" />
+          <WhatsAppIcon className="w-5 h-5 fill-white shrink-0" />
           <span>Comprar / Orçamento no WhatsApp</span>
         </a>
 

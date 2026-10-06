@@ -6,11 +6,11 @@ import {
   MapPin, 
   Mail, 
   Clock, 
-  MessageCircle, 
   ExternalLink,
   ShieldCheck,
   Truck
 } from 'lucide-react';
+import { WhatsAppIcon } from './WhatsAppIcon';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
 import { DEPARTMENTS } from '@/lib/departments';
 
@@ -121,7 +121,7 @@ export function Footer() {
             </div>
 
             <div className="flex items-center gap-2.5">
-              <MessageCircle className="w-4 h-4 text-lopes-whatsapp shrink-0" />
+              <WhatsAppIcon className="w-4 h-4 text-lopes-whatsapp shrink-0" />
               <a
                 href={`https://api.whatsapp.com/send?phone=${STORE_CONFIG.whatsapp}`}
                 target="_blank"

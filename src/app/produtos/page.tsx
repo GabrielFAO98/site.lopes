@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Filter, SlidersHorizontal, ArrowUpDown, X } from 'lucide-react';
 import { searchProducts, getAllBrands, getDepartmentsWithCount } from '@/lib/db';
 import { ProductCard } from '@/components/ProductCard';
+import { ProductFilters } from '@/components/ProductFilters';
 import { STORE_CONFIG } from '@/lib/store-config';
 
 export const revalidate = 60;
@@ -112,91 +113,15 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
 
       {/* Grid Principal: Barra Lateral de Filtros + Lista de Produtos */}
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-8 items-start">
-        {/* Filtros Laterais (Desktop) */}
-        <aside className="bg-white p-5 rounded-xl border border-slate-200 space-y-6 shadow-2xs">
-          <div className="flex items-center justify-between pb-3 border-b border-slate-200">
-            <h3 className="font-bold text-sm text-slate-900 flex items-center gap-2">
-              <SlidersHorizontal className="w-4 h-4 text-lopes-blue" />
-              <span>Filtrar Catálogo</span>
-            </h3>
-          </div>
-
-          {/* Filtro por Departamento */}
-          <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-              Departamentos
-            </h4>
-            <ul className="space-y-1 text-xs">
-              <li>
-                <Link
-                  href={`/produtos?q=${currentQuery}&marca=${currentBrand}&ordem=${currentSort}`}
-                  className={`block py-1.5 px-2 rounded-md transition-colors ${
-                    currentDepartment === 'todos'
-                      ? 'bg-lopes-blue text-white font-semibold'
-                      : 'text-slate-600 hover:bg-slate-100'
-                  }`}
-                >
-                  Todos os Departamentos
-                </Link>
-              </li>
-              {departments.map((dept) => (
-                <li key={dept.id}>
-                  <Link
-                    href={`/produtos?depto=${dept.id}&q=${currentQuery}&marca=${currentBrand}&ordem=${currentSort}`}
-                    className={`flex items-center justify-between py-1.5 px-2 rounded-md transition-colors ${
-                      currentDepartment === dept.id
-                        ? 'bg-lopes-blue text-white font-semibold'
-                        : 'text-slate-600 hover:bg-slate-100'
-                    }`}
-                  >
-                    <span>{dept.name}</span>
-                    <span
-                      className={`text-[10px] px-1.5 py-0.5 rounded-full ${
-                        currentDepartment === dept.id
-                          ? 'bg-lopes-blue-800 text-white'
-                          : 'bg-slate-100 text-slate-500'
-                      }`}
-                    >
-                      {dept.count}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {/* Filtro por Marca */}
-          <div>
-            <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
-              Marcas Parceiras
-            </h4>
-            <div className="space-y-1 text-xs max-h-48 overflow-y-auto pr-1">
-              <Link
-                href={`/produtos?depto=${currentDepartment}&q=${currentQuery}&ordem=${currentSort}`}
-                className={`block py-1 px-2 rounded-md ${
-                  currentBrand === 'todas'
-                    ? 'font-bold text-lopes-blue'
-                    : 'text-slate-600 hover:text-slate-900'
-                }`}
-              >
-                Todas as marcas
-              </Link>
-              {brands.map((brand) => (
-                <Link
-                  key={brand}
-                  href={`/produtos?marca=${encodeURIComponent(brand)}&depto=${currentDepartment}&q=${currentQuery}&ordem=${currentSort}`}
-                  className={`block py-1 px-2 rounded-md transition-colors ${
-                    currentBrand.toLowerCase() === brand.toLowerCase()
-                      ? 'font-bold text-lopes-blue bg-lopes-blue-50'
-                      : 'text-slate-600 hover:text-slate-900 hover:bg-slate-50'
-                  }`}
-                >
-                  {brand}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </aside>
+        {/* Filtros: Fechados por padrão no mobile, abertos no Desktop */}
+        <ProductFilters
+          departments={departments}
+          brands={brands}
+          currentDepartment={currentDepartment}
+          currentBrand={currentBrand}
+          currentQuery={currentQuery}
+          currentSort={currentSort}
+        />
 
         {/* Lista de Resultados */}
         <section className="lg:col-span-3 space-y-6">
