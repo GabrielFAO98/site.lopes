@@ -88,7 +88,7 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
     setItems([]);
   };
 
-  const totalCount = items.reduce((acc, item) => acc + item.quantity, 0);
+  const totalCount = items.length;
 
   return (
     <QuoteContext.Provider
