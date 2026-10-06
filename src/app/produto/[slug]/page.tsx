@@ -19,6 +19,10 @@ import { ProductCard } from '@/components/ProductCard';
 import { ProductGallery } from '@/components/ProductGallery';
 import { ProductActions } from './ProductActions';
 
+// Permite gerar páginas para produtos novos criados no Supabase e atualiza dados a cada 60s
+export const dynamicParams = true;
+export const revalidate = 60;
+
 interface ProductPageProps {
   params: {
     slug: string;

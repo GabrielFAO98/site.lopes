@@ -6,6 +6,8 @@ import { searchProducts, getAllBrands, getDepartmentsWithCount } from '@/lib/db'
 import { ProductCard } from '@/components/ProductCard';
 import { STORE_CONFIG } from '@/lib/store-config';
 
+export const revalidate = 60;
+
 export const metadata: Metadata = {
   title: 'Catálogo de Materiais de Construção em Franca - SP',
   description:

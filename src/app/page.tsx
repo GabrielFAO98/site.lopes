@@ -20,6 +20,9 @@ import { getFeaturedProducts, getDepartmentsWithCount } from '@/lib/db';
 import { ProductCard } from '@/components/ProductCard';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
 
+// Revalidação periódica (ISR): atualiza a cada 60s com novos produtos do Supabase
+export const revalidate = 60;
+
 // Mapeamento dinâmico de ícones para os departamentos
 const iconMap: Record<string, React.ReactNode> = {
   Building2: <Building2 className="w-6 h-6" />,
