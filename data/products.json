@@ -942,60 +942,6 @@
     ]
   },
   {
-    "id": "prod-100103",
-    "sku": "100103",
-    "name": "Cimento Itaú Todas as Obras CP II-F-32 Votoran",
-    "slug": "cimento-itau-todas-as-obras-votoran",
-    "description": "O Cimento Itaú Todas as Obras da Votorantim Cimentos é ideal para reboco, concreto, contrapiso e assentamento. Garante secagem rápida, alta resistência inicial e excelente acabamento para todos os tipos de obras residenciais e comerciais.",
-    "price": 34.9,
-    "unit": "Saco 50kg (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Cimentos e Cal",
-    "brand": "Votoran",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/cimento-itau-todas-as-obras-50kg.jpg",
-      "/images/produtos/cimento_itau_todas_as_obras_50kg_votoran_.jpg",
-      "/images/produtos/cimento_itau_todas_as_obras_25kg_votoran_.jpg"
-    ],
-    "variationType": "Embalagem",
-    "variations": [
-      {
-        "name": "Saco 50kg",
-        "sku": "100103",
-        "price": 34.9,
-        "image": "/images/produtos/cimento-itau-todas-as-obras-50kg.jpg"
-      },
-      {
-        "name": "Saco 25kg",
-        "sku": "100104",
-        "price": 19.9,
-        "image": "/images/produtos/cimento_itau_todas_as_obras_25kg_votoran_.jpg"
-      }
-    ],
-    "technicalSpecs": {
-      "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
-      "Embalagem": "Saco de 50kg / 25kg",
-      "Tempo de Secagem": "Pega normal com alta resistência mecânica",
-      "Fabricante": "Votorantim Cimentos"
-    },
-    "applications": [
-      "Concreto estrutural para lajes, vigas e pilares",
-      "Argamassa de assentamento de blocos e tijolos",
-      "Reboco, emboço e contrapisos nivelados"
-    ],
-    "warranty": "Garantia de fábrica Votorantim Cimentos",
-    "relatedSkus": [
-      "2882",
-      "3",
-      "397",
-      "400"
-    ]
-  },
-  {
     "id": "prod-100105",
     "sku": "100105",
     "name": "Argamassa AC-II Interno e Externo Cinza 20kg Votomassa",
@@ -1447,57 +1393,6 @@
     ]
   },
   {
-    "id": "prod-100510",
-    "sku": "100510",
-    "name": "Silicone Acético Incolor Transparente Tekbond",
-    "slug": "silicone-incolor-acetico-tekbond",
-    "description": "Silicone monocomponente com fungicida (antimofo), ideal para vedação de áreas não porosas em banheiros, cozinhas e esquadrias de alumínio e vidro. 100% à prova d’água.",
-    "price": 19.9,
-    "unit": "Cartucho 256g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens & Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Tekbond",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-256g.jpg",
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-256g-.jpg",
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-50g.jpg",
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-50g-.jpg"
-    ],
-    "variationType": "Tamanho",
-    "variations": [
-      {
-        "name": "Cartucho 256g",
-        "sku": "100510",
-        "price": 19.9,
-        "image": "/images/produtos/silicone-incolor-tekbond-acetico-transparente-256g.jpg"
-      },
-      {
-        "name": "Bisnaga 50g",
-        "sku": "100511",
-        "price": 9.9,
-        "image": "/images/produtos/silicone-incolor-tekbond-acetico-transparente-50g.jpg"
-      }
-    ],
-    "technicalSpecs": {
-      "Tipo de Cura": "Acética com aditivo antimofo",
-      "Cor": "Incolor / Transparente",
-      "Tempo de Secagem": "Formação de película em 5 a 15 minutos"
-    },
-    "applications": [
-      "Box de banheiro, cubas, pias e louças sanitárias",
-      "Esquadrias de alumínio, vitrines e vidros temperados",
-      "Bancadas de cozinha e balcões"
-    ],
-    "warranty": "Garantia Tekbond",
-    "relatedSkus": [
-      "100601"
-    ]
-  },
-  {
     "id": "prod-100512",
     "sku": "100512",
     "name": "Espuma Expansiva de Poliuretano Tekbond 500ml / 320g",
@@ -1716,41 +1611,6 @@
     ]
   },
   {
-    "id": "prod-100605",
-    "sku": "100605",
-    "name": "Bloco de Espuma para Limpeza de Rejunte Cortag / Tafort",
-    "slug": "bloco-de-espuma-limpeza-rejunte-cortag",
-    "description": "Esponja especial de alta densidade desenvolvida especificamente para remoção do excesso de rejunte fresco e acabamento fino em porcelanatos e pisos cerâmicos sem cavar ou retirar o rejunte da junta.",
-    "price": 6.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas & EPIs",
-    "category": "Acessórios de Acabamento",
-    "brand": "Cortag",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/bloco-de-espuma-amarelo-limpeza-rejunte-cortag.jpg",
-      "/images/produtos/bloco-espuma-amarelo-cortag.jpg",
-      "/images/produtos/bloco-de-espuma-limpeza-rejunte-tafort.jpg"
-    ],
-    "technicalSpecs": {
-      "Material": "Poliuretano expandido de alta absorção",
-      "Dimensões": "Aprox. 20 x 13 x 7 cm",
-      "Densidade": "Especial para não agredir o esmalte das peças"
-    },
-    "applications": [
-      "Frisamento e limpeza pós-rejuntamento em pisos e paredes",
-      "Lavagem e finalização de obras em porcelanatos e azulejos"
-    ],
-    "warranty": "Qualidade Cortag",
-    "relatedSkus": [
-      "20301",
-      "100102"
-    ]
-  },
-  {
     "id": "prod-100202",
     "sku": "100202",
     "name": "Caixa Padrão Sabesp para Hidrômetro Policarbonato",
@@ -1944,6 +1804,216 @@
     "relatedSkus": [
       "20401",
       "100301"
+    ]
+  },
+  {
+    "id": "prod-100103",
+    "sku": "100103",
+    "name": "Cimento Itaú Todas as Obras CP II-F-32 50kg Votoran",
+    "slug": "cimento-itau-todas-as-obras-50kg-votoran",
+    "description": "O Cimento Itaú Todas as Obras 50kg da Votorantim Cimentos é ideal para reboco, concreto, contrapiso e assentamento. Garante secagem rápida, alta resistência inicial e excelente acabamento para todos os tipos de obras residenciais e comerciais.",
+    "price": 34.9,
+    "unit": "Saco 50kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Cal",
+    "brand": "Votoran",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/cimento-itau-todas-as-obras-50kg.jpg",
+      "/images/produtos/cimento_itau_todas_as_obras_50kg_votoran_.jpg"
+    ],
+    "technicalSpecs": {
+      "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
+      "Peso Líquido": "50 kg",
+      "Tempo de Secagem": "Pega normal com alta resistência mecânica",
+      "Fabricante": "Votorantim Cimentos"
+    },
+    "applications": [
+      "Concreto estrutural para lajes, vigas e pilares",
+      "Argamassa de assentamento de blocos e tijolos",
+      "Reboco, emboço e contrapisos nivelados"
+    ],
+    "warranty": "Garantia de fábrica Votorantim Cimentos",
+    "relatedSkus": [
+      "2882",
+      "3",
+      "100104"
+    ]
+  },
+  {
+    "id": "prod-100104",
+    "sku": "100104",
+    "name": "Cimento Itaú Todas as Obras CP II-F-32 25kg Votoran",
+    "slug": "cimento-itau-todas-as-obras-25kg-votoran",
+    "description": "O Cimento Itaú Todas as Obras em embalagem econômica de 25kg da Votorantim Cimentos. Muito mais leve e fácil de manusear, ideal para pequenos reparos, reformas e obras com espaço reduzido.",
+    "price": 19.9,
+    "unit": "Saco 25kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Cal",
+    "brand": "Votoran",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/cimento_itau_todas_as_obras_25kg_votoran_.jpg"
+    ],
+    "technicalSpecs": {
+      "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
+      "Peso Líquido": "25 kg (embalagem leve e ergonômica)",
+      "Tempo de Secagem": "Pega normal com alta resistência mecânica",
+      "Fabricante": "Votorantim Cimentos"
+    },
+    "applications": [
+      "Pequenos reparos, reformas e manutenções",
+      "Locais de difícil acesso ou sem espaço para sacaria de 50kg",
+      "Assentamento e rebocos pontuais"
+    ],
+    "warranty": "Garantia de fábrica Votorantim Cimentos",
+    "relatedSkus": [
+      "100103",
+      "3"
+    ]
+  },
+  {
+    "id": "prod-100510",
+    "sku": "100510",
+    "name": "Silicone Acético Incolor Transparente 256g Tekbond",
+    "slug": "silicone-incolor-acetico-256g-tekbond",
+    "description": "Silicone monocomponente em cartucho de 256g com fungicida (antimofo), ideal para aplicação com pistola aplicadora em áreas não porosas de banheiros, cozinhas e esquadrias de alumínio e vidro. 100% à prova d’água.",
+    "price": 19.9,
+    "unit": "Cartucho 256g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens & Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-256g.jpg",
+      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-256g-.jpg"
+    ],
+    "technicalSpecs": {
+      "Tipo de Cura": "Acética com aditivo antimofo",
+      "Peso Líquido": "256 g (cartucho para pistola aplicadora)",
+      "Cor": "Incolor / Transparente",
+      "Tempo de Secagem": "Formação de película em 5 a 15 minutos"
+    },
+    "applications": [
+      "Box de banheiro, cubas, pias e louças sanitárias",
+      "Esquadrias de alumínio, vitrines e vidros temperados",
+      "Bancadas de cozinha e balcões"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100601",
+      "100511"
+    ]
+  },
+  {
+    "id": "prod-100511",
+    "sku": "100511",
+    "name": "Silicone Acético Incolor Transparente Bisnaga 50g Tekbond",
+    "slug": "silicone-incolor-acetico-bisnaga-50g-tekbond",
+    "description": "Silicone acético incolor em prática bisnaga de 50g. Dispensa uso de pistola aplicadora, perfeito para pequenos reparos domésticos e vedações pontuais em pias, louças e box de banheiro.",
+    "price": 9.9,
+    "unit": "Bisnaga 50g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens & Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-50g.jpg",
+      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-50g-.jpg"
+    ],
+    "technicalSpecs": {
+      "Tipo de Cura": "Acética com aditivo antimofo",
+      "Peso Líquido": "50 g (formato bisnaga com bico dosador)",
+      "Aplicação": "Manual direto da bisnaga sem pistola",
+      "Cor": "Incolor / Transparente"
+    },
+    "applications": [
+      "Pequenos consertos em pias, cubas e banheiros",
+      "Vedação de juntas de box e esquadrias residenciais"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100510"
+    ]
+  },
+  {
+    "id": "prod-100605",
+    "sku": "100605",
+    "name": "Bloco de Espuma para Limpeza de Rejunte Cortag",
+    "slug": "bloco-de-espuma-limpeza-rejunte-cortag",
+    "description": "Esponja especial Cortag de alta densidade desenvolvida para acabamento e limpeza rápida de rejunte em pisos e porcelanatos sem riscar o esmalte nem cavar a junta.",
+    "price": 6.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas & EPIs",
+    "category": "Acessórios de Acabamento",
+    "brand": "Cortag",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/bloco-de-espuma-amarelo-limpeza-rejunte-cortag.jpg",
+      "/images/produtos/bloco-espuma-amarelo-cortag.jpg"
+    ],
+    "technicalSpecs": {
+      "Marca": "Cortag",
+      "Material": "Poliuretano expandido de alta absorção",
+      "Dimensões": "Aprox. 20 x 13 x 7 cm",
+      "Densidade": "Especial para não agredir o esmalte das peças"
+    },
+    "applications": [
+      "Frisamento e limpeza pós-rejuntamento em pisos e paredes",
+      "Lavagem e finalização de obras em porcelanatos e azulejos"
+    ],
+    "warranty": "Qualidade Cortag",
+    "relatedSkus": [
+      "20301",
+      "100607"
+    ]
+  },
+  {
+    "id": "prod-100607",
+    "sku": "100607",
+    "name": "Bloco de Espuma para Limpeza de Rejunte Tafort",
+    "slug": "bloco-de-espuma-limpeza-rejunte-tafort",
+    "description": "Bloco de espuma macia de alto rendimento Tafort para remoção de excessos de rejunte, lavagem pós-obra e limpeza geral de superfícies cerâmicas e azulejos.",
+    "price": 5.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas & EPIs",
+    "category": "Acessórios de Acabamento",
+    "brand": "Tafort",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/bloco-de-espuma-limpeza-rejunte-tafort.jpg"
+    ],
+    "technicalSpecs": {
+      "Marca": "Tafort",
+      "Material": "Espuma de poliuretano de alta retenção de água",
+      "Dimensões": "Aprox. 20 x 13 x 6 cm",
+      "Indicação": "Limpeza de rejuntes, azulejos e lavagem de obras"
+    },
+    "applications": [
+      "Remoção de resíduos frescos de rejuntamento",
+      "Limpeza de pisos, azulejos e acabamentos"
+    ],
+    "warranty": "Qualidade Tafort",
+    "relatedSkus": [
+      "100605"
     ]
   }
 ]

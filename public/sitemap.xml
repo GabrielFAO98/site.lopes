@@ -161,11 +161,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/cimento-itau-todas-as-obras-votoran</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/argamassa-acii-interno-e-externo-cinza-20kg-votomassa</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -216,11 +211,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/silicone-incolor-acetico-tekbond</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/espuma-expansiva-pu-tekbond-500ml-320g</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -251,11 +241,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/bloco-de-espuma-limpeza-rejunte-cortag</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/caixa-sabesp-padrao-hidrometro</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -282,6 +267,36 @@
   </url>
   <url>
     <loc>https://site-lopes-eight.vercel.app/produto/lampada-led-bulbo-foxlux-9w-bivolt-6500k</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/cimento-itau-todas-as-obras-50kg-votoran</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/cimento-itau-todas-as-obras-25kg-votoran</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/silicone-incolor-acetico-256g-tekbond</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/silicone-incolor-acetico-bisnaga-50g-tekbond</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/bloco-de-espuma-limpeza-rejunte-cortag</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/bloco-de-espuma-limpeza-rejunte-tafort</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
