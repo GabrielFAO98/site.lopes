@@ -158,7 +158,10 @@ export async function searchProducts(params: {
   }
 
   if (params.brand && params.brand !== 'todas') {
-    filtered = filtered.filter((p) => p.brand.toLowerCase() === params.brand?.toLowerCase());
+    const bQuery = params.brand.toLowerCase();
+    filtered = filtered.filter(
+      (p) => p.brand.toLowerCase() === bQuery || p.brand.toLowerCase().includes(bQuery)
+    );
   }
 
   if (params.query) {

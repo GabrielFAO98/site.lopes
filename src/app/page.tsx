@@ -18,6 +18,7 @@ import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { getFeaturedProducts, getDepartmentsWithCount, getNewProducts } from '@/lib/db';
 import { ProductCarousel } from '@/components/ProductCarousel';
 import { HomeBannerSlider } from '@/components/HomeBannerSlider';
+import { BrandsSection } from '@/components/BrandsSection';
 import { STORE_CONFIG } from '@/lib/store-config';
 
 // Revalidação periódica (ISR): atualiza a cada 60s com novos produtos do Supabase
@@ -154,7 +155,10 @@ export default async function HomePage() {
         viewAllHref="/produtos"
       />
 
-      {/* 5. Seção de Novidades (Carrossel com Prévia da Próxima Imagem) */}
+      {/* 5. Seção de Melhores Marcas Parceiras */}
+      <BrandsSection />
+
+      {/* 6. Seção de Novidades (Carrossel com Prévia da Próxima Imagem) */}
       <ProductCarousel
         products={newProducts}
         title="Novidades"
