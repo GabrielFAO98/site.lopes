@@ -123,7 +123,7 @@ export function Header() {
             <ClipboardList className="w-4 h-4" />
             <span className="hidden sm:inline">Lista de Orçamento</span>
             {totalCount > 0 && (
-              <span className="bg-lopes-orange text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center animate-pulse">
+              <span className="bg-lopes-orange text-white text-xs font-bold w-5 h-5 rounded-full flex items-center justify-center">
                 {totalCount}
               </span>
             )}

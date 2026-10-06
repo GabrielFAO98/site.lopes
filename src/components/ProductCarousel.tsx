@@ -3,8 +3,7 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { Product } from '@/types';
 import { ProductCard } from './ProductCard';
-import { ChevronLeft, ChevronRight, ArrowRight } from 'lucide-react';
-import Link from 'next/link';
+import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 interface ProductCarouselProps {
   products: Product[];
@@ -15,7 +14,6 @@ interface ProductCarouselProps {
 export function ProductCarousel({
   products,
   title,
-  viewAllHref = '/produtos',
 }: ProductCarouselProps) {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
@@ -56,21 +54,10 @@ export function ProductCarousel({
           {title}
         </h2>
 
-        <div className="flex items-center gap-3">
-          {viewAllHref && (
-            <Link
-              href={viewAllHref}
-              className="text-xs sm:text-sm font-semibold text-lopes-blue hover:text-lopes-blue-700 hover:underline flex items-center gap-1"
-            >
-              <span>Ver todos</span>
-              <ArrowRight className="w-3.5 h-3.5" />
-            </Link>
-          )}
-
-          {/* Botões Superiores de Navegação */}
-          <div className="hidden sm:flex items-center gap-1.5 pl-2 border-l border-slate-200">
-            <button
-              onClick={() => scroll('left')}
+        {/* Botões Superiores de Navegação */}
+        <div className="hidden sm:flex items-center gap-1.5">
+          <button
+            onClick={() => scroll('left')}
               disabled={!canScrollLeft}
               className={`w-8 h-8 rounded-full border border-slate-200 bg-white flex items-center justify-center transition-all ${
                 canScrollLeft
@@ -95,7 +82,6 @@ export function ProductCarousel({
             </button>
           </div>
         </div>
-      </div>
 
       {/* Container Relativo para o Trilho e as Setas Flutuantes */}
       <div className="relative group">

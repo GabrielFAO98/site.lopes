@@ -13,14 +13,14 @@ export const FEATURED_BRANDS: BrandItem[] = [
   {
     name: 'Vedacit',
     slug: 'Vedacit',
-    logo: '/images/marcas/vedacit.png',
-    alt: 'Produtos Vedacit na Lopes e Lopes',
+    logo: '/images/marcas/vedacit.svg',
+    alt: 'Impermeabilizantes Vedacit',
   },
   {
     name: 'Votoran',
     slug: 'Votoran',
     logo: '/images/marcas/votoran.svg',
-    alt: 'Cimentos Votoran na Lopes e Lopes',
+    alt: 'Cimentos Votoran',
   },
   {
     name: 'Gerdau',
@@ -32,7 +32,7 @@ export const FEATURED_BRANDS: BrandItem[] = [
     name: 'Quartzolit',
     slug: 'Quartzolit',
     logo: '/images/marcas/quartzolit.png',
-    alt: 'Argamassas e Impermeabilizantes Quartzolit',
+    alt: 'Argamassas Quartzolit',
   },
   {
     name: 'Lorenzetti',
@@ -59,10 +59,10 @@ export const FEATURED_BRANDS: BrandItem[] = [
     alt: 'Cimento CSN',
   },
   {
-    name: 'Sil Fios',
-    slug: 'Sil',
-    logo: '/images/marcas/sil.png',
-    alt: 'Fios e Cabos Elétricos SIL',
+    name: 'Atlas',
+    slug: 'Atlas',
+    logo: '/images/marcas/atlas.svg',
+    alt: 'Pincéis e Ferramentas Atlas',
   },
   {
     name: 'Cortag',
@@ -85,41 +85,44 @@ export const FEATURED_BRANDS: BrandItem[] = [
 ];
 
 export function BrandsSection() {
+  // Duplicação exata da lista para o efeito de rolagem infinita linear contínua
+  const duplicatedBrands = [...FEATURED_BRANDS, ...FEATURED_BRANDS];
+
   return (
-    <section className="max-w-7xl mx-auto px-4">
-      <div className="flex items-center justify-between mb-4 sm:mb-6">
+    <section className="max-w-7xl mx-auto px-4 overflow-hidden">
+      <div className="mb-4 sm:mb-6">
         <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
           As Melhores Marcas
         </h2>
-        <Link
-          href="/produtos"
-          className="text-xs sm:text-sm font-semibold text-lopes-blue hover:text-lopes-blue-700 hover:underline"
-        >
-          Ver todo o catálogo →
-        </Link>
       </div>
 
-      <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3 sm:gap-4">
-        {FEATURED_BRANDS.map((brand) => (
-          <Link
-            key={brand.name}
-            href={`/produtos?marca=${encodeURIComponent(brand.slug)}`}
-            className="bg-white rounded-xl border border-slate-200 hover:border-lopes-blue hover:shadow-md transition-all duration-200 flex items-center justify-center p-3 sm:p-4 h-20 sm:h-24 group"
-            title={`Ver produtos da marca ${brand.name}`}
-          >
-            <div className="relative w-full h-full flex items-center justify-center">
-              <Image
-                src={brand.logo}
-                alt={brand.alt}
-                fill
-                className="object-contain p-1 group-hover:scale-105 transition-transform duration-200"
-                sizes="(max-width: 640px) 33vw, (max-width: 768px) 25vw, 16vw"
-              />
-            </div>
-          </Link>
-        ))}
+      <div className="relative w-full overflow-hidden py-1">
+        {/* Gradientes sutis nas bordas para fade suave */}
+        <div className="pointer-events-none absolute left-0 top-0 bottom-0 w-8 sm:w-16 bg-gradient-to-r from-slate-50 to-transparent z-10" />
+        <div className="pointer-events-none absolute right-0 top-0 bottom-0 w-8 sm:w-16 bg-gradient-to-l from-slate-50 to-transparent z-10" />
+
+        {/* Trilho de rolagem constante e linear */}
+        <div className="animate-marquee flex items-center gap-3 sm:gap-4">
+          {duplicatedBrands.map((brand, idx) => (
+            <Link
+              key={`${brand.name}-${idx}`}
+              href={`/produtos?marca=${encodeURIComponent(brand.slug)}`}
+              className="w-40 sm:w-48 h-20 sm:h-24 bg-white rounded-xl border border-slate-200 hover:border-lopes-blue hover:shadow-md transition-all duration-200 flex items-center justify-center p-3 sm:p-4 shrink-0 group"
+              title={`Ver produtos da marca ${brand.name}`}
+            >
+              <div className="relative w-full h-10 sm:h-12 flex items-center justify-center">
+                <Image
+                  src={brand.logo}
+                  alt={brand.alt}
+                  fill
+                  className="object-contain p-1 group-hover:scale-105 transition-transform duration-200"
+                  sizes="192px"
+                />
+              </div>
+            </Link>
+          ))}
+        </div>
       </div>
     </section>
   );
 }
-
