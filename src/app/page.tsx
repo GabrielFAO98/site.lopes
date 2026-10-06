@@ -12,8 +12,7 @@ import {
   ShieldCheck, 
   MapPin, 
   ArrowRight,
-  CheckCircle2,
-  HeartHandshake
+  CheckCircle2
 } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { getFeaturedProducts, getDepartmentsWithCount, getNewProducts } from '@/lib/db';
@@ -198,89 +197,48 @@ export default async function HomePage() {
         </Link>
       </div>
 
-      {/* 6. Sessão Nossa História */}
+      {/* 6. Seção Nossa História */}
       <section className="max-w-7xl mx-auto px-4">
-        <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 lg:p-12 shadow-sm grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-          <div className="lg:col-span-7 space-y-4 sm:space-y-5">
-            <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-lopes-blue px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
-              <HeartHandshake className="w-3.5 h-3.5" />
-              <span>Tradição e Parceria em Franca</span>
-            </div>
-
-            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-extrabold text-slate-900 leading-tight">
-              Nossa História
-            </h2>
-
-            <div className="space-y-3 sm:space-y-4 text-slate-600 text-sm sm:text-base leading-relaxed">
-              <p>
-                A <strong className="text-slate-900 font-semibold">Lopes e Lopes Materiais para Construção</strong> nasceu em Franca com o compromisso de estar lado a lado com quem constrói e reforma. Desde a fundação, nosso foco sempre foi oferecer atendimento acolhedor, honesto e focado na solução ideal para cada canteiro de obras.
-              </p>
-              <p>
-                Localizada na <strong className="text-slate-900 font-semibold">{STORE_CONFIG.address} no {STORE_CONFIG.neighborhood}</strong>, nossa loja física conta com um portfólio completo que vai do básico — como cimento, areia, brita, tijolos e ferragens — até a fase de acabamento, hidráulica, elétrica, tintas e ferramentas.
-              </p>
-              <p>
-                Mais do que vender materiais, construímos parcerias duradouras com pedreiros, mestres de obras, construtores e famílias. Com agilidade nas entregas e preço justo, garantimos que sua obra nunca fique parada.
-              </p>
-            </div>
-
-            <div className="pt-2 flex flex-wrap gap-4 text-xs sm:text-sm font-semibold text-slate-800">
-              <div className="flex items-center gap-2 bg-slate-50 px-3.5 py-2 rounded-lg border border-slate-200">
-                <span className="text-lopes-orange font-bold text-base">✓</span>
-                <span>Entregas em Franca e Região</span>
-              </div>
-              <div className="flex items-center gap-2 bg-slate-50 px-3.5 py-2 rounded-lg border border-slate-200">
-                <span className="text-lopes-orange font-bold text-base">✓</span>
-                <span>Atendimento Direto no Balcão</span>
-              </div>
-              <div className="flex items-center gap-2 bg-slate-50 px-3.5 py-2 rounded-lg border border-slate-200">
-                <span className="text-lopes-orange font-bold text-base">✓</span>
-                <span>Cotação Rápida por WhatsApp</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="lg:col-span-5 bg-gradient-to-br from-slate-900 to-lopes-blue-900 rounded-2xl p-6 sm:p-8 text-white space-y-6 shadow-inner">
-            <div className="space-y-2 border-b border-white/10 pb-4">
-              <span className="text-xs uppercase tracking-wider text-lopes-orange font-bold">Visite Nossa Loja</span>
-              <h3 className="text-xl font-bold text-white">Lopes e Lopes Materiais</h3>
-              <p className="text-xs text-slate-300 leading-relaxed font-mono">
-                {STORE_CONFIG.address} — {STORE_CONFIG.neighborhood}<br />
-                {STORE_CONFIG.city} - {STORE_CONFIG.state} • CEP: {STORE_CONFIG.cep}
-              </p>
-            </div>
-
-            <div className="space-y-2 text-xs text-slate-200">
-              <div className="flex items-center justify-between border-b border-white/5 py-1.5">
-                <span className="text-slate-400">Segunda a Sexta:</span>
-                <span className="font-semibold text-white">7h às 18h</span>
-              </div>
-              <div className="flex items-center justify-between border-b border-white/5 py-1.5">
-                <span className="text-slate-400">Sábados:</span>
-                <span className="font-semibold text-white">7h às 12h</span>
+        <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-10 lg:p-12 shadow-xs">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
+            <div className="lg:col-span-7 space-y-4">
+              <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+                Nossa História
+              </h2>
+              <div className="space-y-3.5 text-slate-600 text-sm sm:text-base leading-relaxed">
+                <p>
+                  A <strong className="text-slate-900 font-semibold">Lopes e Lopes Materiais para Construção</strong> começou em Franca com um objetivo claro: fornecer o que a obra precisa de forma rápida, com preço justo e atendimento de quem entende do dia a dia da construção civil.
+                </p>
+                <p>
+                  Instalada na Av. Brasil, no Jardim Paulistano, nossa loja atende desde reformas residenciais até grandes canteiros. Mantemos em estoque materiais básicos como areia, brita, cimento, tijolos e ferragens, além de uma linha completa para acabamento, hidráulica, elétrica e ferramentas.
+                </p>
+                <p>
+                  Sabemos que obra parada custa caro. Por isso, priorizamos pontualidade na entrega dos materiais e atendimento direto no balcão e no WhatsApp, ajudando você a encontrar a quantidade certa e a melhor solução para sua obra.
+                </p>
               </div>
             </div>
 
-            <div className="pt-2 space-y-2.5">
-              <a
-                href={`https://api.whatsapp.com/send?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(
-                  'Olá! Gostaria de conversar com a equipe da Lopes e Lopes.'
-                )}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full flex items-center justify-center gap-2 py-3 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white text-xs sm:text-sm font-bold rounded-xl transition-colors shadow-sm"
-              >
-                <WhatsAppIcon className="w-4 h-4 fill-white" />
-                <span>Conversar no WhatsApp</span>
-              </a>
+            <div className="lg:col-span-5 grid grid-cols-1 gap-3 sm:grid-cols-3 lg:grid-cols-1">
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                <h3 className="font-bold text-slate-900 text-sm mb-1">Loja Física no Jardim Paulistano</h3>
+                <p className="text-xs text-slate-500 leading-relaxed">
+                  Av. Brasil, 3640. Balcão de atendimento e retirada imediata para profissionais e clientes.
+                </p>
+              </div>
 
-              <a
-                href={GOOGLE_MAPS_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="w-full text-center block py-2.5 bg-white/10 hover:bg-white/20 text-white text-xs font-semibold rounded-xl transition-colors border border-white/10"
-              >
-                Como Chegar (Google Maps)
-              </a>
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                <h3 className="font-bold text-slate-900 text-sm mb-1">Entrega Rápida no Canteiro</h3>
+                <p className="text-xs text-slate-500 leading-relaxed">
+                  Caminhões preparados para descarregar materiais básicos e pesados no seu endereço em Franca e região.
+                </p>
+              </div>
+
+              <div className="p-4 rounded-xl bg-slate-50 border border-slate-200/80">
+                <h3 className="font-bold text-slate-900 text-sm mb-1">Cotação Prática pelo WhatsApp</h3>
+                <p className="text-xs text-slate-500 leading-relaxed">
+                  Mande sua lista de materiais por foto ou texto e receba o orçamento sem complicação nem burocracia.
+                </p>
+              </div>
             </div>
           </div>
         </div>
