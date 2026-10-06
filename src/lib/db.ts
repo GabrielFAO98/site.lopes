@@ -30,6 +30,8 @@ function mapRowToProduct(row: any): Product {
     applications: Array.isArray(row.applications) ? row.applications : [],
     warranty: row.warranty,
     relatedSkus: Array.isArray(row.related_skus) ? row.related_skus : [],
+    variationType: row.variation_type || undefined,
+    variations: Array.isArray(row.variations) ? row.variations : [],
   };
 }
 

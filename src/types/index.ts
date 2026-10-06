@@ -19,6 +19,17 @@ export interface Product {
   applications: string[];
   warranty?: string;
   relatedSkus?: string[];
+  variationType?: string; // Ex: 'Cor', 'Voltagem', 'Espessura', 'Modelo', 'Medida'
+  variations?: ProductVariation[];
+}
+
+export interface ProductVariation {
+  name: string;          // Ex: "Preto Fosco", "1.5 mm", "220V", "Azul"
+  sku: string;           // Código específico no OrgSystem daquela variação
+  price?: number | null; // Preço específico opcional da variação (se for diferente do preço base)
+  hex?: string;          // Cor em hexadecimal opcional (ex: "#000000", "#FF0000") para exibir bolinha colorida
+  image?: string;        // Foto opcional específica desta variação
+  inStock?: boolean;     // Disponibilidade opcional
 }
 
 export interface Department {
@@ -33,6 +44,7 @@ export interface Department {
 export interface QuoteItem {
   product: Product;
   quantity: number;
+  selectedVariation?: ProductVariation;
 }
 
 export interface StoreInfo {

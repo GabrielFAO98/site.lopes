@@ -1,13 +1,17 @@
 'use client';
 
 import React, { createContext, useContext, useState, useEffect } from 'react';
-import { Product, QuoteItem } from '@/types';
+import { Product, QuoteItem, ProductVariation } from '@/types';
+
+export function getQuoteItemKey(item: { product: { id: string }; selectedVariation?: { sku: string } }): string {
+  return item.selectedVariation ? `${item.product.id}-${item.selectedVariation.sku}` : item.product.id;
+}
 
 interface QuoteContextType {
   items: QuoteItem[];
-  addItem: (product: Product, quantity?: number) => void;
-  removeItem: (productId: string) => void;
-  updateQuantity: (productId: string, quantity: number) => void;
+  addItem: (product: Product, quantity?: number, selectedVariation?: ProductVariation) => void;
+  removeItem: (itemKey: string) => void;
+  updateQuantity: (itemKey: string, quantity: number) => void;
   clearQuote: () => void;
   isDrawerOpen: boolean;
   openDrawer: () => void;
@@ -48,33 +52,34 @@ export function QuoteProvider({ children }: { children: React.ReactNode }) {
     }
   }, [items, isLoaded]);
 
-  const addItem = (product: Product, quantity: number = 1) => {
+  const addItem = (product: Product, quantity: number = 1, selectedVariation?: ProductVariation) => {
+    const targetKey = selectedVariation ? `${product.id}-${selectedVariation.sku}` : product.id;
     setItems((prev) => {
-      const existing = prev.find((item) => item.product.id === product.id);
+      const existing = prev.find((item) => getQuoteItemKey(item) === targetKey);
       if (existing) {
         return prev.map((item) =>
-          item.product.id === product.id
+          getQuoteItemKey(item) === targetKey
             ? { ...item, quantity: item.quantity + quantity }
             : item
         );
       }
-      return [...prev, { product, quantity }];
+      return [...prev, { product, quantity, selectedVariation }];
     });
     setIsDrawerOpen(true);
   };
 
-  const removeItem = (productId: string) => {
-    setItems((prev) => prev.filter((item) => item.product.id !== productId));
+  const removeItem = (itemKey: string) => {
+    setItems((prev) => prev.filter((item) => getQuoteItemKey(item) !== itemKey));
   };
 
-  const updateQuantity = (productId: string, quantity: number) => {
+  const updateQuantity = (itemKey: string, quantity: number) => {
     if (quantity <= 0) {
-      removeItem(productId);
+      removeItem(itemKey);
       return;
     }
     setItems((prev) =>
       prev.map((item) =>
-        item.product.id === productId ? { ...item, quantity } : item
+        getQuoteItemKey(item) === itemKey ? { ...item, quantity } : item
       )
     );
   };

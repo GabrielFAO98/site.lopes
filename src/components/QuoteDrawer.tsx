@@ -12,7 +12,7 @@ import {
   MapPin, 
   ArrowRight 
 } from 'lucide-react';
-import { useQuote } from './QuoteContext';
+import { useQuote, getQuoteItemKey } from './QuoteContext';
 import { formatCurrency, getQuoteListWhatsAppUrl } from '@/lib/whatsapp';
 import { STORE_CONFIG } from '@/lib/store-config';
 
@@ -32,8 +32,11 @@ export function QuoteDrawer() {
   if (!isDrawerOpen) return null;
 
   const totalEstimado = items.reduce((acc, item) => {
-    if (item.product.price) {
-      return acc + item.product.price * item.quantity;
+    const unitPrice = (item.selectedVariation && item.selectedVariation.price !== undefined && item.selectedVariation.price !== null)
+      ? item.selectedVariation.price
+      : item.product.price;
+    if (unitPrice) {
+      return acc + unitPrice * item.quantity;
     }
     return acc;
   }, 0);
@@ -103,72 +106,85 @@ export function QuoteDrawer() {
                   </button>
                 </div>
 
-                {items.map((item) => (
-                  <div
-                    key={item.product.id}
-                    className="p-3 bg-slate-50 rounded-lg border border-slate-200 flex gap-3 items-center"
-                  >
-                    {/* Imagem miniatura */}
-                    <div className="relative w-14 h-14 bg-white rounded border border-slate-200 shrink-0 overflow-hidden">
-                      {item.product.images?.[0] ? (
-                        <Image
-                          src={item.product.images[0]}
-                          alt={item.product.name}
-                          fill
-                          className="object-cover"
-                        />
-                      ) : (
-                        <div className="w-full h-full flex items-center justify-center text-sm">
-                          🧱
-                        </div>
-                      )}
-                    </div>
+                {items.map((item) => {
+                  const itemKey = getQuoteItemKey(item);
+                  const unitPrice = (item.selectedVariation && item.selectedVariation.price !== undefined && item.selectedVariation.price !== null)
+                    ? item.selectedVariation.price
+                    : item.product.price;
+                  const effectiveSku = item.selectedVariation ? item.selectedVariation.sku : item.product.sku;
 
-                    {/* Detalhes do Item */}
-                    <div className="flex-1 min-w-0">
-                      <p className="text-xs font-semibold text-slate-900 truncate">
-                        {item.product.name}
-                      </p>
-                      <p className="text-[11px] text-slate-500">
-                        SKU: {item.product.sku} • {item.product.brand}
-                      </p>
-                      <p className="text-xs font-bold text-lopes-blue mt-0.5">
-                        {item.product.price ? formatCurrency(item.product.price) : 'Sob Consulta'}
-                        <span className="text-[10px] text-slate-400 font-normal"> / {item.product.unit}</span>
-                      </p>
-                    </div>
-
-                    {/* Controles de Quantidade */}
-                    <div className="flex items-center gap-1.5 shrink-0 bg-white border border-slate-200 rounded-md p-1">
-                      <button
-                        onClick={() => updateQuantity(item.product.id, item.quantity - 1)}
-                        className="p-0.5 text-slate-600 hover:text-slate-900"
-                        title="Diminuir quantidade"
-                      >
-                        <Minus className="w-3.5 h-3.5" />
-                      </button>
-                      <span className="text-xs font-bold w-5 text-center text-slate-800">
-                        {item.quantity}
-                      </span>
-                      <button
-                        onClick={() => updateQuantity(item.product.id, item.quantity + 1)}
-                        className="p-0.5 text-slate-600 hover:text-slate-900"
-                        title="Aumentar quantidade"
-                      >
-                        <Plus className="w-3.5 h-3.5" />
-                      </button>
-                    </div>
-
-                    {/* Excluir Item */}
-                    <button
-                      onClick={() => removeItem(item.product.id)}
-                      className="p-1 text-slate-400 hover:text-red-500 transition-colors"
-                      title="Remover item"
+                  return (
+                    <div
+                      key={itemKey}
+                      className="p-3 bg-slate-50 rounded-lg border border-slate-200 flex gap-3 items-center"
                     >
-                      <X className="w-4 h-4" />
-                    </button>
-                  </div>
-                ))}
+                      {/* Imagem miniatura */}
+                      <div className="relative w-14 h-14 bg-white rounded border border-slate-200 shrink-0 overflow-hidden">
+                        {item.selectedVariation?.image || item.product.images?.[0] ? (
+                          <Image
+                            src={item.selectedVariation?.image || item.product.images[0]}
+                            alt={item.product.name}
+                            fill
+                            className="object-cover"
+                          />
+                        ) : (
+                          <div className="w-full h-full flex items-center justify-center text-sm">
+                            🧱
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Detalhes do Item */}
+                      <div className="flex-1 min-w-0">
+                        <p className="text-xs font-semibold text-slate-900 truncate">
+                          {item.product.name}
+                        </p>
+                        {item.selectedVariation && (
+                          <span className="inline-block my-0.5 text-[11px] font-semibold text-lopes-blue bg-blue-50 px-1.5 py-0.5 rounded border border-blue-200">
+                            {item.product.variationType ? `${item.product.variationType}: ` : ''}{item.selectedVariation.name}
+                          </span>
+                        )}
+                        <p className="text-[11px] text-slate-500">
+                          SKU: {effectiveSku} • {item.product.brand}
+                        </p>
+                        <p className="text-xs font-bold text-lopes-blue mt-0.5">
+                          {unitPrice ? formatCurrency(unitPrice) : 'Sob Consulta'}
+                          <span className="text-[10px] text-slate-400 font-normal"> / {item.product.unit}</span>
+                        </p>
+                      </div>
+
+                      {/* Controles de Quantidade */}
+                      <div className="flex items-center gap-1.5 shrink-0 bg-white border border-slate-200 rounded-md p-1">
+                        <button
+                          onClick={() => updateQuantity(itemKey, item.quantity - 1)}
+                          className="p-0.5 text-slate-600 hover:text-slate-900"
+                          title="Diminuir quantidade"
+                        >
+                          <Minus className="w-3.5 h-3.5" />
+                        </button>
+                        <span className="text-xs font-bold w-5 text-center text-slate-800">
+                          {item.quantity}
+                        </span>
+                        <button
+                          onClick={() => updateQuantity(itemKey, item.quantity + 1)}
+                          className="p-0.5 text-slate-600 hover:text-slate-900"
+                          title="Aumentar quantidade"
+                        >
+                          <Plus className="w-3.5 h-3.5" />
+                        </button>
+                      </div>
+
+                      {/* Excluir Item */}
+                      <button
+                        onClick={() => removeItem(itemKey)}
+                        className="p-1 text-slate-400 hover:text-red-500 transition-colors"
+                        title="Remover item"
+                      >
+                        <X className="w-4 h-4" />
+                      </button>
+                    </div>
+                  );
+                })}
               </>
             )}
           </div>

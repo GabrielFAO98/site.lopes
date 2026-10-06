@@ -2,9 +2,9 @@
 
 import React, { useState } from 'react';
 import { MessageCircle, Plus, Check, ClipboardList, Minus } from 'lucide-react';
-import { Product } from '@/types';
+import { Product, ProductVariation } from '@/types';
 import { getProductWhatsAppUrl, formatCurrency } from '@/lib/whatsapp';
-import { useQuote } from '@/components/QuoteContext';
+import { useQuote, getQuoteItemKey } from '@/components/QuoteContext';
 
 interface ProductActionsProps {
   product: Product;
@@ -12,17 +12,126 @@ interface ProductActionsProps {
 
 export function ProductActions({ product }: ProductActionsProps) {
   const { addItem, items } = useQuote();
+  const [selectedVariation, setSelectedVariation] = useState<ProductVariation | undefined>(
+    product.variations && product.variations.length > 0 ? product.variations[0] : undefined
+  );
   const [quantity, setQuantity] = useState(1);
 
-  const isInQuote = items.some((item) => item.product.id === product.id);
-  const whatsappUrl = getProductWhatsAppUrl(product);
+  const hasVariations = Boolean(product.variations && product.variations.length > 0);
+  const isColorVariation = Boolean(
+    hasVariations && product.variations?.some((v) => Boolean(v.hex))
+  );
+
+  const activePrice = (selectedVariation && selectedVariation.price !== undefined && selectedVariation.price !== null)
+    ? selectedVariation.price
+    : product.price;
+
+  const activeSku = selectedVariation ? selectedVariation.sku : product.sku;
+
+  const itemKey = selectedVariation ? `${product.id}-${selectedVariation.sku}` : product.id;
+  const isInQuote = items.some((item) => getQuoteItemKey(item) === itemKey);
+  const whatsappUrl = getProductWhatsAppUrl(product, undefined, selectedVariation);
 
   const handleAddToQuote = () => {
-    addItem(product, quantity);
+    addItem(product, quantity, selectedVariation);
   };
 
   return (
-    <div className="space-y-4 pt-4 border-t border-slate-200">
+    <div className="space-y-5">
+      {/* Bloco de Preço Dinâmico (atualiza conforme a variação) */}
+      <div className="bg-slate-50 p-4 rounded-xl border border-slate-200">
+        <div className="flex items-baseline gap-2">
+          <span className="text-3xl font-black text-slate-900">
+            {activePrice !== null ? formatCurrency(activePrice) : 'Sob Consulta'}
+          </span>
+          <span className="text-sm font-medium text-slate-500">/ {product.unit}</span>
+        </div>
+      </div>
+
+      {/* Seletor de Variações / Atributos */}
+      {hasVariations && product.variations && (
+        <div className="bg-white p-4 rounded-xl border border-slate-200 space-y-3">
+          <div className="flex items-center justify-between">
+            <span className="text-xs font-bold text-slate-800">
+              {product.variationType || 'Opção'}:{' '}
+              <span className="text-lopes-blue font-semibold">{selectedVariation?.name}</span>
+            </span>
+            <span className="text-[11px] font-mono text-slate-600 bg-slate-100 px-2 py-0.5 rounded border border-slate-200">
+              SKU: <strong className="text-slate-900">{activeSku}</strong>
+            </span>
+          </div>
+
+          {/* Modo 1: Cores com círculos e códigos HEX */}
+          {isColorVariation ? (
+            <div className="flex flex-wrap items-center gap-2.5 pt-1">
+              {product.variations.map((variation) => {
+                const isSelected = selectedVariation?.sku === variation.sku;
+                const isWhiteOrLight =
+                  variation.hex?.toLowerCase() === '#ffffff' ||
+                  variation.hex?.toLowerCase() === '#fff' ||
+                  variation.hex?.toLowerCase() === '#f8fafc';
+
+                return (
+                  <button
+                    key={variation.sku}
+                    type="button"
+                    onClick={() => setSelectedVariation(variation)}
+                    className={`group relative flex items-center justify-center w-9 h-9 rounded-full transition-all cursor-pointer ${
+                      isSelected
+                        ? 'ring-2 ring-lopes-blue ring-offset-2 scale-110 shadow-sm'
+                        : 'hover:scale-105 opacity-90 hover:opacity-100'
+                    } ${isWhiteOrLight ? 'border border-slate-300' : ''}`}
+                    style={{ backgroundColor: variation.hex || '#cbd5e1' }}
+                    title={`${variation.name} (SKU: ${variation.sku})`}
+                    aria-label={variation.name}
+                  >
+                    {isSelected && (
+                      <Check
+                        className={`w-4 h-4 stroke-[3] ${
+                          isWhiteOrLight ? 'text-slate-900' : 'text-white drop-shadow-sm'
+                        }`}
+                      />
+                    )}
+                  </button>
+                );
+              })}
+            </div>
+          ) : (
+            /* Modo 2: Pílulas de texto (milímetros, voltagem 127/220V, medidas, modelos) */
+            <div className="flex flex-wrap gap-2 pt-1">
+              {product.variations.map((variation) => {
+                const isSelected = selectedVariation?.sku === variation.sku;
+                return (
+                  <button
+                    key={variation.sku}
+                    type="button"
+                    onClick={() => setSelectedVariation(variation)}
+                    className={`px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold border transition-all cursor-pointer ${
+                      isSelected
+                        ? 'bg-lopes-blue text-white border-lopes-blue shadow-xs'
+                        : 'bg-white text-slate-700 border-slate-300 hover:border-slate-400 hover:bg-slate-50'
+                    }`}
+                  >
+                    {variation.name}
+                    {variation.price !== undefined &&
+                      variation.price !== null &&
+                      variation.price !== product.price && (
+                        <span
+                          className={`ml-1 text-[11px] ${
+                            isSelected ? 'text-blue-100' : 'text-slate-400'
+                          }`}
+                        >
+                          ({formatCurrency(variation.price)})
+                        </span>
+                      )}
+                  </button>
+                );
+              })}
+            </div>
+          )}
+        </div>
+      )}
+
       {/* Seletor de Quantidade para a Cotação */}
       <div className="flex items-center gap-4">
         <label className="text-xs font-semibold text-slate-700">

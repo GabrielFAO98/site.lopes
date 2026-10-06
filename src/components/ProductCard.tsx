@@ -65,6 +65,33 @@ export function ProductCard({ product }: ProductCardProps) {
               {product.name}
             </h3>
           </Link>
+
+          {/* Indicador de Variações (Cores ou Opções) */}
+          {product.variations && product.variations.length > 0 && (
+            <div className="mt-1 mb-1">
+              {product.variations.some((v) => Boolean(v.hex)) ? (
+                <div className="flex items-center gap-1.5">
+                  <div className="flex items-center -space-x-1">
+                    {product.variations.slice(0, 4).map((v) => (
+                      <span
+                        key={v.sku}
+                        className="w-3.5 h-3.5 rounded-full border border-white shadow-2xs inline-block"
+                        style={{ backgroundColor: v.hex || '#cbd5e1' }}
+                        title={v.name}
+                      />
+                    ))}
+                  </div>
+                  <span className="text-[10px] text-slate-500 font-medium">
+                    {product.variations.length} cores
+                  </span>
+                </div>
+              ) : (
+                <span className="inline-block text-[10px] font-semibold text-lopes-blue bg-blue-50 px-1.5 py-0.5 rounded border border-blue-100">
+                  {product.variations.length} opções ({product.variationType || 'modelos'})
+                </span>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Preço e Botões de Conversão */}
@@ -92,28 +119,38 @@ export function ProductCard({ product }: ProductCardProps) {
               <span>Orçamento</span>
             </a>
 
-            {/* Adicionar à Lista de Cotação */}
-            <button
-              onClick={() => addItem(product, 1)}
-              className={`flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1 sm:px-2 rounded-lg transition-colors border ${
-                isInQuote
-                  ? 'bg-emerald-50 text-emerald-700 border-emerald-300'
-                  : 'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-300'
-              }`}
-              title="Adicionar à Lista de Orçamento Multi-itens"
-            >
-              {isInQuote ? (
-                <>
-                  <Check className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
-                  <span>Adicionado</span>
-                </>
-              ) : (
-                <>
-                  <Plus className="w-3.5 h-3.5 text-slate-600 shrink-0" />
-                  <span>+ Cotação</span>
-                </>
-              )}
-            </button>
+            {/* Adicionar à Lista de Cotação ou Ver Opções */}
+            {product.variations && product.variations.length > 0 ? (
+              <Link
+                href={`/produto/${product.slug}`}
+                className="flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1 sm:px-2 rounded-lg transition-colors border bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-300"
+                title="Ver opções disponíveis"
+              >
+                <span>Ver Opções</span>
+              </Link>
+            ) : (
+              <button
+                onClick={() => addItem(product, 1)}
+                className={`flex items-center justify-center gap-1 sm:gap-1.5 text-[11px] sm:text-xs font-semibold py-1.5 sm:py-2 px-1 sm:px-2 rounded-lg transition-colors border ${
+                  isInQuote
+                    ? 'bg-emerald-50 text-emerald-700 border-emerald-300'
+                    : 'bg-slate-50 hover:bg-slate-100 text-slate-800 border-slate-300'
+                }`}
+                title="Adicionar à Lista de Orçamento Multi-itens"
+              >
+                {isInQuote ? (
+                  <>
+                    <Check className="w-3.5 h-3.5 text-emerald-600 shrink-0" />
+                    <span>Adicionado</span>
+                  </>
+                ) : (
+                  <>
+                    <Plus className="w-3.5 h-3.5 text-slate-600 shrink-0" />
+                    <span>+ Cotação</span>
+                  </>
+                )}
+              </button>
+            )}
           </div>
         </div>
       </div>

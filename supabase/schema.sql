@@ -24,6 +24,8 @@ CREATE TABLE IF NOT EXISTS public.produtos (
     applications JSONB DEFAULT '[]'::jsonb,
     warranty TEXT,
     related_skus JSONB DEFAULT '[]'::jsonb,
+    variation_type TEXT,
+    variations JSONB DEFAULT '[]'::jsonb,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
@@ -52,9 +54,13 @@ USING (true)
 WITH CHECK (true);
 
 -- ==============================================================================
--- MIGRAÇÃO: Remover colunas obsoletas (wholesale_notice e video_url)
--- Caso sua tabela já tenha sido criada anteriormente, rode o comando abaixo:
+-- MIGRAÇÕES SQL (Execute no SQL Editor do Supabase se sua tabela já existe)
 -- ==============================================================================
+-- 1. Adicionar suporte a atributos e variações de produtos (cores, voltagens, mm, etc.):
+-- ALTER TABLE public.produtos ADD COLUMN IF NOT EXISTS variation_type TEXT;
+-- ALTER TABLE public.produtos ADD COLUMN IF NOT EXISTS variations JSONB DEFAULT '[]'::jsonb;
+
+-- 2. Remover colunas obsoletas:
 -- ALTER TABLE public.produtos DROP COLUMN IF EXISTS wholesale_notice;
 -- ALTER TABLE public.produtos DROP COLUMN IF EXISTS video_url;
 

@@ -681,5 +681,264 @@
       "1534",
       "397"
     ]
+  },
+  {
+    "id": "prod-tinta-spray-tekbond",
+    "sku": "20101",
+    "name": "Tinta Spray Uso Geral 400ml / 250g Tekbond",
+    "slug": "tinta-spray-uso-geral-400ml-tekbond",
+    "description": "A Tinta Spray Uso Geral Tekbond foi desenvolvida para pinturas em ambientes internos e externos. Indicada para ferro, madeira, cerâmica, gesso e alvenaria, proporciona secagem rápida, excelente cobertura e acabamento impecável.",
+    "price": 24.9,
+    "unit": "Lata 400ml (UN)",
+    "departmentId": "tintas-e-acessorios",
+    "departmentName": "Tintas e Acessórios",
+    "category": "Tintas Spray",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+    ],
+    "variationType": "Cor",
+    "variations": [
+      {
+        "name": "Preto Fosco",
+        "sku": "20101",
+        "hex": "#1c1917"
+      },
+      {
+        "name": "Preto Brilhante",
+        "sku": "20102",
+        "hex": "#000000"
+      },
+      {
+        "name": "Branco Brilhante",
+        "sku": "20103",
+        "hex": "#ffffff"
+      },
+      {
+        "name": "Branco Fosco",
+        "sku": "20104",
+        "hex": "#f1f5f9"
+      },
+      {
+        "name": "Vermelho",
+        "sku": "20105",
+        "hex": "#dc2626"
+      },
+      {
+        "name": "Azul",
+        "sku": "20106",
+        "hex": "#2563eb"
+      },
+      {
+        "name": "Amarelo",
+        "sku": "20107",
+        "hex": "#eab308"
+      },
+      {
+        "name": "Verde",
+        "sku": "20108",
+        "hex": "#16a34a"
+      },
+      {
+        "name": "Prata / Alumínio",
+        "sku": "20109",
+        "hex": "#94a3b8"
+      },
+      {
+        "name": "Verniz Brilhante",
+        "sku": "20110",
+        "hex": "#e2e8f0"
+      }
+    ],
+    "technicalSpecs": {
+      "Conteúdo": "400ml / 250g",
+      "Secagem ao toque": "15 minutos",
+      "Secagem total": "24 horas",
+      "Rendimento aproximado": "1,3 m² a 1,6 m² por embalagem/demão"
+    },
+    "applications": [
+      "Reparos, decoração e pinturas automotivas e artesanais",
+      "Móveis de ferro, aço e madeira",
+      "Gesso, alvenaria, cerâmica e papel"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100401",
+      "20201"
+    ]
+  },
+  {
+    "id": "prod-corante-liquido-xadrez-50ml",
+    "sku": "20201",
+    "name": "Corante Líquido Xadrez 50ml",
+    "slug": "corante-liquido-xadrez-50ml",
+    "description": "O Corante Líquido Xadrez é um pigmento concentrado de alto poder de tingimento e resistência. Indicado para colorir tintas à base de água (látex PVA e acrílicas), texturas, argamassas, rejuntes e cal.",
+    "price": 6.9,
+    "unit": "Frasco 50ml (UN)",
+    "departmentId": "tintas-e-acessorios",
+    "departmentName": "Tintas e Acessórios",
+    "category": "Pigmentos e Corantes",
+    "brand": "Xadrez",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80"
+    ],
+    "variationType": "Cor",
+    "variations": [
+      {
+        "name": "Ocre",
+        "sku": "20201",
+        "hex": "#c28135"
+      },
+      {
+        "name": "Vermelho",
+        "sku": "20202",
+        "hex": "#b91c1c"
+      },
+      {
+        "name": "Amarelo",
+        "sku": "20203",
+        "hex": "#eab308"
+      },
+      {
+        "name": "Azul",
+        "sku": "20204",
+        "hex": "#1d4ed8"
+      },
+      {
+        "name": "Verde",
+        "sku": "20205",
+        "hex": "#15803d"
+      },
+      {
+        "name": "Preto",
+        "sku": "20206",
+        "hex": "#171717"
+      },
+      {
+        "name": "Marrom",
+        "sku": "20207",
+        "hex": "#78350f"
+      }
+    ],
+    "technicalSpecs": {
+      "Volume": "50ml",
+      "Rendimento": "Até 1 bisnaga para cada galão de 3,6L de tinta",
+      "Base": "Dispersão aquosa de pigmentos orgânicos e inorgânicos"
+    },
+    "applications": [
+      "Coloração de tintas látex acrílicas e PVA",
+      "Tingimento de argamassas, cimento e rejuntes",
+      "Coloração de cal para caiação e acabamentos rústicos"
+    ],
+    "warranty": "Qualidade Xadrez / Lanxess",
+    "relatedSkus": [
+      "3",
+      "100401",
+      "20101"
+    ]
+  },
+  {
+    "id": "prod-espacador-nivelador-cortag",
+    "sku": "20301",
+    "name": "Espaçador Nivelador de Piso e Porcelanato Cortag (Pacote 50 Peças)",
+    "slug": "espacador-nivelador-de-piso-cortag-50-pecas",
+    "description": "O clipe espaçador nivelador tradicional da Cortag garante o nivelamento perfeito entre as peças de porcelanato e cerâmica, além de manter o espaçamento uniforme da junta de dilatação.",
+    "price": 18.9,
+    "unit": "Pacote 50 peças (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas & EPIs",
+    "category": "Nivelamento de Pisos",
+    "brand": "Cortag",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+    ],
+    "variationType": "Espessura",
+    "variations": [
+      {
+        "name": "1.0 mm",
+        "sku": "20301"
+      },
+      {
+        "name": "1.5 mm",
+        "sku": "20302"
+      },
+      {
+        "name": "2.0 mm",
+        "sku": "20303"
+      }
+    ],
+    "technicalSpecs": {
+      "Quantidade": "50 clips espaçadores por embalagem",
+      "Material": "Polímero virgem de alta resistência",
+      "Indicação": "Pisos e porcelanatos de 3,5 mm a 15 mm de espessura",
+      "Compatibilidade": "Cunha niveladora tradicional Cortag e alicate de tração"
+    },
+    "applications": [
+      "Assentamento de porcelanatos retificados e cerâmicas em pisos e paredes",
+      "Eliminação de dentes e desníveis entre as peças",
+      "Garantia de junta uniforme em toda a área de assentamento"
+    ],
+    "warranty": "Garantia Cortag",
+    "relatedSkus": [
+      "100102",
+      "2882"
+    ]
+  },
+  {
+    "id": "prod-maxi-ducha-lorenzetti",
+    "sku": "20401",
+    "name": "Chuveiro Elétrico Maxi Ducha 3 Temperaturas Lorenzetti",
+    "slug": "chuveiro-eletrico-maxi-ducha-lorenzetti",
+    "description": "A clássica Maxi Ducha da Lorenzetti oferece banho relaxante com espalhador de grandes dimensões. Conta com 3 opções de temperatura (Frio, Morno, Quente), fácil troca de resistência e excelente vazão para momentos confortáveis.",
+    "price": 54.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "eletrica",
+    "departmentName": "Elétrica",
+    "category": "Chuveiros e Duchas",
+    "brand": "Lorenzetti",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
+    ],
+    "variationType": "Voltagem",
+    "variations": [
+      {
+        "name": "127V (5500W)",
+        "sku": "20401"
+      },
+      {
+        "name": "220V (5500W)",
+        "sku": "20402"
+      }
+    ],
+    "technicalSpecs": {
+      "Temperaturas": "3 opções de regulagem (Frio, Morno, Quente)",
+      "Potência": "5500W",
+      "Pressão de Funcionamento": "10 a 400 kPa (1 a 40 m.c.a.)",
+      "Grau de Proteção": "IP 24",
+      "Fiação Mínima Recomendada": "10 mm² para 127V / 4 mm² para 220V",
+      "Disjuntor Recomendado": "50A para 127V / 32A para 220V"
+    },
+    "applications": [
+      "Banheiros residenciais e comerciais",
+      "Instalação direta na parede com rosca 1/2\"",
+      "Compatível com sistemas de aquecimento solar"
+    ],
+    "warranty": "1 ano de garantia Lorenzetti",
+    "relatedSkus": [
+      "100301",
+      "100701"
+    ]
   }
 ]

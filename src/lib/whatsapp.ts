@@ -1,4 +1,4 @@
-import { Product, QuoteItem } from '@/types';
+import { Product, QuoteItem, ProductVariation } from '@/types';
 import { STORE_CONFIG } from './store-config';
 
 const WHATSAPP_BASE_URL = 'https://api.whatsapp.com/send';
@@ -17,22 +17,39 @@ export function formatCurrency(value: number | null | undefined): string {
 /**
  * Gera a URL do WhatsApp para solicitação de orçamento de um produto individual
  */
-export function getProductWhatsAppUrl(product: Product, currentUrl?: string): string {
-  const priceText = product.price !== null ? formatCurrency(product.price) : 'Sob Consulta';
-  const urlText = currentUrl || `${process.env.NEXT_PUBLIC_SITE_URL || 'https://site-lopes.vercel.app'}/produto/${product.slug}`;
+export function getProductWhatsAppUrl(
+  product: Product, 
+  currentUrl?: string,
+  selectedVariation?: ProductVariation
+): string {
+  const priceToUse = (selectedVariation && selectedVariation.price !== undefined && selectedVariation.price !== null) 
+    ? selectedVariation.price 
+    : product.price;
 
-  const message = [
+  const priceText = priceToUse !== null ? formatCurrency(priceToUse) : 'Sob Consulta';
+  const urlText = currentUrl || `${process.env.NEXT_PUBLIC_SITE_URL || 'https://site-lopes.vercel.app'}/produto/${product.slug}`;
+  const effectiveSku = selectedVariation ? selectedVariation.sku : product.sku;
+
+  const messageLines = [
     `Olá, equipe *${STORE_CONFIG.shortName}*! 👋`,
     `Gostaria de solicitar um orçamento para o seguinte produto:\n`,
     `📦 *Item:* ${product.name}`,
-    `🏷️ *Código/SKU:* ${product.sku}`,
+  ];
+
+  if (selectedVariation) {
+    const varLabel = product.variationType || 'Opção';
+    messageLines.push(`⚙️ *${varLabel}:* ${selectedVariation.name}`);
+  }
+
+  messageLines.push(
+    `🏷️ *Código/SKU:* ${effectiveSku}`,
     `🏭 *Marca:* ${product.brand}`,
     `💰 *Preço:* ${priceText} (${product.unit})`,
     `🔗 *Link:* ${urlText}\n`,
-    `Vocês possuem para pronta entrega em Franca - SP? Poderiam me passar as condições de pagamento?`,
-  ].join('\n');
+    `Vocês possuem para pronta entrega em Franca - SP? Poderiam me passar as condições de pagamento?`
+  );
 
-  return `${WHATSAPP_BASE_URL}?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(message)}`;
+  return `${WHATSAPP_BASE_URL}?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(messageLines.join('\n'))}`;
 }
 
 /**
@@ -43,8 +60,14 @@ export function getQuoteListWhatsAppUrl(items: QuoteItem[], customerBairro?: str
 
   const itemsList = items
     .map((item, index) => {
-      const priceText = item.product.price ? formatCurrency(item.product.price * item.quantity) : 'A calcular';
-      return `${index + 1}. *${item.product.name}*\n   - Qtd: ${item.quantity} ${item.product.unit} | SKU: ${item.product.sku} | Subtotal: ${priceText}`;
+      const itemPrice = (item.selectedVariation && item.selectedVariation.price !== undefined && item.selectedVariation.price !== null)
+        ? item.selectedVariation.price
+        : item.product.price;
+      const priceText = itemPrice ? formatCurrency(itemPrice * item.quantity) : 'A calcular';
+      const effectiveSku = item.selectedVariation ? item.selectedVariation.sku : item.product.sku;
+      const varSuffix = item.selectedVariation ? ` (${item.selectedVariation.name})` : '';
+
+      return `${index + 1}. *${item.product.name}${varSuffix}*\n   - Qtd: ${item.quantity} ${item.product.unit} | SKU: ${effectiveSku} | Subtotal: ${priceText}`;
     })
     .join('\n\n');
 
