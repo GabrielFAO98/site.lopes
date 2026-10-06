@@ -7,8 +7,10 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "sync:supabase": "node --env-file=.env.local scripts/upload-to-supabase.mjs",
-    "pull:supabase": "node --env-file=.env.local scripts/pull-from-supabase.mjs"
+    "sync:supabase": "node scripts/upload-to-supabase.mjs",
+    "pull:supabase": "node scripts/pull-from-supabase.mjs",
+    "upload": "node scripts/upload-to-supabase.mjs",
+    "pull": "node scripts/pull-from-supabase.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.117.2",
