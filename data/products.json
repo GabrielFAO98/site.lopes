@@ -234,7 +234,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/areia-media-lavada-a-granel-metro-cubico.webp"
+      "/images/produtos/areia-media-lavada-a-granel-metro-cubico.webp",
+      "/images/produtos/areia-media-lavada-a-granel-metro-cubico-2.webp"
     ],
     "technicalSpecs": {
       "Norma": "ABNT NBR 7211",
@@ -305,7 +306,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/pedra-brita-01-a-granel-metro-cubico.webp"
+      "/images/produtos/pedra-brita-01-a-granel-metro-cubico.webp",
+      "/images/produtos/pedra-brita-01-a-granel-metro-cubico-2.webp"
     ],
     "technicalSpecs": {
       "Norma": "ABNT NBR 7211",
