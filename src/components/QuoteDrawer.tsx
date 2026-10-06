@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { 
   X, 
@@ -15,6 +15,83 @@ import { WhatsAppIcon } from './WhatsAppIcon';
 import { useQuote, getQuoteItemKey } from './QuoteContext';
 import { formatCurrency, getQuoteListWhatsAppUrl } from '@/lib/whatsapp';
 import { STORE_CONFIG } from '@/lib/store-config';
+
+function DrawerQuantityControl({
+  itemKey,
+  quantity,
+  onUpdate,
+}: {
+  itemKey: string;
+  quantity: number;
+  onUpdate: (key: string, qty: number) => void;
+}) {
+  const [val, setVal] = useState<string>(String(quantity).replace('.', ','));
+
+  useEffect(() => {
+    setVal(String(quantity).replace('.', ','));
+  }, [quantity]);
+
+  const handleChange = (inputVal: string) => {
+    setVal(inputVal);
+    const parsed = parseFloat(inputVal.replace(',', '.'));
+    if (!isNaN(parsed) && parsed > 0) {
+      onUpdate(itemKey, parsed);
+    }
+  };
+
+  const handleBlur = () => {
+    const parsed = parseFloat(val.replace(',', '.'));
+    if (isNaN(parsed) || parsed <= 0) {
+      onUpdate(itemKey, 1);
+      setVal('1');
+    } else {
+      onUpdate(itemKey, parsed);
+      setVal(String(parsed).replace('.', ','));
+    }
+  };
+
+  const handleDecrement = () => {
+    const next = quantity <= 1 
+      ? Math.max(0.1, Math.round((quantity - 0.25) * 100) / 100)
+      : Math.round((quantity - 1) * 100) / 100;
+    onUpdate(itemKey, next);
+  };
+
+  const handleIncrement = () => {
+    const next = Math.round((quantity + 1) * 100) / 100;
+    onUpdate(itemKey, next);
+  };
+
+  return (
+    <div className="flex items-center gap-1 shrink-0 bg-white border border-slate-200 rounded-md p-0.5">
+      <button
+        type="button"
+        onClick={handleDecrement}
+        className="p-1 text-slate-500 hover:text-slate-900 transition-colors"
+        title="Diminuir"
+      >
+        <Minus className="w-3.5 h-3.5" />
+      </button>
+      <input
+        type="text"
+        inputMode="decimal"
+        value={val}
+        onChange={(e) => handleChange(e.target.value)}
+        onBlur={handleBlur}
+        className="w-12 text-xs font-bold text-center text-slate-800 bg-transparent focus:outline-none focus:bg-blue-50/50 rounded py-0.5"
+        aria-label="Quantidade"
+      />
+      <button
+        type="button"
+        onClick={handleIncrement}
+        className="p-1 text-slate-500 hover:text-slate-900 transition-colors"
+        title="Aumentar"
+      >
+        <Plus className="w-3.5 h-3.5" />
+      </button>
+    </div>
+  );
+}
 
 export function QuoteDrawer() {
   const { 
@@ -51,8 +128,8 @@ export function QuoteDrawer() {
         onClick={closeDrawer}
       />
 
-      <div className="fixed inset-y-0 right-0 max-w-full flex pl-10">
-        <div className="w-screen max-w-md bg-white shadow-2xl flex flex-col">
+      <div className="fixed inset-y-0 right-0 max-w-full flex pl-0 sm:pl-10">
+        <div className="w-screen max-w-full sm:max-w-md bg-white shadow-2xl flex flex-col">
           {/* Header do Drawer */}
           <div className="px-5 py-4 bg-lopes-blue text-white flex items-center justify-between">
             <div className="flex items-center gap-2">
@@ -153,26 +230,12 @@ export function QuoteDrawer() {
                         </p>
                       </div>
 
-                      {/* Controles de Quantidade */}
-                      <div className="flex items-center gap-1.5 shrink-0 bg-white border border-slate-200 rounded-md p-1">
-                        <button
-                          onClick={() => updateQuantity(itemKey, item.quantity - 1)}
-                          className="p-0.5 text-slate-600 hover:text-slate-900"
-                          title="Diminuir quantidade"
-                        >
-                          <Minus className="w-3.5 h-3.5" />
-                        </button>
-                        <span className="text-xs font-bold w-5 text-center text-slate-800">
-                          {item.quantity}
-                        </span>
-                        <button
-                          onClick={() => updateQuantity(itemKey, item.quantity + 1)}
-                          className="p-0.5 text-slate-600 hover:text-slate-900"
-                          title="Aumentar quantidade"
-                        >
-                          <Plus className="w-3.5 h-3.5" />
-                        </button>
-                      </div>
+                      {/* Controles de Quantidade Editável */}
+                      <DrawerQuantityControl
+                        itemKey={itemKey}
+                        quantity={item.quantity}
+                        onUpdate={updateQuantity}
+                      />
 
                       {/* Excluir Item */}
                       <button
@@ -192,11 +255,11 @@ export function QuoteDrawer() {
           {/* Rodapé do Drawer com Envio WhatsApp */}
           {items.length > 0 && (
             <div className="p-4 bg-slate-50 border-t border-slate-200 space-y-3">
-              {/* Campo de Bairro para Entrega */}
+              {/* Campo de Local para Entrega */}
               <div>
                 <label className="block text-xs font-semibold text-slate-700 mb-1 flex items-center gap-1">
                   <MapPin className="w-3.5 h-3.5 text-lopes-orange-500" />
-                  <span>Bairro de entrega em Franca - SP (opcional):</span>
+                  <span>Local de entrega:</span>
                 </label>
                 <input
                   type="text"

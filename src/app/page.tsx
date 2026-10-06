@@ -56,7 +56,7 @@ export default async function HomePage() {
           <div className="max-w-7xl mx-auto relative z-10">
             <div className="max-w-3xl space-y-5 sm:space-y-6">
               <div className="inline-flex items-center gap-2 bg-lopes-orange/20 border border-lopes-orange/40 text-lopes-orange-200 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-                <span className="w-2 h-2 rounded-full bg-lopes-orange animate-ping" />
+                <span className="w-2 h-2 rounded-full bg-lopes-orange" />
                 <span>Entregas em Franca e Região</span>
               </div>
 
@@ -195,7 +195,7 @@ export default async function HomePage() {
             </h2>
             <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-4 sm:mb-5" />
             <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
-              Fundada em Franca, a Lopes e Lopes Materiais para Construção sempre atendeu seus clientes com muito compromisso e responsabilidade. Trabalhamos com as melhores marcas e produtos a pronta entrega. Ao longo dos anos nos tornamos referência em materiais para construção em Franca e região, atendendo desde o básico até o acabamento com agilidade, preço justo e dedicação.
+              Com mais de 35 anos de tradição em Franca, a Lopes e Lopes Materiais para Construção atende quem constrói e reforma com responsabilidade, agilidade e preço justo. Trabalhamos com as melhores marcas e amplo estoque a pronta entrega do básico ao acabamento.
             </p>
           </div>
         </div>

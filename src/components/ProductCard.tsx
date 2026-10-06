@@ -90,12 +90,12 @@ export function ProductCard({ product }: ProductCardProps) {
 
         {/* Preço e Botões de Conversão - Ancorados no rodapé */}
         <div className="pt-2 border-t border-slate-100 mt-auto">
-          {/* Preço e Unidade - Altura padronizada */}
-          <div className="h-10 sm:h-9 flex flex-col justify-center mb-2 sm:mb-2.5">
+          {/* Preço e Unidade - Altura confortável sem corte de texto */}
+          <div className="min-h-[44px] sm:min-h-[46px] flex flex-col justify-center mb-2 sm:mb-2.5">
             <span className="text-base sm:text-lg font-bold text-slate-900 leading-tight">
               {product.price !== null ? formatCurrency(product.price) : 'Sob Consulta'}
             </span>
-            <span className="text-[10px] sm:text-xs text-slate-500 font-medium truncate leading-tight">
+            <span className="text-[11px] sm:text-xs text-slate-500 font-medium truncate leading-normal">
               / {product.unit}
             </span>
           </div>

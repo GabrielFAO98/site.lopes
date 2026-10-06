@@ -16,7 +16,41 @@ export function ProductActions({ product }: ProductActionsProps) {
   const [selectedVariation, setSelectedVariation] = useState<ProductVariation | undefined>(
     product.variations && product.variations.length > 0 ? product.variations[0] : undefined
   );
-  const [quantity, setQuantity] = useState(1);
+  const [quantity, setQuantity] = useState<number>(1);
+  const [quantityInput, setQuantityInput] = useState<string>('1');
+
+  const handleQuantityInputChange = (val: string) => {
+    setQuantityInput(val);
+    const parsed = parseFloat(val.replace(',', '.'));
+    if (!isNaN(parsed) && parsed > 0) {
+      setQuantity(parsed);
+    }
+  };
+
+  const handleQuantityBlur = () => {
+    const parsed = parseFloat(quantityInput.replace(',', '.'));
+    if (isNaN(parsed) || parsed <= 0) {
+      setQuantity(1);
+      setQuantityInput('1');
+    } else {
+      setQuantity(parsed);
+      setQuantityInput(String(parsed).replace('.', ','));
+    }
+  };
+
+  const handleIncrement = () => {
+    const next = Math.round((quantity + 1) * 100) / 100;
+    setQuantity(next);
+    setQuantityInput(String(next).replace('.', ','));
+  };
+
+  const handleDecrement = () => {
+    const next = quantity <= 1 
+      ? Math.max(0.1, Math.round((quantity - 0.25) * 100) / 100)
+      : Math.round((quantity - 1) * 100) / 100;
+    setQuantity(next);
+    setQuantityInput(String(next).replace('.', ','));
+  };
 
   const hasVariations = Boolean(product.variations && product.variations.length > 0);
   const isColorVariation = Boolean(
@@ -140,17 +174,25 @@ export function ProductActions({ product }: ProductActionsProps) {
         </label>
         <div className="flex items-center border border-slate-300 rounded-lg overflow-hidden bg-white">
           <button
-            onClick={() => setQuantity((q) => Math.max(1, q - 1))}
+            type="button"
+            onClick={handleDecrement}
             className="px-3 py-2 text-slate-600 hover:bg-slate-100 transition-colors"
             title="Diminuir"
           >
             <Minus className="w-4 h-4" />
           </button>
-          <span className="w-12 text-center text-sm font-bold text-slate-900">
-            {quantity}
-          </span>
+          <input
+            type="text"
+            inputMode="decimal"
+            value={quantityInput}
+            onChange={(e) => handleQuantityInputChange(e.target.value)}
+            onBlur={handleQuantityBlur}
+            className="w-16 sm:w-20 text-center text-sm font-bold text-slate-900 border-x border-slate-200 py-1.5 focus:outline-none focus:bg-slate-50"
+            aria-label="Quantidade"
+          />
           <button
-            onClick={() => setQuantity((q) => q + 1)}
+            type="button"
+            onClick={handleIncrement}
             className="px-3 py-2 text-slate-600 hover:bg-slate-100 transition-colors"
             title="Aumentar"
           >

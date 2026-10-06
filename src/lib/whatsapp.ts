@@ -77,7 +77,7 @@ export function getQuoteListWhatsAppUrl(items: QuoteItem[], customerBairro?: str
     itemsList,
     '',
     customerBairro
-      ? `📍 *Bairro para entrega em Franca:* ${customerBairro}`
+      ? `📍 *Local de entrega:* ${customerBairro}`
       : `📍 Gostaria de saber o valor total e o prazo de entrega/retirada em Franca - SP.`,
     `\nFico no aguardo do retorno! Obrigado(a).`,
   ].join('\n');
