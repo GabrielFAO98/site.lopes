@@ -6,7 +6,6 @@ export interface Product {
   description: string;
   price: number | null; // null quando for "sob consulta"
   priceFormatted?: string;
-  wholesaleNotice?: string; // ex: "Consulte desconto para carga fechada ou pedidos de obra"
   unit: string; // 'UN', 'Saco 50kg', 'Barra 3m', 'Lata 18L', 'Metro', 'Caixa'
   departmentId: string;
   departmentName: string;
@@ -20,7 +19,6 @@ export interface Product {
   applications: string[];
   warranty?: string;
   relatedSkus?: string[];
-  videoUrl?: string;
 }
 
 export interface Department {

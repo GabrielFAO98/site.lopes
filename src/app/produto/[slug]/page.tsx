@@ -123,7 +123,6 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           <ProductGallery
             images={product.images}
             name={product.name}
-            videoUrl={product.videoUrl}
           />
         </div>
 

@@ -11,7 +11,6 @@ CREATE TABLE IF NOT EXISTS public.produtos (
     slug TEXT NOT NULL UNIQUE,
     description TEXT,
     price NUMERIC(10, 2),
-    wholesale_notice TEXT,
     unit TEXT NOT NULL DEFAULT 'UN',
     department_id TEXT NOT NULL,
     department_name TEXT NOT NULL,
@@ -25,7 +24,6 @@ CREATE TABLE IF NOT EXISTS public.produtos (
     applications JSONB DEFAULT '[]'::jsonb,
     warranty TEXT,
     related_skus JSONB DEFAULT '[]'::jsonb,
-    video_url TEXT,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
@@ -52,3 +50,11 @@ CREATE POLICY "Modificação de produtos"
 ON public.produtos FOR ALL 
 USING (true)
 WITH CHECK (true);
+
+-- ==============================================================================
+-- MIGRAÇÃO: Remover colunas obsoletas (wholesale_notice e video_url)
+-- Caso sua tabela já tenha sido criada anteriormente, rode o comando abaixo:
+-- ==============================================================================
+-- ALTER TABLE public.produtos DROP COLUMN IF EXISTS wholesale_notice;
+-- ALTER TABLE public.produtos DROP COLUMN IF EXISTS video_url;
+

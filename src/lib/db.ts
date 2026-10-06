@@ -17,7 +17,6 @@ function mapRowToProduct(row: any): Product {
     slug: row.slug,
     description: row.description || '',
     price: row.price !== null && row.price !== undefined ? Number(row.price) : null,
-    wholesaleNotice: row.wholesale_notice,
     unit: row.unit || 'UN',
     departmentId: row.department_id,
     departmentName: row.department_name,
@@ -31,7 +30,6 @@ function mapRowToProduct(row: any): Product {
     applications: Array.isArray(row.applications) ? row.applications : [],
     warranty: row.warranty,
     relatedSkus: Array.isArray(row.related_skus) ? row.related_skus : [],
-    videoUrl: row.video_url || row.videoUrl || undefined,
   };
 }
 
