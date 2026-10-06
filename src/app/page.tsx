@@ -19,6 +19,7 @@ import { getFeaturedProducts, getDepartmentsWithCount, getNewProducts } from '@/
 import { ProductCarousel } from '@/components/ProductCarousel';
 import { HomeBannerSlider } from '@/components/HomeBannerSlider';
 import { BrandsSection } from '@/components/BrandsSection';
+import { GoogleReviewsSection } from '@/components/GoogleReviewsSection';
 import { STORE_CONFIG } from '@/lib/store-config';
 
 // Revalidação periódica (ISR): atualiza a cada 60s com novos produtos do Supabase
@@ -194,7 +195,10 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 7. Banner Especial para Profissionais da Obra */}
+      {/* 7. Prova Social: Avaliações Reais do Google Maps */}
+      <GoogleReviewsSection />
+
+      {/* 8. Banner Especial para Profissionais da Obra (Última Seção) */}
       <section className="max-w-7xl mx-auto px-4">
         <div className="bg-gradient-to-r from-slate-900 to-slate-800 rounded-2xl p-6 sm:p-10 text-white shadow-xl relative overflow-hidden">
           <div className="relative z-10 max-w-2xl space-y-4">
