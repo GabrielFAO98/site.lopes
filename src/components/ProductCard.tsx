@@ -50,13 +50,10 @@ export function ProductCard({ product }: ProductCardProps) {
       {/* Conteúdo do Card */}
       <div className="p-3 sm:p-4 flex-1 flex flex-col justify-between">
         <div>
-          {/* Marca & Departamento */}
-          <div className="flex items-center justify-between text-[11px] sm:text-xs text-slate-500 mb-1 sm:mb-1.5">
-            <span className="font-semibold text-lopes-blue uppercase tracking-wider truncate">
+          {/* Marca */}
+          <div className="text-[11px] sm:text-xs text-slate-500 mb-1 sm:mb-1.5">
+            <span className="font-semibold text-lopes-blue uppercase tracking-wider truncate block">
               {product.brand}
-            </span>
-            <span className="text-slate-400 truncate max-w-[80px] sm:max-w-[120px] hidden min-[380px]:inline">
-              {product.departmentName}
             </span>
           </div>
 
@@ -147,7 +144,7 @@ export function ProductCard({ product }: ProductCardProps) {
                 ) : (
                   <>
                     <Plus className="w-3.5 h-3.5 text-slate-600 shrink-0" />
-                    <span>+ Cotação</span>
+                    <span>Cotação</span>
                   </>
                 )}
               </button>

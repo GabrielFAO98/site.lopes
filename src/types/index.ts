@@ -62,7 +62,7 @@ export interface StoreInfo {
   openingHours: {
     weekdays: string;
     saturday: string;
-    sunday: string;
+    sunday?: string;
   };
   cnpj?: string;
   ie?: string;

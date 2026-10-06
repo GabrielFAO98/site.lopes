@@ -59,7 +59,7 @@ export function Header() {
           </div>
           <div className="flex items-center gap-1.5 text-slate-300">
             <Clock className="w-3.5 h-3.5 text-slate-400" />
-            <span>Seg a Sex: 07:30 às 18:00 | Sáb: 07:30 às 12:30</span>
+            <span>Seg a Sex: 7h às 18h | Sáb: 7h às 12h</span>
           </div>
         </div>
       </div>
@@ -180,7 +180,7 @@ export function Header() {
             ))}
           </div>
           <div className="text-xs text-lopes-orange-200 shrink-0 font-medium pl-2">
-            📍 Entregas em toda Franca - SP
+            📍 Entregas em Franca e Região
           </div>
         </div>
       </nav>

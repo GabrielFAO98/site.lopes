@@ -69,21 +69,14 @@ export function Footer() {
               <Clock className="w-4 h-4 text-lopes-orange-400 shrink-0 mt-0.5" />
               <div>
                 <p className="font-medium text-white">Segunda a Sexta:</p>
-                <p className="text-slate-400">07:30 às 18:00</p>
+                <p className="text-slate-400">7h às 18h</p>
               </div>
             </div>
             <div className="flex items-start gap-2.5">
               <Clock className="w-4 h-4 text-lopes-orange-400 shrink-0 mt-0.5" />
               <div>
                 <p className="font-medium text-white">Sábados:</p>
-                <p className="text-slate-400">07:30 às 12:30</p>
-              </div>
-            </div>
-            <div className="flex items-start gap-2.5">
-              <Clock className="w-4 h-4 text-slate-500 shrink-0 mt-0.5" />
-              <div>
-                <p className="font-medium text-slate-400">Domingos e Feriados:</p>
-                <p className="text-slate-500">Fechado</p>
+                <p className="text-slate-400">7h às 12h</p>
               </div>
             </div>
           </div>

@@ -79,14 +79,14 @@ export default function RootLayout({
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
-        opens: '07:30',
+        opens: '07:00',
         closes: '18:00',
       },
       {
         '@type': 'OpeningHoursSpecification',
         dayOfWeek: 'Saturday',
-        opens: '07:30',
-        closes: '12:30',
+        opens: '07:00',
+        closes: '12:00',
       },
     ],
     priceRange: '$$',

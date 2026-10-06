@@ -108,6 +108,17 @@ export async function getFeaturedProducts(): Promise<Product[]> {
 }
 
 /**
+ * Retorna os produtos para a seção de Novidades
+ */
+export async function getNewProducts(limit: number = 8): Promise<Product[]> {
+  const products = await getAllProducts();
+  const prioritySkus = ['20101', '20201', '20301', '20401', '100510', '100511', '100605', '100607', '100104'];
+  const prioritized = products.filter((p) => prioritySkus.includes(p.sku));
+  const remaining = products.filter((p) => !prioritySkus.includes(p.sku));
+  return [...prioritized, ...remaining].slice(0, limit);
+}
+
+/**
  * Retorna os produtos pertencentes a um departamento específico
  */
 export async function getProductsByDepartment(departmentId: string): Promise<Product[]> {

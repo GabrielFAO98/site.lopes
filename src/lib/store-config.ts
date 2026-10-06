@@ -15,9 +15,8 @@ export const STORE_CONFIG: StoreInfo = {
   cnpj: '07.656.731/0001-39',
   ie: '310.400.671.116',
   openingHours: {
-    weekdays: 'Segunda a Sexta: 07:30 às 18:00',
-    saturday: 'Sábado: 07:30 às 12:30',
-    sunday: 'Domingo e Feriados: Fechado',
+    weekdays: 'Segunda a Sexta: 7h às 18h',
+    saturday: 'Sábado: 7h às 12h',
   },
 };
 
