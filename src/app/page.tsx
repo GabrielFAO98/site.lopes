@@ -209,7 +209,7 @@ export default async function HomePage() {
               Pedreiro, Eletricista, Encanador ou Construtor em Franca?
             </h3>
             <p className="text-slate-300 text-sm sm:text-base leading-relaxed">
-              Não perca tempo rodando pela cidade. Mande sua lista manuscrita ou arquivo de obra direto no nosso WhatsApp e receba a cotação com as melhores condições e entrega rápida no seu canteiro.
+              Não perca tempo rodando pela cidade. Mande sua lista no nosso WhatsApp e receba a cotação com as melhores condições e entrega rápida na sua obra.
             </p>
             <div className="flex flex-wrap items-center gap-4 pt-2">
               <a
@@ -223,9 +223,6 @@ export default async function HomePage() {
                 <WhatsAppIcon className="w-5 h-5 fill-white" />
                 <span>Cotar Lista de Obra no WhatsApp</span>
               </a>
-              <span className="text-xs text-slate-400">
-                Ou ligue: <strong className="text-white">{STORE_CONFIG.phone}</strong>
-              </span>
             </div>
           </div>
         </div>
