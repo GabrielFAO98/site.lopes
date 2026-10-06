@@ -19,14 +19,14 @@ const BANNERS: BannerSlide[] = [
     id: 1,
     desktopImage: '/images/banners/banner-1-desktop.webp',
     mobileImage: '/images/banners/banner-1-mobile.webp',
-    alt: 'Da Fundação ao Acabamento - Cimento, Areia, Brita e Aço - Lopes e Lopes Franca',
-    link: '/produtos?depto=construcao-basica',
+    alt: 'Qualidade que constrói confiança - Tudo o que sua obra precisa está aqui - Lopes e Lopes Franca',
+    link: '/produtos',
   },
   {
     id: 2,
     desktopImage: '/images/banners/banner-2-desktop.webp',
     mobileImage: '/images/banners/banner-2-mobile.webp',
-    alt: 'Acabamentos e Ferramentas - Votomassa, Vedacit, Tekbond, Cortag - Lopes e Lopes Franca',
+    alt: 'As Melhores Marcas - Parcerias de sucesso, Qualidade garantida - Lopes e Lopes Franca',
     link: '/produtos',
   },
   {
@@ -113,8 +113,8 @@ export function HomeBannerSlider() {
                 />
               </div>
 
-              {/* Versão Mobile (quadrada/otimizada para celular, 800x800) */}
-              <div className="block md:hidden relative w-full aspect-square">
+              {/* Versão Mobile (otimizada para celular, 800x240) */}
+              <div className="block md:hidden relative w-full aspect-[16/5.2]">
                 <Image
                   src={banner.mobileImage}
                   alt={banner.alt}
