@@ -125,7 +125,7 @@ export function QuoteDrawer() {
                             src={item.selectedVariation?.image || item.product.images[0]}
                             alt={item.product.name}
                             fill
-                            className="object-cover"
+                            className="object-contain p-1"
                           />
                         ) : (
                           <div className="w-full h-full flex items-center justify-center text-sm">

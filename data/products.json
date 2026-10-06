@@ -15,7 +15,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/prego-com-cabeca-gerdau-17x21-1kg.webp",
+      "/images/produtos/prego-com-cabeca-gerdau-17x21-1kg-detalhe.webp"
     ],
     "technicalSpecs": {
       "Acabamento": "Polido",
@@ -32,7 +33,6 @@
     "warranty": "Garantia Gerdau",
     "relatedSkus": [
       "2525",
-      "52",
       "86"
     ]
   },
@@ -52,7 +52,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/tijolo-baiano-ceramico-8-furos-9x19x19-vargem-grande.webp"
     ],
     "technicalSpecs": {
       "Furos": "8 furos horizontais",
@@ -69,7 +69,6 @@
     "warranty": "Queima uniforme e medidas padrão",
     "relatedSkus": [
       "2152",
-      "423",
       "2882",
       "3"
     ]
@@ -90,7 +89,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/tijolinho-macico-maquinado-9x19x4-5.webp"
     ],
     "technicalSpecs": {
       "Tipo": "Maciço Maquinado Liso",
@@ -126,7 +125,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "/images/produtos/arame-recozido-torcido-kg.jpg"
+      "/images/produtos/arame-recozido-torcido-bwg-18-1kg.webp"
     ],
     "technicalSpecs": {
       "Bitola": "BWG 18 Duplo Torcido (1,24 mm cada perna)",
@@ -141,8 +140,6 @@
     ],
     "warranty": "Garantia do fabricante",
     "relatedSkus": [
-      "52",
-      "54",
       "86",
       "1453"
     ]
@@ -163,8 +160,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/cimento-csn-cp2-50kg.jpg",
-      "/images/produtos/cimento-csn-cp2-50kg-.jpg"
+      "/images/produtos/cimento-portland-csn-cp-ii-e-32-50kg.webp",
+      "/images/produtos/cimento-portland-csn-cp-ii-e-32-50kg-2.webp"
     ],
     "technicalSpecs": {
       "Tipo": "CP II-E-32 (Portland com Escória)",
@@ -182,8 +179,7 @@
     "relatedSkus": [
       "3",
       "400",
-      "397",
-      "52"
+      "397"
     ]
   },
   {
@@ -202,7 +198,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/cal-itau-hidratada-ch3-20kg.jpg"
+      "/images/produtos/cal-hidratada-itau-ch-1-20kg.webp"
     ],
     "technicalSpecs": {
       "Norma": "ABNT NBR 7175",
@@ -238,7 +234,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/areia-media-lavada-a-granel-metro-cubico.webp"
     ],
     "technicalSpecs": {
       "Norma": "ABNT NBR 7211",
@@ -274,7 +270,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/areia-fina-lavada-ibiraci-a-granel-metro-cubico.webp"
     ],
     "technicalSpecs": {
       "Cor": "Clara / Esbranquiçada",
@@ -309,7 +305,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1519750783826-e2420f4d687f?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/pedra-brita-01-a-granel-metro-cubico.webp"
     ],
     "technicalSpecs": {
       "Norma": "ABNT NBR 7211",
@@ -329,117 +325,6 @@
     ]
   },
   {
-    "id": "prod-423",
-    "sku": "423",
-    "name": "Canaleta de Concreto 10x20x40cm",
-    "slug": "canaleta-de-concreto-10x20x40cm",
-    "description": "Canaleta estrutural de concreto em formato 'U' nas medidas 10x20x40cm. Utilizada para confecção de vergas, contravergas, vigas de cinta e amarração sem necessidade de formas de madeira.",
-    "price": 3.4,
-    "unit": "Unidade (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Tijolos e Blocos",
-    "brand": "Blocos Lopes",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": false,
-    "images": [
-      "https://images.unsplash.com/photo-1541888946425-d0fbb186c5f8?auto=format&fit=crop&w=800&q=80"
-    ],
-    "technicalSpecs": {
-      "Tipo": "Canaleta de Concreto Formato U",
-      "Consumo": "2,5 peças por metro linear de cinta/viga",
-      "Função": "Dispensa caixaria de madeira para vigas e vergas",
-      "Dimensões": "10 x 20 x 40 cm (Largura x Altura x Comprimento)"
-    },
-    "applications": [
-      "Vergas sobre portas e contravergas sob janelas",
-      "Cintas de amarração superior em paredes de bloco/tijolo",
-      "Vigas baldrame niveladoras"
-    ],
-    "warranty": "Cura a vapor com resistência garantida",
-    "relatedSkus": [
-      "1534",
-      "86",
-      "2882"
-    ]
-  },
-  {
-    "id": "prod-52",
-    "sku": "52",
-    "name": "Ferragem Armada 15x25cm 4 Ferro 3/8\" (10mm)",
-    "slug": "ferragem-armada-15x25-4-ferro-3-8",
-    "description": "Coluna/viga armada pronta para uso estrutural de 15x25cm com 4 barras de ferro CA-50 3/8\" (10mm) e estribos 5mm soldados ou amarrados a cada 20cm. Agilidade e precisão no canteiro de obras de Franca.",
-    "price": 27.5,
-    "unit": "Metro (MT)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Aço e Ferragens Armadas",
-    "brand": "Gerdau / Lopes",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
-    ],
-    "technicalSpecs": {
-      "Estribo": "Aço CA-60 4,2mm a 5,0mm",
-      "Aplicação": "Vigas baldrame, pilares, colunas e vergas",
-      "Barras Principais": "4 Ferros de 3/8\" (10,0 mm) CA-50",
-      "Dimensão do Estribo": "15 x 25 cm",
-      "Espaçamento dos Estribos": "A cada 20 cm"
-    },
-    "applications": [
-      "Baldrames e alicerces residenciais",
-      "Pilares e colunas de sustentação",
-      "Vigas aéreas e travamento de alvenaria"
-    ],
-    "warranty": "Aço certificado ABNT NBR 7480",
-    "relatedSkus": [
-      "54",
-      "86",
-      "2525",
-      "1453"
-    ]
-  },
-  {
-    "id": "prod-54",
-    "sku": "54",
-    "name": "Ferragem Armada 15x15cm 4 Ferro 3/8\" (10mm)",
-    "slug": "ferragem-armada-15x15-4-ferro-3-8",
-    "description": "Coluna armada pronta de 15x15cm com 4 ferros de 3/8\" (10mm) CA-50. Ideal para caixaria padrão de bloco e tijolo de 15cm. Economiza tempo do armador e reduz desperdício de pontas de aço na obra.",
-    "price": 26,
-    "unit": "Metro (MT)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Aço e Ferragens Armadas",
-    "brand": "Gerdau / Lopes",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "https://images.unsplash.com/photo-1504917599217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80"
-    ],
-    "technicalSpecs": {
-      "Norma": "NBR 7480",
-      "Tipo de Aço": "Gerdau CA-50 nervurado",
-      "Barras Principais": "4 Ferros de 3/8\" (10,0 mm) CA-50",
-      "Dimensão do Estribo": "15 x 15 cm",
-      "Espaçamento dos Estribos": "A cada 20 cm"
-    },
-    "applications": [
-      "Colunas padrão para muros e residências",
-      "Baldrames em caixarias de 15cm",
-      "Cintas de amarração superior"
-    ],
-    "warranty": "Garantia de aço certificado",
-    "relatedSkus": [
-      "52",
-      "86",
-      "2525"
-    ]
-  },
-  {
     "id": "prod-86",
     "sku": "86",
     "name": "Barra de Ferro CA-50 5/16\" (8,0mm) 12 Metros",
@@ -455,7 +340,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1535813547-99c456a41d4a?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/barra-de-ferro-ca50-5-16-12m-gerdau.webp"
     ],
     "technicalSpecs": {
       "Norma": "ABNT NBR 7480",
@@ -471,8 +356,6 @@
     ],
     "warranty": "Certificação Gerdau / Inmetro",
     "relatedSkus": [
-      "52",
-      "54",
       "2525",
       "92"
     ]
@@ -493,7 +376,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/trelica-nervurada-de-aco-tr08-gerdau.webp"
     ],
     "technicalSpecs": {
       "Norma": "ABNT NBR 14859",
@@ -514,36 +397,6 @@
     ]
   },
   {
-    "id": "prod-coral-18l",
-    "sku": "100401",
-    "name": "Tinta Acrílica Fosca Rende Muito 18L Branco Neve Coral",
-    "slug": "tinta-acrilica-fosca-rende-muito-18l-branco-neve-coral",
-    "description": "A Tinta Coral Rende Muito tem alta consistência e permite diluição de até 80% com água. Proporciona rendimento de até 500m² por lata com excelente cobertura fosca sem cheiro após 3 horas.",
-    "price": 319,
-    "unit": "Lata 18L",
-    "departmentId": "tintas-e-acessorios",
-    "departmentName": "Tintas e Acessórios",
-    "category": "Tintas Imobiliárias",
-    "brand": "Coral",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "https://images.unsplash.com/photo-1589939705384-5185137a7f0f?auto=format&fit=crop&w=800&q=80"
-    ],
-    "technicalSpecs": {
-      "Volume": "18 Litros",
-      "Acabamento": "Fosco aveludado",
-      "Rendimento": "Até 500 m² por demão"
-    },
-    "applications": [
-      "Paredes internas e externas de alvenaria",
-      "Gesso e drywall"
-    ],
-    "warranty": "Garantia Coral",
-    "relatedSkus": []
-  },
-  {
     "id": "prod-fio-sil",
     "sku": "100301",
     "name": "Cabo Flexível 2,5mm² 750V Rolo 100 Metros Sil (Azul)",
@@ -559,7 +412,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1544724569-5f546fd6f2b5?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/cabo-flexivel-2-5mm-750v-100m-sil-azul.webp",
+      "/images/produtos/cabo-flexivel-2-5mm-750v-100m-sil-azul-detalhe.webp"
     ],
     "technicalSpecs": {
       "Norma": "NBR NM 247-3",
@@ -573,70 +427,6 @@
     ],
     "warranty": "Certificação e garantia Sil Fios",
     "relatedSkus": []
-  },
-  {
-    "id": "prod-torneira",
-    "sku": "100701",
-    "name": "Torneira de Mesa para Lavatório Bica Móvel 1/4 Volta Cromada Lorenzetti",
-    "slug": "torneira-mesa-lavatorio-bica-movel-lorenzetti",
-    "description": "Design moderno com acabamento cromado brilhante e mecanismo de 1/4 de volta com pastilha cerâmica para fechamento suave sem pingos e economia de água.",
-    "price": 89.9,
-    "unit": "UN",
-    "departmentId": "acabamentos",
-    "departmentName": "Acabamentos & Metais",
-    "category": "Metais Sanitários",
-    "brand": "Lorenzetti",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
-    ],
-    "technicalSpecs": {
-      "Material": "ABS com banho cromo triplo",
-      "Acionamento": "1/4 de Volta Cerâmico",
-      "Instalação": "Mesa / Bancada"
-    },
-    "applications": [
-      "Lavatórios de banheiro residencial e comercial"
-    ],
-    "warranty": "Garantia Lorenzetti",
-    "relatedSkus": []
-  },
-  {
-    "id": "prod-tubo-100",
-    "sku": "100201",
-    "name": "Tubo PVC Esgoto Série Normal 100mm 3m Tigre",
-    "slug": "tubo-pvc-esgoto-100mm-3m-tigre",
-    "description": "Tubo de PVC rígido para condução de efluentes em instalações prediais de esgoto sanitário e ventilação. Fabricado pela Tigre com paredes reforçadas e encaixe perfeito com anel de vedação.",
-    "price": 43.8,
-    "unit": "Barra 3m",
-    "departmentId": "hidraulica",
-    "departmentName": "Hidráulica",
-    "category": "Tubos e Conexões",
-    "brand": "Tigre",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "https://images.unsplash.com/photo-1607472586893-edb57bdc0e39?auto=format&fit=crop&w=800&q=80"
-    ],
-    "technicalSpecs": {
-      "Junta": "Elástica (com anel) ou soldável",
-      "Norma": "NBR 5688",
-      "Material": "PVC rígido",
-      "Comprimento": "3 metros",
-      "Diâmetro Nominal": "DN 100 mm (4 polegadas)"
-    },
-    "applications": [
-      "Redes coletoras de esgoto predial",
-      "Tubulações de ventilação sanitária",
-      "Tubulação de descida de águas servidas"
-    ],
-    "warranty": "50 anos de garantia do fabricante",
-    "relatedSkus": [
-      "100202"
-    ]
   },
   {
     "id": "prod-100102",
@@ -654,8 +444,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/argamassa-aci-interno-votomassa-20kg.png",
-      "/images/produtos/argamassa-aci-interno-votomassa-20kg_.jpg"
+      "/images/produtos/argamassa-aci-interno-votomassa-20kg.webp",
+      "/images/produtos/argamassa-aci-interno-votomassa-20kg-2.webp"
     ],
     "technicalSpecs": {
       "Classificação / Norma": "AC-I (ABNT NBR 14081)",
@@ -698,7 +488,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/tinta-spray-uso-geral-tekbond-400ml.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-cores.webp"
     ],
     "variationType": "Cor",
     "variations": [
@@ -766,7 +557,6 @@
     ],
     "warranty": "Garantia Tekbond",
     "relatedSkus": [
-      "100401",
       "20201"
     ]
   },
@@ -786,7 +576,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/corante-liquido-xadrez-50ml.webp",
+      "/images/produtos/corante-liquido-xadrez-50ml-cores.webp"
     ],
     "variationType": "Cor",
     "variations": [
@@ -839,7 +630,6 @@
     "warranty": "Qualidade Xadrez / Lanxess",
     "relatedSkus": [
       "3",
-      "100401",
       "20101"
     ]
   },
@@ -859,7 +649,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/espacador-nivelador-de-piso-cortag-50-pecas.webp",
+      "/images/produtos/espacador-nivelador-de-piso-cortag-detalhe.webp"
     ],
     "variationType": "Espessura",
     "variations": [
@@ -909,7 +700,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80"
+      "/images/produtos/chuveiro-eletrico-maxi-ducha-3-temperaturas-lorenzetti.webp"
     ],
     "variationType": "Voltagem",
     "variations": [
@@ -937,8 +728,7 @@
     ],
     "warranty": "1 ano de garantia Lorenzetti",
     "relatedSkus": [
-      "100301",
-      "100701"
+      "100301"
     ]
   },
   {
@@ -957,9 +747,9 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/argamassa-acii-votomassa-cinza-20kg.png",
-      "/images/produtos/argamassa-acii-votomassa-cinza-20kg_.png",
-      "/images/produtos/argamassa_acii_interno_e_externo_cinza_20kg_.png"
+      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa.webp",
+      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa-2.webp",
+      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa-3.webp"
     ],
     "technicalSpecs": {
       "Classificação": "AC-II (ABNT NBR 14081)",
@@ -996,8 +786,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/argamassa_aciii_interno_e_externo_cinza_20kg.png",
-      "/images/produtos/argamassa_aciii_interno_e_externo_cinza_20kg_87125962_7275_1800x1800.jpg"
+      "/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa.webp",
+      "/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa-2.webp"
     ],
     "technicalSpecs": {
       "Classificação": "AC-III (ABNT NBR 14081)",
@@ -1033,8 +823,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/argamassa-refrataria-quartzolit-5kg.jpg",
-      "/images/produtos/argamassa-refratario-quartzolit-5kg-tabela.jpg"
+      "/images/produtos/argamassa-refrataria-quartzolit-5kg.webp",
+      "/images/produtos/argamassa-refrataria-quartzolit-5kg-2.webp"
     ],
     "technicalSpecs": {
       "Resistência Térmica": "Até 400°C",
@@ -1069,11 +859,11 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/vedacit-aditivo-impermeabilizante-trio.jpg",
-      "/images/produtos/vedacit_900ml_aditivo_impermeabilizante_profissional.JPG",
-      "/images/produtos/vedacit_3.6lt_aditivo_impermeabilizante_profissional.jpg",
-      "/images/produtos/vedacit_18lt_aditivo_impermeabilizante_profissional.jpg",
-      "/images/produtos/vedacit-aditivo-impermeabilizante-preparo.jpg"
+      "/images/produtos/aditivo-impermeabilizante-vedacit.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-2.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-3.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-4.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-5.webp"
     ],
     "variationType": "Embalagem",
     "variations": [
@@ -1128,9 +918,9 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-900ml.jpg",
-      "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-3.6kg.jpg",
-      "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-18kg.jpg"
+      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit.webp",
+      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-2.webp",
+      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-3.webp"
     ],
     "variationType": "Embalagem",
     "variations": [
@@ -1185,9 +975,9 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/adesivo-fixa-tudo-ms-amazonas-400g-branco.jpg",
-      "/images/produtos/adesivo-fixa-tudo-ms-amazonas-400g-beneficios.jpg",
-      "/images/produtos/adesivo-fixa-tudo-ms-amazonas-400g-aplicacao.jpg"
+      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g.webp",
+      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g-2.webp",
+      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g-3.webp"
     ],
     "technicalSpecs": {
       "Base Química": "Polímero Híbrido MS de alta performance",
@@ -1223,9 +1013,9 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/fixa-tudo-amazonas-branco-bisnaga-50g.jpg",
-      "/images/produtos/fixa-tudo-amazonas-branco-bisnaga-50g-.jpg",
-      "/images/produtos/fixa-tudo-amazonas-branco-bisnaga-50g--.jpg"
+      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g.webp",
+      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g-2.webp",
+      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g-3.webp"
     ],
     "technicalSpecs": {
       "Peso Líquido": "50 g",
@@ -1257,8 +1047,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g.jpg",
-      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g-.jpg"
+      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g.webp",
+      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g-2.webp"
     ],
     "technicalSpecs": {
       "Cor": "Transparente / Incolor",
@@ -1291,11 +1081,11 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/selante-pu40-cibraflex-branco-400g.jpg",
-      "/images/produtos/selante-pu40-cibraflex-cinza-400g.jpg",
-      "/images/produtos/selante-pu40-cibraflex-preto-400g.jpg",
-      "/images/produtos/selante-pu40-cibraflex-branco-400g-.png",
-      "/images/produtos/adesivo-pu40-cibraflex-branco-400g.webp"
+      "/images/produtos/selante-pu40-cibraflex-400g.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-2.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-3.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-4.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-5.webp"
     ],
     "variationType": "Cor",
     "variations": [
@@ -1350,10 +1140,10 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/selante-pu40-tekbond-cinza-387g.jpg",
-      "/images/produtos/selante-pu40-tekbond-branco.png",
-      "/images/produtos/selante-pu40-tekbond-preto-387g.jpg",
-      "/images/produtos/selante-cola-pu40-tekbond-cinza-387g.png"
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g.webp",
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g-2.webp",
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g-3.webp",
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g-4.webp"
     ],
     "variationType": "Cor",
     "variations": [
@@ -1408,9 +1198,9 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/espuma_expunsiva_pu_poliuretano_tekbond_500ml_320g.jpeg",
-      "/images/produtos/espuma_expunsiva_pu_poliuretano_tekbond_500ml_320g_.jpeg",
-      "/images/produtos/espuma_expunsiva_pu_poliuretano_tekbond_500ml_320g_2.jpeg"
+      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g.webp",
+      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g-2.webp",
+      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g-3.webp"
     ],
     "technicalSpecs": {
       "Volume / Peso": "500 ml (320 g)",
@@ -1443,10 +1233,10 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/massa-plastica-adesiva-400g-cinza-lopes-e-lopes.png",
-      "/images/produtos/massa-plastica-adesiva-400g-cinza-lopes.jpg",
-      "/images/produtos/massa-plastica-adesiva-400g-preta-lopes-e-lopes.jpg",
-      "/images/produtos/massa-plastica-adesiva-400g-preta-lopes.jpg"
+      "/images/produtos/massa-plastica-adesiva-400g.webp",
+      "/images/produtos/massa-plastica-adesiva-400g-2.webp",
+      "/images/produtos/massa-plastica-adesiva-400g-3.webp",
+      "/images/produtos/massa-plastica-adesiva-400g-4.webp"
     ],
     "variationType": "Cor",
     "variations": [
@@ -1494,8 +1284,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/aplicador-de-silicone-manual-nove54.jpg",
-      "/images/produtos/aplicador-de-silicone-manual-nove54-.jpg"
+      "/images/produtos/aplicador-de-silicone-manual-nove54.webp",
+      "/images/produtos/aplicador-de-silicone-manual-nove54-2.webp"
     ],
     "technicalSpecs": {
       "Capacidade": "Cartuchos padrão até 300 ml / 400 g",
@@ -1529,7 +1319,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/aplicador-de-silicone-manual-idea-reforcado-pistola.jpg"
+      "/images/produtos/aplicador-de-silicone-manual-idea-reforcado.webp"
     ],
     "technicalSpecs": {
       "Estrutura": "Tubo fechado em aço especial",
@@ -1560,10 +1350,10 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/espatula-celuloide-atlas-plastica.jpg",
-      "/images/produtos/espatula-celuloide-baricar-plastico.jpg",
-      "/images/produtos/espatula-celuloide-baricar-2.jpg",
-      "/images/produtos/espatula-celuloide-atlas-plastica.webp"
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas.webp",
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-2.webp",
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-3.webp",
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-4.webp"
     ],
     "technicalSpecs": {
       "Material": "Plástico celuloide virgem flexível",
@@ -1594,8 +1384,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/lapis-carpinteiro-irwin-profissional.jpg",
-      "/images/produtos/lapis-carpinteiro-pedreiro-irwin-profissional.jpg"
+      "/images/produtos/lapis-carpinteiro-pedreiro-irwin-profissional.webp",
+      "/images/produtos/lapis-carpinteiro-pedreiro-irwin-profissional-2.webp"
     ],
     "technicalSpecs": {
       "Corpo": "Madeira especial em perfil oval achatado",
@@ -1626,7 +1416,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/caixa-sabesp-padrao-hidrometro.jpg"
+      "/images/produtos/caixa-sabesp-padrao-hidrometro.webp"
     ],
     "technicalSpecs": {
       "Norma": "Homologada Sabesp / NTS",
@@ -1637,9 +1427,7 @@
       "Entrada de água e ligação padrão Sabesp em muros residenciais e comerciais"
     ],
     "warranty": "Garantia de conformidade Sabesp",
-    "relatedSkus": [
-      "100201"
-    ]
+    "relatedSkus": []
   },
   {
     "id": "prod-100203",
@@ -1657,7 +1445,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/engate-flexivel-pvc-amanco-branco-lopes-e-lopes.jpg"
+      "/images/produtos/engate-flexivel-pvc-amanco-branco.webp"
     ],
     "technicalSpecs": {
       "Bitola / Rosca": "1/2\" macho x fêmea",
@@ -1669,7 +1457,6 @@
     ],
     "warranty": "Garantia Amanco Wavin",
     "relatedSkus": [
-      "100701",
       "100204"
     ]
   },
@@ -1689,7 +1476,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/sifao-tubo-extensivel-universal-blukit-branco.jpg"
+      "/images/produtos/sifao-tubo-extensivel-universal-blukit-branco.webp"
     ],
     "technicalSpecs": {
       "Entradas": "7/8\", 1.1/4\" e 1.1/2\"",
@@ -1702,7 +1489,6 @@
     ],
     "warranty": "Garantia Blukit",
     "relatedSkus": [
-      "100701",
       "100702"
     ]
   },
@@ -1722,8 +1508,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta.jpg",
-      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta-metal.jpg"
+      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta.webp",
+      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta-2.webp"
     ],
     "technicalSpecs": {
       "Diâmetro Superior": "3.1/2 polegadas",
@@ -1754,8 +1540,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/desengripante-lubrificante-spray-vonder-300ml.jpg",
-      "/images/produtos/desengripante-lubrificante-spray-vonder-plus-300ml.jpg"
+      "/images/produtos/desengripante-lubrificante-spray-vonder-300ml.webp",
+      "/images/produtos/desengripante-lubrificante-spray-vonder-300ml-2.webp"
     ],
     "technicalSpecs": {
       "Conteúdo": "300 ml (200 g)",
@@ -1787,7 +1573,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/lampada-led-bulbo-foxlux-9w-bivolt-6500k.jpg"
+      "/images/produtos/lampada-led-bulbo-foxlux-9w-bivolt-6500k.webp"
     ],
     "technicalSpecs": {
       "Potência": "9 Watts",
@@ -1822,8 +1608,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/cimento-itau-todas-as-obras-50kg.jpg",
-      "/images/produtos/cimento_itau_todas_as_obras_50kg_votoran_.jpg"
+      "/images/produtos/cimento-itau-todas-as-obras-50kg-votoran.webp",
+      "/images/produtos/cimento-itau-todas-as-obras-50kg-votoran-2.webp"
     ],
     "technicalSpecs": {
       "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
@@ -1859,7 +1645,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "/images/produtos/cimento_itau_todas_as_obras_25kg_votoran_.jpg"
+      "/images/produtos/cimento-itau-todas-as-obras-25kg-votoran.webp"
     ],
     "technicalSpecs": {
       "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
@@ -1894,8 +1680,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-256g.jpg",
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-256g-.jpg"
+      "/images/produtos/silicone-incolor-acetico-256g-tekbond.webp",
+      "/images/produtos/silicone-incolor-acetico-256g-tekbond-2.webp"
     ],
     "technicalSpecs": {
       "Tipo de Cura": "Acética com aditivo antimofo",
@@ -1930,8 +1716,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-50g.jpg",
-      "/images/produtos/silicone-incolor-tekbond-acetico-transparente-50g-.jpg"
+      "/images/produtos/silicone-incolor-acetico-bisnaga-50g-tekbond.webp",
+      "/images/produtos/silicone-incolor-acetico-bisnaga-50g-tekbond-2.webp"
     ],
     "technicalSpecs": {
       "Tipo de Cura": "Acética com aditivo antimofo",
@@ -1964,8 +1750,8 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/bloco-de-espuma-amarelo-limpeza-rejunte-cortag.jpg",
-      "/images/produtos/bloco-espuma-amarelo-cortag.jpg"
+      "/images/produtos/bloco-de-espuma-limpeza-rejunte-cortag.webp",
+      "/images/produtos/bloco-de-espuma-limpeza-rejunte-cortag-2.webp"
     ],
     "technicalSpecs": {
       "Marca": "Cortag",
@@ -1999,7 +1785,7 @@
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "/images/produtos/bloco-de-espuma-limpeza-rejunte-tafort.jpg"
+      "/images/produtos/bloco-de-espuma-limpeza-rejunte-tafort.webp"
     ],
     "technicalSpecs": {
       "Marca": "Tafort",

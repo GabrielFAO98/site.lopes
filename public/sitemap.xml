@@ -91,21 +91,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/canaleta-de-concreto-10x20x40cm</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/ferragem-armada-15x25-4-ferro-3-8</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/ferragem-armada-15x15-4-ferro-3-8</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/barra-ferro-ca-50-5-16-8mm-12m</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -116,22 +101,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/tinta-acrilica-fosca-rende-muito-18l-branco-neve-coral</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/cabo-flexivel-2-5mm-750v-100m-sil-azul</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/torneira-mesa-lavatorio-bica-movel-lorenzetti</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/tubo-pvc-esgoto-100mm-3m-tigre</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
