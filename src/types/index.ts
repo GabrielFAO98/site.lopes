@@ -47,6 +47,7 @@ export interface Department {
   description: string;
   iconName: string;
   color: string;
+  image?: string;
 }
 
 export interface QuoteItem {

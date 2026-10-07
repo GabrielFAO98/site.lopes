@@ -55,15 +55,27 @@ export default async function HomePage() {
           <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
           {departments.map((dept) => (
             <Link
               key={dept.id}
               href={`/produtos?depto=${dept.id}`}
-              className="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 hover:border-lopes-blue hover:shadow-md transition-all group flex flex-col items-center text-center justify-center gap-2.5 min-h-[115px] sm:min-h-[120px]"
+              className="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 hover:border-lopes-blue hover:shadow-md transition-all group flex flex-col items-center text-center justify-between gap-2 min-h-[135px] sm:min-h-[145px]"
             >
-              <div className="w-11 h-11 rounded-xl bg-lopes-blue-50 text-lopes-blue group-hover:bg-lopes-blue group-hover:text-white transition-colors flex items-center justify-center shrink-0">
-                {iconMap[dept.iconName] || <Building2 className="w-6 h-6" />}
+              <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 flex items-center justify-center">
+                {dept.image ? (
+                  <Image
+                    src={dept.image}
+                    alt={dept.name}
+                    fill
+                    sizes="(max-width: 640px) 64px, 80px"
+                    className="object-contain p-1 group-hover:scale-105 transition-transform duration-200"
+                  />
+                ) : (
+                  <div className="w-12 h-12 rounded-xl bg-lopes-blue-50 text-lopes-blue flex items-center justify-center">
+                    {iconMap[dept.iconName] || <Building2 className="w-6 h-6" />}
+                  </div>
+                )}
               </div>
               <h3 className="font-bold text-xs sm:text-sm text-slate-800 group-hover:text-lopes-blue transition-colors leading-snug flex items-center justify-center break-words px-1 text-center">
                 {dept.name}

@@ -157,9 +157,28 @@ export const CONSTRUCTION_SYNONYMS: Record<string, string[]> = {
   nivelador: ['cortag', 'espacador', 'cunha', 'piso', 'porcelanato', 'revestimento'],
   espacador: ['nivelador', 'cortag', 'cunha', 'piso', 'cruzeta'],
   cunha: ['nivelador', 'cortag', 'espacador', 'piso'],
-  trena: ['medicao', 'fita metrica', 'irwin', 'metro'],
+  trena: ['medicao', 'fita metrica', 'irwin', 'metro', 'iw13947'],
   aplicador: ['silicone', 'pistola', 'esqueleto', 'nove54', 'idea'],
   pistola: ['aplicador', 'silicone', 'cola'],
+  pa: ['pa de bico', 'tramontina', 'cabo', 'madeira', 'cava', 'bico'],
+  carriola: ['carrinho de mao', 'fischer', 'ch24', 'chapa 24', 'pneu'],
+  carrinho: ['carriola', 'fischer', 'ch24', 'transporte', 'cacamba'],
+  chave: ['combinada', 'cromo vanadio', 'tramontina', 'boca', 'estrela', '14mm'],
+  disco: ['corte', 'ferro', 'inox', 'norton', 'classic', 'esmerilhadeira', 'desbaste'],
+
+  // Banheiro, Cozinha e Louças
+  bacia: ['vaso', 'sanitario', 'privada', 'deca', 'izy', 'p11', 'louca'],
+  vaso: ['bacia', 'sanitario', 'privada', 'deca', 'izy', 'assento'],
+  assento: ['tampa', 'vaso', 'sanitario', 'atlas', 'soft close', 'oval'],
+  gabinete: ['cozinha', 'pia', 'cozimax', 'atena', 'aco', 'armario'],
+  pia: ['granito', 'bancada', 'cozimax', 'cuba', 'inox', 'gabinete'],
+  grelha: ['ralo', 'caixilho', 'stuqui', 'aluminio', 'escoamento', 'esgoto'],
+  fechadura: ['stam', '1820', 'banheiro', 'wc', 'porta', 'tranqueta', 'macaneta'],
+  modulo: ['tomada', 'margirius', 'sleek', 'interruptor', '20a'],
+  telha: ['eternit', 'fibrocimento', 'ondulada', '6mm', 'cobertura', 'telhado'],
+  celote: ['calco', 'colonial', 'cumeeira', 'vedacao', 'parafuso', 'telha'],
+  mangueira: ['jardim', 'durin', 'trancada', 'siliconada', 'irrigacao', 'agua'],
+  cantoneira: ['mao francesa', 'suporte', 'prateleira', 'branca', 'standers'],
 };
 
 /**

@@ -16,6 +16,21 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://site-lopes-eight.vercel.app/produtos?depto=pisos-e-revestimentos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produtos?depto=quimicos-e-adesivos</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produtos?depto=pintura</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>https://site-lopes-eight.vercel.app/produtos?depto=hidraulica</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
@@ -26,7 +41,7 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produtos?depto=tintas-e-acessorios</loc>
+    <loc>https://site-lopes-eight.vercel.app/produtos?depto=banheiro-e-cozinha</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -36,14 +51,159 @@
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produtos?depto=ferragens-e-fixacao</loc>
+    <loc>https://site-lopes-eight.vercel.app/produtos?depto=ferragens</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produtos?depto=acabamentos</loc>
+    <loc>https://site-lopes-eight.vercel.app/produtos?depto=jardim-e-utilidades</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-aci-interno-votomassa-20kg</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/cimento-itau-todas-as-obras-50kg-votoran</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/cimento-itau-todas-as-obras-25kg-votoran</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-acii-interno-e-externo-cinza-20kg-votomassa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-aciii-alta-performance-cinza-20kg-votomassa</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-refrataria-quartzolit-5kg</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/aditivo-impermeabilizante-vedacit</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/resina-adesiva-chapisco-bianco-vedacit</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/caixa-sabesp-padrao-hidrometro</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/engate-flexivel-pvc-amanco-branco</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/sifao-tubo-extensivel-universal-blukit-branco</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/lampada-led-bulbo-foxlux-9w-bivolt-6500k</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/adesivo-selante-fixa-tudo-ms-amazonas-400g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/adesivo-fixa-tudo-tekbond-transparente-400g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/selante-pu40-cibraflex-400g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/selante-adesivo-pu40-tekbond-387g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/silicone-incolor-acetico-256g-tekbond</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/silicone-incolor-acetico-bisnaga-50g-tekbond</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/espuma-expansiva-pu-tekbond-500ml-320g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/massa-plastica-adesiva-400g</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/aplicador-de-silicone-manual-nove54</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/aplicador-de-silicone-manual-idea-reforcado</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/espatula-celuloide-plastica-para-massa-atlas</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/lapis-carpinteiro-pedreiro-irwin-profissional</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/bloco-de-espuma-limpeza-rejunte-cortag</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/desengripante-lubrificante-spray-vonder-300ml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/bloco-de-espuma-limpeza-rejunte-tafort</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/valvula-americana-3-meia-pia-cozinha-cesta</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://site-lopes-eight.vercel.app/produto/prego-com-cabeca-gerdau-17x21-1kg</loc>
@@ -101,21 +261,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/cabo-flexivel-2-5mm-750v-100m-sil-azul</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-aci-interno-votomassa-20kg</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/tinta-spray-uso-geral-400ml-tekbond</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/corante-liquido-xadrez-50ml</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -126,147 +271,137 @@
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/cabo-flexivel-2-5mm-750v-100m-sil-azul</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/chuveiro-eletrico-maxi-ducha-lorenzetti</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-acii-interno-e-externo-cinza-20kg-votomassa</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/tinta-spray-uso-geral-400ml-tekbond</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-aciii-alta-performance-cinza-20kg-votomassa</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/tinta-latex-acrilica-renove-3-6l</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/argamassa-refrataria-quartzolit-5kg</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/fita-crepe-automotiva-verde-48mm-adtex</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/aditivo-impermeabilizante-vedacit</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/pa-de-bico-com-cabo-tramontina-77459</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/resina-adesiva-chapisco-bianco-vedacit</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/thinner-solvente-multiuso-maza</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/adesivo-selante-fixa-tudo-ms-amazonas-400g</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/trincha-media-cerdas-gris-atlas-395</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/trincha-cerdas-pretas-esmalte-atlas-319</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/adesivo-fixa-tudo-tekbond-transparente-400g</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/grelha-aluminio-com-caixilho-stuqui-15x15</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/selante-pu40-cibraflex-400g</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/gabinete-pia-aco-cozimax-atena-120cm-branco</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/selante-adesivo-pu40-tekbond-387g</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/pia-granito-120cm-cuba-inox-cozimax</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/espuma-expansiva-pu-tekbond-500ml-320g</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/assento-sanitario-oval-soft-close-atlas</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/massa-plastica-adesiva-400g</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/modulo-tomada-20a-sleek-margirius-branco</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/aplicador-de-silicone-manual-nove54</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/torneira-pia-cozinha-parede-bica-movel-ema-metais</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/aplicador-de-silicone-manual-idea-reforcado</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/bacia-sanitaria-convencional-deca-izy-branca</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/espatula-celuloide-plastica-para-massa-atlas</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/piso-palau-brilhante-61x61-ceral</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/lapis-carpinteiro-pedreiro-irwin-profissional</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/fechadura-banheiro-wc-stam-1820-21-inox</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/caixa-sabesp-padrao-hidrometro</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/joelho-90-soldavel-25mm-amanco</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/engate-flexivel-pvc-amanco-branco</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/disco-de-corte-ferro-inox-4-1-2-norton-classic</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/sifao-tubo-extensivel-universal-blukit-branco</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/chave-combinada-14mm-cromo-vanadio</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/valvula-americana-3-meia-pia-cozinha-cesta</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/telha-fibrocimento-ondulada-6mm-244x110m-eternit</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/desengripante-lubrificante-spray-vonder-300ml</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/mangueira-jardim-trancada-1-2-durin-2mm</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/lampada-led-bulbo-foxlux-9w-bivolt-6500k</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/suporte-mao-francesa-cantoneira-branca-20cm</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/cimento-itau-todas-as-obras-50kg-votoran</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/carrinho-de-mao-carriola-fischer-chapa-24-50l</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/cimento-itau-todas-as-obras-25kg-votoran</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/calco-celote-vedacao-telha-colonial</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/silicone-incolor-acetico-256g-tekbond</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/silicone-incolor-acetico-bisnaga-50g-tekbond</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/bloco-de-espuma-limpeza-rejunte-cortag</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/bloco-de-espuma-limpeza-rejunte-tafort</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/trena-metrica-profissional-5m-irwin-iw13947</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

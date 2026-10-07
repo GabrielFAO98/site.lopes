@@ -10,12 +10,15 @@ const products = JSON.parse(fs.readFileSync(path.resolve(__dirname, '../data/pro
 
 const departments = [
   'construcao-basica',
+  'pisos-e-revestimentos',
+  'quimicos-e-adesivos',
+  'pintura',
   'hidraulica',
   'eletrica',
-  'tintas-e-acessorios',
+  'banheiro-e-cozinha',
   'ferramentas',
-  'ferragens-e-fixacao',
-  'acabamentos'
+  'ferragens',
+  'jardim-e-utilidades'
 ];
 
 let xml = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`;
