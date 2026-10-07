@@ -38,20 +38,6 @@ export function Footer() {
             <Truck className="w-4 h-4" />
             <span>Entregas rápidas para toda a cidade de Franca</span>
           </div>
-
-          {/* Botão Instagram (Apenas o Ícone) */}
-          <div className="pt-1">
-            <a
-              href={STORE_CONFIG.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-slate-800 hover:bg-[#E4405F] text-slate-300 hover:text-white transition-all shadow-xs border border-slate-700/60 hover:border-transparent"
-              title="Instagram da Lopes e Lopes (@lopeselopes_mc)"
-              aria-label="Instagram da Lopes e Lopes"
-            >
-              <Instagram className="w-4 h-4" />
-            </a>
-          </div>
         </div>
 
         {/* Coluna 2: Departamentos */}
@@ -147,6 +133,20 @@ export function Footer() {
               <Mail className="w-4 h-4 text-slate-400 shrink-0" />
               <a href={`mailto:${STORE_CONFIG.email}`} className="text-xs hover:text-white truncate">
                 {STORE_CONFIG.email}
+              </a>
+            </div>
+
+            {/* Redes Sociais: Botão Instagram colorido logo após os dados de contato */}
+            <div className="pt-2">
+              <a
+                href={STORE_CONFIG.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-slate-800 border border-slate-700/80 hover:border-[#E4405F] text-[#E4405F] hover:bg-[#E4405F] hover:text-white transition-all shadow-sm group"
+                title="Siga a Lopes e Lopes no Instagram (@lopeselopes_mc)"
+                aria-label="Instagram da Lopes e Lopes"
+              >
+                <Instagram className="w-5 h-5 text-[#E4405F] group-hover:text-white transition-colors" />
               </a>
             </div>
           </div>

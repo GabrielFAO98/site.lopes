@@ -67,11 +67,11 @@ export function Header() {
               href={STORE_CONFIG.instagram} 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-white transition-colors flex items-center gap-1 text-slate-300"
+              className="hover:opacity-80 transition-opacity flex items-center gap-1 text-[#E4405F]"
               title="Siga a Lopes e Lopes no Instagram"
               aria-label="Instagram da Lopes e Lopes"
             >
-              <Instagram className="w-3.5 h-3.5 text-rose-400" />
+              <Instagram className="w-4 h-4 text-[#E4405F]" />
             </a>
           </div>
         </div>
@@ -114,16 +114,16 @@ export function Header() {
 
         {/* Botões de Ação Direta */}
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Botão Instagram (Apenas ícone) */}
+          {/* Botão Instagram (Apenas ícone na cor da rede) */}
           <a
             href={STORE_CONFIG.instagram}
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center w-9 sm:w-10 h-9 sm:h-10 rounded-lg text-slate-600 hover:text-[#E4405F] hover:bg-rose-50 border border-slate-200 hover:border-rose-200 transition-all shrink-0 shadow-2xs"
+            className="flex items-center justify-center w-9 sm:w-10 h-9 sm:h-10 rounded-lg text-[#E4405F] bg-rose-50/70 hover:bg-rose-100 border border-rose-200 transition-all shrink-0 shadow-2xs"
             title="Instagram da Lopes e Lopes (@lopeselopes_mc)"
             aria-label="Instagram da Lopes e Lopes"
           >
-            <Instagram className="w-4 sm:w-5 h-4 sm:h-5" />
+            <Instagram className="w-4.5 sm:w-5 h-4.5 sm:h-5 text-[#E4405F]" />
           </a>
 
           {/* Botão WhatsApp Direto */}
