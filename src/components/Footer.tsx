@@ -8,7 +8,8 @@ import {
   Clock, 
   ExternalLink,
   ShieldCheck,
-  Truck
+  Truck,
+  Instagram
 } from 'lucide-react';
 import { WhatsAppIcon } from './WhatsAppIcon';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
@@ -36,6 +37,20 @@ export function Footer() {
           <div className="flex items-center gap-2 text-xs text-lopes-orange-400 font-medium">
             <Truck className="w-4 h-4" />
             <span>Entregas rápidas para toda a cidade de Franca</span>
+          </div>
+
+          {/* Botão Instagram (Apenas o Ícone) */}
+          <div className="pt-1">
+            <a
+              href={STORE_CONFIG.instagram}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center w-9 h-9 rounded-lg bg-slate-800 hover:bg-[#E4405F] text-slate-300 hover:text-white transition-all shadow-xs border border-slate-700/60 hover:border-transparent"
+              title="Instagram da Lopes e Lopes (@lopeselopes_mc)"
+              aria-label="Instagram da Lopes e Lopes"
+            >
+              <Instagram className="w-4 h-4" />
+            </a>
           </div>
         </div>
 

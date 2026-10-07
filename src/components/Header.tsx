@@ -12,7 +12,8 @@ import {
   ClipboardList, 
   Menu, 
   X,
-  ChevronDown
+  ChevronDown,
+  Instagram
 } from 'lucide-react';
 import { WhatsAppIcon } from './WhatsAppIcon';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
@@ -57,9 +58,21 @@ export function Header() {
               <span>{STORE_CONFIG.address}, {STORE_CONFIG.neighborhood} - {STORE_CONFIG.city}/SP</span>
             </a>
           </div>
-          <div className="flex items-center gap-1.5 text-slate-300">
-            <Clock className="w-3.5 h-3.5 text-slate-400" />
-            <span>Seg a Sex: 7h às 18h | Sáb: 7h às 12h</span>
+          <div className="flex items-center gap-4 text-slate-300">
+            <div className="flex items-center gap-1.5">
+              <Clock className="w-3.5 h-3.5 text-slate-400" />
+              <span>Seg a Sex: 7h às 18h | Sáb: 7h às 12h</span>
+            </div>
+            <a 
+              href={STORE_CONFIG.instagram} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors flex items-center gap-1 text-slate-300"
+              title="Siga a Lopes e Lopes no Instagram"
+              aria-label="Instagram da Lopes e Lopes"
+            >
+              <Instagram className="w-3.5 h-3.5 text-rose-400" />
+            </a>
           </div>
         </div>
       </div>
@@ -101,6 +114,18 @@ export function Header() {
 
         {/* Botões de Ação Direta */}
         <div className="flex items-center gap-2 sm:gap-3">
+          {/* Botão Instagram (Apenas ícone) */}
+          <a
+            href={STORE_CONFIG.instagram}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center w-9 sm:w-10 h-9 sm:h-10 rounded-lg text-slate-600 hover:text-[#E4405F] hover:bg-rose-50 border border-slate-200 hover:border-rose-200 transition-all shrink-0 shadow-2xs"
+            title="Instagram da Lopes e Lopes (@lopeselopes_mc)"
+            aria-label="Instagram da Lopes e Lopes"
+          >
+            <Instagram className="w-4 sm:w-5 h-4 sm:h-5" />
+          </a>
+
           {/* Botão WhatsApp Direto */}
           <a
             href={`https://api.whatsapp.com/send?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(
