@@ -42,7 +42,26 @@
       "1534",
       "397"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Argamassa Colante AC-I Interno Votomassa é a escolha consagrada por pedreiros e construtores para o assentamento seguro e econômico de pisos e azulejos cerâmicos em ambientes internos residenciais e comerciais.\n\nDesenvolvida com agregados minerais selecionados e aditivos químicos de alta tecnologia, a fórmula da Votomassa oferece excelente trabalhabilidade, consistência macia e elevado tempo em aberto, facilitando o ajuste e nivelamento das peças durante o assentamento. Garante aderência mecânica uniforme, prevenindo desprendimentos, peças ocas e trincas posteriores.\n\nÉ indicada para aplicação em pisos e paredes internas sobre contrapiso, emboço ou alvenaria curada há pelo menos 14 dias. Não deve ser utilizada em fachadas, piscinas, churrasqueiras ou sobreposição (piso sobre piso), situações para as quais recomendamos as argamassas AC-II ou AC-III.",
+    "faq": [
+      {
+        "question": "Posso usar a argamassa AC-I em garagens ou calçadas externas?",
+        "answer": "Não. A argamassa AC-I é exclusiva para ambientes internos protegidos da chuva e da incidência solar direta. Para calçadas, garagens ou fachadas, utilize a Votomassa AC-II ou AC-III."
+      },
+      {
+        "question": "Quanto rende um saco de 20kg de Argamassa AC-I?",
+        "answer": "O rendimento médio varia entre 4 a 5 kg/m² para peças de até 30x30 cm com desempenadeira de dente 6mm (camada simples), rendendo cerca de 4 a 5 m² por saco. Para peças maiores que exigem dupla camada (passar na parede e no verso da peça), o consumo sobe para cerca de 8 a 9 kg/m²."
+      },
+      {
+        "question": "Quanto tempo após o assentamento posso liberar para tráfego e rejuntamento?",
+        "answer": "O tráfego leve e o rejuntamento podem ser liberados após 72 horas (3 dias). O tráfego pesado e a limpeza final devem ser liberados após 14 dias."
+      },
+      {
+        "question": "Ela serve para assentamento de porcelanato?",
+        "answer": "Não é recomendada para porcelanatos. Devido à baixíssima absorção de água dos porcelanatos, é necessário utilizar argamassa com aditivação química especial, como a Votomassa AC-III ou específica para porcelanatos."
+      }
+    ]
   },
   {
     "id": "prod-100103",
@@ -80,7 +99,26 @@
       "3",
       "100104"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Cimento Itaú Todas as Obras CP II-F-32 da Votoran é o cimento mais tradicional e confiável do mercado da construção civil, desenvolvido para atender a todas as fases da sua obra, desde as fundações até o acabamento fino.\n\nClassificado como Cimento Portland Composto com Fíler Calcário (CP II-F) e classe de resistência 32 MPa, ele oferece rápida resistência inicial, secagem equilibrada e excelente rendimento em concretos e argamassas. Sua composição homogênea confere maior plasticidade à massa, facilitando o manuseio, a aplicação e o sarrafeamento pelos profissionais da obra.\n\nÉ altamente versátil: perfeito para preparo de concreto estrutural (lajes, vigas, colunas, sapatas e brocas), contrapiso, assentamento de tijolos e blocos, chapisco e reboco interno ou externo. Fabricado sob rigorosos padrões de controle de qualidade segundo as normas ABNT NBR 16697.",
+    "faq": [
+      {
+        "question": "Qual a proporção (traço) padrão para concreto com este cimento?",
+        "answer": "Para um concreto estrutural convencional de cerca de 20 a 25 MPa, o traço comum é de 1 saco de cimento (50kg), 4 latas de areia média (18L cada), 5,5 latas de pedra brita 1 e cerca de 1,5 a 2 latas de água limpa, dosada com cuidado."
+      },
+      {
+        "question": "Qual a diferença entre o CP II-F-32 e outros tipos de cimento?",
+        "answer": "O CP II-F-32 contém fíler calcário finamente moído, o que melhora o preenchimento dos microporos do concreto e da argamassa, proporcionando massa mais plástica, excelente trabalhabilidade e resistência inicial rápida ideal para desenforma e avanço da obra."
+      },
+      {
+        "question": "Como armazenar o saco de cimento na obra sem empedrar?",
+        "answer": "Mantenha os sacos em local coberto, seco e bem arejado, empilhados sobre estrados de madeira a pelo menos 10 cm do chão e 30 cm das paredes. Recomenda-se pilhas de no máximo 10 sacos de altura."
+      },
+      {
+        "question": "Qual o tempo de cura do concreto feito com o cimento Itaú?",
+        "answer": "O processo de cura úmida (molhar o concreto para evitar trincas de retração) deve ser feito intensamente nos primeiros 7 dias. A resistência de projeto de 32 MPa é atingida aos 28 dias."
+      }
+    ]
   },
   {
     "id": "prod-100104",
@@ -116,7 +154,22 @@
       "100103",
       "3"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A versão de 25kg do Cimento Itaú Todas as Obras Votoran traz exatamente a mesma tecnologia, desempenho estrutural e confiabilidade da embalagem tradicional de 50kg, com a grande vantagem da praticidade de transporte, manuseio e ergonomia.\n\nIdeal para pequenas reformas, reparos residenciais, manutenções em locais de difícil acesso ou obras em apartamentos e sobrados, a embalagem fracionada de 25kg evita o desperdício de sobras de material e atende às melhores práticas ergonômicas de movimentação de cargas na construção civil.\n\nOferece a resistência padrão CP II-F-32 (32 MPa aos 28 dias), ótima plasticidade e secagem uniforme em concretos, contrapisos, chapiscos e massas de assentamento ou reboco.",
+    "faq": [
+      {
+        "question": "O cimento de 25kg tem a mesma qualidade do saco de 50kg?",
+        "answer": "Sim, exatamente a mesma composição química, resistência de 32 MPa e matéria-prima da Votoran. A única diferença é a embalagem de 25kg, que proporciona maior facilidade de transporte e menor esforço físico."
+      },
+      {
+        "question": "Para quais tipos de trabalho o saco de 25kg é mais indicado?",
+        "answer": "É perfeito para pequenos reparos hidráulicos ou elétricos, assentamento de muros curtos, calçadas pequenas, chumbamento de portões e reformas em apartamentos onde subir sacos pesados de 50kg é inviável."
+      },
+      {
+        "question": "Qual o rendimento médio em argamassa de assentamento?",
+        "answer": "Um saco de 25kg misturado na proporção usual com areia média e cal hidratada rende argamassa suficiente para assentar aproximadamente 75 a 100 tijolos baianos."
+      }
+    ]
   },
   {
     "id": "prod-100105",
@@ -156,7 +209,26 @@
       "100102",
       "20301"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Argamassa Colante AC-II Votomassa é a solução técnica de média-alta aderência projetada para suportar intempéries, variações de temperatura e ação da umidade em áreas internas e externas.\n\nFormulada com polímeros especiais, ela garante excelente flexibilidade mecânica para absorver dilatações térmicas que ocorrem naturalmente sob o sol e a chuva. É indicada para fachadas de até determinado porte, garagens, calçadas, quintais, varandas abertas, além de áreas molhadas internas como banheiros, lavanderias e cozinhas residenciais ou comerciais.\n\nPode ser utilizada para o assentamento de revestimentos cerâmicos de diversos formatos em pisos e paredes. Proporciona colagem firme, alta retenção de água e facilidade de espalhamento com desempenadeira dentada.",
+    "faq": [
+      {
+        "question": "Qual a principal diferença entre a argamassa AC-I e a AC-II?",
+        "answer": "A AC-I é indicada apenas para áreas internas secas ou moderadas. A AC-II possui aditivação polimérica que confere resistência à água e às variações térmicas (sol e chuva), permitindo o uso em calçadas, garagens, varandas e áreas externas."
+      },
+      {
+        "question": "Posso usar a AC-II para assentar porcelanatos?",
+        "answer": "Em ambientes internos e peças de tamanho moderado (até 60x60cm), alguns porcelanatos podem ser assentados, mas para máxima garantia e grandes formatos recomenda-se o uso da AC-III ou argamassa específica para porcelanato."
+      },
+      {
+        "question": "Qual o rendimento médio de um saco de 20kg?",
+        "answer": "Rende cerca de 4 a 5 m² em camada simples (peças de até 30x30 cm com dente de 6mm) ou cerca de 2,3 a 2,5 m² em peças maiores que exigem dupla camada."
+      },
+      {
+        "question": "Quanto tempo depois de assentar posso molhar ou lavar a área externa?",
+        "answer": "A área deve ser protegida de chuva forte por pelo menos 24 horas. O rejuntamento pode ser feito após 72 horas e a lavagem com água e sabão neutro após 14 dias."
+      }
+    ]
   },
   {
     "id": "prod-100106",
@@ -194,7 +266,26 @@
       "100105",
       "20301"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Argamassa Colante AC-III Alta Performance Votomassa é o padrão de excelência máxima em adesão e flexibilidade para obras exigentes, grandes formatos e situações críticas de fixação.\n\nEnriquecida com alta concentração de resinas poliméricas flexibilizantes, ela foi especialmente desenvolvida para suportar movimentações estruturais, vibrações, tráfego intenso de pedestres e veículos, além de choque térmico constante. É a escolha definitiva para porcelanatos (polidos, esmaltados e técnicos), mármores, granitos, pastilhas de vidro e cerâmicas de grandes dimensões.\n\nPossui ampla versatilidade de aplicação: recomendada para fachadas prediais, piscinas aquecidas ou convencionais, saunas, garagens de tráfego pesado e pisos sobre pisos (sobreposição de revestimento novo sobre antigo sem quebra-quebra). Atende com folga aos rigorosos requisitos da norma ABNT NBR 14081.",
+    "faq": [
+      {
+        "question": "Serve para assentamento do tipo \"piso sobre piso\"?",
+        "answer": "Sim! A argamassa AC-III possui aderência química superior indispensável para colar peças novas diretamente sobre o piso antigo limpo, dispensando a demolição e o entulho."
+      },
+      {
+        "question": "Pode ser utilizada em piscinas e saunas?",
+        "answer": "Sim, a Votomassa AC-III é homologada e recomendada para ambientes em constante imersão em água, como piscinas e espelhos d'água, além de áreas sujeitas a altas temperaturas como saunas úmidas ou secas."
+      },
+      {
+        "question": "Qual o rendimento médio de um saco de 20kg de AC-III?",
+        "answer": "Para porcelanatos de médio e grande porte que exigem dupla camada com desempenadeira de dente 8mm ou 10mm, o consumo médio é de 7 a 9 kg/m², o que resulta em um rendimento de aproximadamente 2,2 a 2,8 m² por saco."
+      },
+      {
+        "question": "Quanto tempo para liberar tráfego em pisos sobrepostos com AC-III?",
+        "answer": "Para tráfego leve e rejuntamento, aguarde 72 horas. Para tráfego intenso ou veículos, recomenda-se respeitar o prazo de 7 a 14 dias para cura mecânica completa."
+      }
+    ]
   },
   {
     "id": "prod-100107",
@@ -231,7 +322,26 @@
       "2152",
       "1534"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Argamassa Refratária Quartzolit é um produto técnico especialmente formulado para o assentamento e rejuntamento simultâneo de placas, tijolos e plaquetas refratárias em locais sujeitos a calor extremo e choque térmico constante.\n\nComposta por cimento especial aluminoso, agregados refratários de alta pureza e polímeros termorresistentes, ela resiste com segurança a temperaturas contínuas de até 400°C sem esfarelar, trincar ou perder a força de colagem. É indispensável na construção e reforma de churrasqueiras residenciais, lareiras, fornos de pizza e fogões a lenha.\n\nSua embalagem compacta de 5kg é perfeita para a medida exata da maioria das churrasqueiras domésticas, evitando sobras desnecessárias. Possui excelente aderência e acabamento liso nas juntas.",
+    "faq": [
+      {
+        "question": "Até que temperatura esta argamassa suporta?",
+        "answer": "Ela é formulada e testada para suportar até 400°C em contato direto com o calor gerado pela queima de carvão e lenha em churrasqueiras e lareiras residenciais."
+      },
+      {
+        "question": "Quanto tempo após a aplicação posso acender o fogo na churrasqueira?",
+        "answer": "Aguarde no mínimo 72 horas (3 dias) de cura antes do primeiro uso. No primeiro fogo, faça uma queima suave e gradativa com pouca lenha/carvão para eliminar a umidade residual sem causar choque térmico."
+      },
+      {
+        "question": "Ela serve tanto para assentar os tijolos como para rejuntar?",
+        "answer": "Sim! A argamassa refratária Quartzolit tem função 2 em 1: serve tanto para o assentamento na base e nas laterais quanto para o preenchimento das juntas entre os tijolos refratários."
+      },
+      {
+        "question": "Quanto rende um pacote de 5kg?",
+        "answer": "Rende o assentamento e rejuntamento de aproximadamente 15 a 20 tijolos refratários padrão (espessura de junta de 2 a 3 mm)."
+      }
+    ]
   },
   {
     "id": "prod-100108",
@@ -290,6 +400,25 @@
         "image": "/images/produtos/vedacit_18lt_aditivo_impermeabilizante_profissional.jpg",
         "price": 189.9
       }
+    ],
+    "detailedDescription": "O Aditivo Impermeabilizante Vedacit é o hidrofugante mais confiável e utilizado na construção civil brasileira para proteger estruturas contra a umidade ascendente e infiltrações de água por capilaridade.\n\nAo ser adicionado na água de amassamento do concreto ou da argamassa, o Vedacit reage quimicamente com os componentes do cimento durante a hidratação, preenchendo e bloqueando os poros capilares por onde a água costuma penetrar. Ele preserva a respirabilidade dos materiais enquanto cria uma barreira impenetrável contra umidade, bolores, descascamento de tintas e eflorescências.\n\nÉ indispensável na execução de alvenarias de embasamento (baldrame), rebocos internos e externos, baldrames, assentamento de tijolos até a primeira fiada, subsolos, piscinas, caixas d'água enterradas e contrapisos em contato com o solo.",
+    "faq": [
+      {
+        "question": "Qual a proporção correta de Vedacit por saco de cimento?",
+        "answer": "A dosagem recomendada pelo fabricante é de 2 litros de Vedacit para cada saco de 50 kg de cimento (aproximadamente 4% sobre a massa do cimento). Para o galão de 3,6L, dá para quase 2 sacos de cimento."
+      },
+      {
+        "question": "Como devo misturar o Vedacit na massa?",
+        "answer": "Nunca jogue o Vedacit diretamente sobre o cimento ou areia seca. Misture a quantidade indicada de Vedacit diretamente na água de amassamento antes de adicioná-la à betoneira ou masseira."
+      },
+      {
+        "question": "Ele altera o tempo de secagem do cimento?",
+        "answer": "Não. O Vedacit não altera o tempo de pega nem a resistência mecânica do concreto ou da argamassa, atuando exclusivamente na vedação dos poros capilares."
+      },
+      {
+        "question": "Serve para lajes expostas ao sol e tráfego?",
+        "answer": "O Vedacit atua no concreto ou contrapiso. Para lajes expostas com movimentação térmica e tráfego, além do contrapiso aditivado, é fundamental aplicar manta asfáltica ou membrana impermeabilizante elástica na superfície."
+      }
     ]
   },
   {
@@ -347,6 +476,25 @@
         "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-18kg.jpg",
         "price": 349.9
       }
+    ],
+    "detailedDescription": "O Bianco Vedacit é uma resina sintética de alta performance à base de acetato de polivinila (PVA), desenvolvida especialmente para conferir alta aderência, elasticidade e ancoragem mecânica em argamassas e chapiscos da construção civil.\n\nQuando misturado na água de amassamento, o Bianco forma uma película polimérica flexível que ancora firmemente a nova camada de argamassa sobre as mais diversas superfícies lisas ou porosas (concreto armado, vigas, pilares, tetos, alvenaria e blocos de concreto). Ele reduz drasticamente a permeabilidade da argamassa, melhora a plasticidade e previne fissuras de retração e desplacamentos indesejados.\n\nÉ amplamente utilizado para chapisco rolado ou tradicional, argamassa de emboço e reboco, fixação de caiação (evita que a cal solte pó na roupa), plastificação de gesso e reparos superficiais em concreto.",
+    "faq": [
+      {
+        "question": "Qual a diluição padrão do Bianco para chapisco?",
+        "answer": "Para chapisco convencional ou rolado, a diluição padrão é de 1 parte de Bianco para 2 partes de água limpa na água de amassamento (1:2). O traço do chapisco costuma ser de 1 parte de cimento para 3 partes de areia média."
+      },
+      {
+        "question": "Qual o rendimento médio do Bianco?",
+        "answer": "No chapisco tradicional, o consumo é de aproximadamente 200 a 300 g/m². Um galão de 3,6 kg rende cerca de 12 a 18 m² de chapisco bem ancorado."
+      },
+      {
+        "question": "Posso usar o Bianco em locais em constante contato com água (ex: piscinas)?",
+        "answer": "O Bianco é à base de PVA e não deve ficar em imersão constante ou exposto a umidade permanente. Para piscinas e reservatórios, utilize promotores de aderência à base de polímero acrílico estireno-butadieno (SBR)."
+      },
+      {
+        "question": "Ajuda a evitar que a tinta de cal solte pó?",
+        "answer": "Sim! Adicionar cerca de 1 litro de Bianco para cada saco de 20kg de cal de pintura fixa os pigmentos, aumenta a durabilidade da caiação e impede que as paredes soltem pó ao encostar."
+      }
     ]
   },
   {
@@ -377,7 +525,26 @@
     ],
     "warranty": "Garantia de conformidade Sabesp",
     "relatedSkus": [],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Caixa Padrão Sabesp em Policarbonato para Hidrômetro é o abrigo homologado exigido para a instalação de nova ligação ou adequação de cavalete de água residencial e comercial no estado de São Paulo.\n\nFabricada em policarbonato de alta resistência mecânica com aditivos contra raios solares UV, ela não amarela, não resseca e não enferruja com o tempo, garantindo décadas de proteção ao medidor de água e às conexões contra intempéries, vandalismo e vazamentos. O visor frontal transparente permite a leitura imediata do consumo pelos leituristas da Sabesp sem a necessidade de abrir a caixa.\n\nPossui furações e travas conforme as normas técnicas NTS 225 da Sabesp, com espaço interno perfeito para o cavalete padrão em PVC ou cobre. Pode ser chumbada em muretas, paredes ou instalada em postes.",
+    "faq": [
+      {
+        "question": "Esta caixa é aceita pela Sabesp em Franca e região?",
+        "answer": "Sim! Ela é fabricada em total conformidade com a norma técnica NTS da Sabesp, sendo o modelo padrão aprovado e exigido para ligações novas e reformas."
+      },
+      {
+        "question": "Qual o material da caixa?",
+        "answer": "Corpo e tampa em policarbonato de engenharia cinza com visor transparente resistente a impactos e intempéries climáticas."
+      },
+      {
+        "question": "O leiturista consegue ler a água sem abrir a tampa?",
+        "answer": "Sim, a tampa frontal possui visor transparente projetado na altura exata para visualização do hidrômetro do lado de fora do imóvel."
+      },
+      {
+        "question": "A caixa já acompanha o cavalete e o hidrômetro?",
+        "answer": "Não. Trata-se da caixa protetora de policarbonato. O cavalete é montado pelo encanador/instalador e o hidrômetro (relógio) é fornecido e lacrado pela concessionária Sabesp."
+      }
+    ]
   },
   {
     "id": "prod-100203",
@@ -409,7 +576,26 @@
     "relatedSkus": [
       "100204"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Engate Flexível em PVC Branco 1/2\" com 40 cm da Amanco é a ligação hidráulica flexível mais confiável e durável para a alimentação de caixas acopladas de bacias sanitárias, lavatórios, bidês e pias de banheiro.\n\nFabricado em PVC de alta resistência com acabamento liso e higiênico, ele suporta pressões de trabalho de até 40 metros de coluna d'água (m.c.a.) sem dilatar ou estourar. Suas porcas de conexão rosqueável de 1/2\" padrão acompanham anéis de vedação elastoméricos internos de alta precisão, permitindo uma vedação estanque sem vazamentos com aperto manual ou leve ajuste, dispensando o uso excessivo de fita veda-rosca.\n\nCom 40 cm de comprimento, tem a medida ideal para absorver desalinhamentos entre o ponto de água na parede e a entrada da louça sem forçar as roscas.",
+    "faq": [
+      {
+        "question": "Qual a medida e o comprimento deste engate?",
+        "answer": "Possui comprimento total de 40 centímetros e bitola de conexão rosqueável padrão de 1/2\" polegada em ambas as extremidades."
+      },
+      {
+        "question": "Precisa passar fita veda-rosca na instalação?",
+        "answer": "O engate já acompanha anéis de vedação de borracha internos nas duas pontas. O aperto suave das porcas já veda perfeitamente, dispensando excesso de fita veda-rosca."
+      },
+      {
+        "question": "Ele serve para água quente?",
+        "answer": "O engate em PVC é projetado para água fria com temperatura de até 20°C a 30°C. Para aquecedores e misturadores de água quente de alta temperatura, utilize engate flexível trançado em inox."
+      },
+      {
+        "question": "Qual a pressão máxima suportada?",
+        "answer": "Suporta pressão de serviço de até 40 m.c.a. (4 kgf/cm²), atendendo com folga residências térreas e edifícios."
+      }
+    ]
   },
   {
     "id": "prod-100204",
@@ -442,7 +628,26 @@
     "relatedSkus": [
       "100702"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Sifão Extensível Universal Blukit é a solução definitiva e prática para escoamento de esgoto em pias de cozinha, lavatórios de banheiro, tanques e cubas de áreas de serviço.\n\nCom exclusivo sistema de conexão universal, ele resolve qualquer problema de desalinhamento ou distância entre a válvula da cuba e o cano de esgoto na parede. Acompanha porcas com roscas intercambiáveis de 7/8\", 1.1/4\" e 1.1/2\", conectando-se a qualquer válvula do mercado, e ponteira de saída escalonada com encaixe para tubulações de esgoto de 38mm, 40mm, 48mm e 50mm.\n\nSeu tubo corrugado em polipropileno de alta qualidade permite moldar facilmente o formato em \"U\" (fecho hídrico), que retém água permanentemente na curva e impede que o mau cheiro e os gases da rede de esgoto retornem para dentro da sua casa.",
+    "faq": [
+      {
+        "question": "Ele serve em qualquer pia ou cuba?",
+        "answer": "Sim! Ele é 100% universal: a porca superior conecta em válvulas de 7/8\", 1.1/4\" e 1.1/2\", e a ponta de saída encaixa em canos de esgoto de 38, 40, 48 e 50 mm."
+      },
+      {
+        "question": "Como evitar que suba cheiro de esgoto pela pia?",
+        "answer": "É essencial curvar o tubo corrugado formando uma curva em \"U\" (sifão) e fixá-la com o suporte que acompanha o produto. A água que fica parada na curva funciona como uma barreira física que bloqueia o retorno do mau cheiro."
+      },
+      {
+        "question": "Até que comprimento ele estica?",
+        "answer": "O tubo extensível fechado mede cerca de 33 cm e pode ser esticado com segurança até aproximadamente 70 cm de comprimento."
+      },
+      {
+        "question": "Suporta água quente da torneira elétrica?",
+        "answer": "Sim, o polipropileno de engenharia da Blukit resiste à água quente com temperaturas de até 90°C."
+      }
+    ]
   },
   {
     "id": "prod-100302",
@@ -478,7 +683,26 @@
       "20401",
       "100301"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Lâmpada LED Bulbo 9W Bivolt Foxlux com Luz Fria (6500K) combina altíssima eficiência luminosa, durabilidade excepcional e até 85% de economia de energia na iluminação de residências e comércios.\n\nCom fluxo luminoso de 810 lumens, ela substitui diretamente as antigas lâmpadas incandescentes de 60W ou eletrônicas compactas de 16W, gerando claridade intensa com consumo mínimo de eletricidade e sem aquecer o ambiente. A tonalidade branca fria de 6500K é perfeita para locais que demandam atenção, produtividade e sensação de limpeza, como cozinhas, lavanderias, banheiros, escritórios e garagens.\n\nPossui tecnologia Bivolt Automático (opera perfeitamente entre 100V e 240V sem queimar com oscilações da rede) e base padrão rosqueável E27. Vida útil estimada em 25.000 horas de uso contínuo, livre de mercúrio e emissão de raios UV.",
+    "faq": [
+      {
+        "question": "Ela equivale a qual lâmpada antiga?",
+        "answer": "A lâmpada LED de 9W da Foxlux ilumina o equivalente a uma lâmpada incandescente antiga de 60W ou uma fluorescente compacta de 15W/16W, economizando até 85% na conta de luz."
+      },
+      {
+        "question": "Serve em 110V e 220V?",
+        "answer": "Sim, ela é Bivolt Automática (100V a 240V), funcionando perfeitamente em qualquer tomada ou bocal da sua casa sem necessidade de ajustes."
+      },
+      {
+        "question": "Qual a diferença entre a luz fria (6500K) e a luz quente (3000K)?",
+        "answer": "A luz fria 6500K é branca, estimula o foco e é ideal para cozinhas, banheiros e áreas de trabalho. A luz quente 3000K é amarelada, criando sensação de aconchego para quartos e salas."
+      },
+      {
+        "question": "Qual o tipo de bocal dela?",
+        "answer": "Possui soquete padrão rosqueável E27, o bocal tradicional mais comum presente nos tetos e luminárias residenciais brasileiras."
+      }
+    ]
   },
   {
     "id": "prod-100501",
@@ -517,7 +741,26 @@
       "100601",
       "100502"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Fixa Tudo MS Profissional 400g da Amazonas é a versão em cartucho de alta capacidade do consagrado adesivo e selante à base de Polímero Híbrido MS (Silicone Modificado), projetado para obras, reformas e serviços profissionais pesados.\n\nDesenvolvido para uso com pistola aplicadora de silicone convencional, ele entrega grande rendimento linear para colagem e vedação de espelhos, cubas de inox e louça em pias, bancadas de mármore e granito, calhas, rufos, telhas, rodapés de madeira e PVC, canaletas e painéis decorativos. Com fórmula de alta viscosidade, não escorre mesmo em aplicações em tetos e paredes verticais.\n\nSua química neutra é 100% isenta de solventes e isocianatos, garantindo que não agrida a camada protetora (azougue) dos espelhos e não manche pedras naturais caras. Possui excelente resistência aos raios UV e variações climáticas, cura até mesmo em superfícies molhadas e aceita lixamento e pintura após a cura completa.",
+    "faq": [
+      {
+        "question": "Precisa de aplicador para usar este produto?",
+        "answer": "Sim, a embalagem de cartucho de 400g necessita de uma pistola aplicadora manual de silicone convencional para extrusão e corte do bico dosador."
+      },
+      {
+        "question": "Quantos metros lineares rende um cartucho de 400g?",
+        "answer": "Um cartucho de 400g rende entre 10 a 14 metros lineares com um cordão contínuo fino de aproximadamente 4 mm de espessura."
+      },
+      {
+        "question": "Ele substitui furos e parafusos na fixação de espelhos?",
+        "answer": "Sim! É o adesivo padrão para fixação de espelhos em banheiros e quartos sem furar a parede, aplicando em filetes verticais e deixando espaço para o ar circular."
+      },
+      {
+        "question": "Pode ser usado em áreas externas sob sol e chuva?",
+        "answer": "Sim, a base MS possui altíssima resistência aos raios ultravioleta e intempéries, mantendo a elasticidade ao longo dos anos sem trincar ou amarelar."
+      }
+    ]
   },
   {
     "id": "prod-100502",
@@ -620,7 +863,26 @@
       "100601",
       "100510"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Adesivo Selante Fixa Tudo Transparente 400g Tekbond é a escolha número um para aplicações onde a colagem de alta resistência precisa ser completamente invisível e esteticamente perfeita.\n\nCom formulação híbrida de última geração, ele cura formando uma junta flexível 100% cristalina e translúcida. É ideal para a fixação de vidros, box de banheiro, placas de acrílico, espelhos, tampos de vidro em móveis metálicos ou de madeira, luminárias e cubas transparentes onde qualquer sobra de adesivo colorido ficaria antiestética.\n\nPossui alto agarre inicial, excelente resistência aos raios solares UV e intempéries climáticas, e adere com força extrema tanto em superfícies secas quanto ligeiramente úmidas. É isento de solventes agressivos e não corrói metais.",
+    "faq": [
+      {
+        "question": "O adesivo fica realmente transparente após a secagem?",
+        "answer": "Sim! Ele cura com acabamento totalmente cristalino e translúcido, tornando-se praticamente invisível em vidros, espelhos e superfícies transparentes."
+      },
+      {
+        "question": "Ele amarela com o tempo exposto ao sol?",
+        "answer": "Não. Sua formulação com polímero híbrido de alta pureza possui aditivos anti-UV que evitam o amarelamento prematuro comum em colas convencionais."
+      },
+      {
+        "question": "Pode ser utilizado para colar e vedar box de banheiro?",
+        "answer": "Sim, é perfeito para o perfil de alumínio e os vidros temperados do box, pois veda a passagem de água e não mancha."
+      },
+      {
+        "question": "Precisa de pistola aplicadora?",
+        "answer": "Sim, por ser em cartucho de 400g, deve ser utilizado com aplicador manual de silicone convencional."
+      }
+    ]
   },
   {
     "id": "prod-100504",
@@ -678,6 +940,25 @@
         "sku": "100506",
         "name": "Preto",
         "image": "/images/produtos/selante-pu40-cibraflex-preto-400g.jpg"
+      }
+    ],
+    "detailedDescription": "O Selante e Adesivo PU 40 Cibraflex é um elastômero monocomponente à base de poliuretano de alta performance, projetado para juntas de dilatação, colagens e vedações estruturais de alta flexibilidade na construção civil e indústria.\n\nCom dureza Shore A 40 e capacidade de acomodar movimentações de juntas de até ±25%, o Cibraflex absorve impactos mecânicos, vibrações severas e dilatações térmicas sem descolar ou romper. É amplamente utilizado na vedação de calhas, rufos, dutos de ar, esquadrias de alumínio e madeira, painéis pré-moldados e juntas de dilatação de pisos de concreto.\n\nDisponível nas cores Branco, Cinza e Preto, tem excelente aderência em concreto, alvenaria, metais, madeira e pedras. É resistente aos raios UV e aceita pintura com tintas à base de água após a cura.",
+    "faq": [
+      {
+        "question": "Qual a diferença entre o PU 40 e o silicone comum?",
+        "answer": "O PU 40 é à base de poliuretano: tem resistência mecânica muito maior, suporta vibrações e peso, tem elasticidade para juntas de dilatação e aceita pintura (o silicone comum repele tinta)."
+      },
+      {
+        "question": "Qual cor de PU 40 devo escolher?",
+        "answer": "O Cinza é o mais usado para pisos de concreto, calhas e lajes; o Branco é ideal para esquadrias brancas, pias e alvenaria clara; o Preto é muito usado em juntas de dilatação asfálticas, carrocerias e esquadrias pretas."
+      },
+      {
+        "question": "Quanto tempo demora para curar?",
+        "answer": "Forma película superficial em cerca de 30 a 60 minutos. A velocidade de cura total é de aproximadamente 3 mm de profundidade a cada 24 horas em temperatura ambiente."
+      },
+      {
+        "question": "Ele serve para calafetar calhas que estão vazando?",
+        "answer": "Sim, é o selante mais indicado do mercado para chapas galvanizadas, emendas de calhas e vedação de rufos expostos a sol e chuva."
       }
     ]
   },
@@ -737,6 +1018,21 @@
         "name": "Preto",
         "image": "/images/produtos/selante-pu40-tekbond-preto-387g.jpg"
       }
+    ],
+    "detailedDescription": "O Selante e Adesivo PU 40 Tekbond é a referência profissional para vedação técnica e fixação elástica na construção civil, calafetação predial e serralheria.\n\nDesenvolvido com polímeros de poliuretano de última geração, ele cura em contato com a umidade do ar, formando uma borracha elástica flexível, resistente e impermeável com dureza Shore A 40. Previne infiltrações de água, pó e ar em juntas de fachadas, esquadrias de portas e janelas, cubas, rodapés e calhas metálicas.\n\nDisponível nas cores Branco, Cinza e Preto, não resseca com o tempo, tem ótima aderência sem primer na maioria dos substratos da construção civil e aceita aplicação de tintas após a secagem completa.",
+    "faq": [
+      {
+        "question": "Posso pintar sobre o PU 40 Tekbond?",
+        "answer": "Sim! Diferente dos silicones, o PU 40 aceita pintura com tintas acrílicas e à base de água após estar totalmente curado."
+      },
+      {
+        "question": "Ele resiste à água da chuva imediatamente após aplicado?",
+        "answer": "Recomenda-se proteger a aplicação de chuvas fortes por pelo menos 2 a 4 horas até que se forme uma película superficial resistente."
+      },
+      {
+        "question": "Quantos metros rende o tubo de 387g?",
+        "answer": "Rende aproximadamente 10 a 12 metros lineares em juntas de 5 mm x 5 mm."
+      }
     ]
   },
   {
@@ -774,7 +1070,26 @@
       "100601",
       "100511"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Silicone Acético Incolor 256g Tekbond é o vedante antifungo mais confiável e utilizado para a vedação higiênica e estanque de áreas úmidas residenciais e comerciais.\n\nCom cura acética e aditivação antifungo e antimofo de alta eficiência, ele impede a proliferação de bolor preto nas juntas de box de banheiro, pias de cozinha, lavatórios, banheiras e cubas de inox ou louça. Ao curar, transforma-se em uma borracha transparente, flexível e totalmente impermeável que suporta ciclos contínuos de água quente e fria.\n\nPossui excelente aderência em superfícies lisas e vitrificadas, como vidro comum e temperado, azulejos, cerâmicas esmaltadas, metais sanitários e alumínio anodizado.",
+    "faq": [
+      {
+        "question": "Por que este silicone não cria aquele bolor preto no banheiro?",
+        "answer": "Ele possui aditivos fungicidas especiais de longa duração na sua composição, formulados especificamente para repelir mofo e bactérias em ambientes com umidade constante."
+      },
+      {
+        "question": "Posso usar este silicone acético em espelhos?",
+        "answer": "Não é recomendado para espelhos, pois o ácido acético liberado na cura pode oxidar a camada prateada do verso. Para espelhos, utilize o Fixa Tudo MS ou Silicone Neutro."
+      },
+      {
+        "question": "Quanto tempo depois de aplicar posso usar o chuveiro?",
+        "answer": "A formação de película ocorre em 15 minutos, mas aguarde pelo menos 24 horas de secagem antes de molhar a área para garantir vedação estanque duradoura."
+      },
+      {
+        "question": "Ele serve para aquários?",
+        "answer": "Por conter aditivos antifungo que podem ser tóxicos para peixes, não é indicado para aquários com vida aquática. Para aquários, utilize silicone próprio sem fungicida."
+      }
+    ]
   },
   {
     "id": "prod-100511",
@@ -809,7 +1124,22 @@
     "relatedSkus": [
       "100510"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Silicone Acético Incolor em Bisnaga de 50g Tekbond oferece toda a qualidade, elasticidade e poder antifungo da versão em cartucho com a máxima comodidade e economia para reparos pontuais.\n\nPronto para aplicação manual direta: basta desrosquear a tampa, cortar o bico dosador e aplicar com os dedos, dispensando completamente o uso de pistolas de silicone ou ferramentas caras. É a quantidade exata para refazer a vedação ao redor de um vaso sanitário, vedar a pia da cozinha, retocar o box ou reparar uma fresta na janela sem sobras volumosas que acabam secando na gaveta.\n\nPossui fórmula incolor com ação antimofo e cria uma vedação elástica e 100% impermeável.",
+    "faq": [
+      {
+        "question": "Preciso de aplicador para usar a bisnaga de 50g?",
+        "answer": "Não! O grande diferencial da bisnaga de 50g é a aplicação manual direta. Basta apertar o tubo com as mãos."
+      },
+      {
+        "question": "Quanto rende uma bisnaga de 50g?",
+        "answer": "Rende cerca de 2 a 3 metros lineares de cordão fino, quantidade suficiente para vedar o contorno de uma pia inteira ou a base de um vaso sanitário."
+      },
+      {
+        "question": "O bico pode ser tampado para reutilizar depois?",
+        "answer": "Sim, a bisnaga possui tampa rosqueável. Limpe bem o bico após o uso e rosqueie a tampa para conservar o produto para os próximos reparos."
+      }
+    ]
   },
   {
     "id": "prod-100512",
@@ -845,7 +1175,26 @@
     "relatedSkus": [
       "100501"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Espuma Expansiva de Poliuretano Tekbond 500ml / 320g é a solução rápida, limpa e eficiente para fixação, vedação e isolamento termoacústico na construção civil e montagem de esquadrias.\n\nAo ser ejetada através do bico aplicador fornecido na lata, a espuma monocomponente reage com a umidade do ar e expande de 2 a 3 vezes o seu volume inicial, preenchendo completamente frestas, buracos, vãos e cavidades irregulares. Após curada, transforma-se em uma espuma rígida e estável que fixa batentes de portas e janelas sem necessidade de parafusos adicionais, além de vedar passagens de ar-condicionado, tubulações hidráulicas e conduítes elétricos.\n\nOferece isolamento térmico contra calor e frio, isolamento acústico contra ruídos externos e pode ser facilmente cortada com estilete, lixada e pintada após a secagem completa.",
+    "faq": [
+      {
+        "question": "Quanto rende uma lata de 500ml de espuma expansiva?",
+        "answer": "Após a expansão total e cura, a lata de 500ml/320g rende aproximadamente 18 a 22 litros de espuma expandida rígida."
+      },
+      {
+        "question": "Como aplicar corretamente a espuma expansiva?",
+        "answer": "Agite a lata vigorosamente por 1 minuto. Aplique sempre com a lata de cabeça para baixo e preencha apenas 40% a 50% do vão, pois ela vai dobrar de tamanho ao expandir."
+      },
+      {
+        "question": "Quanto tempo demora para poder cortar o excesso com estilete?",
+        "answer": "A secagem ao toque ocorre em 10 a 15 minutos, e o corte do excesso com estilete pode ser feito entre 1 e 2 horas após a aplicação."
+      },
+      {
+        "question": "Precisa molhar a superfície antes da aplicação?",
+        "answer": "Sim! Umedecer levemente o vão com um borrifador de água acelera a cura e melhora a densidade celular e a força da espuma."
+      }
+    ]
   },
   {
     "id": "prod-100513",
@@ -896,6 +1245,25 @@
         "name": "Preta",
         "image": "/images/produtos/massa-plastica-adesiva-400g-preta-lopes.jpg"
       }
+    ],
+    "detailedDescription": "A Massa Plástica Adesiva com Catalisador 400g é uma resina poliéster bicomponente de alta aderência e cura ultrarrápida, desenvolvida para colagem estrutural, chumbamento e restauração de mármores, granitos, cubas e funilaria.\n\nAo ser misturada na proporção correta com o catalisador em pasta que acompanha a lata, a massa passa por uma reação termoquímica que proporciona endurecimento maciço em apenas 10 a 20 minutos. Permite lixamento, polimento mecânico com brilho e acabamento impecável em emendas de bancadas de cozinha, cubas de inox sob pedra e nichos de banheiro.\n\nDisponível nas cores Branco e Cinza para combinar com as tonalidades das pedras mais populares. Não escorre e apresenta excelente dureza final.",
+    "faq": [
+      {
+        "question": "Como misturar o catalisador na massa plástica?",
+        "answer": "Para cada 100g de massa plástica, adicione cerca de 10 a 20 gotas do catalisador líquido ou uma pequena porção da pasta (cerca de 1% a 2% do peso). Misture rapidamente e aplique em até 5 minutos."
+      },
+      {
+        "question": "Em quanto tempo ela endurece?",
+        "answer": "A secagem inicial e endurecimento ocorrem entre 10 e 15 minutos. A cura completa para lixar e polir a pedra ocorre em cerca de 1 a 2 horas."
+      },
+      {
+        "question": "Ela serve para colar cuba de inox na pia de granito?",
+        "answer": "Sim! É a massa tradicionalmente utilizada por marmorarias para colar e chumbar cubas de inox e louça por baixo de bancadas de mármore e granito."
+      },
+      {
+        "question": "Qual a diferença entre a massa Branca e a Cinza?",
+        "answer": "A cor branca é indicada para mármores claros, quartzo branco e granitos claros. A cor cinza é perfeita para granitos escuros, ardósia e funilaria."
+      }
     ]
   },
   {
@@ -932,7 +1300,22 @@
       "100507",
       "100510"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Aplicador de Silicone tipo Esqueleto Reforçado da Nove54 é a ferramenta leve, resistente e prática indispensável para a aplicação controlada de selantes e adesivos em cartucho de até 300 ml / 400 g.\n\nConstruído em chapa de aço estampada reforçada com pintura eletrostática anticorrosiva, ele possui corpo aberto tipo esqueleto que facilita a colocação e retirada rápida do cartucho. O mecanismo de gatilho manual com mola e placa de avanço entrega força de prensagem uniforme, permitindo cordões contínuos sem esforço na mão do operador.\n\nPossui trava de alívio de pressão na traseira da haste: ao terminar de apertar o cordão, basta pressionar a alavanca para recuar a haste e interromper imediatamente a saída do produto, evitando desperdícios e sujeira na obra.",
+    "faq": [
+      {
+        "question": "Quais tipos de tubos cabem neste aplicador?",
+        "answer": "Ele é compatível com todos os cartuchos plásticos padrão do mercado de até 300 ml / 400 g, como Silicone Acético, Fixa Tudo MS, Cola Rodapé e Massa de Calafetar."
+      },
+      {
+        "question": "Ele serve para produtos mais pesados como PU 40?",
+        "answer": "Sim, ele aplica PU 40 convencional. No entanto, para uso profissional diário e intenso com compostos de altíssima densidade, o modelo fechado para serviços pesados oferece ainda mais robustez."
+      },
+      {
+        "question": "Como faço para soltar a haste e colocar o cartucho?",
+        "answer": "Pressione com o polegar a alavanca de trava metálica na traseira do aplicador e puxe a haste dentada para trás. Em seguida, encaixe o cartucho e solte a trava."
+      }
+    ]
   },
   {
     "id": "prod-100602",
@@ -964,7 +1347,22 @@
       "100501",
       "100504"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Aplicador de Silicone e Selantes Profissional Tubular Fechado da Idea é a ferramenta pesada projetada para vidraceiros, calheiros, instaladores de pisos e profissionais da construção civil que exigem máxima força de prensagem e vida útil prolongada.\n\nCom corpo tubular em alumínio e aço reforçado que envolve e protege totalmente o cartucho, ele elimina qualquer risco de torção ou entortamento da estrutura, mesmo ao extrudar selantes de altíssima viscosidade como PU 40, PU 50 e polímeros híbridos MS em dias frios. Seu sistema de alavanca multiplicadora de força reduz a fadiga nas mãos em trabalhos contínuos.\n\nPossui bico frontal rosqueável com rosca metálica resistente e haste de tração reforçada que garante avanço milimétrico e estanque sem folgas.",
+    "faq": [
+      {
+        "question": "Qual a vantagem do aplicador fechado em relação ao tipo esqueleto?",
+        "answer": "O modelo fechado tem estrutura muito mais rígida, não deforma nem entorta com materiais densos (como PU 40 ou cola de para-brisa), exige menos força no gatilho e protege o cartucho contra danos."
+      },
+      {
+        "question": "Ele aceita cartuchos de 400g?",
+        "answer": "Sim! É perfeitamente compatível com cartuchos convencionais de 280ml a 400g de silicone, poliuretano (PU 40) e Fixa Tudo."
+      },
+      {
+        "question": "A ferramenta é pesada?",
+        "answer": "Seu tubo é construído em alumínio leve e resistente, combinando leveza no manuseio com excelente robustez estrutural."
+      }
+    ]
   },
   {
     "id": "prod-100603",
@@ -999,7 +1397,22 @@
     "relatedSkus": [
       "100513"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Jogo de Espátulas de Celuloide Plásticas da Atlas / Baricar é o kit indispensável para a aplicação limpa, nivelada e precisa de massa plástica, massa corrida, rejuntes, resinas e colas em superfícies delicadas.\n\nFabricadas em celuloide flexível de alta durabilidade e cantos polidos, as espátulas deslizam suavemente sobre mármores, granitos, porcelanatos e azulejos sem arranhar, riscar ou manchar o acabamento das peças. A flexibilidade do material permite moldar a curvatura ideal para preencher reentrâncias, cantos e juntas de dilatação com acabamento liso perfeito.\n\nO jogo acompanha 4 peças em tamanhos graduados, atendendo desde pequenos retoques em bancadas de pia até espalhamento em áreas maiores de funilaria e marcenaria.",
+    "faq": [
+      {
+        "question": "Por que usar espátula de celuloide em vez de metal em mármores e porcelanatos?",
+        "answer": "A espátula de metal pode arranhar porcelanatos polidos e soltar pó cinza de atrito no mármore branco. O celuloide é flexível e não risca nenhuma superfície polida."
+      },
+      {
+        "question": "Como limpar a espátula após usar com massa plástica?",
+        "answer": "Após a secagem da massa plástica, basta flexionar a espátula: a película de resina se desprende facilmente. Resíduos frescos podem ser limpos com thiner ou álcool."
+      },
+      {
+        "question": "Quantas espátulas vêm na embalagem?",
+        "answer": "O kit contém 4 espátulas com larguras variadas para atender diferentes tipos de junta e aplicação."
+      }
+    ]
   },
   {
     "id": "prod-100604",
@@ -1032,7 +1445,22 @@
     "relatedSkus": [
       "1453"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Lápis de Carpinteiro e Pedreiro Profissional Irwin é a ferramenta de marcação padrão da construção civil, marcenaria e carpintaria pesada para traçados nítidos, resistentes e duradouros no canteiro de obras.\n\nCom corpo em madeira maciça de formato ovalado e achatado, ele tem a grande vantagem de não rolar e não cair quando colocado sobre bancadas inclinadas, vigas, andaimes ou telhados. Sua mina interna de grafite espessa de dureza média suporta alta pressão de escrita sem quebrar a ponta e marca com facilidade sobre superfícies rústicas como madeira bruta, concreto, tijolos cerâmicos, blocos, alvenaria e metais.\n\nPermite apontamento tanto em ponta de cinzel (para linhas finas de corte preciso) quanto em ponta larga (para marcações visíveis à distância).",
+    "faq": [
+      {
+        "question": "Por que o lápis de carpinteiro é oval/achatado?",
+        "answer": "O formato achatado impede que o lápis role em telhados, tábuas e superfícies inclinadas, além de acomodar uma mina de grafite retangular mais espessa e resistente a quedas."
+      },
+      {
+        "question": "Em quais materiais ele consegue riscar?",
+        "answer": "Ele marca com facilidade em madeira bruta ou aplainada, concreto, tijolos, blocos de cimento, pedras, cerâmicas, ferro e gesso."
+      },
+      {
+        "question": "Como apontar o lápis de carpinteiro?",
+        "answer": "Recomenda-se apontar com um estilete ou faca afiada, desbastando a madeira em formato chanfrado ou utilizando apontador próprio para lápis de carpinteiro."
+      }
+    ]
   },
   {
     "id": "prod-100605",
@@ -1068,7 +1496,22 @@
       "20301",
       "100607"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Bloco de Espuma para Limpeza de Rejunte Cortag é o acessório técnico indispensável para o acabamento estético perfeito, friso uniforme e limpeza pós-aplicação de rejuntes cimentícios e acrílicos em pisos e azulejos.\n\nFabricado em espuma de poliuretano de alta densidade com estrutura de células abertas selecionadas, ele retém a quantidade exata de água necessária para emulsionar e remover os resíduos superficiais de rejunte sobre as peças de porcelanato, cerâmica e pastilhas, sem cavoucar, rebaixar ou manchar o cordão fresco do rejunte.\n\nPossui formato anatômico de 20 x 13 x 6 cm que proporciona excelente empunhadura e grande rendimento de limpeza com menos esforço do azulejista. Também é amplamente utilizado na lavagem de veículos e limpeza pós-obra em geral.",
+    "faq": [
+      {
+        "question": "Qual a técnica correta de usar a espuma no rejunte?",
+        "answer": "Aguarde o rejunte começar a secar (cerca de 15 a 30 minutos). Umedeça o bloco de espuma em água limpa, aperte bem para tirar o excesso de água e passe suavemente em movimentos circulares ou diagonais sobre as juntas."
+      },
+      {
+        "question": "Por que a esponja não pode estar muito encharcada?",
+        "answer": "Se a espuma estiver encharcada de água, ela vai lavar o cimento do rejunte fresco, desbotando a cor e enfraquecendo a junta. A espuma deve estar apenas úmida."
+      },
+      {
+        "question": "Ela risca porcelanato polido?",
+        "answer": "Não! A espuma de poliuretano da Cortag é extremamente macia e foi especialmente formulada para não riscar o esmalte nem o brilho dos porcelanatos."
+      }
+    ]
   },
   {
     "id": "prod-100606",
@@ -1102,7 +1545,22 @@
     "relatedSkus": [
       "20101"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Desengripante e Lubrificante Aerossol Vonder 300ml / 200g é o produto multiuso indispensável em obras, oficinas mecânicas, marcenarias e manutenção residencial do dia a dia.\n\nFormulado com alto poder de penetração capilar, ele penetra instantaneamente em roscas travadas, porcas enferrujadas, dobradiças oxidadas e fechaduras emperradas, dissolvendo a ferrugem e liberando o movimento com facilidade. Além de desengripar, ele deixa uma película protetora ultrafina que repele a umidade, previne novas corrosões e elimina barulhos e rangidos incômodos.\n\nAcompanha bico prolongador para aplicação precisa em locais de difícil acesso, como engrenagens, rolamentos, ferramentas manuais, correntes e trilhos de portões.",
+    "faq": [
+      {
+        "question": "Para quais aplicações este spray é indicado?",
+        "answer": "Para destravar porcas e parafusos enferrujados, lubrificar dobradiças de portas e portões, proteger ferramentas contra ferrugem, soltar fechaduras e repelir umidade em peças metálicas."
+      },
+      {
+        "question": "Ele conduz eletricidade?",
+        "answer": "Não, ele atua como repelente de umidade e protetor de contatos elétricos, mas o equipamento deve estar desligado da tomada durante a aplicação."
+      },
+      {
+        "question": "Como usar em locais estreitos ou profundos?",
+        "answer": "Basta encaixar o canudo prolongador plástico no atuador da lata e direcionar o jato exatamente na fresta desejada."
+      }
+    ]
   },
   {
     "id": "prod-100607",
@@ -1136,7 +1594,22 @@
     "relatedSkus": [
       "100605"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Bloco de Espuma Especial Tafort foi desenvolvido para oferecer alto poder de absorção, maciez e rendimento na limpeza e frisamento de rejuntes em pisos cerâmicos, porcelanatos e azulejos de parede.\n\nSua espuma densa e resistente suporta o atrito constante sobre as superfícies cerâmicas sem esfarelar ou soltar fiapos. Proporciona um acabamento uniforme e liso às juntas de rejunte, facilitando a remoção da névoa de pó (\"haze\") que fica sobre os pisos após o assentamento.\n\nCom dimensões generosas e alta capacidade de retenção de líquidos, também é muito procurada para serviços de pintura (efeitos e texturas esponjadas), lavagem profissional de automóveis e limpezas gerais na obra.",
+    "faq": [
+      {
+        "question": "Qual o tamanho do bloco de espuma Tafort?",
+        "answer": "Possui tamanho padrão profissional de aproximadamente 20 x 13 x 6 cm, garantindo pegada confortável e ampla área de limpeza por passada."
+      },
+      {
+        "question": "Ela serve para rejunte epóxi?",
+        "answer": "Sim, pode ser utilizada na etapa de remoção do excesso com água e detergente neutro logo após a aplicação do rejunte epóxi."
+      },
+      {
+        "question": "Como conservar o bloco de espuma para durar mais?",
+        "answer": "Lave o bloco em água corrente após o término do trabalho para remover todo o pó de rejunte e deixe secar à sombra em local arejado."
+      }
+    ]
   },
   {
     "id": "prod-100702",
@@ -1169,7 +1642,26 @@
     "relatedSkus": [
       "100204"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Válvula Americana 3.1/2\" em Aço Inox com Cestinha Removível é o acessório indispensável para cubas de pia de cozinha e áreas gourmet que exigem alta durabilidade, vazão e higiene.\n\nFabricada com tampa e corpo superior em aço inoxidável polido de alta qualidade, ela é imune à ferrugem, não oxida e mantém o brilho mesmo com o uso frequente de detergentes e desengordurantes. Acompanha uma prática cestinha de retenção em inox com puxador e pino de vedação de borracha: quando levantada, permite o escoamento rápido da água enquanto retém restos de comida e cascas; quando pressionada para baixo, veda completamente o ralo para encher a cuba de água.\n\nPossui rosca inferior de 1.1/2\" compatível com todos os sifões universais do mercado e acompanha anéis de vedação de borracha para instalação estanque sem vazamentos embaixo da bancada.",
+    "faq": [
+      {
+        "question": "Qual o tamanho da furação de cuba compatível?",
+        "answer": "É indicada para cubas de pia de cozinha com furação padrão americana de 3.1/2\" polegadas (aproximadamente 9 cm de diâmetro na abertura superior da cuba)."
+      },
+      {
+        "question": "A cestinha realmente veda a água da pia?",
+        "answer": "Sim! Ao empurrar o pino central da cestinha para baixo, a borracha inferior veda a passagem, permitindo encher a cuba de água para lavar louças ou deixar vegetais de molho."
+      },
+      {
+        "question": "O material enferruja com o tempo?",
+        "answer": "Não. O acabamento visível e a cesta são feitos em aço inoxidável de alta durabilidade, resistente à corrosão e produtos de limpeza domésticos."
+      },
+      {
+        "question": "Qual sifão devo usar nela?",
+        "answer": "A saída inferior possui rosca de 1.1/2\", sendo perfeitamente compatível com o Sifão Universal Blukit ou qualquer sifão para pia de cozinha."
+      }
+    ]
   },
   {
     "id": "prod-1453",
@@ -1207,7 +1699,22 @@
       "2525",
       "86"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Prego com Cabeça 17x21 (2\" x 11) Gerdau é o prego mais vendido e consagrado na construção civil brasileira para a confecção de formas de concreto, caixarias de vigas e pilares, andaimes e estruturas de madeira.\n\nProduzido em aço Gerdau de alta resistência e acabamento polido, possui ponta diamantada perfeita que penetra na madeira sem rachar o veio e cabeça cônica axadrezada que impede que o martelo escorregue durante o golpe. As medidas 17x21 correspondem a 3,0 mm de diâmetro (bitola 17) por 48,3 mm de comprimento (cerca de 2 polegadas), a medida padrão para tábuas de pinus e sarrafos de madeira.\n\nComercializado em pacote lacrado de 1kg, oferece excelente contagem de pregos por quilo e fixação firme e duradoura nas madeiras da obra.",
+    "faq": [
+      {
+        "question": "Quantos pregos 17x21 vêm em aproximadamente 1kg?",
+        "answer": "Um pacote de 1kg de pregos Gerdau 17x21 contém em média 420 a 440 unidades de pregos."
+      },
+      {
+        "question": "Qual a principal utilidade do tamanho 17x21?",
+        "answer": "É o tamanho padrão para pregar tábuas de 2,5 cm e sarrafos na montagem de caixarias para concreto (vigas, pilares e sapatas), fechamento de tapumes e estruturas provisórias de madeira."
+      },
+      {
+        "question": "Por que a cabeça do prego Gerdau é axadrezada?",
+        "answer": "A textura ranhurada na cabeça do prego aumenta o atrito com o martelo no momento do impacto, evitando que a ferramenta escorregue e machuque a mão do profissional."
+      }
+    ]
   },
   {
     "id": "prod-1534",
@@ -1245,7 +1752,22 @@
       "2882",
       "3"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Tijolo Cerâmico Baiano de 8 Furos 9x19x19cm da Cerâmica Vargem Grande é a solução mais tradicional, leve e econômica para o levantamento de paredes de alvenaria de vedação na construção civil.\n\nProduzido com argila selecionada e queima controlada em fornos modernos, apresenta excelente resistência mecânica, dimensões padronizadas e ranhuras laterais que facilitam a aderência da argamassa de assentamento e do chapisco. Os 8 furos proporcionam ótimo isolamento térmico e acústico, mantendo os ambientes internos mais confortáveis.\n\nCom dimensões nominais de 9 cm de largura por 19 cm de altura e 19 cm de comprimento, é fácil e rápido de manusear pelo pedreiro, acelerando o ritmo da obra.",
+    "faq": [
+      {
+        "question": "Quantos tijolos baianos 9x19x19 são necessários por metro quadrado (m²)?",
+        "answer": "Considerando as juntas de argamassa de 1 a 1,5 cm, são necessários aproximadamente 25 tijolos baianos por metro quadrado (m²) de parede em pé (cutelo)."
+      },
+      {
+        "question": "Este tijolo pode ser usado para alvenaria estrutural (sem colunas)?",
+        "answer": "Não. Este tijolo é do tipo cerâmico para vedação. Ele serve para fechar as paredes, mas a estrutura da casa precisa de colunas, vigas e sapatas de concreto armado."
+      },
+      {
+        "question": "É necessário molhar o tijolo antes de assentar?",
+        "answer": "Sim, molhar levemente os tijolos antes do assentamento evita que a cerâmica puxe a água da argamassa de cimento rápido demais, garantindo a cura e a colagem perfeitas da parede."
+      }
+    ]
   },
   {
     "id": "prod-2152",
@@ -1282,7 +1804,22 @@
       "2882",
       "3"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Tijolo Maciço Maquinado 9x19x4,5cm é um produto cerâmico nobre de alta densidade, prensado mecanicamente para proporcionar cantos vivos, faces lisas e uniformidade dimensional impecável.\n\nMuito valorizado na arquitetura contemporânea e rústica, ele é amplamente utilizado em paredes de alvenaria aparente, churrasqueiras, fogões a lenha, fornos de pizza, detalhes de fachadas, muros decorativos e pilares. Por ser totalmente maciço e denso, oferece excepcional isolamento acústico e grande inércia térmica.\n\nSua produção maquinada garante que cada peça tenha medidas regulares, facilitando o assentamento com juntas alinhadas e reduzindo o consumo de argamassa.",
+    "faq": [
+      {
+        "question": "Quantos tijolinhos maciços são necessários por metro quadrado (m²)?",
+        "answer": "Para alvenaria de meio tijolo (espessura de 9 cm), são necessários aproximadamente 85 a 90 tijolinhos por metro quadrado, considerando junta padrão de 1 cm."
+      },
+      {
+        "question": "Pode ser usado em churrasqueiras e fornos a lenha?",
+        "answer": "Sim! Por ser maciço, ele resiste muito bem ao calor. Na área interna de queima direta (braseiro), recomendamos revestir com plaquetas e argamassa refratária."
+      },
+      {
+        "question": "Como proteger a parede de tijolo aparente da chuva e umidade?",
+        "answer": "Recomenda-se aplicar verniz acrílico impermeabilizante, resina acrílica à base de solvente ou hidrofugante à base de silicone para proteger contra água sem alterar o visual rústico."
+      }
+    ]
   },
   {
     "id": "prod-2525",
@@ -1318,7 +1855,22 @@
       "86",
       "1453"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Arame Recozido Torcido BWG 18 é o companheiro indispensável do armador e pedreiro na amarração rápida, precisa e firme de vergalhões de ferro, estribos e treliças em canteiros de obra.\n\nProduzido com aço de baixo teor de carbono que passa por tratamento térmico controlado de recozimento, o arame apresenta excepcional maleabilidade e flexibilidade, dobrando com facilidade sem quebrar ou ressecar. A configuração em fio torcido (duplo) aumenta a área de contato e a resistência à tração durante o aperto com a torquês.\n\nVendido em rolo prático de 1kg, permite corte sob medida sem desperdício e garante nós firmes que não soltam durante o lançamento e vibração do concreto.",
+    "faq": [
+      {
+        "question": "O que significa a bitola BWG 18?",
+        "answer": "BWG 18 é a medida padrão do arame de construção civil e corresponde a um diâmetro de 1,25 mm por fio. Por ser torcido (duplo), oferece o equilíbrio ideal entre flexibilidade e força."
+      },
+      {
+        "question": "Quantas amarrações rende 1kg de arame recozido torcido?",
+        "answer": "1kg de arame torcido BWG 18 rende em média de 250 a 350 nós de amarração de estribos convencionais em vigas e pilares."
+      },
+      {
+        "question": "Ele quebra ao torcer com a torquês?",
+        "answer": "Não, o tratamento térmico de recozimento garante altíssima tenacidade e ductilidade. Ele suporta a torção firme sem romper com facilidade."
+      }
+    ]
   },
   {
     "id": "prod-2882",
@@ -1357,7 +1909,22 @@
       "400",
       "397"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Cimento Portland Composto com Escória CSN CP II-E-32 é reconhecido pela alta durabilidade, estabilidade química e excelente resistência mecânica em estruturas de concreto armado e fundações.\n\nComposto por clínquer de alta qualidade e adição controlada de escória granulada de alto-forno, ele apresenta menor calor de hidratação durante o endurecimento, reduzindo o risco de fissuras de origem térmica em blocos de fundação e lajes espessas. Apresenta excelente resistência química contra a ação de sulfatos, maresia e ambientes com águas agressivas subterrâneas.\n\nCom classe de resistência 32 MPa aos 28 dias, atende perfeitamente a baldrames, sapatas, pilares, vigas, muros de arrimo, contrapisos e argamassas de assentamento estrutural em geral. Fabricado pela CSN Cimentos em rigorosa conformidade com a norma NBR 16697.",
+    "faq": [
+      {
+        "question": "Qual a vantagem da adição de escória de alto-forno (CP II-E)?",
+        "answer": "A escória confere maior durabilidade à estrutura ao longo do tempo, gerando menor calor durante a cura (menos fissuras térmicas) e maior impermeabilidade e resistência ao ataque de agentes químicos do solo (sulfatos)."
+      },
+      {
+        "question": "Qual a resistência deste cimento?",
+        "answer": "Ele pertence à classe 32 MPa, o que garante resistência mínima de 32 MPa aos 28 dias após a mistura e cura adequada do concreto."
+      },
+      {
+        "question": "Pode ser utilizado para assentamento e reboco de alvenaria?",
+        "answer": "Sim, é altamente versátil e funciona muito bem tanto para concretos estruturais quanto para argamassas de assentamento de blocos e revestimentos de parede."
+      }
+    ]
   },
   {
     "id": "prod-3",
@@ -1394,7 +1961,26 @@
       "397",
       "398"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Cal Hidratada Itaú CH-I é o aglomerante aéreo de qualidade superior indispensável para a preparação de argamassas de assentamento e reboco com excelente trabalhabilidade, rendimento e durabilidade.\n\nClassificada como Cal Especial Tipo CH-I de alta pureza, ela confere extraordinária plasticidade (\"liga\") à massa de cimento e areia, retendo a água de hidratação por mais tempo. Isso garante que o pedreiro trabalhe com facilidade e evita que a massa seque rápido demais, prevenindo o surgimento de fissuras e \"mapeamentos\" no reboco após a cura.\n\nAlém de agir como plastificante natural, a Cal Itaú possui propriedades bactericidas e fungicidas naturais devido ao seu pH elevado, ajudando a prevenir a formação de mofo e bolor nas paredes ao longo dos anos. Também é amplamente utilizada para caiação (pintura de cal).",
+    "faq": [
+      {
+        "question": "Por que usar cal na massa de reboco em vez de apenas cimento e areia?",
+        "answer": "A cal dá plasticidade (a massa desliza fácil na colher e na desempenadeira) e retém a água necessária para a hidratação do cimento. Sem cal, a argamassa fica dura, quebradiça e cheia de microfissuras de retração."
+      },
+      {
+        "question": "Qual o traço tradicional para reboco com Cal Itaú?",
+        "answer": "Um traço muito comum e resistente para reboco externo ou interno é o 1:2:8 (1 medida de cimento, 2 medidas de Cal Itaú e 8 medidas de areia média/fina peneirada)."
+      },
+      {
+        "question": "Ela serve para pintura de muros e calçadas (caiação)?",
+        "answer": "Sim! A Cal Itaú CH-I tem alvura excepcional. Para pintura, dissolva cerca de 1kg de cal para 2 a 3 litros de água limpa, podendo adicionar cola branca ou Bianco para aumentar a fixação."
+      },
+      {
+        "question": "A cal queima ou corrói a pele durante o uso?",
+        "answer": "A cal é um produto fortemente alcalino. Recomenda-se sempre utilizar luvas de proteção emborrachadas, óculos e máscara durante a mistura e aplicação para evitar irritações."
+      }
+    ]
   },
   {
     "id": "prod-397",
@@ -1432,7 +2018,26 @@
       "2882",
       "3"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Areia Média Lavada fornecida pela Lopes e Lopes é selecionada e lavada em jazidas de alta qualidade na região de Franca - SP, livre de impurezas orgânicas, argila e torrões que possam comprometer a resistência do cimento.\n\nCom granulometria padrão variando entre 0,42 mm e 1,2 mm, é o agregado miúdo mais versátil e consumido na construção civil. É a especificação exata para o preparo de concreto estrutural (lajes, vigas, pilares e fundações), contrapisos nivelados e massas de assentamento de tijolos e blocos cerâmicos ou de concreto.\n\nFornecida a granel por metro cúbico (m³), com entrega rápida diretamente no canteiro de obras por caminhões basculantes devidamente aferidos em Franca e municípios vizinhos.",
+    "faq": [
+      {
+        "question": "Quantos carrinhos de mão ou latas tem 1 metro cúbico (m³) de areia?",
+        "answer": "1 metro cúbico (1 m³) de areia equivale a aproximadamente 55 latas de 18 litros ou cerca de 14 a 16 carrinhos de mão de construção civil convencionais."
+      },
+      {
+        "question": "Por que a areia deve ser lavada?",
+        "answer": "A lavagem remove o excesso de matéria orgânica, terra e argila que enfraquecem a aderência do cimento. A areia lavada garante um concreto muito mais resistente e seguro."
+      },
+      {
+        "question": "Qual a diferença entre areia média e areia fina?",
+        "answer": "A areia média tem grãos mais encorpados, ideais para concreto, contrapiso e assentamento estrutural. A areia fina tem grãos microscópicos, perfeita para o acabamento liso do reboco final (massa fina)."
+      },
+      {
+        "question": "Vocês entregam fração de metro cúbico ou carga fechada?",
+        "answer": "Entregamos a metragem exata que a sua obra precisa em Franca e região. Consulte nossa equipe no WhatsApp para combinar volume e descarregamento no local."
+      }
+    ]
   },
   {
     "id": "prod-398",
@@ -1468,7 +2073,22 @@
       "3",
       "2882"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Areia Fina Lavada proveniente dos renomados portos de Ibiraci é a referência máxima dos profissionais de acabamento para a execução de rebocos finos e emboços com acabamento liso impecável.\n\nPossui granulometria fina selecionada (grãos entre 0,05 mm e 0,42 mm) com lavagem rigorosa que elimina qualquer resíduo argiloso. Ao ser misturada com cimento e cal, produz uma massa aveludada, extremamente fácil de desempenar e filtrar, proporcionando paredes perfeitamente regulares prontas para receber massa corrida ou pintura direta.\n\nTambém é indicada para assentamento de tijolos aparentes com juntas limpas e nivelamento delicado. Entregue a granel por metro cúbico (m³) em Franca e região com rapidez e pontualidade.",
+    "faq": [
+      {
+        "question": "Por que a areia de Ibiraci é tão famosa na região?",
+        "answer": "A areia extraída nos portos de Ibiraci tem pureza e uniformidade granulométrica incomparáveis, sem pedriscos ou terra, permitindo um reboco fino que não solta grãos e facilita muito a pintura."
+      },
+      {
+        "question": "Posso usar areia fina para fazer concreto estrutural?",
+        "answer": "Não é recomendado. A areia fina exige muito mais água e cimento para dar resistência, o que pode causar trincas. Para concreto, utilize a Areia Média ou Grossa."
+      },
+      {
+        "question": "Quanto rende 1 m³ de areia fina em reboco?",
+        "answer": "1 m³ de areia fina rende argamassa suficiente para rebocar aproximadamente 60 a 75 m² de parede com espessura média de 1,5 cm."
+      }
+    ]
   },
   {
     "id": "prod-400",
@@ -1505,7 +2125,22 @@
       "397",
       "2882"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Pedra Brita 01 fornecida pela Lopes e Lopes é o agregado graúdo de maior demanda estrutural na construção civil, com granulometria uniforme compreendida entre 9,5 mm e 19 mm.\n\nExtraída e britada de rocha basáltica de alta densidade e resistência compressiva, a Brita 01 possui britagem limpa e formato cúbico ideal que garante excelente engrenamento mecânico com a pasta de cimento e areia. É a bitola padrão recomendada para concretos armados de lajes, vigas, colunas, baldrames, calçadas de tráfego leve e pesado, e sapatas de fundação.\n\nSua dimensão intermediária permite que o concreto flua facilmente através das armaduras de aço sem criar \"bicheiras\" ou vazios estruturais. Comercializada a granel por metro cúbico (m³) com entrega direta na sua obra em Franca - SP.",
+    "faq": [
+      {
+        "question": "Quantas latas de 18L correspondem a 1 metro cúbico de brita?",
+        "answer": "1 m³ de pedra brita equivale a aproximadamente 55 latas de 18 litros ou cerca de 14 a 15 carrinhos de pedreiro."
+      },
+      {
+        "question": "Qual a diferença entre a Brita 0 (pedrisco) e a Brita 1?",
+        "answer": "A Brita 0 tem tamanho menor (4,8 a 9,5 mm) e é indicada para vigotas e calçadas finas. A Brita 1 (9,5 a 19 mm) é o tamanho padrão ideal para a grande maioria das vigas, lajes e pilares estruturais."
+      },
+      {
+        "question": "Quanto pesa 1 m³ de Brita 01?",
+        "answer": "O peso médio de 1 metro cúbico de brita 1 varia entre 1.400 kg e 1.500 kg (1,4 a 1,5 tonelada), dependendo da umidade da jazida."
+      }
+    ]
   },
   {
     "id": "prod-86",
@@ -1542,7 +2177,22 @@
       "2525",
       "92"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Barra de Ferro CA-50 de 5/16\" (8,0 mm) com 12 metros da Gerdau é o elemento fundamental para a segurança e estabilidade estrutural de qualquer edificação de concreto armado.\n\nProduzido conforme a rigorosa norma ABNT NBR 7480, o aço CA-50 Gerdau possui nervuras superficiais de alta aderência que garantem um perfeito engrenamento mecânico com o concreto, evitando o escorregamento da barra dentro das vigas e pilares. Apresenta excelente soldabilidade, ductilidade e limite de escoamento característico de 500 MPa.\n\nÉ a bitola mais indicada para armaduras longitudinais de vigas baldrame, pilares residenciais, vergas, contravergas, cintas de amarração superior e reforço de lajes e muros de contenção. Fornecida em barras retas dobradas de 12 metros para transporte seguro.",
+    "faq": [
+      {
+        "question": "Quanto pesa uma barra de ferro 5/16\" (8mm) de 12 metros?",
+        "answer": "Uma barra de 8,0 mm (5/16\") pesa aproximadamente 4,74 kg (peso nominal de cerca de 0,395 kg por metro linear)."
+      },
+      {
+        "question": "O que significa a sigla CA-50?",
+        "answer": "CA significa \"Concreto Armado\" e 50 representa a tensão de escoamento de 50 kgf/mm² (ou 500 MPa), que atesta a alta resistência mecânica à tração que o aço suporta."
+      },
+      {
+        "question": "Como a barra de 12 metros é entregue na obra?",
+        "answer": "Para transporte seguro em caminhões e manuseio no trânsito urbano, as barras de 12 metros são entregues dobradas ao meio (formato em \"V\"). No canteiro, os armadores desdobram ou cortam nas medidas dos estribos e vigas."
+      }
+    ]
   },
   {
     "id": "prod-92",
@@ -1579,7 +2229,22 @@
       "86",
       "2882"
     ],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "A Treliça Nervurada TR 08 Gerdau é uma estrutura espacial eletrossoldada fabricada em aço CA-60 de altíssima resistência mecânica (limite de escoamento de 600 MPa), amplamente utilizada na produção de vigotas de lajes pré-moldadas e pisos treliçados.\n\nCom altura total de 8 cm (h=80mm) e comprimento padrão de 12 metros, a treliça une o banzo superior, a diagonal (senóide) e os banzos inferiores por solda eletrônica a ponto, formando uma viga triangular rígida capaz de vencer vãos livres com baixo peso próprio e excelente rigidez à flexão.\n\nSeu uso reduz o escoramento na obra, acelera a montagem das lajes e reduz o consumo de concreto e aço em comparação com métodos tradicionais. Também é muito usada como espaçador de armaduras em pisos industriais e radier.",
+    "faq": [
+      {
+        "question": "Qual a altura da treliça TR 08?",
+        "answer": "A treliça TR 08 possui altura de 8 centímetros (80 mm). Ela é a bitola ideal para lajes residenciais de forro e piso com vãos convencionais de até 3,5 a 4 metros."
+      },
+      {
+        "question": "Qual a vantagem da laje treliçada em relação à laje comum de trilho?",
+        "answer": "A laje treliçada é mais leve, permite vencer vãos maiores com menos escoras, distribui as cargas em duas direções com mais eficiência e reduz consideravelmente o risco de trincas no forro."
+      },
+      {
+        "question": "Qual tipo de lajota deve ser usada com a treliça TR 08?",
+        "answer": "Pode ser utilizada tanto com lajota cerâmica (tavelas de 8cm) quanto com placas de EPS (isopor para laje H8), que tornam a laje ainda mais leve e térmica."
+      }
+    ]
   },
   {
     "id": "prod-corante-liquido-xadrez-50ml",
@@ -1652,6 +2317,21 @@
         "sku": "20207",
         "name": "Marrom"
       }
+    ],
+    "detailedDescription": "O Corante Líquido Xadrez 50ml é o pigmento aquoso concentrado mais tradicional e renomado do Brasil para o tingimento e personalização de cores em tintas imobiliárias e materiais de construção civil.\n\nCom alto poder de dispersão e rendimento, ele permite criar uma infinidade de tons pastel e cores personalizadas misturando gotas do corante em tintas à base de água (látex PVA ou acrílica). Também é amplamente utilizado no tingimento de cal de pintura (caiação), gesso em pó, texturas decorativas, rejuntes cimentícios e massas para artesanato.\n\nDisponível nas cores clássicas: Preto, Vermelho, Azul, Amarelo, Verde, Castanho e Ocre. A embalagem com bico conta-gotas permite dosagem precisa para replicar a mesma tonalidade em diferentes baldes de tinta.",
+    "faq": [
+      {
+        "question": "Quantos frascos de Xadrez posso colocar por galão de tinta?",
+        "answer": "Recomenda-se adicionar no máximo 1 frasco (50 ml) para cada galão de 3,6 litros de tinta branca (ou até 5 frascos por balde de 18L), para não alterar as propriedades de secagem e cobertura da tinta."
+      },
+      {
+        "question": "Ele serve para tintas a óleo ou esmalte sintético?",
+        "answer": "O Corante Líquido Xadrez tradicional é de base aquosa e indicado para tintas à base de água (látex, acrílicas, cal e gesso). Para esmaltes sintéticos à base de solvente, utilize corante próprio para óleo."
+      },
+      {
+        "question": "Como conseguir a cor desejada sem errar o tom?",
+        "answer": "Adicione o corante aos poucos, gota a gota ou em pequenas doses, sempre misturando muito bem com uma espátula. Faça um teste em um pedaço de papelão e espere secar, pois a cor escurece ligeiramente após seca."
+      }
     ]
   },
   {
@@ -1703,6 +2383,25 @@
         "sku": "20303",
         "name": "2.0 mm"
       }
+    ],
+    "detailedDescription": "Os Espaçadores Niveladores de Piso Cortag são o sistema indispensável para assentamento de porcelanatos polidos, retificados e pisos cerâmicos de grande formato sem desníveis ou o indesejado efeito \"dente\".\n\nFabricados em polipropileno virgem de alta precisão, os clipes possuem estrutura robusta que suporta a tração da cunha niveladora sem romper antes da hora, e ponto de ruptura estratégica na base para um descarte limpo com um chute lateral ou golpe de martelo de borracha após a cura da argamassa.\n\nGarantem o nivelamento milimétrico entre as bordas das peças e o espaçamento uniforme das juntas de assentamento. Disponíveis nas espessuras de junta de 1,0 mm, 1,5 mm e 2,0 mm, são compatíveis com as cunhas e alicates de nivelamento padrão Cortag.",
+    "faq": [
+      {
+        "question": "Quantos clipes niveladores preciso por metro quadrado?",
+        "answer": "O consumo médio varia com o tamanho da peça: para porcelanatos 60x60 cm, utiliza-se cerca de 8 a 10 clipes por m²; para peças 80x80 cm ou 60x120 cm, cerca de 6 a 8 clipes por m²."
+      },
+      {
+        "question": "As cunhas e o alicate acompanham este pacote?",
+        "answer": "Este pacote contém 50 unidades de clipes niveladores descartáveis. As cunhas (que são reutilizáveis) e o alicate de tração são adquiridos separadamente."
+      },
+      {
+        "question": "Como retirar os niveladores após a secagem da argamassa?",
+        "answer": "Após a cura total da argamassa (geralmente 24h a 48h), bata lateralmente na cunha com um martelo de borracha ou dê um chute no sentido da junta. O clipe se quebra na base rente ao contrapiso."
+      },
+      {
+        "question": "Qual espessura devo escolher: 1.0mm, 1.5mm ou 2.0mm?",
+        "answer": "Para porcelanatos retificados de junta mínima em ambientes internos, 1.0mm ou 1.5mm são os mais usados. Para cerâmicas bold ou áreas externas, 2.0mm é a medida recomendada."
+      }
     ]
   },
   {
@@ -1736,7 +2435,26 @@
     ],
     "warranty": "Certificação e garantia Sil Fios",
     "relatedSkus": [],
-    "variations": []
+    "variations": [],
+    "detailedDescription": "O Cabo Flexível 2,5mm² 750V Sil é o condutor elétrico mais utilizado e recomendado em instalações residenciais e comerciais para circuitos de tomadas de uso geral (TUG), tomadas de cozinha e equipamentos de média potência.\n\nProduzido com condutores de fios de cobre eletrolítico 99,9% puro com têmpera mole e encordoamento classe 5 (extraflexível), ele desliza com facilidade dentro de eletrodutos e conduítes, facilitando puxamentos longos e economizando tempo de mão de obra do eletricista. Seu isolamento em composto termoplástico à base de PVC possui propriedade antichama (BWF-B 70°C), que não propaga fogo em caso de sobrecarga elétrica.\n\nA cor Azul-Claro atende rigorosamente à norma técnica ABNT NBR 5410, que determina o uso exclusivo desta cor para o condutor Neutro da instalação. Certificado pelo INMETRO com controle rigoroso de bitola e condutividade.",
+    "faq": [
+      {
+        "question": "Quantos amperes (A) suporta o cabo de 2,5mm²?",
+        "answer": "Em instalações residenciais embutidas em eletrodutos (temperatura de 30°C), o cabo de 2,5mm² suporta até 21 a 24 Amperes, sendo a bitola ideal para tomadas comuns de 10A e 20A."
+      },
+      {
+        "question": "Por que o cabo azul deve ser usado para o Neutro?",
+        "answer": "A norma brasileira de instalações elétricas (NBR 5410) estabelece que a cor azul-claro é de identificação obrigatória do condutor Neutro, garantindo segurança e padronização para manutenções futuras."
+      },
+      {
+        "question": "Ele serve para ligar chuveiro elétrico?",
+        "answer": "Não. Chuveiros elétricos exigem potência mais elevada e demandam cabos de 4mm², 6mm² ou 10mm², além de disjuntor exclusivo. O cabo de 2,5mm² é indicado para tomadas, iluminação e aparelhos médios."
+      },
+      {
+        "question": "O cabo Sil é de cobre puro?",
+        "answer": "Sim, a Sil Fios utiliza 100% de cobre eletrolítico puro certificado pelo INMETRO, sem misturas que causam perda de energia ou aquecimento na fiação."
+      }
+    ]
   },
   {
     "id": "prod-maxi-ducha-lorenzetti",
@@ -1782,6 +2500,25 @@
       {
         "sku": "20402",
         "name": "220V (5500W)"
+      }
+    ],
+    "detailedDescription": "O Chuveiro Elétrico Maxi Ducha da Lorenzetti é o clássico consagrado de milhões de lares brasileiros, sinônimo de banho confortável, durabilidade, economia e excelente custo-benefício.\n\nEquipado com um grande espalhador de água que distribui o jato de maneira uniforme e relaxante, ele oferece 3 opções de temperatura ajustáveis (Verão / Morno / Inverno), permitindo dosar a quantidade exata de calor e economizar energia nos dias mais amenos. Seu design tradicional e compacto é fácil de instalar e harmoniza com qualquer estilo de banheiro.\n\nConta com resistência de troca rápida tipo refil (fácil de substituir sem ferramentas complexas), é compatível com sistemas de aquecimento solar e atende a residências com disjuntor diferencial residual (DR). Disponível nas opções 127V (5500W) e 220V (5500W).",
+    "faq": [
+      {
+        "question": "Qual disjuntor e bitola de fio devo usar para o chuveiro Maxi Ducha?",
+        "answer": "Para a versão 127V (5500W): use disjuntor de 50A e fio de no mínimo 10mm². Para a versão 220V (5500W): use disjuntor de 32A e fio de no mínimo 4mm²."
+      },
+      {
+        "question": "Como instalar para não queimar a resistência no primeiro uso?",
+        "answer": "Importante: antes de ligar o disjuntor elétrico, abra o registro e deixe a água fria correr por cerca de 1 minuto para encher a câmara do chuveiro. Somente depois ligue a energia!"
+      },
+      {
+        "question": "É compatível com aquecimento solar?",
+        "answer": "Sim! O chuveiro Maxi Ducha Lorenzetti pode ser instalado como apoio elétrico em instalações com sistema de aquecimento solar de água."
+      },
+      {
+        "question": "Ele precisa de cano prolongador para instalar na parede?",
+        "answer": "Sim, recomenda-se o uso de um braço para chuveiro de 30 cm padrão para afastar o chuveiro da parede e garantir banho confortável."
       }
     ]
   },
@@ -1870,6 +2607,25 @@
         "hex": "#e2e8f0",
         "sku": "20110",
         "name": "Verniz Brilhante"
+      }
+    ],
+    "detailedDescription": "A Tinta Spray Uso Geral Tekbond 400ml / 250g é a solução perfeita para pintura, customização e restauração rápida de móveis, metais, ferramentas, objetos decorativos e peças automotivas com acabamento profissional.\n\nFormulada com resina acrílica de secagem rápida e alta cobertura, ela proporciona uma película lisa, uniforme e resistente às intempéries tanto em ambientes internos quanto externos. Sua válvula e atuador anatômico em leque garantem excelente atomização da tinta, evitando respingos, gotejamentos e marcas de pincel.\n\nAdere com facilidade em metal, ferro, madeira, cerâmica, gesso, alvenaria, papel e diversos plásticos. Disponível em ampla variedade de cores e acabamentos (Preto Fosco, Preto Brilhante, Branco Brilhante, Branco Fosco, Prata Metálico, Ouro/Dourado, Vermelho, Azul, Amarelo e Verniz Incolor).",
+    "faq": [
+      {
+        "question": "Quantos metros quadrados rende uma lata de spray de 400ml?",
+        "answer": "Rende aproximadamente 1,3 m² a 1,7 m² por tubo, considerando aplicação em duas a três demãos finas e uniformes."
+      },
+      {
+        "question": "Qual o tempo de secagem da tinta spray Tekbond?",
+        "answer": "A secagem ao toque é ultrarrápida (cerca de 15 minutos). O manuseio pode ser feito em 1 a 2 horas, e a cura total ocorre em 24 horas."
+      },
+      {
+        "question": "Como aplicar para não escorrer a tinta?",
+        "answer": "Mantenha uma distância de 20 a 25 cm da peça e aplique sempre em camadas finas e cruzadas com movimentos constantes. Nunca concentre o jato em um único ponto."
+      },
+      {
+        "question": "O que fazer para não entupir o bico após o uso?",
+        "answer": "Ao terminar, vire a lata de cabeça para baixo e aperte o bico por 2 a 3 segundos até sair apenas o gás propelente transparente. Isso limpa a válvula para o próximo uso."
       }
     ]
   }
