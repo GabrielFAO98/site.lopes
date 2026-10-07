@@ -316,7 +316,7 @@ export default function BannersPage() {
                     </div>
                     <div className="max-w-[340px] mx-auto bg-slate-900 p-2.5 rounded-[2rem] shadow-xl border-4 border-slate-800">
                       <div className="rounded-[1.4rem] overflow-hidden bg-slate-900">
-                        <div className="relative w-full aspect-[16/7.5]">
+                        <div className="relative w-full aspect-[4/5]">
                           <BannerSlideContent banner={banner} variant="mobile" />
                         </div>
                       </div>

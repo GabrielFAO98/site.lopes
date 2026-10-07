@@ -105,12 +105,8 @@ export function HomeBannerSlider({
                 />
               </div>
 
-              {/* Versão Mobile (otimizada para celular) */}
-              <div
-                className={`block md:hidden relative w-full ${
-                  banner.tipo === 'imagem' ? 'aspect-[16/5.2]' : 'aspect-[16/7.5]'
-                }`}
-              >
+              {/* Versão Mobile (ocupa a maior parte da tela inicial no celular) */}
+              <div className="block md:hidden relative w-full aspect-[4/5] min-h-[440px] max-h-[580px]">
                 <BannerSlideContent
                   banner={banner}
                   variant="mobile"
@@ -153,23 +149,23 @@ export function HomeBannerSlider({
         })}
       </div>
 
-      {/* Botões de Navegação Anterior/Próximo */}
+      {/* Botões de Navegação Anterior/Próximo (desktop) */}
       {total > 1 && (
         <>
           <button
             onClick={handlePrev}
-            className="absolute left-2 sm:left-4 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center backdrop-blur-xs transition-all opacity-80 sm:opacity-0 sm:group-hover:opacity-100 shadow-md"
+            className="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/40 hover:bg-black/70 text-white items-center justify-center backdrop-blur-xs transition-all opacity-0 group-hover:opacity-100 shadow-md"
             aria-label="Banner anterior"
           >
-            <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
+            <ChevronLeft className="w-6 h-6" />
           </button>
 
           <button
             onClick={handleNext}
-            className="absolute right-2 sm:right-4 top-1/2 -translate-y-1/2 z-20 w-8 h-8 sm:w-11 sm:h-11 rounded-full bg-black/40 hover:bg-black/70 text-white flex items-center justify-center backdrop-blur-xs transition-all opacity-80 sm:opacity-0 sm:group-hover:opacity-100 shadow-md"
+            className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 z-20 w-11 h-11 rounded-full bg-black/40 hover:bg-black/70 text-white items-center justify-center backdrop-blur-xs transition-all opacity-0 group-hover:opacity-100 shadow-md"
             aria-label="Próximo banner"
           >
-            <ChevronRight className="w-5 h-5 sm:w-6 sm:h-6" />
+            <ChevronRight className="w-6 h-6" />
           </button>
         </>
       )}

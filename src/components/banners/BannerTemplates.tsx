@@ -15,7 +15,8 @@ import type {
  *
  * Todos os tamanhos usam a unidade `cqw` (1% da largura do banner), então o banner
  * escala como uma imagem: o layout fica idêntico em qualquer largura de tela.
- * Cada modelo tem uma versão 'desktop' (proporção larga) e 'mobile' (mais alta).
+ * Cada modelo tem uma versão 'desktop' (proporção larga) e 'mobile' (vertical, ocupando
+ * a maior parte da tela inicial no celular).
  */
 
 export type BannerVariant = 'desktop' | 'mobile';
@@ -42,7 +43,7 @@ function TituloComDestaque({ texto, destaqueClass }: { texto: string; destaqueCl
 
 const fs = (size: string): React.CSSProperties => ({ fontSize: size });
 
-/** Tamanhos de texto por variante (desktop = referência 1600px, mobile = referência 400px) */
+/** Tamanhos de texto por variante (desktop = referência 1600px, mobile = referência 400px vertical) */
 const TIPO = {
   desktop: {
     tag: fs('max(10px, 0.95cqw)'),
@@ -54,19 +55,19 @@ const TIPO = {
     topico: fs('max(11px, 1.25cqw)'),
   },
   mobile: {
-    tag: fs('2.7cqw'),
-    titulo: fs('6.6cqw'),
-    subtitulo: fs('max(11px, 3.3cqw)'),
-    preco: fs('5.6cqw'),
-    precoLegenda: fs('max(10px, 3cqw)'),
-    cta: fs('max(11px, 3.4cqw)'),
-    topico: fs('max(11px, 3.3cqw)'),
+    tag: fs('max(11px, 3cqw)'),
+    titulo: fs('max(23px, 6.6cqw)'),
+    subtitulo: fs('max(13px, 3.6cqw)'),
+    preco: fs('max(23px, 6.8cqw)'),
+    precoLegenda: fs('max(11px, 3.1cqw)'),
+    cta: fs('max(13px, 3.8cqw)'),
+    topico: fs('max(13px, 3.6cqw)'),
   },
 };
 
 const ESPACO = {
   desktop: { gap: '1.15cqw', tagPad: '0.35cqw 1.1cqw', ctaPad: '0.85cqw 2cqw', ctaMt: '0.5cqw' },
-  mobile: { gap: '1.6cqw', tagPad: '0.8cqw 2.4cqw', ctaPad: '1.8cqw 4cqw', ctaMt: '0.8cqw' },
+  mobile: { gap: '2.4cqw', tagPad: '0.7cqw 2.4cqw', ctaPad: '2.5cqw 5.5cqw', ctaMt: '1.2cqw' },
 };
 
 function Tag({ texto, className, variant }: { texto: string; className: string; variant: BannerVariant }) {
@@ -141,16 +142,128 @@ export function BannerProdutoTemplate({ banner, variant }: { banner: BannerProdu
   const tema = TEMAS[banner.tema ?? 'azul'];
   const t = TIPO[variant];
   const isDesktop = variant === 'desktop';
-  const imagens = isDesktop ? banner.imagens.slice(0, 3) : banner.imagens.slice(0, 1);
 
-  // Tamanho dos cartões de produto conforme a quantidade de fotos
-  const cartao = isDesktop
-    ? imagens.length === 1
+  if (!isDesktop) {
+    // Layout Vertical Especial para Mobile (ocupa a maior parte da tela inicial)
+    return (
+      <div
+        className={`relative w-full h-full overflow-hidden ${tema.fundo}`}
+        style={{ containerType: 'inline-size' }}
+      >
+        {/* Elemento de fundo decorativo da marca */}
+        <div
+          className={`absolute inset-0 ${tema.forma} opacity-20`}
+          style={{
+            clipPath: 'polygon(0 68%, 100% 52%, 100% 100%, 0 100%)',
+          }}
+        />
+        <div className="absolute -top-12 -right-12 w-64 h-64 rounded-full bg-white/5 pointer-events-none" />
+
+        {/* Conteúdo Vertical Estruturado */}
+        <div
+          className="absolute inset-0 flex flex-col justify-between text-white"
+          style={{
+            padding: '7cqw 6cqw 14cqw 6cqw',
+          }}
+        >
+          {/* Topo: Tag, Título e Subtítulo */}
+          <div className="flex flex-col" style={{ gap: '2cqw' }}>
+            {banner.tag && <Tag texto={banner.tag} className={tema.tag} variant={variant} />}
+            <h2 className="font-extrabold leading-[1.12] tracking-tight" style={t.titulo}>
+              <TituloComDestaque texto={banner.titulo} destaqueClass={tema.destaque} />
+            </h2>
+            {banner.subtitulo && (
+              <p className={`leading-snug line-clamp-2 ${tema.subtitulo}`} style={t.subtitulo}>
+                {banner.subtitulo}
+              </p>
+            )}
+          </div>
+
+          {/* Centro: Vitrine de Fotos dos Produtos com destaque generoso */}
+          <div className="flex items-center justify-center my-auto py-2" style={{ gap: '2.5cqw' }}>
+            {banner.imagens.length === 1 ? (
+              <div
+                className="relative bg-white shadow-2xl shrink-0"
+                style={{
+                  width: '54cqw',
+                  height: '46cqw',
+                  borderRadius: '4cqw',
+                  padding: '2.8cqw',
+                }}
+              >
+                <div className="relative w-full h-full">
+                  <Image
+                    src={banner.imagens[0]}
+                    alt=""
+                    fill
+                    className="object-contain"
+                    sizes="60vw"
+                  />
+                </div>
+              </div>
+            ) : (
+              banner.imagens.slice(0, 3).map((src, i) => (
+                <div
+                  key={src + i}
+                  className="relative bg-white shadow-xl shrink-0"
+                  style={{
+                    width: banner.imagens.length === 2 ? '38cqw' : '26.5cqw',
+                    height: banner.imagens.length === 2 ? '42cqw' : '34cqw',
+                    borderRadius: '3cqw',
+                    padding: '2cqw',
+                    transform:
+                      banner.imagens.length === 3 && i === 1 ? 'translateY(-2cqw) scale(1.08)' : undefined,
+                    zIndex: banner.imagens.length === 3 && i === 1 ? 10 : 1,
+                  }}
+                >
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={src}
+                      alt=""
+                      fill
+                      className="object-contain"
+                      sizes="35vw"
+                    />
+                  </div>
+                </div>
+              ))
+            )}
+          </div>
+
+          {/* Rodapé: Preço e Botão de Ação */}
+          <div className="flex items-end justify-between gap-3 pt-1">
+            {banner.preco ? (
+              <div className="flex flex-col leading-none">
+                {banner.precoLegenda && (
+                  <span
+                    className={`uppercase font-bold tracking-wider mb-1.5 ${tema.subtitulo}`}
+                    style={t.precoLegenda}
+                  >
+                    {banner.precoLegenda}
+                  </span>
+                )}
+                <span className="font-black" style={t.preco}>
+                  {banner.preco}
+                </span>
+              </div>
+            ) : (
+              <div />
+            )}
+            <Cta texto={banner.cta} className={tema.cta} variant={variant} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Desktop (preservado)
+  const imagens = banner.imagens.slice(0, 3);
+  const cartao =
+    imagens.length === 1
       ? { w: '19cqw', h: '23cqw' }
       : imagens.length === 2
         ? { w: '15.5cqw', h: '20cqw' }
-        : { w: '12.5cqw', h: '17cqw' }
-    : { w: '31cqw', h: '42cqw' };
+        : { w: '12.5cqw', h: '17cqw' };
 
   return (
     <div
@@ -161,17 +274,13 @@ export function BannerProdutoTemplate({ banner, variant }: { banner: BannerProdu
       <div
         className="absolute inset-0 bg-white/15"
         style={{
-          clipPath: isDesktop
-            ? 'polygon(61.6% 0, 62.9% 0, 52.9% 100%, 51.6% 100%)'
-            : 'polygon(67.4% 0, 68.9% 0, 56.9% 100%, 55.4% 100%)',
+          clipPath: 'polygon(61.6% 0, 62.9% 0, 52.9% 100%, 51.6% 100%)',
         }}
       />
       <div
         className={`absolute inset-0 ${tema.forma}`}
         style={{
-          clipPath: isDesktop
-            ? 'polygon(64% 0, 100% 0, 100% 100%, 54% 100%)'
-            : 'polygon(70% 0, 100% 0, 100% 100%, 58% 100%)',
+          clipPath: 'polygon(64% 0, 100% 0, 100% 100%, 54% 100%)',
         }}
       />
 
@@ -179,9 +288,9 @@ export function BannerProdutoTemplate({ banner, variant }: { banner: BannerProdu
       <div
         className="absolute inset-y-0 flex flex-col justify-center text-white"
         style={{
-          left: isDesktop ? '6cqw' : '5.5cqw',
-          width: isDesktop ? '46cqw' : '54cqw',
-          gap: ESPACO[variant].gap,
+          left: '6cqw',
+          width: '46cqw',
+          gap: ESPACO.desktop.gap,
         }}
       >
         {banner.tag && <Tag texto={banner.tag} className={tema.tag} variant={variant} />}
@@ -212,8 +321,8 @@ export function BannerProdutoTemplate({ banner, variant }: { banner: BannerProdu
       <div
         className="absolute inset-y-0 flex items-center justify-center"
         style={{
-          right: isDesktop ? '3cqw' : '3cqw',
-          width: isDesktop ? '42cqw' : '38cqw',
+          right: '3cqw',
+          width: '42cqw',
           gap: '1.4cqw',
         }}
       >
@@ -224,8 +333,8 @@ export function BannerProdutoTemplate({ banner, variant }: { banner: BannerProdu
             style={{
               width: cartao.w,
               height: cartao.h,
-              borderRadius: isDesktop ? '1.4cqw' : '3.5cqw',
-              padding: isDesktop ? '1cqw' : '2.5cqw',
+              borderRadius: '1.4cqw',
+              padding: '1cqw',
               transform: imagens.length === 3 && i === 1 ? 'translateY(-1.6cqw)' : undefined,
             }}
           >
@@ -235,7 +344,7 @@ export function BannerProdutoTemplate({ banner, variant }: { banner: BannerProdu
                 alt=""
                 fill
                 className="object-contain"
-                sizes={isDesktop ? '20vw' : '35vw'}
+                sizes="20vw"
               />
             </div>
           </div>
@@ -257,30 +366,72 @@ export function BannerInstitucionalTemplate({
   const t = TIPO[variant];
   const isDesktop = variant === 'desktop';
 
+  if (!isDesktop) {
+    // Layout Vertical Especial para Mobile (ocupa a maior parte da tela inicial)
+    return (
+      <div
+        className="relative w-full h-full overflow-hidden bg-lopes-blue-900"
+        style={{ containerType: 'inline-size' }}
+      >
+        <Image src={banner.fundo} alt="" fill className="object-cover" sizes="100vw" priority />
+        <div className="absolute inset-0 bg-gradient-to-t from-lopes-blue-950 via-lopes-blue-900/85 to-lopes-blue-950/60" />
+
+        {/* Barra laranja da marca */}
+        <div className="absolute inset-x-0 bottom-0 bg-lopes-orange" style={{ height: '1.2cqw' }} />
+
+        {/* Conteúdo espaçoso e centralizado verticalmente */}
+        <div
+          className="absolute inset-0 flex flex-col justify-center text-white"
+          style={{
+            padding: '8cqw 6.5cqw 14cqw 6.5cqw',
+            gap: '3.2cqw',
+          }}
+        >
+          {banner.tag && <Tag texto={banner.tag} className="bg-lopes-orange text-white" variant={variant} />}
+          <h2 className="font-extrabold leading-[1.12] tracking-tight" style={t.titulo}>
+            <TituloComDestaque texto={banner.titulo} destaqueClass="text-lopes-orange-400" />
+          </h2>
+          {banner.subtitulo && (
+            <p className="leading-snug text-blue-100" style={t.subtitulo}>
+              {banner.subtitulo}
+            </p>
+          )}
+          {banner.topicos && banner.topicos.length > 0 && (
+            <ul className="flex flex-col text-blue-50" style={{ ...t.topico, gap: '2.2cqw', marginTop: '0.8cqw' }}>
+              {banner.topicos.slice(0, 3).map((topico) => (
+                <li key={topico} className="flex items-center gap-[0.5em] font-semibold">
+                  <CheckCircle2 className="w-[1.2em] h-[1.2em] text-lopes-orange-400 shrink-0" />
+                  <span>{topico}</span>
+                </li>
+              ))}
+            </ul>
+          )}
+          <div style={{ marginTop: '2cqw' }}>
+            <Cta texto={banner.cta} className="bg-lopes-orange text-white shadow-xl" variant={variant} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Desktop (preservado)
   return (
     <div
       className="relative w-full h-full overflow-hidden bg-lopes-blue-900"
       style={{ containerType: 'inline-size' }}
     >
       <Image src={banner.fundo} alt="" fill className="object-cover" sizes="100vw" />
-      <div
-        className={`absolute inset-0 ${
-          isDesktop
-            ? 'bg-gradient-to-r from-lopes-blue-900 via-lopes-blue-900/85 to-lopes-blue-900/0'
-            : 'bg-gradient-to-t from-lopes-blue-900 via-lopes-blue-900/85 to-lopes-blue-900/30'
-        }`}
-      />
+      <div className="absolute inset-0 bg-gradient-to-r from-lopes-blue-900 via-lopes-blue-900/85 to-lopes-blue-900/0" />
+
       {/* Barra laranja da marca */}
-      <div className="absolute inset-x-0 bottom-0 bg-lopes-orange" style={{ height: isDesktop ? '0.45cqw' : '1.2cqw' }} />
+      <div className="absolute inset-x-0 bottom-0 bg-lopes-orange" style={{ height: '0.45cqw' }} />
 
       <div
-        className={`absolute flex flex-col text-white ${isDesktop ? 'inset-y-0 justify-center' : 'inset-x-0 bottom-0'}`}
+        className="absolute inset-y-0 flex flex-col justify-center text-white"
         style={{
-          left: isDesktop ? '6cqw' : '5.5cqw',
-          right: isDesktop ? undefined : '5.5cqw',
-          width: isDesktop ? '50cqw' : undefined,
-          paddingBottom: isDesktop ? undefined : '6cqw',
-          gap: ESPACO[variant].gap,
+          left: '6cqw',
+          width: '50cqw',
+          gap: ESPACO.desktop.gap,
         }}
       >
         {banner.tag && <Tag texto={banner.tag} className="bg-lopes-orange text-white" variant={variant} />}
@@ -294,8 +445,8 @@ export function BannerInstitucionalTemplate({
         )}
         {banner.topicos && banner.topicos.length > 0 && (
           <ul
-            className={`flex text-blue-50 ${isDesktop ? 'flex-wrap' : 'flex-col'}`}
-            style={{ ...t.topico, columnGap: '1.8cqw', rowGap: isDesktop ? '0.5cqw' : '1cqw' }}
+            className="flex flex-wrap text-blue-50"
+            style={{ ...t.topico, columnGap: '1.8cqw', rowGap: '0.5cqw' }}
           >
             {banner.topicos.slice(0, 3).map((topico) => (
               <li key={topico} className="flex items-center gap-[0.4em] font-semibold">
@@ -316,8 +467,120 @@ export function BannerInstitucionalTemplate({
 export function BannerWhatsAppTemplate({ banner, variant }: { banner: BannerWhatsApp; variant: BannerVariant }) {
   const t = TIPO[variant];
   const isDesktop = variant === 'desktop';
-  const balao = fs('max(10px, 1.05cqw)');
 
+  if (!isDesktop) {
+    // Layout Vertical Especial para Mobile (ocupa a maior parte da tela inicial)
+    const balao = fs('max(11px, 2.9cqw)');
+    return (
+      <div
+        className="relative w-full h-full overflow-hidden bg-gradient-to-br from-[#064e46] via-[#075E54] to-[#128C7E]"
+        style={{ containerType: 'inline-size' }}
+      >
+        {/* Círculos decorativos */}
+        <div
+          className="absolute rounded-full border border-white/10 pointer-events-none"
+          style={{ width: '80cqw', height: '80cqw', right: '-25cqw', top: '-15cqw' }}
+        />
+        <div
+          className="absolute rounded-full border border-white/10 pointer-events-none"
+          style={{ width: '100cqw', height: '100cqw', right: '-35cqw', top: '-25cqw' }}
+        />
+
+        <div
+          className="absolute inset-0 flex flex-col justify-between text-white"
+          style={{
+            padding: '7cqw 6cqw 14cqw 6cqw',
+          }}
+        >
+          {/* Topo: Tag, Título e Subtítulo */}
+          <div className="flex flex-col" style={{ gap: '2cqw' }}>
+            {banner.tag && (
+              <Tag texto={banner.tag} className="bg-white/15 text-white ring-1 ring-white/30" variant={variant} />
+            )}
+            <h2 className="font-extrabold leading-[1.12] tracking-tight" style={t.titulo}>
+              <TituloComDestaque texto={banner.titulo} destaqueClass="text-[#7CF0A8]" />
+            </h2>
+            {banner.subtitulo && (
+              <p className="leading-snug text-emerald-50/90" style={t.subtitulo}>
+                {banner.subtitulo}
+              </p>
+            )}
+          </div>
+
+          {/* Centro: Chat Realista do WhatsApp */}
+          <div
+            className="my-auto bg-[#ECE5DD] shadow-2xl overflow-hidden self-center"
+            style={{ width: '86cqw', borderRadius: '3cqw' }}
+          >
+            <div
+              className="flex items-center bg-[#075E54] text-white"
+              style={{ gap: '2cqw', padding: '2cqw 3cqw' }}
+            >
+              <div
+                className="rounded-full bg-white flex items-center justify-center shrink-0"
+                style={{ width: '6.5cqw', height: '6.5cqw' }}
+              >
+                <WhatsAppIcon className="w-[60%] h-[60%] fill-[#25D366]" />
+              </div>
+              <div className="leading-tight">
+                <div className="font-bold" style={fs('max(12px, 3.2cqw)')}>
+                  Lopes e Lopes Franca
+                </div>
+                <div className="text-emerald-100/80" style={fs('max(10px, 2.5cqw)')}>
+                  online agora
+                </div>
+              </div>
+            </div>
+            <div className="flex flex-col" style={{ gap: '1.8cqw', padding: '3cqw' }}>
+              <div
+                className="self-end max-w-[85%] bg-[#DCF8C6] text-slate-800 shadow-xs"
+                style={{
+                  ...balao,
+                  padding: '1.6cqw 2.6cqw',
+                  borderRadius: '2cqw 2cqw 0.5cqw 2cqw',
+                }}
+              >
+                Bom dia! Preciso de cimento e areia pra minha obra.
+              </div>
+              <div
+                className="self-start max-w-[85%] bg-white text-slate-800 shadow-xs"
+                style={{
+                  ...balao,
+                  padding: '1.6cqw 2.6cqw',
+                  borderRadius: '2cqw 2cqw 2cqw 0.5cqw',
+                }}
+              >
+                Bom dia! Orçamento pronto em minutos. Quer agendar?
+              </div>
+              <div
+                className="self-end max-w-[85%] bg-[#DCF8C6] text-slate-800 shadow-xs"
+                style={{
+                  ...balao,
+                  padding: '1.6cqw 2.6cqw',
+                  borderRadius: '2cqw 2cqw 0.5cqw 2cqw',
+                }}
+              >
+                Pode sim! 👍
+              </div>
+            </div>
+          </div>
+
+          {/* Rodapé: Botão CTA do WhatsApp */}
+          <div>
+            <Cta
+              texto={banner.cta}
+              className="bg-white text-[#075E54] shadow-xl w-full justify-center"
+              variant={variant}
+              icone={<WhatsAppIcon className="w-[1.25em] h-[1.25em] fill-[#25D366]" />}
+            />
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Desktop (preservado)
+  const balaoDesktop = fs('max(10px, 1.05cqw)');
   return (
     <div
       className="relative w-full h-full overflow-hidden bg-gradient-to-br from-[#064e46] via-[#075E54] to-[#128C7E]"
@@ -326,23 +589,25 @@ export function BannerWhatsAppTemplate({ banner, variant }: { banner: BannerWhat
       {/* Círculos decorativos */}
       <div
         className="absolute rounded-full border border-white/10"
-        style={{ width: isDesktop ? '42cqw' : '80cqw', height: isDesktop ? '42cqw' : '80cqw', right: isDesktop ? '8cqw' : '-22cqw', top: isDesktop ? '-6cqw' : '-9cqw' }}
+        style={{ width: '42cqw', height: '42cqw', right: '8cqw', top: '-6cqw' }}
       />
       <div
         className="absolute rounded-full border border-white/10"
-        style={{ width: isDesktop ? '58cqw' : '110cqw', height: isDesktop ? '58cqw' : '110cqw', right: isDesktop ? '0cqw' : '-37cqw', top: isDesktop ? '-14cqw' : '-24cqw' }}
+        style={{ width: '58cqw', height: '58cqw', right: '0cqw', top: '-14cqw' }}
       />
 
       {/* Textos */}
       <div
         className="absolute inset-y-0 flex flex-col justify-center text-white"
         style={{
-          left: isDesktop ? '6cqw' : '5.5cqw',
-          width: isDesktop ? '46cqw' : '58cqw',
-          gap: ESPACO[variant].gap,
+          left: '6cqw',
+          width: '46cqw',
+          gap: ESPACO.desktop.gap,
         }}
       >
-        {banner.tag && <Tag texto={banner.tag} className="bg-white/15 text-white ring-1 ring-white/30" variant={variant} />}
+        {banner.tag && (
+          <Tag texto={banner.tag} className="bg-white/15 text-white ring-1 ring-white/30" variant={variant} />
+        )}
         <h2 className="font-extrabold leading-[1.05] tracking-tight line-clamp-2" style={t.titulo}>
           <TituloComDestaque texto={banner.titulo} destaqueClass="text-[#7CF0A8]" />
         </h2>
@@ -359,41 +624,32 @@ export function BannerWhatsAppTemplate({ banner, variant }: { banner: BannerWhat
         />
       </div>
 
-      {/* Ilustração: conversa no desktop, ícone no celular */}
-      {isDesktop ? (
-        <div
-          className="absolute top-1/2 -translate-y-1/2 bg-[#ECE5DD] shadow-2xl overflow-hidden"
-          style={{ right: '9cqw', width: '29cqw', borderRadius: '1.4cqw' }}
-        >
-          <div className="flex items-center bg-[#075E54] text-white" style={{ gap: '0.8cqw', padding: '0.9cqw 1.2cqw' }}>
-            <div className="rounded-full bg-white flex items-center justify-center shrink-0" style={{ width: '2.6cqw', height: '2.6cqw' }}>
-              <WhatsAppIcon className="w-[60%] h-[60%] fill-[#25D366]" />
-            </div>
-            <div className="leading-tight">
-              <div className="font-bold" style={fs('max(11px, 1.1cqw)')}>Lopes e Lopes</div>
-              <div className="text-emerald-100/80" style={fs('max(9px, 0.85cqw)')}>online</div>
-            </div>
+      {/* Ilustração conversa no desktop */}
+      <div
+        className="absolute top-1/2 -translate-y-1/2 bg-[#ECE5DD] shadow-2xl overflow-hidden"
+        style={{ right: '9cqw', width: '29cqw', borderRadius: '1.4cqw' }}
+      >
+        <div className="flex items-center bg-[#075E54] text-white" style={{ gap: '0.8cqw', padding: '0.9cqw 1.2cqw' }}>
+          <div className="rounded-full bg-white flex items-center justify-center shrink-0" style={{ width: '2.6cqw', height: '2.6cqw' }}>
+            <WhatsAppIcon className="w-[60%] h-[60%] fill-[#25D366]" />
           </div>
-          <div className="flex flex-col" style={{ gap: '0.7cqw', padding: '1.2cqw' }}>
-            <div className="self-end max-w-[85%] bg-[#DCF8C6] text-slate-800 shadow-sm" style={{ ...balao, padding: '0.6cqw 0.9cqw', borderRadius: '0.8cqw 0.8cqw 0.2cqw 0.8cqw' }}>
-              Bom dia! Preciso de 20 sacos de cimento e 3 m³ de areia.
-            </div>
-            <div className="self-start max-w-[85%] bg-white text-slate-800 shadow-sm" style={{ ...balao, padding: '0.6cqw 0.9cqw', borderRadius: '0.8cqw 0.8cqw 0.8cqw 0.2cqw' }}>
-              Bom dia! Orçamento pronto. Posso agendar a entrega?
-            </div>
-            <div className="self-end max-w-[85%] bg-[#DCF8C6] text-slate-800 shadow-sm" style={{ ...balao, padding: '0.6cqw 0.9cqw', borderRadius: '0.8cqw 0.8cqw 0.2cqw 0.8cqw' }}>
-              Pode sim! 👍
-            </div>
+          <div className="leading-tight">
+            <div className="font-bold" style={fs('max(11px, 1.1cqw)')}>Lopes e Lopes</div>
+            <div className="text-emerald-100/80" style={fs('max(9px, 0.85cqw)')}>online</div>
           </div>
         </div>
-      ) : (
-        <div
-          className="absolute top-1/2 -translate-y-1/2 rounded-full bg-white shadow-2xl flex items-center justify-center"
-          style={{ right: '7cqw', width: '28cqw', height: '28cqw' }}
-        >
-          <WhatsAppIcon className="w-[58%] h-[58%] fill-[#25D366]" />
+        <div className="flex flex-col" style={{ gap: '0.7cqw', padding: '1.2cqw' }}>
+          <div className="self-end max-w-[85%] bg-[#DCF8C6] text-slate-800 shadow-sm" style={{ ...balaoDesktop, padding: '0.6cqw 0.9cqw', borderRadius: '0.8cqw 0.8cqw 0.2cqw 0.8cqw' }}>
+            Bom dia! Preciso de 20 sacos de cimento e 3 m³ de areia.
+          </div>
+          <div className="self-start max-w-[85%] bg-white text-slate-800 shadow-sm" style={{ ...balaoDesktop, padding: '0.6cqw 0.9cqw', borderRadius: '0.8cqw 0.8cqw 0.8cqw 0.2cqw' }}>
+            Bom dia! Orçamento pronto. Posso agendar a entrega?
+          </div>
+          <div className="self-end max-w-[85%] bg-[#DCF8C6] text-slate-800 shadow-sm" style={{ ...balaoDesktop, padding: '0.6cqw 0.9cqw', borderRadius: '0.8cqw 0.8cqw 0.2cqw 0.8cqw' }}>
+            Pode sim! 👍
+          </div>
         </div>
-      )}
+      </div>
     </div>
   );
 }
@@ -412,7 +668,7 @@ export function BannerSlideContent({
   if (banner.tipo === 'imagem') {
     const src = variant === 'mobile' ? (banner.mobile || banner.desktop) : banner.desktop;
     return (
-      <div className="relative w-full h-full">
+      <div className="relative w-full h-full bg-slate-900 overflow-hidden">
         <Image
           src={src}
           alt={banner.alt}
@@ -439,4 +695,3 @@ export function BannerSlideContent({
 
   return null;
 }
-
