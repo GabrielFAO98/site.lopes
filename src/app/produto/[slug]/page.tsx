@@ -10,8 +10,7 @@ import {
   CheckCircle2, 
   HelpCircle, 
   Phone, 
-  ArrowLeft,
-  Lightbulb
+  ArrowLeft
 } from 'lucide-react';
 import { getProductBySlug, getRelatedProducts, getAllProducts } from '@/lib/db';
 import { formatCurrency } from '@/lib/whatsapp';
@@ -19,6 +18,7 @@ import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductGallery } from '@/components/ProductGallery';
 import { ProductShareButton } from '@/components/ProductShareButton';
+import { ProductDetailedDescription } from '@/components/ProductDetailedDescription';
 import { ProductFaq } from '@/components/ProductFaq';
 import { ProductActions } from './ProductActions';
 
@@ -113,7 +113,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
   } : null;
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-8 space-y-10">
+    <>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
@@ -125,145 +125,112 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         />
       )}
 
-      {/* Breadcrumb de Navegação */}
-      <nav className="text-xs text-slate-500 flex items-center gap-1.5 flex-wrap">
-        <Link href="/" className="hover:text-lopes-blue">Início</Link>
-        <span>/</span>
-        <Link href="/produtos" className="hover:text-lopes-blue">Catálogo</Link>
-        <span>/</span>
-        <Link href={`/produtos?depto=${product.departmentId}`} className="hover:text-lopes-blue">
-          {product.departmentName}
-        </Link>
-        <span>/</span>
-        <span className="text-slate-800 font-semibold truncate max-w-xs">{product.name}</span>
-      </nav>
+      <div className="max-w-7xl mx-auto px-4 pt-3 sm:pt-4 pb-10 space-y-4 sm:space-y-6">
+        {/* Breadcrumb de Navegação */}
+        <nav className="text-xs text-slate-500 flex items-center gap-1.5 flex-wrap">
+          <Link href="/" className="hover:text-lopes-blue">Início</Link>
+          <span>/</span>
+          <Link href="/produtos" className="hover:text-lopes-blue">Catálogo</Link>
+          <span>/</span>
+          <Link href={`/produtos?depto=${product.departmentId}`} className="hover:text-lopes-blue">
+            {product.departmentName}
+          </Link>
+          <span>/</span>
+          <span className="text-slate-800 font-semibold truncate max-w-xs">{product.name}</span>
+        </nav>
 
-      {/* Seção Principal do Produto */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Coluna da Galeria de Imagens e Vídeo */}
-        <div className="lg:col-span-6 bg-white p-5 rounded-2xl border border-slate-200">
-          <ProductGallery
-            images={product.images}
-            name={product.name}
-          />
-        </div>
-
-        {/* Coluna de Informações e Ações de Compra */}
-        <div className="lg:col-span-6 space-y-6">
-          <div className="space-y-2">
-            <div className="flex items-center justify-between gap-3">
-              <div className="flex items-center gap-2 flex-wrap">
-                <span className="text-xs font-bold uppercase tracking-wider text-lopes-blue bg-lopes-blue-50 px-2.5 py-0.5 rounded">
-                  Marca: {product.brand}
-                </span>
-                <span className="text-xs text-slate-400">•</span>
-                <span className="text-xs text-slate-500 font-mono">
-                  SKU / Código: <strong>{product.sku}</strong>
-                </span>
-              </div>
-
-              {/* Botão de compartilhar discreto sem texto */}
-              <ProductShareButton title={product.name} />
-            </div>
-
-            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug">
-              {product.name}
-            </h1>
-
-            <p className="text-sm text-slate-600 leading-relaxed pt-1">
-              {product.description}
-            </p>
+        {/* Seção Principal do Produto */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          {/* Coluna da Galeria de Imagens e Vídeo */}
+          <div className="lg:col-span-6 bg-white p-5 rounded-2xl border border-slate-200">
+            <ProductGallery
+              images={product.images}
+              name={product.name}
+            />
           </div>
 
-          {/* Componente Interativo de Preço, Variações, Ações WhatsApp e Cotação */}
-          <ProductActions product={product} />
+          {/* Coluna de Informações e Ações de Compra */}
+          <div className="lg:col-span-6 space-y-6">
+            <div className="space-y-2">
+              <div className="flex items-center justify-between gap-3">
+                <div className="flex items-center gap-2 flex-wrap">
+                  <span className="text-xs font-bold uppercase tracking-wider text-lopes-blue bg-lopes-blue-50 px-2.5 py-0.5 rounded">
+                    Marca: {product.brand}
+                  </span>
+                  <span className="text-xs text-slate-400">•</span>
+                  <span className="text-xs text-slate-500 font-mono">
+                    SKU / Código: <strong>{product.sku}</strong>
+                  </span>
+                </div>
 
-          {/* Box de Confiança Local (Franca - SP) */}
-          <div className="bg-white p-4 rounded-xl border border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
-            <div className="flex items-start gap-2.5">
-              <MapPin className="w-4 h-4 text-lopes-orange-500 shrink-0 mt-0.5" />
-              <div>
-                <strong className="block text-slate-800">Retirada Imediata no Balcão</strong>
-                <span className="text-slate-500">{STORE_CONFIG.address}, {STORE_CONFIG.neighborhood}</span>
+                {/* Botão de compartilhar discreto sem texto */}
+                <ProductShareButton title={product.name} />
               </div>
-            </div>
 
-            <div className="flex items-start gap-2.5">
-              <Truck className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-              <div>
-                <strong className="block text-slate-800">Entrega Rápida em Franca</strong>
-                <span className="text-slate-500">Consulte condições para seu bairro no WhatsApp</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+              <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug">
+                {product.name}
+              </h1>
 
-      {/* Descrição Detalhada do Produto (SEO e Conteúdo Aprofundado) */}
-      {product.detailedDescription && (
-        <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4">
-          <div>
-            <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
-              Descrição Detalhada do Produto
-            </h2>
-            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-4" />
-          </div>
-
-          <div className="text-slate-700 leading-relaxed text-sm sm:text-base space-y-4 pt-1">
-            {product.detailedDescription.split('\n\n').map((paragraph, idx) => (
-              <p key={idx} className="text-slate-700 leading-relaxed">
-                {paragraph}
+              <p className="text-sm text-slate-600 leading-relaxed pt-1">
+                {product.description}
               </p>
-            ))}
-          </div>
-        </section>
-      )}
+            </div>
 
-      {/* Ficha Técnica, Dicas de Rendimento & Aplicações */}
-      <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-8">
-        <div>
-          <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
-            Especificações Técnicas
-          </h2>
-          <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-5" />
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
-            {Object.entries(product.technicalSpecs).map(([key, value]) => (
-              <div
-                key={key}
-                className="flex justify-between items-center py-2 px-3 bg-slate-50 rounded-lg text-xs"
-              >
-                <span className="font-semibold text-slate-600">{key}:</span>
-                <span className="text-slate-900 font-medium text-right">{value}</span>
-              </div>
-            ))}
-          </div>
-        </div>
+            {/* Componente Interativo de Preço, Variações, Ações WhatsApp e Cotação */}
+            <ProductActions product={product} />
 
-        {/* Dicas de Rendimento e Aplicação (dentro da área de especificações técnicas) */}
-        {product.yieldInfo && (
-          <div className="pt-6 border-t border-slate-100">
-            <div className="bg-amber-50/70 border border-amber-200/80 rounded-xl p-4 sm:p-5 flex items-start gap-3.5">
-              <div className="p-2 bg-amber-100/90 rounded-lg text-amber-800 shrink-0 mt-0.5">
-                <Lightbulb className="w-5 h-5 text-amber-700" />
+            {/* Box de Confiança Local (Franca - SP) */}
+            <div className="bg-white p-4 rounded-xl border border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+              <div className="flex items-start gap-2.5">
+                <MapPin className="w-4 h-4 text-lopes-orange-500 shrink-0 mt-0.5" />
+                <div>
+                  <strong className="block text-slate-800">Retirada Imediata no Balcão</strong>
+                  <span className="text-slate-500">{STORE_CONFIG.address}, {STORE_CONFIG.neighborhood}</span>
+                </div>
               </div>
-              <div className="space-y-1">
-                <h3 className="text-sm font-bold text-amber-950 uppercase tracking-wide">
-                  Dicas de Rendimento e Aplicação
-                </h3>
-                <p className="text-xs sm:text-sm text-amber-900/90 leading-relaxed">
-                  {product.yieldInfo}
-                </p>
+
+              <div className="flex items-start gap-2.5">
+                <Truck className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                <div>
+                  <strong className="block text-slate-800">Entrega Rápida em Franca</strong>
+                  <span className="text-slate-500">Consulte condições para seu bairro no WhatsApp</span>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+
+        {/* Descrição Detalhada do Produto (colapsável com SSR para não bloquear rolagem no mobile e manter SEO) */}
+        {product.detailedDescription && (
+          <ProductDetailedDescription description={product.detailedDescription} />
         )}
 
-        {/* Onde Utilizar / Aplicações */}
-        {product.applications && product.applications.length > 0 && (
-          <div className="pt-6 border-t border-slate-100">
-            <h3 className="text-lg sm:text-xl font-bold tracking-wider text-lopes-blue uppercase">
-              Indicações e Aplicações Recomendadas
-            </h3>
+        {/* Ficha Técnica & Aplicações */}
+        <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-8">
+          <div>
+            <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
+              Especificações Técnicas
+            </h2>
+            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-5" />
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
+              {Object.entries(product.technicalSpecs).map(([key, value]) => (
+                <div
+                  key={key}
+                  className="flex justify-between items-center py-2 px-3 bg-slate-50 rounded-lg text-xs"
+                >
+                  <span className="font-semibold text-slate-600">{key}:</span>
+                  <span className="text-slate-900 font-medium text-right">{value}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Onde Utilizar / Aplicações */}
+          {product.applications && product.applications.length > 0 && (
+            <div className="pt-6 border-t border-slate-100">
+              <h3 className="text-lg sm:text-xl font-bold tracking-wider text-lopes-blue uppercase">
+                Indicações e Aplicações Recomendadas
+              </h3>
             <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-4" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {product.applications.map((app, idx) => (
@@ -302,6 +269,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           </div>
         </section>
       )}
-    </div>
+      </div>
+    </>
   );
 }

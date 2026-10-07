@@ -72,3 +72,4 @@ export function ProductFaq({ items, productName }: ProductFaqProps) {
     </section>
   );
 }
+
