@@ -10,13 +10,16 @@ import {
   CheckCircle2, 
   HelpCircle, 
   Phone, 
-  ArrowLeft 
+  ArrowLeft,
+  Lightbulb
 } from 'lucide-react';
 import { getProductBySlug, getRelatedProducts, getAllProducts } from '@/lib/db';
 import { formatCurrency } from '@/lib/whatsapp';
 import { STORE_CONFIG, GOOGLE_MAPS_URL } from '@/lib/store-config';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductGallery } from '@/components/ProductGallery';
+import { ProductShareButton } from '@/components/ProductShareButton';
+import { ProductFaq } from '@/components/ProductFaq';
 import { ProductActions } from './ProductActions';
 
 // Permite gerar páginas para produtos novos criados no Supabase e atualiza dados a cada 60s
@@ -96,12 +99,31 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
     },
   };
 
+  const faqJsonLd = (product.faq && product.faq.length > 0) ? {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: product.faq.map((item) => ({
+      '@type': 'Question',
+      name: item.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: item.answer,
+      },
+    })),
+  } : null;
+
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 space-y-10">
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productJsonLd) }}
       />
+      {faqJsonLd && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
+        />
+      )}
 
       {/* Breadcrumb de Navegação */}
       <nav className="text-xs text-slate-500 flex items-center gap-1.5 flex-wrap">
@@ -129,14 +151,19 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         {/* Coluna de Informações e Ações de Compra */}
         <div className="lg:col-span-6 space-y-6">
           <div className="space-y-2">
-            <div className="flex items-center gap-2">
-              <span className="text-xs font-bold uppercase tracking-wider text-lopes-blue bg-lopes-blue-50 px-2.5 py-0.5 rounded">
-                Marca: {product.brand}
-              </span>
-              <span className="text-xs text-slate-400">•</span>
-              <span className="text-xs text-slate-500 font-mono">
-                SKU / Código: <strong>{product.sku}</strong>
-              </span>
+            <div className="flex items-center justify-between gap-3">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className="text-xs font-bold uppercase tracking-wider text-lopes-blue bg-lopes-blue-50 px-2.5 py-0.5 rounded">
+                  Marca: {product.brand}
+                </span>
+                <span className="text-xs text-slate-400">•</span>
+                <span className="text-xs text-slate-500 font-mono">
+                  SKU / Código: <strong>{product.sku}</strong>
+                </span>
+              </div>
+
+              {/* Botão de compartilhar discreto sem texto */}
+              <ProductShareButton title={product.name} />
             </div>
 
             <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug">
@@ -172,7 +199,27 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         </div>
       </div>
 
-      {/* Ficha Técnica & Aplicações */}
+      {/* Descrição Detalhada do Produto (SEO e Conteúdo Aprofundado) */}
+      {product.detailedDescription && (
+        <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-4">
+          <div>
+            <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
+              Descrição Detalhada do Produto
+            </h2>
+            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-4" />
+          </div>
+
+          <div className="text-slate-700 leading-relaxed text-sm sm:text-base space-y-4 pt-1">
+            {product.detailedDescription.split('\n\n').map((paragraph, idx) => (
+              <p key={idx} className="text-slate-700 leading-relaxed">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {/* Ficha Técnica, Dicas de Rendimento & Aplicações */}
       <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-8">
         <div>
           <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
@@ -192,6 +239,25 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           </div>
         </div>
 
+        {/* Dicas de Rendimento e Aplicação (dentro da área de especificações técnicas) */}
+        {product.yieldInfo && (
+          <div className="pt-6 border-t border-slate-100">
+            <div className="bg-amber-50/70 border border-amber-200/80 rounded-xl p-4 sm:p-5 flex items-start gap-3.5">
+              <div className="p-2 bg-amber-100/90 rounded-lg text-amber-800 shrink-0 mt-0.5">
+                <Lightbulb className="w-5 h-5 text-amber-700" />
+              </div>
+              <div className="space-y-1">
+                <h3 className="text-sm font-bold text-amber-950 uppercase tracking-wide">
+                  Dicas de Rendimento e Aplicação
+                </h3>
+                <p className="text-xs sm:text-sm text-amber-900/90 leading-relaxed">
+                  {product.yieldInfo}
+                </p>
+              </div>
+            </div>
+          </div>
+        )}
+
         {/* Onde Utilizar / Aplicações */}
         {product.applications && product.applications.length > 0 && (
           <div className="pt-6 border-t border-slate-100">
@@ -210,6 +276,11 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           </div>
         )}
       </div>
+
+      {/* Perguntas Frequentes (FAQ) */}
+      {product.faq && product.faq.length > 0 && (
+        <ProductFaq items={product.faq} productName={product.name} />
+      )}
 
       {/* Produtos Relacionados / Compre Junto */}
       {relatedProducts.length > 0 && (

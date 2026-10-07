@@ -77,6 +77,9 @@ async function pullProducts() {
     relatedSkus: Array.isArray(row.related_skus) ? row.related_skus : [],
     variationType: row.variation_type || undefined,
     variations: Array.isArray(row.variations) ? row.variations : [],
+    detailedDescription: row.detailed_description || undefined,
+    yieldInfo: row.yield_info || undefined,
+    faq: Array.isArray(row.faq) ? row.faq : undefined,
   }));
 
   const jsonPath = path.resolve(__dirname, '../data/products.json');

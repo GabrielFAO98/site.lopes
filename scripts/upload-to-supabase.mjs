@@ -66,6 +66,9 @@ async function syncProducts() {
       related_skus: p.relatedSkus || [],
       variation_type: p.variationType || null,
       variations: p.variations || [],
+      detailed_description: p.detailedDescription || null,
+      yield_info: p.yieldInfo || null,
+      faq: p.faq || [],
       updated_at: new Date().toISOString(),
     };
 

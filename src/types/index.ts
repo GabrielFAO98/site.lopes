@@ -21,6 +21,14 @@ export interface Product {
   relatedSkus?: string[];
   variationType?: string; // Ex: 'Cor', 'Voltagem', 'Espessura', 'Modelo', 'Medida'
   variations?: ProductVariation[];
+  detailedDescription?: string;
+  yieldInfo?: string;
+  faq?: ProductFaqItem[];
+}
+
+export interface ProductFaqItem {
+  question: string;
+  answer: string;
 }
 
 export interface ProductVariation {

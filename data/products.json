@@ -1,5 +1,1177 @@
 [
   {
+    "id": "prod-100102",
+    "sku": "100102",
+    "name": "Argamassa AC-I Interno Cinza 20kg Votomassa",
+    "slug": "argamassa-aci-interno-votomassa-20kg",
+    "description": "Argamassa colante industrializada AC-I Votomassa (Votoran), indicada para assentamento de placas cerâmicas em pisos e paredes exclusivamente em áreas internas. Proporciona excelente aderência, fácil trabalhabilidade e alto rendimento para obras residenciais e comerciais.",
+    "price": 14.9,
+    "unit": "Saco 20kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Argamassas",
+    "brand": "Votomassa",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/argamassa-aci-interno-votomassa-20kg.webp",
+      "/images/produtos/argamassa-aci-interno-votomassa-20kg-2.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Cinza",
+      "Composição": "Cimento Portland, agregados minerais e aditivos químicos",
+      "Peso Líquido": "20 kg",
+      "Tempo em Aberto": "Aprox. 15 a 20 minutos",
+      "Indicação de Uso": "Pisos e paredes de áreas internas (secas ou molháveis)",
+      "Classificação / Norma": "AC-I (ABNT NBR 14081)",
+      "Liberação para Rejunte": "Mínimo de 72 horas após a aplicação",
+      "Tamanho Máximo da Placa": "Cerâmicas até 60 x 60 cm",
+      "Liberação para Tráfego": "Tráfego leve: 72 horas | Tráfego total: 7 dias",
+      "Consumo / Rendimento Médio": "Camada simples: ~4 a 5 kg/m² | Camada dupla: ~7 a 8 kg/m²"
+    },
+    "applications": [
+      "Assentamento de revestimentos cerâmicos em ambientes internos",
+      "Pisos e paredes de cozinhas, banheiros, salas e dormitórios",
+      "Contrapiso sarrafeado ou desempenado, emboço e reboco curados"
+    ],
+    "warranty": "Garantia de fábrica Votorantim Cimentos (dentro da validade)",
+    "relatedSkus": [
+      "2882",
+      "3",
+      "1534",
+      "397"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100103",
+    "sku": "100103",
+    "name": "Cimento Itaú Todas as Obras CP II-F-32 50kg Votoran",
+    "slug": "cimento-itau-todas-as-obras-50kg-votoran",
+    "description": "O Cimento Itaú Todas as Obras 50kg da Votorantim Cimentos é ideal para reboco, concreto, contrapiso e assentamento. Garante secagem rápida, alta resistência inicial e excelente acabamento para todos os tipos de obras residenciais e comerciais.",
+    "price": 34.9,
+    "unit": "Saco 50kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Cal",
+    "brand": "Votoran",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/cimento-itau-todas-as-obras-50kg-votoran.webp",
+      "/images/produtos/cimento-itau-todas-as-obras-50kg-votoran-2.webp"
+    ],
+    "technicalSpecs": {
+      "Fabricante": "Votorantim Cimentos",
+      "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
+      "Peso Líquido": "50 kg",
+      "Tempo de Secagem": "Pega normal com alta resistência mecânica"
+    },
+    "applications": [
+      "Concreto estrutural para lajes, vigas e pilares",
+      "Argamassa de assentamento de blocos e tijolos",
+      "Reboco, emboço e contrapisos nivelados"
+    ],
+    "warranty": "Garantia de fábrica Votorantim Cimentos",
+    "relatedSkus": [
+      "2882",
+      "3",
+      "100104"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100104",
+    "sku": "100104",
+    "name": "Cimento Itaú Todas as Obras CP II-F-32 25kg Votoran",
+    "slug": "cimento-itau-todas-as-obras-25kg-votoran",
+    "description": "O Cimento Itaú Todas as Obras em embalagem econômica de 25kg da Votorantim Cimentos. Muito mais leve e fácil de manusear, ideal para pequenos reparos, reformas e obras com espaço reduzido.",
+    "price": 19.9,
+    "unit": "Saco 25kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Cal",
+    "brand": "Votoran",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/cimento-itau-todas-as-obras-25kg-votoran.webp"
+    ],
+    "technicalSpecs": {
+      "Fabricante": "Votorantim Cimentos",
+      "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
+      "Peso Líquido": "25 kg (embalagem leve e ergonômica)",
+      "Tempo de Secagem": "Pega normal com alta resistência mecânica"
+    },
+    "applications": [
+      "Pequenos reparos, reformas e manutenções",
+      "Locais de difícil acesso ou sem espaço para sacaria de 50kg",
+      "Assentamento e rebocos pontuais"
+    ],
+    "warranty": "Garantia de fábrica Votorantim Cimentos",
+    "relatedSkus": [
+      "100103",
+      "3"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100105",
+    "sku": "100105",
+    "name": "Argamassa AC-II Interno e Externo Cinza 20kg Votomassa",
+    "slug": "argamassa-acii-interno-e-externo-cinza-20kg-votomassa",
+    "description": "A Argamassa Colante AC-II Votomassa é indicada para assentamento de placas cerâmicas em pisos e paredes de áreas internas e externas. Possui excelente aderência e resistência a intempéries como sol, chuva e vento.",
+    "price": 19.9,
+    "unit": "Saco 20kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Argamassas",
+    "brand": "Votomassa",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa.webp",
+      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa-2.webp",
+      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa-3.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Cinza",
+      "Indicação": "Pisos e paredes internos e externos",
+      "Peso Líquido": "20 kg",
+      "Classificação": "AC-II (ABNT NBR 14081)",
+      "Rendimento Médio": "~4 a 5 kg/m² camada simples | ~7 a 8 kg/m² camada dupla",
+      "Tamanho Máximo da Placa": "Até 80 x 80 cm"
+    },
+    "applications": [
+      "Revestimentos cerâmicos em varandas, garagens e quintais",
+      "Áreas molhadas residenciais e comerciais",
+      "Fachadas residenciais térreas de até 3 metros"
+    ],
+    "warranty": "Garantia Votorantim Cimentos",
+    "relatedSkus": [
+      "100102",
+      "20301"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100106",
+    "sku": "100106",
+    "name": "Argamassa AC-III Alta Performance Cinza 20kg Votomassa",
+    "slug": "argamassa-aciii-alta-performance-cinza-20kg-votomassa",
+    "description": "A Argamassa AC-III Votomassa é a solução de máxima aderência e flexibilidade para porcelanatos, grandes formatos, fachadas e piscinas. Resistente a tensões de dilatação e variações térmicas extremas.",
+    "price": 29.9,
+    "unit": "Saco 20kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Argamassas",
+    "brand": "Votomassa",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa-2.webp",
+      "/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Cinza",
+      "Indicação": "Porcelanatos, grandes formatos, fachadas e piscinas",
+      "Peso Líquido": "20 kg",
+      "Classificação": "AC-III (ABNT NBR 14081)",
+      "Rendimento Médio": "~4,5 a 8,5 kg/m²"
+    },
+    "applications": [
+      "Assentamento de porcelanatos e placas de grandes formatos",
+      "Fachadas prediais e residenciais externas",
+      "Piscinas aquecidas, reservatórios e saunas"
+    ],
+    "warranty": "Garantia Votorantim Cimentos",
+    "relatedSkus": [
+      "100105",
+      "20301"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100107",
+    "sku": "100107",
+    "name": "Argamassa Refratária Quartzolit 5kg",
+    "slug": "argamassa-refrataria-quartzolit-5kg",
+    "description": "A Argamassa Refratária Quartzolit foi especialmente desenvolvida para o assentamento e rejuntamento de plaquetas e tijolos refratários em locais sujeitos a altas temperaturas como churrasqueiras, lareiras, fornos e fogões a lenha (resiste até 400°C).",
+    "price": 26.9,
+    "unit": "Saco 5kg (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Cimentos e Argamassas",
+    "brand": "Quartzolit",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/argamassa-refrataria-quartzolit-5kg.webp",
+      "/images/produtos/argamassa-refrataria-quartzolit-5kg-2.webp"
+    ],
+    "technicalSpecs": {
+      "Peso Líquido": "5 kg",
+      "Consumo Médio": "Aprox. 8 kg/m² para tijolos refratários",
+      "Resistência Térmica": "Até 400°C",
+      "Cura para Primeiro Fogo": "Mínimo de 72 horas após aplicação"
+    },
+    "applications": [
+      "Churrasqueiras de alvenaria e pré-moldadas",
+      "Lareiras, fornos de pizza e fogões a lenha",
+      "Paredes em contato direto com chamas e brasas"
+    ],
+    "warranty": "Garantia Quartzolit",
+    "relatedSkus": [
+      "2152",
+      "1534"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100108",
+    "sku": "100108",
+    "name": "Aditivo Impermeabilizante Vedacit para Concreto e Argamassa",
+    "slug": "aditivo-impermeabilizante-vedacit",
+    "description": "O Vedacit é o impermeabilizante clássico que age por hidrofugação dos capilares do concreto e da argamassa, bloqueando a penetração de umidade e água. Não altera o tempo de cura e garante proteção definitiva contra infiltrações.",
+    "price": 16.9,
+    "unit": "Pote 900ml (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Impermeabilizantes",
+    "brand": "Vedacit",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/aditivo-impermeabilizante-vedacit.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-2.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-3.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-4.webp",
+      "/images/produtos/aditivo-impermeabilizante-vedacit-5.webp"
+    ],
+    "technicalSpecs": {
+      "Densidade": "1,00 g/cm³",
+      "Composição": "Sais metálicos e ácidos graxos",
+      "Consumo Médio": "Aprox. 2 litros de Vedacit por saco de cimento de 50kg"
+    },
+    "applications": [
+      "Baldrames, alicerces e muros de arrimo",
+      "Reboco de paredes externas, caixas d’água e reservatórios",
+      "Assentamento de alvenaria até a primeira fiada contra umidade de solo"
+    ],
+    "warranty": "Garantia Vedacit",
+    "relatedSkus": [
+      "2882",
+      "100111"
+    ],
+    "variationType": "Embalagem",
+    "variations": [
+      {
+        "sku": "100108",
+        "name": "Pote 900ml",
+        "image": "/images/produtos/vedacit_900ml_aditivo_impermeabilizante_profissional.JPG",
+        "price": 16.9
+      },
+      {
+        "sku": "100109",
+        "name": "Galão 3,6 Litros",
+        "image": "/images/produtos/vedacit_3.6lt_aditivo_impermeabilizante_profissional.jpg",
+        "price": 44.9
+      },
+      {
+        "sku": "100110",
+        "name": "Balde 18 Litros",
+        "image": "/images/produtos/vedacit_18lt_aditivo_impermeabilizante_profissional.jpg",
+        "price": 189.9
+      }
+    ]
+  },
+  {
+    "id": "prod-100111",
+    "sku": "100111",
+    "name": "Resina Adesiva para Chapisco Bianco Vedacit",
+    "slug": "resina-adesiva-chapisco-bianco-vedacit",
+    "description": "Bianco é uma resina sintética de alto desempenho que proporciona excelente aderência das argamassas aos mais diversos substratos, evitando desplacamentos. Confere maior plasticidade, reduz a retração e evita o surgimento de fissuras.",
+    "price": 26.9,
+    "unit": "Frasco 900ml (UN)",
+    "departmentId": "construcao-basica",
+    "departmentName": "Construção Básica",
+    "category": "Impermeabilizantes e Aditivos",
+    "brand": "Vedacit",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit.webp",
+      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-2.webp",
+      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-3.webp"
+    ],
+    "technicalSpecs": {
+      "Aspecto": "Líquido branco leitoso de fácil homogeneização",
+      "Rendimento Chapisco": "Aprox. 200 a 300 g/m²",
+      "Rendimento Argamassa": "Aprox. 400 g/m² por centímetro de espessura"
+    },
+    "applications": [
+      "Chapisco convencional e rolado em concreto e alvenaria",
+      "Argamassas de reparo, contrapiso e estucamento",
+      "Fixação duradoura de caiação e tintas em pó"
+    ],
+    "warranty": "Garantia Vedacit",
+    "relatedSkus": [
+      "2882",
+      "100108"
+    ],
+    "variationType": "Embalagem",
+    "variations": [
+      {
+        "sku": "100111",
+        "name": "Frasco 900ml",
+        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-900ml.jpg",
+        "price": 26.9
+      },
+      {
+        "sku": "100112",
+        "name": "Galão 3,6kg",
+        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-3.6kg.jpg",
+        "price": 79.9
+      },
+      {
+        "sku": "100113",
+        "name": "Balde 18kg",
+        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-18kg.jpg",
+        "price": 349.9
+      }
+    ]
+  },
+  {
+    "id": "prod-100202",
+    "sku": "100202",
+    "name": "Caixa Padrão Sabesp para Hidrômetro Policarbonato",
+    "slug": "caixa-sabesp-padrao-hidrometro",
+    "description": "Caixa homologada segundo as normas da Sabesp para abrigo e proteção de cavalete e hidrômetro individual. Fabricada em policarbonato de alta resistência contra raios solares e impactos mecânicos.",
+    "price": 79.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "hidraulica",
+    "departmentName": "Hidráulica",
+    "category": "Conexões e Abrigos",
+    "brand": "Taf / Padrão Sabesp",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/caixa-sabesp-padrao-hidrometro.webp"
+    ],
+    "technicalSpecs": {
+      "Norma": "Homologada Sabesp / NTS",
+      "Tampa": "Transparente para fácil leitura da medição",
+      "Material": "Policarbonato com proteção anti-UV"
+    },
+    "applications": [
+      "Entrada de água e ligação padrão Sabesp em muros residenciais e comerciais"
+    ],
+    "warranty": "Garantia de conformidade Sabesp",
+    "relatedSkus": [],
+    "variations": []
+  },
+  {
+    "id": "prod-100203",
+    "sku": "100203",
+    "name": "Engate Flexível em PVC Branco 1/2\" 40cm Amanco",
+    "slug": "engate-flexivel-pvc-amanco-branco",
+    "description": "Ligação flexível em PVC reforçado para alimentação de caixas acopladas, lavatórios, torneiras e bidês. Instalação manual simples com vedação confiável.",
+    "price": 8.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "hidraulica",
+    "departmentName": "Hidráulica",
+    "category": "Engates e Ligações",
+    "brand": "Amanco",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/engate-flexivel-pvc-amanco-branco.webp"
+    ],
+    "technicalSpecs": {
+      "Comprimento": "40 cm",
+      "Bitola / Rosca": "1/2\" macho x fêmea",
+      "Pressão Máxima de Serviço": "40 m.c.a."
+    },
+    "applications": [
+      "Conexão hidráulica entre o ponto da parede e caixas acopladas ou torneiras"
+    ],
+    "warranty": "Garantia Amanco Wavin",
+    "relatedSkus": [
+      "100204"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100204",
+    "sku": "100204",
+    "name": "Sifão Tubo Extensível Universal Branco Blukit",
+    "slug": "sifao-tubo-extensivel-universal-blukit-branco",
+    "description": "O sifão extensível Blukit é a solução prática e versátil para pias de cozinha, lavatórios e tanques. Suporta água quente e fria, adaptando-se a qualquer saída de esgoto com vedação perfeita anti-odor.",
+    "price": 11.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "hidraulica",
+    "departmentName": "Hidráulica",
+    "category": "Sifões e Ralos",
+    "brand": "Blukit",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/sifao-tubo-extensivel-universal-blukit-branco.webp"
+    ],
+    "technicalSpecs": {
+      "Entradas": "7/8\", 1.1/4\" e 1.1/2\"",
+      "Comprimento Máximo": "Aprox. 70 cm",
+      "Saídas para Esgoto": "DN 38, DN 40, DN 48 e DN 50",
+      "Temperatura Máxima": "Suporta até 90°C"
+    },
+    "applications": [
+      "Instalação sob pias de cozinha, lavatórios de banheiro e cubas"
+    ],
+    "warranty": "Garantia Blukit",
+    "relatedSkus": [
+      "100702"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100302",
+    "sku": "100302",
+    "name": "Lâmpada LED Bulbo 9W Bivolt Foxlux Luz Fria 6500K E27",
+    "slug": "lampada-led-bulbo-foxlux-9w-bivolt-6500k",
+    "description": "Lâmpada LED Bulbo Foxlux 9W com fluxo luminoso de 810 lúmens e soquete tradicional E27. Substitui com perfeição lâmpadas incandescentes de 60W com até 80% de economia de energia elétrica e vida útil de 25.000 horas.",
+    "price": 7.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "eletrica",
+    "departmentName": "Elétrica",
+    "category": "Iluminação LED",
+    "brand": "Foxlux",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/lampada-led-bulbo-foxlux-9w-bivolt-6500k.webp"
+    ],
+    "technicalSpecs": {
+      "Soquete": "Base E-27",
+      "Tensão": "Bivolt Automático (100V a 240V)",
+      "Potência": "9 Watts",
+      "Vida Útil": "25.000 horas",
+      "Fluxo Luminoso": "810 lúmens",
+      "Temperatura de Cor": "6500K (Luz Fria / Branca)"
+    },
+    "applications": [
+      "Iluminação residencial e comercial geral em salas, quartos, cozinhas e escritórios"
+    ],
+    "warranty": "1 ano de garantia Foxlux",
+    "relatedSkus": [
+      "20401",
+      "100301"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100501",
+    "sku": "100501",
+    "name": "Adesivo Selante Fixa Tudo MS Profissional Amazonas 400g Branco",
+    "slug": "adesivo-selante-fixa-tudo-ms-amazonas-400g",
+    "description": "O Fixa Tudo MS Amazonas é um adesivo de alta tecnologia que cola, sela e veda diversos materiais até mesmo debaixo d’água! Possui agarre imediato, alta resistência a raios UV e intempéries, aceita pintura após curado e não mancha mármores ou espelhos.",
+    "price": 32.9,
+    "unit": "Cartucho 400g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Amazonas",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g.webp",
+      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g-2.webp",
+      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g-3.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Branco",
+      "Base Química": "Polímero Híbrido MS de alta performance",
+      "Cura na Água": "Capacidade de colagem e vedação debaixo d’água",
+      "Peso Líquido": "400 g",
+      "Resistência UV": "Excelente resistência ao sol, não amarela"
+    },
+    "applications": [
+      "Espelhos, cubas, pias e bancadas de mármore e granito",
+      "Box de banheiro, azulejos, esquadrias e calhas",
+      "Vedação de piscinas e áreas permanentemente úmidas"
+    ],
+    "warranty": "Garantia Amazonas",
+    "relatedSkus": [
+      "100601",
+      "100502"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100502",
+    "sku": "100502",
+    "name": "Adesivo Fixa Tudo Amazonas Branco Bisnaga 50g",
+    "slug": "adesivo-fixa-tudo-amazonas-branco-bisnaga-50g",
+    "description": "Adesivo multiuso super prático em bisnaga de 50g para pequenos reparos do dia a dia. Dispensa uso de pistola aplicadora. Cola rápida, forte e flexível em madeira, metal, vidro, alvenaria e cerâmica.",
+    "price": 12.9,
+    "unit": "Bisnaga 50g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Amazonas",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g.webp",
+      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g-2.webp",
+      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g-3.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Branco",
+      "Peso Líquido": "50 g",
+      "Base Química": "Polímero Híbrido MS (Isento de solventes e isocianatos)",
+      "Aplicação": "Manual direta na bisnaga (dispensa pistola aplicadora)",
+      "Tempo de Agarre Inicial": "5 a 15 minutos",
+      "Cura Total": "24 a 48 horas (dependendo da umidade e espessura)",
+      "Resistência à Água": "Excelente (cura até debaixo d'água)",
+      "Aceita Pintura": "Sim (após cura completa)"
+    },
+    "applications": [
+      "Fixação de rodapés, canaletas elétricas e placas decorativas",
+      "Pequenos consertos em móveis, louças, azulejos e gesso"
+    ],
+    "warranty": "Garantia Amazonas",
+    "relatedSkus": [
+      "100501"
+    ],
+    "variations": [],
+    "detailedDescription": "O Adesivo Fixa Tudo Amazonas é a solução definitiva e prática para quem precisa de colagem e vedação de máxima resistência sem complicação. Formulado com tecnologia avançada de Polímero Híbrido MS (Silicone Modificado), ele une o melhor de dois mundos: a elasticidade e resistência climática dos silicones de ponta com a força e capacidade de adesão estrutural do poliuretano (PU).\n\nSua embalagem em bisnaga prática de 50g foi especialmente projetada para o uso doméstico e profissional direto: dispensa completamente pistolas ou aplicadores de silicone, evitando desperdício em pequenos consertos e manutenções do dia a dia. Com consistência tixotrópica, não escorre mesmo em aplicações verticais e apresenta agarre inicial rápido (fixação inicial em menos de 5 a 15 minutos).\n\nUm dos grandes diferenciais do Fixa Tudo Amazonas é a sua fórmula química neutra, 100% isenta de solventes nocivos e isocianatos. Isso garante que ele não danifique o verso de espelhos (não mancha o azougue), não manche pedras porosas como mármores e granitos, e não tenha cheiro forte durante a aplicação. Além disso, possui alta resistência aos raios UV e intempéries, e tem a fantástica propriedade de aderir e curar até mesmo em superfícies úmidas e debaixo d'água, sendo perfeito para reparos de emergência em banheiros, calhas, telhados e piscinas. Após a cura total, aceita lixamento e pintura.",
+    "yieldInfo": "Rendimento estimado de 1,5 a 2,5 metros lineares em cordão contínuo fino (bico dosador de aproximadamente 3 mm), ou fixação de 10 a 15 pontos de colagem em peças de pequeno a médio porte. Dica profissional: aplique sempre em formato de filetes ou pequenas gotas espaçadas, evitando espalhar em camada uniforme fechada. Como o produto cura reagindo com a umidade do ar, manter canais de ventilação entre as peças acelera a secagem e proporciona a máxima força mecânica de adesão.",
+    "faq": [
+      {
+        "question": "Preciso de pistola ou aplicador para usar esta bisnaga de 50g?",
+        "answer": "Não! A bisnaga de 50g já vem pronta para uso manual direto. Basta cortar a ponta do bico dosador e apertar com a própria mão, sendo perfeita para pequenos reparos sem precisar comprar ou carregar pistola aplicadora."
+      },
+      {
+        "question": "O produto mancha espelhos ou peças de mármore e granito?",
+        "answer": "Não mancha. Sua formulação com Polímero MS é totalmente isenta de solventes e isocianatos, sendo quimicamente neutra. Por isso, não agride a camada protetora (azougue) dos espelhos e não causa manchas oleosas em mármores, pedras ou louças."
+      },
+      {
+        "question": "Funciona mesmo em superfícies molhadas ou debaixo d'água?",
+        "answer": "Sim! A tecnologia do polímero híbrido reage e cura com a umidade, permitindo consertos emergenciais em pias, ralos, calhas e até mesmo na fixação de azulejos ou pastilhas submersas em piscinas."
+      },
+      {
+        "question": "Quanto tempo demora para secar e atingir a resistência final?",
+        "answer": "O produto forma película e tem agarre inicial em cerca de 5 a 15 minutos. A cura funcional ocorre a partir de 24 horas, e a resistência máxima é alcançada entre 24 e 48 horas, dependendo da umidade do ar e da espessura aplicada."
+      },
+      {
+        "question": "Posso pintar por cima depois de seco?",
+        "answer": "Sim. Ao contrário do silicone convencional que repele tintas, o Fixa Tudo Amazonas aceita lixamento leve e pode receber a grande maioria das tintas de acabamento (látex, acrílicas e à base de água) após a cura completa."
+      },
+      {
+        "question": "Em quais materiais o Fixa Tudo não é recomendado?",
+        "answer": "Ele tem altíssima aderência em quase todos os materiais de construção, exceto em plásticos com baixa energia superficial como polietileno (PE), polipropileno (PP) e PTFE (Teflon)."
+      }
+    ]
+  },
+  {
+    "id": "prod-100503",
+    "sku": "100503",
+    "name": "Adesivo Fixa Tudo Tekbond Transparente 400g",
+    "slug": "adesivo-fixa-tudo-tekbond-transparente-400g",
+    "description": "O Fixa Tudo Transparente Tekbond é ideal para fixações invisíveis onde o acabamento estético é fundamental. Possui alta força de colagem inicial e final, excelente elasticidade e resistência a choques e vibrações.",
+    "price": 34.9,
+    "unit": "Cartucho 400g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g.webp",
+      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g-2.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Transparente / Incolor",
+      "Base": "Polímero Híbrido MS",
+      "Peso Líquido": "400 g"
+    },
+    "applications": [
+      "Colagem estética de vidros, acrílicos, espelhos e vitrines",
+      "Acabamentos refinados em bancadas de porcelanato e marcenaria"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100601",
+      "100510"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100504",
+    "sku": "100504",
+    "name": "Selante Adesivo PU 40 Cibraflex 400g",
+    "slug": "selante-pu40-cibraflex-400g",
+    "description": "O PU 40 Cibraflex é um selante monocomponente à base de poliuretano, flexível e impermeável. Ideal para juntas de dilatação, vedação de calhas, rufos, esquadrias e conexões de concreto.",
+    "price": 26.9,
+    "unit": "Cartucho 400g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Cibraflex",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/selante-pu40-cibraflex-400g.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-2.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-3.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-4.webp",
+      "/images/produtos/selante-pu40-cibraflex-400g-5.webp"
+    ],
+    "technicalSpecs": {
+      "Peso Líquido": "400 g",
+      "Dureza Shore A": "40",
+      "Temperatura de Trabalho": "-40°C a +80°C"
+    },
+    "applications": [
+      "Juntas de movimentação em pisos de concreto e alvenaria",
+      "Calhas, rufos, telhas metálicas e pingadeiras",
+      "Vedação perimetral de esquadrias de alumínio e madeira"
+    ],
+    "warranty": "Garantia Cibraflex",
+    "relatedSkus": [
+      "100601",
+      "100507"
+    ],
+    "variationType": "Cor",
+    "variations": [
+      {
+        "hex": "#ffffff",
+        "sku": "100504",
+        "name": "Branco",
+        "image": "/images/produtos/selante-pu40-cibraflex-branco-400g.jpg"
+      },
+      {
+        "hex": "#9ca3af",
+        "sku": "100505",
+        "name": "Cinza",
+        "image": "/images/produtos/selante-pu40-cibraflex-cinza-400g.jpg"
+      },
+      {
+        "hex": "#111827",
+        "sku": "100506",
+        "name": "Preto",
+        "image": "/images/produtos/selante-pu40-cibraflex-preto-400g.jpg"
+      }
+    ]
+  },
+  {
+    "id": "prod-100507",
+    "sku": "100507",
+    "name": "Selante Adesivo PU 40 Tekbond 387g",
+    "slug": "selante-adesivo-pu40-tekbond-387g",
+    "description": "O Selante PU 40 da Tekbond possui excelente poder de vedação e colagem com elasticidade permanente. Resistente às intempéries, não escorre ao ser aplicado e pode ser pintado após a cura total.",
+    "price": 25.9,
+    "unit": "Cartucho 387g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g.webp",
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g-2.webp",
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g-3.webp",
+      "/images/produtos/selante-adesivo-pu40-tekbond-387g-4.webp"
+    ],
+    "technicalSpecs": {
+      "Dureza": "Shore A 40",
+      "Peso Líquido": "387 g",
+      "Velocidade de Cura": "Aprox. 3 mm a cada 24 horas"
+    },
+    "applications": [
+      "Vedação perimetral de portas, janelas e fachadas",
+      "Fixação e vedação de calhas pluviais e condutores",
+      "Juntas construtivas de dilatação"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100601",
+      "100504"
+    ],
+    "variationType": "Cor",
+    "variations": [
+      {
+        "hex": "#9ca3af",
+        "sku": "100507",
+        "name": "Cinza",
+        "image": "/images/produtos/selante-pu40-tekbond-cinza-387g.jpg"
+      },
+      {
+        "hex": "#ffffff",
+        "sku": "100508",
+        "name": "Branco",
+        "image": "/images/produtos/selante-pu40-tekbond-branco.png"
+      },
+      {
+        "hex": "#111827",
+        "sku": "100509",
+        "name": "Preto",
+        "image": "/images/produtos/selante-pu40-tekbond-preto-387g.jpg"
+      }
+    ]
+  },
+  {
+    "id": "prod-100510",
+    "sku": "100510",
+    "name": "Silicone Acético Incolor Transparente 256g Tekbond",
+    "slug": "silicone-incolor-acetico-256g-tekbond",
+    "description": "Silicone monocomponente em cartucho de 256g com fungicida (antimofo), ideal para aplicação com pistola aplicadora em áreas não porosas de banheiros, cozinhas e esquadrias de alumínio e vidro. 100% à prova d’água.",
+    "price": 19.9,
+    "unit": "Cartucho 256g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/silicone-incolor-acetico-256g-tekbond.webp",
+      "/images/produtos/silicone-incolor-acetico-256g-tekbond-2.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Incolor / Transparente",
+      "Tipo de Cura": "Acética com aditivo antimofo",
+      "Peso Líquido": "256 g (cartucho para pistola aplicadora)",
+      "Tempo de Secagem": "Formação de película em 5 a 15 minutos"
+    },
+    "applications": [
+      "Box de banheiro, cubas, pias e louças sanitárias",
+      "Esquadrias de alumínio, vitrines e vidros temperados",
+      "Bancadas de cozinha e balcões"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100601",
+      "100511"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100511",
+    "sku": "100511",
+    "name": "Silicone Acético Incolor Transparente Bisnaga 50g Tekbond",
+    "slug": "silicone-incolor-acetico-bisnaga-50g-tekbond",
+    "description": "Silicone acético incolor em prática bisnaga de 50g. Dispensa uso de pistola aplicadora, perfeito para pequenos reparos domésticos e vedações pontuais em pias, louças e box de banheiro.",
+    "price": 9.9,
+    "unit": "Bisnaga 50g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Selantes",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/silicone-incolor-acetico-bisnaga-50g-tekbond.webp",
+      "/images/produtos/silicone-incolor-acetico-bisnaga-50g-tekbond-2.webp"
+    ],
+    "technicalSpecs": {
+      "Cor": "Incolor / Transparente",
+      "Aplicação": "Manual direto da bisnaga sem pistola",
+      "Tipo de Cura": "Acética com aditivo antimofo",
+      "Peso Líquido": "50 g (formato bisnaga com bico dosador)"
+    },
+    "applications": [
+      "Pequenos consertos em pias, cubas e banheiros",
+      "Vedação de juntas de box e esquadrias residenciais"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100510"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100512",
+    "sku": "100512",
+    "name": "Espuma Expansiva de Poliuretano Tekbond 500ml / 320g",
+    "slug": "espuma-expansiva-pu-tekbond-500ml-320g",
+    "description": "Espuma expansiva monocomponente pronta para uso com cânula aplicadora inclusa. Ideal para fixação e isolamento de batentes de portas, janelas, caixilhos e preenchimento de vãos e passagens de tubulações.",
+    "price": 28.9,
+    "unit": "Lata 500ml / 320g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Fixação e Espumas",
+    "brand": "Tekbond",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g.webp",
+      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g-2.webp",
+      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g-3.webp"
+    ],
+    "technicalSpecs": {
+      "Isolamento": "Alta proteção termoacústica",
+      "Volume / Peso": "500 ml (320 g)",
+      "Rendimento Livre": "Aprox. 20 a 25 litros após expansão total"
+    },
+    "applications": [
+      "Instalação e fixação firme de batentes e janelas",
+      "Isolamento térmico e acústico em vãos de alvenaria",
+      "Preenchimento de passagens de tubos e ar-condicionado"
+    ],
+    "warranty": "Garantia Tekbond",
+    "relatedSkus": [
+      "100501"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100513",
+    "sku": "100513",
+    "name": "Massa Plástica Adesiva com Catalisador 400g Lopes",
+    "slug": "massa-plastica-adesiva-400g",
+    "description": "Massa plástica adesiva à base de poliéster com secagem ultrarrápida. Indicada para colagem, assentamento e restauração de mármores, granitos, cubas, cerâmicas e reparos na construção civil e funilaria.",
+    "price": 17.9,
+    "unit": "Lata 400g com catalisador (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Adesivos e Massas",
+    "brand": "Ibera / Lopes",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/massa-plastica-adesiva-400g.webp",
+      "/images/produtos/massa-plastica-adesiva-400g-2.webp",
+      "/images/produtos/massa-plastica-adesiva-400g-3.webp",
+      "/images/produtos/massa-plastica-adesiva-400g-4.webp"
+    ],
+    "technicalSpecs": {
+      "Peso Líquido": "400 g + bisnaga de catalisador inclusa",
+      "Tempo de Trabalho": "5 a 10 minutos após mistura",
+      "Tempo de Lixamento": "Aprox. 2 horas"
+    },
+    "applications": [
+      "Colagem de cubas em bancadas de granito e mármore",
+      "Restauração de trincas e cantos em pedras naturais",
+      "Nivelamento de peças metálicas e reparos gerais"
+    ],
+    "warranty": "Qualidade Garantida",
+    "relatedSkus": [
+      "100603"
+    ],
+    "variationType": "Cor",
+    "variations": [
+      {
+        "hex": "#9ca3af",
+        "sku": "100513",
+        "name": "Cinza",
+        "image": "/images/produtos/massa-plastica-adesiva-400g-cinza-lopes.jpg"
+      },
+      {
+        "hex": "#111827",
+        "sku": "100514",
+        "name": "Preta",
+        "image": "/images/produtos/massa-plastica-adesiva-400g-preta-lopes.jpg"
+      }
+    ]
+  },
+  {
+    "id": "prod-100601",
+    "sku": "100601",
+    "name": "Aplicador de Silicone Manual Tipo Esqueleto Reforçado Nove54",
+    "slug": "aplicador-de-silicone-manual-nove54",
+    "description": "Pistola aplicadora de silicone e selantes tipo esqueleto, fabricada em chapa de aço estampada com acabamento zincado e gatilho reforçado. Proporciona aplicação suave e contínua de cartuchos padrão até 300ml / 400g.",
+    "price": 18.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas e EPIs",
+    "category": "Aplicadores e Pistolas",
+    "brand": "Nove54",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/aplicador-de-silicone-manual-nove54.webp",
+      "/images/produtos/aplicador-de-silicone-manual-nove54-2.webp"
+    ],
+    "technicalSpecs": {
+      "Estrutura": "Aço carbono reforçado zincado anti-ferrugem",
+      "Capacidade": "Cartuchos padrão até 300 ml / 400 g",
+      "Comprimento": "Aprox. 30 cm"
+    },
+    "applications": [
+      "Aplicação de silicones, PU 40 e adesivos Fixa Tudo",
+      "Serviços de marcenaria, vidraçaria e acabamentos na obra"
+    ],
+    "warranty": "Garantia Nove54 / Vonder",
+    "relatedSkus": [
+      "100504",
+      "100507",
+      "100510"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100602",
+    "sku": "100602",
+    "name": "Aplicador de Silicone Profissional Fechado Idea",
+    "slug": "aplicador-de-silicone-manual-idea-reforcado",
+    "description": "Pistola aplicadora profissional com corpo tubular fechado e mecanismo reforçado de alta pressão. Ideal para cartuchos pesados como PU40 e massas espessas, garantindo mínimo esforço físico.",
+    "price": 29.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas e EPIs",
+    "category": "Aplicadores e Pistolas",
+    "brand": "Idea",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/aplicador-de-silicone-manual-idea-reforcado.webp"
+    ],
+    "technicalSpecs": {
+      "Estrutura": "Tubo fechado em aço especial",
+      "Empunhadura": "Ergonômica com sistema corta-fluxo"
+    },
+    "applications": [
+      "Aplicação profissional contínua de selantes PU e colas pesadas"
+    ],
+    "warranty": "Garantia Idea",
+    "relatedSkus": [
+      "100501",
+      "100504"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100603",
+    "sku": "100603",
+    "name": "Jogo de Espátulas Celuloide Plásticas Atlas / Baricar",
+    "slug": "espatula-celuloide-plastica-para-massa-atlas",
+    "description": "Espátulas flexíveis em plástico celuloide para aplicação uniforme de massa corrida, massa plástica, texturas e gesso sem riscar a superfície nem deixar rebarbas.",
+    "price": 4.9,
+    "unit": "Jogo / Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas e EPIs",
+    "category": "Espátulas e Desempenadeiras",
+    "brand": "Atlas",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas.webp",
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-2.webp",
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-3.webp",
+      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-4.webp"
+    ],
+    "technicalSpecs": {
+      "Borda": "Chanfrada fina para acabamento impecável",
+      "Material": "Plástico celuloide virgem flexível"
+    },
+    "applications": [
+      "Aplicação e mistura de massa plástica com catalisador",
+      "Emassamento delicado em cantos, sancas e rodapés"
+    ],
+    "warranty": "Qualidade Atlas",
+    "relatedSkus": [
+      "100513"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100604",
+    "sku": "100604",
+    "name": "Lápis de Carpinteiro e Pedreiro Profissional Irwin",
+    "slug": "lapis-carpinteiro-pedreiro-irwin-profissional",
+    "description": "Lápis profissional com corpo oval achatado que evita rolamento em superfícies inclinadas e mina de grafite reforçada especial para marcações nítidas em madeira bruta, concreto, blocos e alvenaria.",
+    "price": 3.5,
+    "unit": "Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas e EPIs",
+    "category": "Medição e Marcação",
+    "brand": "Irwin",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/lapis-carpinteiro-pedreiro-irwin-profissional.webp",
+      "/images/produtos/lapis-carpinteiro-pedreiro-irwin-profissional-2.webp"
+    ],
+    "technicalSpecs": {
+      "Mina": "Grafite médio-duro resistente a quebras",
+      "Corpo": "Madeira especial em perfil oval achatado"
+    },
+    "applications": [
+      "Marcação em caixarias de madeira, vigas e sarrafos",
+      "Traçados em tijolos, concreto, reboco e pisos cerâmicos"
+    ],
+    "warranty": "Garantia Irwin",
+    "relatedSkus": [
+      "1453"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100605",
+    "sku": "100605",
+    "name": "Bloco de Espuma para Limpeza de Rejunte Cortag",
+    "slug": "bloco-de-espuma-limpeza-rejunte-cortag",
+    "description": "Esponja especial Cortag de alta densidade desenvolvida para acabamento e limpeza rápida de rejunte em pisos e porcelanatos sem riscar o esmalte nem cavar a junta.",
+    "price": 6.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas e EPIs",
+    "category": "Acessórios de Acabamento",
+    "brand": "Cortag",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/bloco-de-espuma-limpeza-rejunte-cortag.webp",
+      "/images/produtos/bloco-de-espuma-limpeza-rejunte-cortag-2.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Cortag",
+      "Material": "Poliuretano expandido de alta absorção",
+      "Densidade": "Especial para não agredir o esmalte das peças",
+      "Dimensões": "Aprox. 20 x 13 x 7 cm"
+    },
+    "applications": [
+      "Frisamento e limpeza pós-rejuntamento em pisos e paredes",
+      "Lavagem e finalização de obras em porcelanatos e azulejos"
+    ],
+    "warranty": "Qualidade Cortag",
+    "relatedSkus": [
+      "20301",
+      "100607"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100606",
+    "sku": "100606",
+    "name": "Desengripante e Lubrificante Spray 300ml / 200g Vonder",
+    "slug": "desengripante-lubrificante-spray-vonder-300ml",
+    "description": "O Desengripante Vonder possui alto poder de penetração para soltar porcas, parafusos e peças emperradas pela ferrugem. Lubrifica, elimina rangidos e forma película protetora contra oxidação e umidade.",
+    "price": 15.9,
+    "unit": "Lata 300ml / 200g (UN)",
+    "departmentId": "ferragens-e-fixacao",
+    "departmentName": "Ferragens e Fixação",
+    "category": "Lubrificantes e Químicos",
+    "brand": "Vonder",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/desengripante-lubrificante-spray-vonder-300ml.webp",
+      "/images/produtos/desengripante-lubrificante-spray-vonder-300ml-2.webp"
+    ],
+    "technicalSpecs": {
+      "Ação": "Desengripante, lubrificante e anticorrosivo",
+      "Conteúdo": "300 ml (200 g)",
+      "Acessório": "Bico prolongador aplicador incluso"
+    },
+    "applications": [
+      "Fechaduras, dobradiças, trilhos, correntes e ferramentas",
+      "Parafusos, porcas e articulações emperradas por ferrugem"
+    ],
+    "warranty": "Garantia Vonder",
+    "relatedSkus": [
+      "20101"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100607",
+    "sku": "100607",
+    "name": "Bloco de Espuma para Limpeza de Rejunte Tafort",
+    "slug": "bloco-de-espuma-limpeza-rejunte-tafort",
+    "description": "Bloco de espuma macia de alto rendimento Tafort para remoção de excessos de rejunte, lavagem pós-obra e limpeza geral de superfícies cerâmicas e azulejos.",
+    "price": 5.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas e EPIs",
+    "category": "Acessórios de Acabamento",
+    "brand": "Tafort",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/bloco-de-espuma-limpeza-rejunte-tafort.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Tafort",
+      "Material": "Espuma de poliuretano de alta retenção de água",
+      "Dimensões": "Aprox. 20 x 13 x 6 cm",
+      "Indicação": "Limpeza de rejuntes, azulejos e lavagem de obras"
+    },
+    "applications": [
+      "Remoção de resíduos frescos de rejuntamento",
+      "Limpeza de pisos, azulejos e acabamentos"
+    ],
+    "warranty": "Qualidade Tafort",
+    "relatedSkus": [
+      "100605"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-100702",
+    "sku": "100702",
+    "name": "Válvula Americana em Inox 3.1/2\" com Cesta para Pia de Cozinha",
+    "slug": "valvula-americana-3-meia-pia-cozinha-cesta",
+    "description": "Válvula modelo americana para cubas de pia de cozinha com cesto coletor removível em aço inoxidável. Retém restos de alimentos e resíduos sólidos, evitando entupimentos da rede de esgoto.",
+    "price": 22.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "acabamentos",
+    "departmentName": "Acabamentos e Metais",
+    "category": "Válvulas e Ralos",
+    "brand": "Metalmix / Blukit",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta.webp",
+      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta-2.webp"
+    ],
+    "technicalSpecs": {
+      "Material": "Aço inoxidável e polímeros nobres",
+      "Saída Inferior": "1.1/2 polegada",
+      "Diâmetro Superior": "3.1/2 polegadas"
+    },
+    "applications": [
+      "Cubas de inox e pias de cozinha em granito ou mármore sintético"
+    ],
+    "warranty": "Garantia de fábrica",
+    "relatedSkus": [
+      "100204"
+    ],
+    "variations": []
+  },
+  {
     "id": "prod-1453",
     "sku": "1453",
     "name": "Prego com Cabeça Gerdau 17x21 (2\" x 11) - Pacote 1kg",
@@ -34,7 +1206,8 @@
     "relatedSkus": [
       "2525",
       "86"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-1534",
@@ -71,7 +1244,8 @@
       "2152",
       "2882",
       "3"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-2152",
@@ -107,7 +1281,8 @@
       "1534",
       "2882",
       "3"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-2525",
@@ -142,7 +1317,8 @@
     "relatedSkus": [
       "86",
       "1453"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-2882",
@@ -180,7 +1356,8 @@
       "3",
       "400",
       "397"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-3",
@@ -216,7 +1393,8 @@
       "2882",
       "397",
       "398"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-397",
@@ -253,7 +1431,8 @@
       "400",
       "2882",
       "3"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-398",
@@ -288,7 +1467,8 @@
     "relatedSkus": [
       "3",
       "2882"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-400",
@@ -324,7 +1504,8 @@
     "relatedSkus": [
       "397",
       "2882"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-86",
@@ -360,7 +1541,8 @@
     "relatedSkus": [
       "2525",
       "92"
-    ]
+    ],
+    "variations": []
   },
   {
     "id": "prod-92",
@@ -396,6 +1578,131 @@
     "relatedSkus": [
       "86",
       "2882"
+    ],
+    "variations": []
+  },
+  {
+    "id": "prod-corante-liquido-xadrez-50ml",
+    "sku": "20201",
+    "name": "Corante Líquido Xadrez 50ml",
+    "slug": "corante-liquido-xadrez-50ml",
+    "description": "O Corante Líquido Xadrez é um pigmento concentrado de alto poder de tingimento e resistência. Indicado para colorir tintas à base de água (látex PVA e acrílicas), texturas, argamassas, rejuntes e cal.",
+    "price": 6.9,
+    "unit": "Frasco 50ml (UN)",
+    "departmentId": "tintas-e-acessorios",
+    "departmentName": "Tintas e Acessórios",
+    "category": "Pigmentos e Corantes",
+    "brand": "Xadrez",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/corante-liquido-xadrez-50ml.webp",
+      "/images/produtos/corante-liquido-xadrez-50ml-cores.webp"
+    ],
+    "technicalSpecs": {
+      "Base": "Dispersão aquosa de pigmentos orgânicos e inorgânicos",
+      "Volume": "50ml",
+      "Rendimento": "Até 1 bisnaga para cada galão de 3,6L de tinta"
+    },
+    "applications": [
+      "Coloração de tintas látex acrílicas e PVA",
+      "Tingimento de argamassas, cimento e rejuntes",
+      "Coloração de cal para caiação e acabamentos rústicos"
+    ],
+    "warranty": "Qualidade Xadrez / Lanxess",
+    "relatedSkus": [
+      "3",
+      "20101"
+    ],
+    "variationType": "Cor",
+    "variations": [
+      {
+        "hex": "#c28135",
+        "sku": "20201",
+        "name": "Ocre"
+      },
+      {
+        "hex": "#b91c1c",
+        "sku": "20202",
+        "name": "Vermelho"
+      },
+      {
+        "hex": "#eab308",
+        "sku": "20203",
+        "name": "Amarelo"
+      },
+      {
+        "hex": "#1d4ed8",
+        "sku": "20204",
+        "name": "Azul"
+      },
+      {
+        "hex": "#15803d",
+        "sku": "20205",
+        "name": "Verde"
+      },
+      {
+        "hex": "#171717",
+        "sku": "20206",
+        "name": "Preto"
+      },
+      {
+        "hex": "#78350f",
+        "sku": "20207",
+        "name": "Marrom"
+      }
+    ]
+  },
+  {
+    "id": "prod-espacador-nivelador-cortag",
+    "sku": "20301",
+    "name": "Espaçador Nivelador de Piso e Porcelanato Cortag (Pacote 50 Peças)",
+    "slug": "espacador-nivelador-de-piso-cortag-50-pecas",
+    "description": "O clipe espaçador nivelador tradicional da Cortag garante o nivelamento perfeito entre as peças de porcelanato e cerâmica, além de manter o espaçamento uniforme da junta de dilatação.",
+    "price": 18.9,
+    "unit": "Pacote 50 peças (UN)",
+    "departmentId": "ferramentas",
+    "departmentName": "Ferramentas e EPIs",
+    "category": "Nivelamento de Pisos",
+    "brand": "Cortag",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": true,
+    "images": [
+      "/images/produtos/espacador-nivelador-de-piso-cortag-50-pecas.webp",
+      "/images/produtos/espacador-nivelador-de-piso-cortag-detalhe.webp"
+    ],
+    "technicalSpecs": {
+      "Material": "Polímero virgem de alta resistência",
+      "Quantidade": "50 clips espaçadores por embalagem",
+      "Indicação": "Pisos e porcelanatos de 3,5 mm a 15 mm de espessura",
+      "Compatibilidade": "Cunha niveladora tradicional Cortag e alicate de tração"
+    },
+    "applications": [
+      "Assentamento de porcelanatos retificados e cerâmicas em pisos e paredes",
+      "Eliminação de dentes e desníveis entre as peças",
+      "Garantia de junta uniforme em toda a área de assentamento"
+    ],
+    "warranty": "Garantia Cortag",
+    "relatedSkus": [
+      "100102",
+      "2882"
+    ],
+    "variationType": "Espessura",
+    "variations": [
+      {
+        "sku": "20301",
+        "name": "1.0 mm"
+      },
+      {
+        "sku": "20302",
+        "name": "1.5 mm"
+      },
+      {
+        "sku": "20303",
+        "name": "2.0 mm"
+      }
     ]
   },
   {
@@ -428,50 +1735,54 @@
       "Iluminação e tomadas em redes residenciais"
     ],
     "warranty": "Certificação e garantia Sil Fios",
-    "relatedSkus": []
+    "relatedSkus": [],
+    "variations": []
   },
   {
-    "id": "prod-100102",
-    "sku": "100102",
-    "name": "Argamassa AC-I Interno Cinza 20kg Votomassa",
-    "slug": "argamassa-aci-interno-votomassa-20kg",
-    "description": "Argamassa colante industrializada AC-I Votomassa (Votoran), indicada para assentamento de placas cerâmicas em pisos e paredes exclusivamente em áreas internas. Proporciona excelente aderência, fácil trabalhabilidade e alto rendimento para obras residenciais e comerciais.",
-    "price": 14.9,
-    "unit": "Saco 20kg (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Cimentos e Argamassas",
-    "brand": "Votomassa",
+    "id": "prod-maxi-ducha-lorenzetti",
+    "sku": "20401",
+    "name": "Chuveiro Elétrico Maxi Ducha 3 Temperaturas Lorenzetti",
+    "slug": "chuveiro-eletrico-maxi-ducha-lorenzetti",
+    "description": "A clássica Maxi Ducha da Lorenzetti oferece banho relaxante com espalhador de grandes dimensões. Conta com 3 opções de temperatura (Frio, Morno, Quente), fácil troca de resistência e excelente vazão para momentos confortáveis.",
+    "price": 54.9,
+    "unit": "Unidade (UN)",
+    "departmentId": "eletrica",
+    "departmentName": "Elétrica",
+    "category": "Chuveiros e Duchas",
+    "brand": "Lorenzetti",
     "inStock": true,
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/argamassa-aci-interno-votomassa-20kg.webp",
-      "/images/produtos/argamassa-aci-interno-votomassa-20kg-2.webp"
+      "/images/produtos/chuveiro-eletrico-maxi-ducha-3-temperaturas-lorenzetti.webp"
     ],
     "technicalSpecs": {
-      "Classificação / Norma": "AC-I (ABNT NBR 14081)",
-      "Peso Líquido": "20 kg",
-      "Cor": "Cinza",
-      "Indicação de Uso": "Pisos e paredes de áreas internas (secas ou molháveis)",
-      "Tamanho Máximo da Placa": "Cerâmicas até 60 x 60 cm",
-      "Tempo em Aberto": "Aprox. 15 a 20 minutos",
-      "Consumo / Rendimento Médio": "Camada simples: ~4 a 5 kg/m² | Camada dupla: ~7 a 8 kg/m²",
-      "Liberação para Tráfego": "Tráfego leve: 72 horas | Tráfego total: 7 dias",
-      "Liberação para Rejunte": "Mínimo de 72 horas após a aplicação",
-      "Composição": "Cimento Portland, agregados minerais e aditivos químicos"
+      "Potência": "5500W",
+      "Temperaturas": "3 opções de regulagem (Frio, Morno, Quente)",
+      "Grau de Proteção": "IP 24",
+      "Disjuntor Recomendado": "50A para 127V / 32A para 220V",
+      "Pressão de Funcionamento": "10 a 400 kPa (1 a 40 m.c.a.)",
+      "Fiação Mínima Recomendada": "10 mm² para 127V / 4 mm² para 220V"
     },
     "applications": [
-      "Assentamento de revestimentos cerâmicos em ambientes internos",
-      "Pisos e paredes de cozinhas, banheiros, salas e dormitórios",
-      "Contrapiso sarrafeado ou desempenado, emboço e reboco curados"
+      "Banheiros residenciais e comerciais",
+      "Instalação direta na parede com rosca 1/2\"",
+      "Compatível com sistemas de aquecimento solar"
     ],
-    "warranty": "Garantia de fábrica Votorantim Cimentos (dentro da validade)",
+    "warranty": "1 ano de garantia Lorenzetti",
     "relatedSkus": [
-      "2882",
-      "3",
-      "1534",
-      "397"
+      "100301"
+    ],
+    "variationType": "Voltagem",
+    "variations": [
+      {
+        "sku": "20401",
+        "name": "127V (5500W)"
+      },
+      {
+        "sku": "20402",
+        "name": "220V (5500W)"
+      }
     ]
   },
   {
@@ -493,63 +1804,10 @@
       "/images/produtos/tinta-spray-uso-geral-tekbond-400ml.webp",
       "/images/produtos/tinta-spray-uso-geral-tekbond-cores.webp"
     ],
-    "variationType": "Cor",
-    "variations": [
-      {
-        "name": "Preto Fosco",
-        "sku": "20101",
-        "hex": "#1c1917"
-      },
-      {
-        "name": "Preto Brilhante",
-        "sku": "20102",
-        "hex": "#000000"
-      },
-      {
-        "name": "Branco Brilhante",
-        "sku": "20103",
-        "hex": "#ffffff"
-      },
-      {
-        "name": "Branco Fosco",
-        "sku": "20104",
-        "hex": "#f1f5f9"
-      },
-      {
-        "name": "Vermelho",
-        "sku": "20105",
-        "hex": "#dc2626"
-      },
-      {
-        "name": "Azul",
-        "sku": "20106",
-        "hex": "#2563eb"
-      },
-      {
-        "name": "Amarelo",
-        "sku": "20107",
-        "hex": "#eab308"
-      },
-      {
-        "name": "Verde",
-        "sku": "20108",
-        "hex": "#16a34a"
-      },
-      {
-        "name": "Prata / Alumínio",
-        "sku": "20109",
-        "hex": "#94a3b8"
-      },
-      {
-        "name": "Verniz Brilhante",
-        "sku": "20110",
-        "hex": "#e2e8f0"
-      }
-    ],
     "technicalSpecs": {
       "Conteúdo": "400ml / 250g",
-      "Secagem ao toque": "15 minutos",
       "Secagem total": "24 horas",
+      "Secagem ao toque": "15 minutos",
       "Rendimento aproximado": "1,3 m² a 1,6 m² por embalagem/demão"
     },
     "applications": [
@@ -560,1248 +1818,59 @@
     "warranty": "Garantia Tekbond",
     "relatedSkus": [
       "20201"
-    ]
-  },
-  {
-    "id": "prod-corante-liquido-xadrez-50ml",
-    "sku": "20201",
-    "name": "Corante Líquido Xadrez 50ml",
-    "slug": "corante-liquido-xadrez-50ml",
-    "description": "O Corante Líquido Xadrez é um pigmento concentrado de alto poder de tingimento e resistência. Indicado para colorir tintas à base de água (látex PVA e acrílicas), texturas, argamassas, rejuntes e cal.",
-    "price": 6.9,
-    "unit": "Frasco 50ml (UN)",
-    "departmentId": "tintas-e-acessorios",
-    "departmentName": "Tintas e Acessórios",
-    "category": "Pigmentos e Corantes",
-    "brand": "Xadrez",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/corante-liquido-xadrez-50ml.webp",
-      "/images/produtos/corante-liquido-xadrez-50ml-cores.webp"
     ],
     "variationType": "Cor",
     "variations": [
       {
-        "name": "Ocre",
-        "sku": "20201",
-        "hex": "#c28135"
+        "hex": "#1c1917",
+        "sku": "20101",
+        "name": "Preto Fosco"
       },
       {
-        "name": "Vermelho",
-        "sku": "20202",
-        "hex": "#b91c1c"
+        "hex": "#000000",
+        "sku": "20102",
+        "name": "Preto Brilhante"
       },
       {
-        "name": "Amarelo",
-        "sku": "20203",
-        "hex": "#eab308"
-      },
-      {
-        "name": "Azul",
-        "sku": "20204",
-        "hex": "#1d4ed8"
-      },
-      {
-        "name": "Verde",
-        "sku": "20205",
-        "hex": "#15803d"
-      },
-      {
-        "name": "Preto",
-        "sku": "20206",
-        "hex": "#171717"
-      },
-      {
-        "name": "Marrom",
-        "sku": "20207",
-        "hex": "#78350f"
-      }
-    ],
-    "technicalSpecs": {
-      "Volume": "50ml",
-      "Rendimento": "Até 1 bisnaga para cada galão de 3,6L de tinta",
-      "Base": "Dispersão aquosa de pigmentos orgânicos e inorgânicos"
-    },
-    "applications": [
-      "Coloração de tintas látex acrílicas e PVA",
-      "Tingimento de argamassas, cimento e rejuntes",
-      "Coloração de cal para caiação e acabamentos rústicos"
-    ],
-    "warranty": "Qualidade Xadrez / Lanxess",
-    "relatedSkus": [
-      "3",
-      "20101"
-    ]
-  },
-  {
-    "id": "prod-espacador-nivelador-cortag",
-    "sku": "20301",
-    "name": "Espaçador Nivelador de Piso e Porcelanato Cortag (Pacote 50 Peças)",
-    "slug": "espacador-nivelador-de-piso-cortag-50-pecas",
-    "description": "O clipe espaçador nivelador tradicional da Cortag garante o nivelamento perfeito entre as peças de porcelanato e cerâmica, além de manter o espaçamento uniforme da junta de dilatação.",
-    "price": 18.9,
-    "unit": "Pacote 50 peças (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas e EPIs",
-    "category": "Nivelamento de Pisos",
-    "brand": "Cortag",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/espacador-nivelador-de-piso-cortag-50-pecas.webp",
-      "/images/produtos/espacador-nivelador-de-piso-cortag-detalhe.webp"
-    ],
-    "variationType": "Espessura",
-    "variations": [
-      {
-        "name": "1.0 mm",
-        "sku": "20301"
-      },
-      {
-        "name": "1.5 mm",
-        "sku": "20302"
-      },
-      {
-        "name": "2.0 mm",
-        "sku": "20303"
-      }
-    ],
-    "technicalSpecs": {
-      "Quantidade": "50 clips espaçadores por embalagem",
-      "Material": "Polímero virgem de alta resistência",
-      "Indicação": "Pisos e porcelanatos de 3,5 mm a 15 mm de espessura",
-      "Compatibilidade": "Cunha niveladora tradicional Cortag e alicate de tração"
-    },
-    "applications": [
-      "Assentamento de porcelanatos retificados e cerâmicas em pisos e paredes",
-      "Eliminação de dentes e desníveis entre as peças",
-      "Garantia de junta uniforme em toda a área de assentamento"
-    ],
-    "warranty": "Garantia Cortag",
-    "relatedSkus": [
-      "100102",
-      "2882"
-    ]
-  },
-  {
-    "id": "prod-maxi-ducha-lorenzetti",
-    "sku": "20401",
-    "name": "Chuveiro Elétrico Maxi Ducha 3 Temperaturas Lorenzetti",
-    "slug": "chuveiro-eletrico-maxi-ducha-lorenzetti",
-    "description": "A clássica Maxi Ducha da Lorenzetti oferece banho relaxante com espalhador de grandes dimensões. Conta com 3 opções de temperatura (Frio, Morno, Quente), fácil troca de resistência e excelente vazão para momentos confortáveis.",
-    "price": 54.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "eletrica",
-    "departmentName": "Elétrica",
-    "category": "Chuveiros e Duchas",
-    "brand": "Lorenzetti",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/chuveiro-eletrico-maxi-ducha-3-temperaturas-lorenzetti.webp"
-    ],
-    "variationType": "Voltagem",
-    "variations": [
-      {
-        "name": "127V (5500W)",
-        "sku": "20401"
-      },
-      {
-        "name": "220V (5500W)",
-        "sku": "20402"
-      }
-    ],
-    "technicalSpecs": {
-      "Temperaturas": "3 opções de regulagem (Frio, Morno, Quente)",
-      "Potência": "5500W",
-      "Pressão de Funcionamento": "10 a 400 kPa (1 a 40 m.c.a.)",
-      "Grau de Proteção": "IP 24",
-      "Fiação Mínima Recomendada": "10 mm² para 127V / 4 mm² para 220V",
-      "Disjuntor Recomendado": "50A para 127V / 32A para 220V"
-    },
-    "applications": [
-      "Banheiros residenciais e comerciais",
-      "Instalação direta na parede com rosca 1/2\"",
-      "Compatível com sistemas de aquecimento solar"
-    ],
-    "warranty": "1 ano de garantia Lorenzetti",
-    "relatedSkus": [
-      "100301"
-    ]
-  },
-  {
-    "id": "prod-100105",
-    "sku": "100105",
-    "name": "Argamassa AC-II Interno e Externo Cinza 20kg Votomassa",
-    "slug": "argamassa-acii-interno-e-externo-cinza-20kg-votomassa",
-    "description": "A Argamassa Colante AC-II Votomassa é indicada para assentamento de placas cerâmicas em pisos e paredes de áreas internas e externas. Possui excelente aderência e resistência a intempéries como sol, chuva e vento.",
-    "price": 19.9,
-    "unit": "Saco 20kg (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Cimentos e Argamassas",
-    "brand": "Votomassa",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa.webp",
-      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa-2.webp",
-      "/images/produtos/argamassa-acii-interno-e-externo-cinza-20kg-votomassa-3.webp"
-    ],
-    "technicalSpecs": {
-      "Classificação": "AC-II (ABNT NBR 14081)",
-      "Peso Líquido": "20 kg",
-      "Cor": "Cinza",
-      "Indicação": "Pisos e paredes internos e externos",
-      "Tamanho Máximo da Placa": "Até 80 x 80 cm",
-      "Rendimento Médio": "~4 a 5 kg/m² camada simples | ~7 a 8 kg/m² camada dupla"
-    },
-    "applications": [
-      "Revestimentos cerâmicos em varandas, garagens e quintais",
-      "Áreas molhadas residenciais e comerciais",
-      "Fachadas residenciais térreas de até 3 metros"
-    ],
-    "warranty": "Garantia Votorantim Cimentos",
-    "relatedSkus": [
-      "100102",
-      "20301"
-    ]
-  },
-  {
-    "id": "prod-100106",
-    "sku": "100106",
-    "name": "Argamassa AC-III Alta Performance Cinza 20kg Votomassa",
-    "slug": "argamassa-aciii-alta-performance-cinza-20kg-votomassa",
-    "description": "A Argamassa AC-III Votomassa é a solução de máxima aderência e flexibilidade para porcelanatos, grandes formatos, fachadas e piscinas. Resistente a tensões de dilatação e variações térmicas extremas.",
-    "price": 29.9,
-    "unit": "Saco 20kg (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Cimentos e Argamassas",
-    "brand": "Votomassa",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa-2.webp",
-      "/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa.webp"
-    ],
-    "technicalSpecs": {
-      "Classificação": "AC-III (ABNT NBR 14081)",
-      "Peso Líquido": "20 kg",
-      "Cor": "Cinza",
-      "Indicação": "Porcelanatos, grandes formatos, fachadas e piscinas",
-      "Rendimento Médio": "~4,5 a 8,5 kg/m²"
-    },
-    "applications": [
-      "Assentamento de porcelanatos e placas de grandes formatos",
-      "Fachadas prediais e residenciais externas",
-      "Piscinas aquecidas, reservatórios e saunas"
-    ],
-    "warranty": "Garantia Votorantim Cimentos",
-    "relatedSkus": [
-      "100105",
-      "20301"
-    ]
-  },
-  {
-    "id": "prod-100107",
-    "sku": "100107",
-    "name": "Argamassa Refratária Quartzolit 5kg",
-    "slug": "argamassa-refrataria-quartzolit-5kg",
-    "description": "A Argamassa Refratária Quartzolit foi especialmente desenvolvida para o assentamento e rejuntamento de plaquetas e tijolos refratários em locais sujeitos a altas temperaturas como churrasqueiras, lareiras, fornos e fogões a lenha (resiste até 400°C).",
-    "price": 26.9,
-    "unit": "Saco 5kg (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Cimentos e Argamassas",
-    "brand": "Quartzolit",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/argamassa-refrataria-quartzolit-5kg.webp",
-      "/images/produtos/argamassa-refrataria-quartzolit-5kg-2.webp"
-    ],
-    "technicalSpecs": {
-      "Resistência Térmica": "Até 400°C",
-      "Peso Líquido": "5 kg",
-      "Cura para Primeiro Fogo": "Mínimo de 72 horas após aplicação",
-      "Consumo Médio": "Aprox. 8 kg/m² para tijolos refratários"
-    },
-    "applications": [
-      "Churrasqueiras de alvenaria e pré-moldadas",
-      "Lareiras, fornos de pizza e fogões a lenha",
-      "Paredes em contato direto com chamas e brasas"
-    ],
-    "warranty": "Garantia Quartzolit",
-    "relatedSkus": [
-      "2152",
-      "1534"
-    ]
-  },
-  {
-    "id": "prod-100108",
-    "sku": "100108",
-    "name": "Aditivo Impermeabilizante Vedacit para Concreto e Argamassa",
-    "slug": "aditivo-impermeabilizante-vedacit",
-    "description": "O Vedacit é o impermeabilizante clássico que age por hidrofugação dos capilares do concreto e da argamassa, bloqueando a penetração de umidade e água. Não altera o tempo de cura e garante proteção definitiva contra infiltrações.",
-    "price": 16.9,
-    "unit": "Pote 900ml (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Impermeabilizantes",
-    "brand": "Vedacit",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/aditivo-impermeabilizante-vedacit.webp",
-      "/images/produtos/aditivo-impermeabilizante-vedacit-2.webp",
-      "/images/produtos/aditivo-impermeabilizante-vedacit-3.webp",
-      "/images/produtos/aditivo-impermeabilizante-vedacit-4.webp",
-      "/images/produtos/aditivo-impermeabilizante-vedacit-5.webp"
-    ],
-    "variationType": "Embalagem",
-    "variations": [
-      {
-        "name": "Pote 900ml",
-        "sku": "100108",
-        "price": 16.9,
-        "image": "/images/produtos/vedacit_900ml_aditivo_impermeabilizante_profissional.JPG"
-      },
-      {
-        "name": "Galão 3,6 Litros",
-        "sku": "100109",
-        "price": 44.9,
-        "image": "/images/produtos/vedacit_3.6lt_aditivo_impermeabilizante_profissional.jpg"
-      },
-      {
-        "name": "Balde 18 Litros",
-        "sku": "100110",
-        "price": 189.9,
-        "image": "/images/produtos/vedacit_18lt_aditivo_impermeabilizante_profissional.jpg"
-      }
-    ],
-    "technicalSpecs": {
-      "Consumo Médio": "Aprox. 2 litros de Vedacit por saco de cimento de 50kg",
-      "Densidade": "1,00 g/cm³",
-      "Composição": "Sais metálicos e ácidos graxos"
-    },
-    "applications": [
-      "Baldrames, alicerces e muros de arrimo",
-      "Reboco de paredes externas, caixas d’água e reservatórios",
-      "Assentamento de alvenaria até a primeira fiada contra umidade de solo"
-    ],
-    "warranty": "Garantia Vedacit",
-    "relatedSkus": [
-      "2882",
-      "100111"
-    ]
-  },
-  {
-    "id": "prod-100111",
-    "sku": "100111",
-    "name": "Resina Adesiva para Chapisco Bianco Vedacit",
-    "slug": "resina-adesiva-chapisco-bianco-vedacit",
-    "description": "Bianco é uma resina sintética de alto desempenho que proporciona excelente aderência das argamassas aos mais diversos substratos, evitando desplacamentos. Confere maior plasticidade, reduz a retração e evita o surgimento de fissuras.",
-    "price": 26.9,
-    "unit": "Frasco 900ml (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Impermeabilizantes e Aditivos",
-    "brand": "Vedacit",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit.webp",
-      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-2.webp",
-      "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-3.webp"
-    ],
-    "variationType": "Embalagem",
-    "variations": [
-      {
-        "name": "Frasco 900ml",
-        "sku": "100111",
-        "price": 26.9,
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-900ml.jpg"
-      },
-      {
-        "name": "Galão 3,6kg",
-        "sku": "100112",
-        "price": 79.9,
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-3.6kg.jpg"
-      },
-      {
-        "name": "Balde 18kg",
-        "sku": "100113",
-        "price": 349.9,
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-18kg.jpg"
-      }
-    ],
-    "technicalSpecs": {
-      "Rendimento Chapisco": "Aprox. 200 a 300 g/m²",
-      "Rendimento Argamassa": "Aprox. 400 g/m² por centímetro de espessura",
-      "Aspecto": "Líquido branco leitoso de fácil homogeneização"
-    },
-    "applications": [
-      "Chapisco convencional e rolado em concreto e alvenaria",
-      "Argamassas de reparo, contrapiso e estucamento",
-      "Fixação duradoura de caiação e tintas em pó"
-    ],
-    "warranty": "Garantia Vedacit",
-    "relatedSkus": [
-      "2882",
-      "100108"
-    ]
-  },
-  {
-    "id": "prod-100501",
-    "sku": "100501",
-    "name": "Adesivo Selante Fixa Tudo MS Profissional Amazonas 400g Branco",
-    "slug": "adesivo-selante-fixa-tudo-ms-amazonas-400g",
-    "description": "O Fixa Tudo MS Amazonas é um adesivo de alta tecnologia que cola, sela e veda diversos materiais até mesmo debaixo d’água! Possui agarre imediato, alta resistência a raios UV e intempéries, aceita pintura após curado e não mancha mármores ou espelhos.",
-    "price": 32.9,
-    "unit": "Cartucho 400g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Amazonas",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g.webp",
-      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g-2.webp",
-      "/images/produtos/adesivo-selante-fixa-tudo-ms-amazonas-400g-3.webp"
-    ],
-    "technicalSpecs": {
-      "Base Química": "Polímero Híbrido MS de alta performance",
-      "Peso Líquido": "400 g",
-      "Cor": "Branco",
-      "Resistência UV": "Excelente resistência ao sol, não amarela",
-      "Cura na Água": "Capacidade de colagem e vedação debaixo d’água"
-    },
-    "applications": [
-      "Espelhos, cubas, pias e bancadas de mármore e granito",
-      "Box de banheiro, azulejos, esquadrias e calhas",
-      "Vedação de piscinas e áreas permanentemente úmidas"
-    ],
-    "warranty": "Garantia Amazonas",
-    "relatedSkus": [
-      "100601",
-      "100502"
-    ]
-  },
-  {
-    "id": "prod-100502",
-    "sku": "100502",
-    "name": "Adesivo Fixa Tudo Amazonas Branco Bisnaga 50g",
-    "slug": "adesivo-fixa-tudo-amazonas-branco-bisnaga-50g",
-    "description": "Adesivo multiuso super prático em bisnaga de 50g para pequenos reparos do dia a dia. Dispensa uso de pistola aplicadora. Cola rápida, forte e flexível em madeira, metal, vidro, alvenaria e cerâmica.",
-    "price": 12.9,
-    "unit": "Bisnaga 50g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Amazonas",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g.webp",
-      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g-2.webp",
-      "/images/produtos/adesivo-fixa-tudo-amazonas-branco-bisnaga-50g-3.webp"
-    ],
-    "technicalSpecs": {
-      "Peso Líquido": "50 g",
-      "Cor": "Branco",
-      "Aplicação": "Direto da bisnaga sem necessidade de pistola"
-    },
-    "applications": [
-      "Fixação de rodapés, canaletas elétricas e placas decorativas",
-      "Pequenos consertos em móveis, louças, azulejos e gesso"
-    ],
-    "warranty": "Garantia Amazonas",
-    "relatedSkus": [
-      "100501"
-    ]
-  },
-  {
-    "id": "prod-100503",
-    "sku": "100503",
-    "name": "Adesivo Fixa Tudo Tekbond Transparente 400g",
-    "slug": "adesivo-fixa-tudo-tekbond-transparente-400g",
-    "description": "O Fixa Tudo Transparente Tekbond é ideal para fixações invisíveis onde o acabamento estético é fundamental. Possui alta força de colagem inicial e final, excelente elasticidade e resistência a choques e vibrações.",
-    "price": 34.9,
-    "unit": "Cartucho 400g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Tekbond",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g.webp",
-      "/images/produtos/adesivo-fixa-tudo-tekbond-transparente-400g-2.webp"
-    ],
-    "technicalSpecs": {
-      "Cor": "Transparente / Incolor",
-      "Peso Líquido": "400 g",
-      "Base": "Polímero Híbrido MS"
-    },
-    "applications": [
-      "Colagem estética de vidros, acrílicos, espelhos e vitrines",
-      "Acabamentos refinados em bancadas de porcelanato e marcenaria"
-    ],
-    "warranty": "Garantia Tekbond",
-    "relatedSkus": [
-      "100601",
-      "100510"
-    ]
-  },
-  {
-    "id": "prod-100504",
-    "sku": "100504",
-    "name": "Selante Adesivo PU 40 Cibraflex 400g",
-    "slug": "selante-pu40-cibraflex-400g",
-    "description": "O PU 40 Cibraflex é um selante monocomponente à base de poliuretano, flexível e impermeável. Ideal para juntas de dilatação, vedação de calhas, rufos, esquadrias e conexões de concreto.",
-    "price": 26.9,
-    "unit": "Cartucho 400g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Cibraflex",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/selante-pu40-cibraflex-400g.webp",
-      "/images/produtos/selante-pu40-cibraflex-400g-2.webp",
-      "/images/produtos/selante-pu40-cibraflex-400g-3.webp",
-      "/images/produtos/selante-pu40-cibraflex-400g-4.webp",
-      "/images/produtos/selante-pu40-cibraflex-400g-5.webp"
-    ],
-    "variationType": "Cor",
-    "variations": [
-      {
-        "name": "Branco",
-        "sku": "100504",
         "hex": "#ffffff",
-        "image": "/images/produtos/selante-pu40-cibraflex-branco-400g.jpg"
+        "sku": "20103",
+        "name": "Branco Brilhante"
       },
       {
-        "name": "Cinza",
-        "sku": "100505",
-        "hex": "#9ca3af",
-        "image": "/images/produtos/selante-pu40-cibraflex-cinza-400g.jpg"
+        "hex": "#f1f5f9",
+        "sku": "20104",
+        "name": "Branco Fosco"
       },
       {
-        "name": "Preto",
-        "sku": "100506",
-        "hex": "#111827",
-        "image": "/images/produtos/selante-pu40-cibraflex-preto-400g.jpg"
+        "hex": "#dc2626",
+        "sku": "20105",
+        "name": "Vermelho"
+      },
+      {
+        "hex": "#2563eb",
+        "sku": "20106",
+        "name": "Azul"
+      },
+      {
+        "hex": "#eab308",
+        "sku": "20107",
+        "name": "Amarelo"
+      },
+      {
+        "hex": "#16a34a",
+        "sku": "20108",
+        "name": "Verde"
+      },
+      {
+        "hex": "#94a3b8",
+        "sku": "20109",
+        "name": "Prata / Alumínio"
+      },
+      {
+        "hex": "#e2e8f0",
+        "sku": "20110",
+        "name": "Verniz Brilhante"
       }
-    ],
-    "technicalSpecs": {
-      "Dureza Shore A": "40",
-      "Peso Líquido": "400 g",
-      "Temperatura de Trabalho": "-40°C a +80°C"
-    },
-    "applications": [
-      "Juntas de movimentação em pisos de concreto e alvenaria",
-      "Calhas, rufos, telhas metálicas e pingadeiras",
-      "Vedação perimetral de esquadrias de alumínio e madeira"
-    ],
-    "warranty": "Garantia Cibraflex",
-    "relatedSkus": [
-      "100601",
-      "100507"
-    ]
-  },
-  {
-    "id": "prod-100507",
-    "sku": "100507",
-    "name": "Selante Adesivo PU 40 Tekbond 387g",
-    "slug": "selante-adesivo-pu40-tekbond-387g",
-    "description": "O Selante PU 40 da Tekbond possui excelente poder de vedação e colagem com elasticidade permanente. Resistente às intempéries, não escorre ao ser aplicado e pode ser pintado após a cura total.",
-    "price": 25.9,
-    "unit": "Cartucho 387g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Tekbond",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/selante-adesivo-pu40-tekbond-387g.webp",
-      "/images/produtos/selante-adesivo-pu40-tekbond-387g-2.webp",
-      "/images/produtos/selante-adesivo-pu40-tekbond-387g-3.webp",
-      "/images/produtos/selante-adesivo-pu40-tekbond-387g-4.webp"
-    ],
-    "variationType": "Cor",
-    "variations": [
-      {
-        "name": "Cinza",
-        "sku": "100507",
-        "hex": "#9ca3af",
-        "image": "/images/produtos/selante-pu40-tekbond-cinza-387g.jpg"
-      },
-      {
-        "name": "Branco",
-        "sku": "100508",
-        "hex": "#ffffff",
-        "image": "/images/produtos/selante-pu40-tekbond-branco.png"
-      },
-      {
-        "name": "Preto",
-        "sku": "100509",
-        "hex": "#111827",
-        "image": "/images/produtos/selante-pu40-tekbond-preto-387g.jpg"
-      }
-    ],
-    "technicalSpecs": {
-      "Dureza": "Shore A 40",
-      "Peso Líquido": "387 g",
-      "Velocidade de Cura": "Aprox. 3 mm a cada 24 horas"
-    },
-    "applications": [
-      "Vedação perimetral de portas, janelas e fachadas",
-      "Fixação e vedação de calhas pluviais e condutores",
-      "Juntas construtivas de dilatação"
-    ],
-    "warranty": "Garantia Tekbond",
-    "relatedSkus": [
-      "100601",
-      "100504"
-    ]
-  },
-  {
-    "id": "prod-100512",
-    "sku": "100512",
-    "name": "Espuma Expansiva de Poliuretano Tekbond 500ml / 320g",
-    "slug": "espuma-expansiva-pu-tekbond-500ml-320g",
-    "description": "Espuma expansiva monocomponente pronta para uso com cânula aplicadora inclusa. Ideal para fixação e isolamento de batentes de portas, janelas, caixilhos e preenchimento de vãos e passagens de tubulações.",
-    "price": 28.9,
-    "unit": "Lata 500ml / 320g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Fixação e Espumas",
-    "brand": "Tekbond",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g.webp",
-      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g-2.webp",
-      "/images/produtos/espuma-expansiva-pu-tekbond-500ml-320g-3.webp"
-    ],
-    "technicalSpecs": {
-      "Volume / Peso": "500 ml (320 g)",
-      "Rendimento Livre": "Aprox. 20 a 25 litros após expansão total",
-      "Isolamento": "Alta proteção termoacústica"
-    },
-    "applications": [
-      "Instalação e fixação firme de batentes e janelas",
-      "Isolamento térmico e acústico em vãos de alvenaria",
-      "Preenchimento de passagens de tubos e ar-condicionado"
-    ],
-    "warranty": "Garantia Tekbond",
-    "relatedSkus": [
-      "100501"
-    ]
-  },
-  {
-    "id": "prod-100513",
-    "sku": "100513",
-    "name": "Massa Plástica Adesiva com Catalisador 400g Lopes",
-    "slug": "massa-plastica-adesiva-400g",
-    "description": "Massa plástica adesiva à base de poliéster com secagem ultrarrápida. Indicada para colagem, assentamento e restauração de mármores, granitos, cubas, cerâmicas e reparos na construção civil e funilaria.",
-    "price": 17.9,
-    "unit": "Lata 400g com catalisador (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Massas",
-    "brand": "Ibera / Lopes",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/massa-plastica-adesiva-400g.webp",
-      "/images/produtos/massa-plastica-adesiva-400g-2.webp",
-      "/images/produtos/massa-plastica-adesiva-400g-3.webp",
-      "/images/produtos/massa-plastica-adesiva-400g-4.webp"
-    ],
-    "variationType": "Cor",
-    "variations": [
-      {
-        "name": "Cinza",
-        "sku": "100513",
-        "hex": "#9ca3af",
-        "image": "/images/produtos/massa-plastica-adesiva-400g-cinza-lopes.jpg"
-      },
-      {
-        "name": "Preta",
-        "sku": "100514",
-        "hex": "#111827",
-        "image": "/images/produtos/massa-plastica-adesiva-400g-preta-lopes.jpg"
-      }
-    ],
-    "technicalSpecs": {
-      "Peso Líquido": "400 g + bisnaga de catalisador inclusa",
-      "Tempo de Trabalho": "5 a 10 minutos após mistura",
-      "Tempo de Lixamento": "Aprox. 2 horas"
-    },
-    "applications": [
-      "Colagem de cubas em bancadas de granito e mármore",
-      "Restauração de trincas e cantos em pedras naturais",
-      "Nivelamento de peças metálicas e reparos gerais"
-    ],
-    "warranty": "Qualidade Garantida",
-    "relatedSkus": [
-      "100603"
-    ]
-  },
-  {
-    "id": "prod-100601",
-    "sku": "100601",
-    "name": "Aplicador de Silicone Manual Tipo Esqueleto Reforçado Nove54",
-    "slug": "aplicador-de-silicone-manual-nove54",
-    "description": "Pistola aplicadora de silicone e selantes tipo esqueleto, fabricada em chapa de aço estampada com acabamento zincado e gatilho reforçado. Proporciona aplicação suave e contínua de cartuchos padrão até 300ml / 400g.",
-    "price": 18.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas e EPIs",
-    "category": "Aplicadores e Pistolas",
-    "brand": "Nove54",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/aplicador-de-silicone-manual-nove54.webp",
-      "/images/produtos/aplicador-de-silicone-manual-nove54-2.webp"
-    ],
-    "technicalSpecs": {
-      "Capacidade": "Cartuchos padrão até 300 ml / 400 g",
-      "Estrutura": "Aço carbono reforçado zincado anti-ferrugem",
-      "Comprimento": "Aprox. 30 cm"
-    },
-    "applications": [
-      "Aplicação de silicones, PU 40 e adesivos Fixa Tudo",
-      "Serviços de marcenaria, vidraçaria e acabamentos na obra"
-    ],
-    "warranty": "Garantia Nove54 / Vonder",
-    "relatedSkus": [
-      "100504",
-      "100507",
-      "100510"
-    ]
-  },
-  {
-    "id": "prod-100602",
-    "sku": "100602",
-    "name": "Aplicador de Silicone Profissional Fechado Idea",
-    "slug": "aplicador-de-silicone-manual-idea-reforcado",
-    "description": "Pistola aplicadora profissional com corpo tubular fechado e mecanismo reforçado de alta pressão. Ideal para cartuchos pesados como PU40 e massas espessas, garantindo mínimo esforço físico.",
-    "price": 29.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas e EPIs",
-    "category": "Aplicadores e Pistolas",
-    "brand": "Idea",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/aplicador-de-silicone-manual-idea-reforcado.webp"
-    ],
-    "technicalSpecs": {
-      "Estrutura": "Tubo fechado em aço especial",
-      "Empunhadura": "Ergonômica com sistema corta-fluxo"
-    },
-    "applications": [
-      "Aplicação profissional contínua de selantes PU e colas pesadas"
-    ],
-    "warranty": "Garantia Idea",
-    "relatedSkus": [
-      "100501",
-      "100504"
-    ]
-  },
-  {
-    "id": "prod-100603",
-    "sku": "100603",
-    "name": "Jogo de Espátulas Celuloide Plásticas Atlas / Baricar",
-    "slug": "espatula-celuloide-plastica-para-massa-atlas",
-    "description": "Espátulas flexíveis em plástico celuloide para aplicação uniforme de massa corrida, massa plástica, texturas e gesso sem riscar a superfície nem deixar rebarbas.",
-    "price": 4.9,
-    "unit": "Jogo / Unidade (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas e EPIs",
-    "category": "Espátulas e Desempenadeiras",
-    "brand": "Atlas",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas.webp",
-      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-2.webp",
-      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-3.webp",
-      "/images/produtos/espatula-celuloide-plastica-para-massa-atlas-4.webp"
-    ],
-    "technicalSpecs": {
-      "Material": "Plástico celuloide virgem flexível",
-      "Borda": "Chanfrada fina para acabamento impecável"
-    },
-    "applications": [
-      "Aplicação e mistura de massa plástica com catalisador",
-      "Emassamento delicado em cantos, sancas e rodapés"
-    ],
-    "warranty": "Qualidade Atlas",
-    "relatedSkus": [
-      "100513"
-    ]
-  },
-  {
-    "id": "prod-100604",
-    "sku": "100604",
-    "name": "Lápis de Carpinteiro e Pedreiro Profissional Irwin",
-    "slug": "lapis-carpinteiro-pedreiro-irwin-profissional",
-    "description": "Lápis profissional com corpo oval achatado que evita rolamento em superfícies inclinadas e mina de grafite reforçada especial para marcações nítidas em madeira bruta, concreto, blocos e alvenaria.",
-    "price": 3.5,
-    "unit": "Unidade (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas e EPIs",
-    "category": "Medição e Marcação",
-    "brand": "Irwin",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/lapis-carpinteiro-pedreiro-irwin-profissional.webp",
-      "/images/produtos/lapis-carpinteiro-pedreiro-irwin-profissional-2.webp"
-    ],
-    "technicalSpecs": {
-      "Corpo": "Madeira especial em perfil oval achatado",
-      "Mina": "Grafite médio-duro resistente a quebras"
-    },
-    "applications": [
-      "Marcação em caixarias de madeira, vigas e sarrafos",
-      "Traçados em tijolos, concreto, reboco e pisos cerâmicos"
-    ],
-    "warranty": "Garantia Irwin",
-    "relatedSkus": [
-      "1453"
-    ]
-  },
-  {
-    "id": "prod-100202",
-    "sku": "100202",
-    "name": "Caixa Padrão Sabesp para Hidrômetro Policarbonato",
-    "slug": "caixa-sabesp-padrao-hidrometro",
-    "description": "Caixa homologada segundo as normas da Sabesp para abrigo e proteção de cavalete e hidrômetro individual. Fabricada em policarbonato de alta resistência contra raios solares e impactos mecânicos.",
-    "price": 79.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "hidraulica",
-    "departmentName": "Hidráulica",
-    "category": "Conexões e Abrigos",
-    "brand": "Taf / Padrão Sabesp",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/caixa-sabesp-padrao-hidrometro.webp"
-    ],
-    "technicalSpecs": {
-      "Norma": "Homologada Sabesp / NTS",
-      "Material": "Policarbonato com proteção anti-UV",
-      "Tampa": "Transparente para fácil leitura da medição"
-    },
-    "applications": [
-      "Entrada de água e ligação padrão Sabesp em muros residenciais e comerciais"
-    ],
-    "warranty": "Garantia de conformidade Sabesp",
-    "relatedSkus": []
-  },
-  {
-    "id": "prod-100203",
-    "sku": "100203",
-    "name": "Engate Flexível em PVC Branco 1/2\" 40cm Amanco",
-    "slug": "engate-flexivel-pvc-amanco-branco",
-    "description": "Ligação flexível em PVC reforçado para alimentação de caixas acopladas, lavatórios, torneiras e bidês. Instalação manual simples com vedação confiável.",
-    "price": 8.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "hidraulica",
-    "departmentName": "Hidráulica",
-    "category": "Engates e Ligações",
-    "brand": "Amanco",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/engate-flexivel-pvc-amanco-branco.webp"
-    ],
-    "technicalSpecs": {
-      "Bitola / Rosca": "1/2\" macho x fêmea",
-      "Comprimento": "40 cm",
-      "Pressão Máxima de Serviço": "40 m.c.a."
-    },
-    "applications": [
-      "Conexão hidráulica entre o ponto da parede e caixas acopladas ou torneiras"
-    ],
-    "warranty": "Garantia Amanco Wavin",
-    "relatedSkus": [
-      "100204"
-    ]
-  },
-  {
-    "id": "prod-100204",
-    "sku": "100204",
-    "name": "Sifão Tubo Extensível Universal Branco Blukit",
-    "slug": "sifao-tubo-extensivel-universal-blukit-branco",
-    "description": "O sifão extensível Blukit é a solução prática e versátil para pias de cozinha, lavatórios e tanques. Suporta água quente e fria, adaptando-se a qualquer saída de esgoto com vedação perfeita anti-odor.",
-    "price": 11.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "hidraulica",
-    "departmentName": "Hidráulica",
-    "category": "Sifões e Ralos",
-    "brand": "Blukit",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/sifao-tubo-extensivel-universal-blukit-branco.webp"
-    ],
-    "technicalSpecs": {
-      "Entradas": "7/8\", 1.1/4\" e 1.1/2\"",
-      "Saídas para Esgoto": "DN 38, DN 40, DN 48 e DN 50",
-      "Comprimento Máximo": "Aprox. 70 cm",
-      "Temperatura Máxima": "Suporta até 90°C"
-    },
-    "applications": [
-      "Instalação sob pias de cozinha, lavatórios de banheiro e cubas"
-    ],
-    "warranty": "Garantia Blukit",
-    "relatedSkus": [
-      "100702"
-    ]
-  },
-  {
-    "id": "prod-100702",
-    "sku": "100702",
-    "name": "Válvula Americana em Inox 3.1/2\" com Cesta para Pia de Cozinha",
-    "slug": "valvula-americana-3-meia-pia-cozinha-cesta",
-    "description": "Válvula modelo americana para cubas de pia de cozinha com cesto coletor removível em aço inoxidável. Retém restos de alimentos e resíduos sólidos, evitando entupimentos da rede de esgoto.",
-    "price": 22.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "acabamentos",
-    "departmentName": "Acabamentos e Metais",
-    "category": "Válvulas e Ralos",
-    "brand": "Metalmix / Blukit",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta.webp",
-      "/images/produtos/valvula-americana-3-meia-pia-cozinha-cesta-2.webp"
-    ],
-    "technicalSpecs": {
-      "Diâmetro Superior": "3.1/2 polegadas",
-      "Saída Inferior": "1.1/2 polegada",
-      "Material": "Aço inoxidável e polímeros nobres"
-    },
-    "applications": [
-      "Cubas de inox e pias de cozinha em granito ou mármore sintético"
-    ],
-    "warranty": "Garantia de fábrica",
-    "relatedSkus": [
-      "100204"
-    ]
-  },
-  {
-    "id": "prod-100606",
-    "sku": "100606",
-    "name": "Desengripante e Lubrificante Spray 300ml / 200g Vonder",
-    "slug": "desengripante-lubrificante-spray-vonder-300ml",
-    "description": "O Desengripante Vonder possui alto poder de penetração para soltar porcas, parafusos e peças emperradas pela ferrugem. Lubrifica, elimina rangidos e forma película protetora contra oxidação e umidade.",
-    "price": 15.9,
-    "unit": "Lata 300ml / 200g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Lubrificantes e Químicos",
-    "brand": "Vonder",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/desengripante-lubrificante-spray-vonder-300ml.webp",
-      "/images/produtos/desengripante-lubrificante-spray-vonder-300ml-2.webp"
-    ],
-    "technicalSpecs": {
-      "Conteúdo": "300 ml (200 g)",
-      "Acessório": "Bico prolongador aplicador incluso",
-      "Ação": "Desengripante, lubrificante e anticorrosivo"
-    },
-    "applications": [
-      "Fechaduras, dobradiças, trilhos, correntes e ferramentas",
-      "Parafusos, porcas e articulações emperradas por ferrugem"
-    ],
-    "warranty": "Garantia Vonder",
-    "relatedSkus": [
-      "20101"
-    ]
-  },
-  {
-    "id": "prod-100302",
-    "sku": "100302",
-    "name": "Lâmpada LED Bulbo 9W Bivolt Foxlux Luz Fria 6500K E27",
-    "slug": "lampada-led-bulbo-foxlux-9w-bivolt-6500k",
-    "description": "Lâmpada LED Bulbo Foxlux 9W com fluxo luminoso de 810 lúmens e soquete tradicional E27. Substitui com perfeição lâmpadas incandescentes de 60W com até 80% de economia de energia elétrica e vida útil de 25.000 horas.",
-    "price": 7.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "eletrica",
-    "departmentName": "Elétrica",
-    "category": "Iluminação LED",
-    "brand": "Foxlux",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/lampada-led-bulbo-foxlux-9w-bivolt-6500k.webp"
-    ],
-    "technicalSpecs": {
-      "Potência": "9 Watts",
-      "Fluxo Luminoso": "810 lúmens",
-      "Tensão": "Bivolt Automático (100V a 240V)",
-      "Temperatura de Cor": "6500K (Luz Fria / Branca)",
-      "Soquete": "Base E-27",
-      "Vida Útil": "25.000 horas"
-    },
-    "applications": [
-      "Iluminação residencial e comercial geral em salas, quartos, cozinhas e escritórios"
-    ],
-    "warranty": "1 ano de garantia Foxlux",
-    "relatedSkus": [
-      "20401",
-      "100301"
-    ]
-  },
-  {
-    "id": "prod-100103",
-    "sku": "100103",
-    "name": "Cimento Itaú Todas as Obras CP II-F-32 50kg Votoran",
-    "slug": "cimento-itau-todas-as-obras-50kg-votoran",
-    "description": "O Cimento Itaú Todas as Obras 50kg da Votorantim Cimentos é ideal para reboco, concreto, contrapiso e assentamento. Garante secagem rápida, alta resistência inicial e excelente acabamento para todos os tipos de obras residenciais e comerciais.",
-    "price": 34.9,
-    "unit": "Saco 50kg (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Cimentos e Cal",
-    "brand": "Votoran",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/cimento-itau-todas-as-obras-50kg-votoran.webp",
-      "/images/produtos/cimento-itau-todas-as-obras-50kg-votoran-2.webp"
-    ],
-    "technicalSpecs": {
-      "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
-      "Peso Líquido": "50 kg",
-      "Tempo de Secagem": "Pega normal com alta resistência mecânica",
-      "Fabricante": "Votorantim Cimentos"
-    },
-    "applications": [
-      "Concreto estrutural para lajes, vigas e pilares",
-      "Argamassa de assentamento de blocos e tijolos",
-      "Reboco, emboço e contrapisos nivelados"
-    ],
-    "warranty": "Garantia de fábrica Votorantim Cimentos",
-    "relatedSkus": [
-      "2882",
-      "3",
-      "100104"
-    ]
-  },
-  {
-    "id": "prod-100104",
-    "sku": "100104",
-    "name": "Cimento Itaú Todas as Obras CP II-F-32 25kg Votoran",
-    "slug": "cimento-itau-todas-as-obras-25kg-votoran",
-    "description": "O Cimento Itaú Todas as Obras em embalagem econômica de 25kg da Votorantim Cimentos. Muito mais leve e fácil de manusear, ideal para pequenos reparos, reformas e obras com espaço reduzido.",
-    "price": 19.9,
-    "unit": "Saco 25kg (UN)",
-    "departmentId": "construcao-basica",
-    "departmentName": "Construção Básica",
-    "category": "Cimentos e Cal",
-    "brand": "Votoran",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": false,
-    "images": [
-      "/images/produtos/cimento-itau-todas-as-obras-25kg-votoran.webp"
-    ],
-    "technicalSpecs": {
-      "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
-      "Peso Líquido": "25 kg (embalagem leve e ergonômica)",
-      "Tempo de Secagem": "Pega normal com alta resistência mecânica",
-      "Fabricante": "Votorantim Cimentos"
-    },
-    "applications": [
-      "Pequenos reparos, reformas e manutenções",
-      "Locais de difícil acesso ou sem espaço para sacaria de 50kg",
-      "Assentamento e rebocos pontuais"
-    ],
-    "warranty": "Garantia de fábrica Votorantim Cimentos",
-    "relatedSkus": [
-      "100103",
-      "3"
-    ]
-  },
-  {
-    "id": "prod-100510",
-    "sku": "100510",
-    "name": "Silicone Acético Incolor Transparente 256g Tekbond",
-    "slug": "silicone-incolor-acetico-256g-tekbond",
-    "description": "Silicone monocomponente em cartucho de 256g com fungicida (antimofo), ideal para aplicação com pistola aplicadora em áreas não porosas de banheiros, cozinhas e esquadrias de alumínio e vidro. 100% à prova d’água.",
-    "price": 19.9,
-    "unit": "Cartucho 256g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Tekbond",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/silicone-incolor-acetico-256g-tekbond.webp",
-      "/images/produtos/silicone-incolor-acetico-256g-tekbond-2.webp"
-    ],
-    "technicalSpecs": {
-      "Tipo de Cura": "Acética com aditivo antimofo",
-      "Peso Líquido": "256 g (cartucho para pistola aplicadora)",
-      "Cor": "Incolor / Transparente",
-      "Tempo de Secagem": "Formação de película em 5 a 15 minutos"
-    },
-    "applications": [
-      "Box de banheiro, cubas, pias e louças sanitárias",
-      "Esquadrias de alumínio, vitrines e vidros temperados",
-      "Bancadas de cozinha e balcões"
-    ],
-    "warranty": "Garantia Tekbond",
-    "relatedSkus": [
-      "100601",
-      "100511"
-    ]
-  },
-  {
-    "id": "prod-100511",
-    "sku": "100511",
-    "name": "Silicone Acético Incolor Transparente Bisnaga 50g Tekbond",
-    "slug": "silicone-incolor-acetico-bisnaga-50g-tekbond",
-    "description": "Silicone acético incolor em prática bisnaga de 50g. Dispensa uso de pistola aplicadora, perfeito para pequenos reparos domésticos e vedações pontuais em pias, louças e box de banheiro.",
-    "price": 9.9,
-    "unit": "Bisnaga 50g (UN)",
-    "departmentId": "ferragens-e-fixacao",
-    "departmentName": "Ferragens e Fixação",
-    "category": "Adesivos e Selantes",
-    "brand": "Tekbond",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": false,
-    "images": [
-      "/images/produtos/silicone-incolor-acetico-bisnaga-50g-tekbond.webp",
-      "/images/produtos/silicone-incolor-acetico-bisnaga-50g-tekbond-2.webp"
-    ],
-    "technicalSpecs": {
-      "Tipo de Cura": "Acética com aditivo antimofo",
-      "Peso Líquido": "50 g (formato bisnaga com bico dosador)",
-      "Aplicação": "Manual direto da bisnaga sem pistola",
-      "Cor": "Incolor / Transparente"
-    },
-    "applications": [
-      "Pequenos consertos em pias, cubas e banheiros",
-      "Vedação de juntas de box e esquadrias residenciais"
-    ],
-    "warranty": "Garantia Tekbond",
-    "relatedSkus": [
-      "100510"
-    ]
-  },
-  {
-    "id": "prod-100605",
-    "sku": "100605",
-    "name": "Bloco de Espuma para Limpeza de Rejunte Cortag",
-    "slug": "bloco-de-espuma-limpeza-rejunte-cortag",
-    "description": "Esponja especial Cortag de alta densidade desenvolvida para acabamento e limpeza rápida de rejunte em pisos e porcelanatos sem riscar o esmalte nem cavar a junta.",
-    "price": 6.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas e EPIs",
-    "category": "Acessórios de Acabamento",
-    "brand": "Cortag",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": true,
-    "images": [
-      "/images/produtos/bloco-de-espuma-limpeza-rejunte-cortag.webp",
-      "/images/produtos/bloco-de-espuma-limpeza-rejunte-cortag-2.webp"
-    ],
-    "technicalSpecs": {
-      "Marca": "Cortag",
-      "Material": "Poliuretano expandido de alta absorção",
-      "Dimensões": "Aprox. 20 x 13 x 7 cm",
-      "Densidade": "Especial para não agredir o esmalte das peças"
-    },
-    "applications": [
-      "Frisamento e limpeza pós-rejuntamento em pisos e paredes",
-      "Lavagem e finalização de obras em porcelanatos e azulejos"
-    ],
-    "warranty": "Qualidade Cortag",
-    "relatedSkus": [
-      "20301",
-      "100607"
-    ]
-  },
-  {
-    "id": "prod-100607",
-    "sku": "100607",
-    "name": "Bloco de Espuma para Limpeza de Rejunte Tafort",
-    "slug": "bloco-de-espuma-limpeza-rejunte-tafort",
-    "description": "Bloco de espuma macia de alto rendimento Tafort para remoção de excessos de rejunte, lavagem pós-obra e limpeza geral de superfícies cerâmicas e azulejos.",
-    "price": 5.9,
-    "unit": "Unidade (UN)",
-    "departmentId": "ferramentas",
-    "departmentName": "Ferramentas e EPIs",
-    "category": "Acessórios de Acabamento",
-    "brand": "Tafort",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": false,
-    "images": [
-      "/images/produtos/bloco-de-espuma-limpeza-rejunte-tafort.webp"
-    ],
-    "technicalSpecs": {
-      "Marca": "Tafort",
-      "Material": "Espuma de poliuretano de alta retenção de água",
-      "Dimensões": "Aprox. 20 x 13 x 6 cm",
-      "Indicação": "Limpeza de rejuntes, azulejos e lavagem de obras"
-    },
-    "applications": [
-      "Remoção de resíduos frescos de rejuntamento",
-      "Limpeza de pisos, azulejos e acabamentos"
-    ],
-    "warranty": "Qualidade Tafort",
-    "relatedSkus": [
-      "100605"
     ]
   }
 ]

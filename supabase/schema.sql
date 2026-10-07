@@ -26,6 +26,9 @@ CREATE TABLE IF NOT EXISTS public.produtos (
     related_skus JSONB DEFAULT '[]'::jsonb,
     variation_type TEXT,
     variations JSONB DEFAULT '[]'::jsonb,
+    detailed_description TEXT,
+    yield_info TEXT,
+    faq JSONB DEFAULT '[]'::jsonb,
     created_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL,
     updated_at TIMESTAMP WITH TIME ZONE DEFAULT timezone('utc'::text, now()) NOT NULL
 );
@@ -63,4 +66,9 @@ WITH CHECK (true);
 -- 2. Remover colunas obsoletas:
 -- ALTER TABLE public.produtos DROP COLUMN IF EXISTS wholesale_notice;
 -- ALTER TABLE public.produtos DROP COLUMN IF EXISTS video_url;
+
+-- 3. Adicionar campos avançados de SEO e especificações (Descrição Detalhada, Rendimento e FAQ):
+-- ALTER TABLE public.produtos ADD COLUMN IF NOT EXISTS detailed_description TEXT;
+-- ALTER TABLE public.produtos ADD COLUMN IF NOT EXISTS yield_info TEXT;
+-- ALTER TABLE public.produtos ADD COLUMN IF NOT EXISTS faq JSONB DEFAULT '[]'::jsonb;
 
