@@ -49,10 +49,13 @@ export function ProductCarousel({
   return (
     <section className="max-w-7xl mx-auto px-4 relative">
       {/* Cabeçalho Limpo da Seção */}
-      <div className="flex items-center justify-between mb-4 sm:mb-6">
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
-          {title}
-        </h2>
+      <div className="flex items-end justify-between mb-4 sm:mb-6">
+        <div>
+          <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
+            {title}
+          </h2>
+          <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
+        </div>
 
         {/* Botões Superiores de Navegação */}
         <div className="hidden sm:flex items-center gap-1.5">

@@ -91,9 +91,10 @@ export function BrandsSection() {
   return (
     <section className="max-w-7xl mx-auto px-4 overflow-hidden">
       <div className="mb-4 sm:mb-6">
-        <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+        <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
           As Melhores Marcas
         </h2>
+        <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
       </div>
 
       <div className="relative w-full overflow-hidden py-1">

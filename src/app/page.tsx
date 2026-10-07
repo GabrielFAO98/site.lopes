@@ -113,13 +113,13 @@ export default async function HomePage() {
         </section>
       </div>
 
-      {/* 3. Seção de Departamentos (Enquadramento ajustado e sem contagem de itens) */}
+      {/* 3. Seção de Departamentos */}
       <section className="max-w-7xl mx-auto px-4">
         <div className="mb-5 sm:mb-6">
-          <span className="text-xs font-bold uppercase tracking-wider text-lopes-orange">Navegue por Categoria</span>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-1">
+          <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
             Departamentos da Loja
           </h2>
+          <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-7 gap-3 sm:gap-4">

@@ -53,10 +53,11 @@ export function GoogleReviewsSection() {
       {/* Cabeçalho da Prova Social */}
       <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-6 sm:mb-8">
         <div>
-          <h2 className="text-2xl sm:text-3xl font-extrabold text-slate-900 tracking-tight">
+          <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
             Quem Constrói e Reforma Recomenda
           </h2>
-          <p className="text-slate-600 text-xs sm:text-sm mt-1 max-w-xl">
+          <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-3" />
+          <p className="text-slate-600 text-xs sm:text-sm max-w-xl">
             A opinião de quem confia na Lopes e Lopes para construir e reformar em Franca e região.
           </p>
         </div>
