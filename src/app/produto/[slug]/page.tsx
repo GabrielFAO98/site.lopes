@@ -246,7 +246,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
 
       {/* Perguntas Frequentes (FAQ) */}
       {product.faq && product.faq.length > 0 && (
-        <ProductFaq items={product.faq} productName={product.name} />
+        <ProductFaq items={product.faq} />
       )}
 
       {/* Produtos Relacionados / Compre Junto */}

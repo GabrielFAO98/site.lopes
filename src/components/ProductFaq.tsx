@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ChevronDown, HelpCircle } from 'lucide-react';
+import { ChevronDown } from 'lucide-react';
 import { ProductFaqItem } from '@/types';
 
 interface ProductFaqProps {
@@ -23,18 +23,10 @@ export function ProductFaq({ items, productName }: ProductFaqProps) {
   return (
     <section className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-6">
       <div>
-        <div className="flex items-center gap-2">
-          <HelpCircle className="w-5 h-5 text-lopes-blue" />
-          <h3 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
-            Perguntas Frequentes
-          </h3>
-        </div>
+        <h3 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
+          Perguntas Frequentes
+        </h3>
         <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
-        {productName && (
-          <p className="text-xs sm:text-sm text-slate-500 mt-2">
-            Tire suas dúvidas técnicas e práticas sobre {productName}
-          </p>
-        )}
       </div>
 
       <div className="divide-y divide-slate-100">
