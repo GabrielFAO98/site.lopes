@@ -200,7 +200,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           </div>
         </div>
 
-        {/* Descrição Detalhada do Produto (colapsável com SSR para não bloquear rolagem no mobile e manter SEO) */}
+        {/* Descrição Detalhada (colapsável com SSR para não bloquear rolagem no mobile e manter SEO) */}
         {product.detailedDescription && (
           <ProductDetailedDescription description={product.detailedDescription} />
         )}

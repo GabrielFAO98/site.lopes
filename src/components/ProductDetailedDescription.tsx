@@ -22,7 +22,7 @@ export function ProductDetailedDescription({ description }: ProductDetailedDescr
       >
         <div>
           <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
-            Descrição Detalhada do Produto
+            Descrição Detalhada
           </h2>
           <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
         </div>
