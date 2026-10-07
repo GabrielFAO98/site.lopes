@@ -76,15 +76,11 @@ export function ProductActions({ product }: ProductActionsProps) {
       {/* Bloco de Preço Dinâmico (atualiza conforme a variação) */}
       <div className="bg-gradient-to-r from-slate-50 via-blue-50/20 to-slate-50 p-4 sm:p-5 rounded-2xl border border-slate-200/90 shadow-2xs">
         <div className="flex items-baseline gap-2">
-          <span className="text-3xl sm:text-4xl font-extrabold tracking-tight text-lopes-blue-700">
+          <span className="text-3xl sm:text-4xl font-extrabold tracking-tight text-lopes-blue-700 font-display">
             {activePrice !== null ? formatCurrency(activePrice) : 'Sob Consulta'}
           </span>
           <span className="text-sm font-semibold text-slate-500">/ {product.unit}</span>
         </div>
-        <p className="text-xs text-slate-500 mt-1.5 flex items-center gap-1.5 font-medium">
-          <span className="inline-block w-2 h-2 rounded-full bg-emerald-500 shrink-0" />
-          <span>Pronta entrega e retirada no balcão em Franca - SP</span>
-        </p>
       </div>
 
       {/* Seletor de Variações / Atributos */}

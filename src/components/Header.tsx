@@ -186,11 +186,11 @@ export function Header() {
 
       {/* Navegação por Departamentos (Desktop) */}
       <nav className="hidden md:block bg-lopes-blue text-white border-t border-lopes-blue-700">
-        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between text-sm">
-          <div className="flex items-center space-x-1 overflow-x-auto py-1">
+        <div className="max-w-7xl mx-auto px-4 flex items-center justify-between text-xs lg:text-[13px]">
+          <div className="flex items-center space-x-0.5 lg:space-x-1 overflow-x-auto py-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
             <Link
               href="/produtos"
-              className="px-3 py-2 font-semibold hover:bg-lopes-blue-700 rounded-md transition-colors shrink-0"
+              className="px-2.5 py-1.5 font-semibold hover:bg-lopes-blue-700 rounded-md transition-colors shrink-0"
             >
               Todos os Produtos
             </Link>
@@ -198,13 +198,13 @@ export function Header() {
               <Link
                 key={dept.id}
                 href={`/produtos?depto=${dept.id}`}
-                className="px-3 py-2 hover:bg-lopes-blue-700 rounded-md transition-colors text-slate-100 hover:text-white shrink-0"
+                className="px-2.5 py-1.5 hover:bg-lopes-blue-700 rounded-md transition-colors text-slate-100 hover:text-white shrink-0"
               >
                 {dept.name}
               </Link>
             ))}
           </div>
-          <div className="text-xs text-lopes-orange-200 shrink-0 font-medium pl-2">
+          <div className="text-xs text-lopes-orange-200 shrink-0 font-medium pl-2 hidden xl:block">
             📍 Entregas em Franca e Região
           </div>
         </div>
@@ -220,7 +220,7 @@ export function Header() {
               onClick={() => setMobileMenuOpen(false)}
               className="p-2 bg-white rounded border border-slate-200 text-lopes-blue font-medium"
             >
-              📦 Todos os Produtos
+              Todos os Produtos
             </Link>
             {DEPARTMENTS.map((dept) => (
               <Link

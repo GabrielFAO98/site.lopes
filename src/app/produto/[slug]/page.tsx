@@ -167,7 +167,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
                 <ProductShareButton title={product.name} />
               </div>
 
-              <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug">
+              <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug font-display">
                 {product.name}
               </h1>
 

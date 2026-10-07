@@ -10,8 +10,8 @@ import { WhatsAppFloatingButton } from '@/components/WhatsAppFloatingButton';
 
 const jakarta = Plus_Jakarta_Sans({
   subsets: ['latin'],
-  weight: ['400', '500', '600', '700', '800'],
-  variable: '--font-sans',
+  weight: ['500', '600', '700', '800'],
+  variable: '--font-display',
   display: 'swap',
 });
 
@@ -108,7 +108,7 @@ export default function RootLayout({
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-slate-50 font-sans antialiased">
+      <body className="min-h-screen flex flex-col bg-slate-50 antialiased">
         <QuoteProvider>
           <Header />
           <main className="flex-1">{children}</main>
