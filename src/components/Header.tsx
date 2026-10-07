@@ -35,7 +35,7 @@ export function Header() {
   };
 
   return (
-    <header className="w-full bg-white border-b border-slate-200 sticky top-0 z-40 shadow-sm">
+    <header className="w-full bg-white border-b border-slate-200 md:border-b-0 sticky top-0 z-40 shadow-sm">
       {/* Barra Superior de Contato e Localização */}
       <div className="bg-lopes-blue-900 text-slate-200 text-xs py-2 px-4 hidden md:block border-b border-lopes-blue-800">
         <div className="max-w-7xl mx-auto flex justify-between items-center">
