@@ -9,10 +9,7 @@ import {
   Hammer, 
   Wrench, 
   Sparkles, 
-  Truck, 
-  ShieldCheck, 
   ArrowRight,
-  CheckCircle2
 } from 'lucide-react';
 import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { getFeaturedProducts, getDepartmentsWithCount, getNewProducts } from '@/lib/db';
@@ -46,72 +43,8 @@ export default async function HomePage() {
 
   return (
     <div className="space-y-12 sm:space-y-16 pb-16">
-      {/* 1 e 2. Banners Rotativos e Hero Principal (Aproximados) */}
-      <div className="space-y-3 sm:space-y-4">
-        {/* 1. Sessão de Banners Rotativos */}
-        <HomeBannerSlider />
-
-        {/* 2. Hero Banner Principal */}
-        <section className="relative bg-gradient-to-br from-lopes-blue-900 via-lopes-blue-800 to-lopes-blue-700 text-white overflow-hidden py-10 md:py-14 px-4">
-          <div className="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]" />
-          
-          <div className="max-w-7xl mx-auto relative z-10">
-            <div className="max-w-3xl space-y-5 sm:space-y-6">
-              <div className="inline-flex items-center gap-2 bg-lopes-orange/20 border border-lopes-orange/40 text-lopes-orange-200 px-3.5 py-1.5 rounded-full text-xs sm:text-sm font-semibold">
-                <span className="w-2 h-2 rounded-full bg-lopes-orange" />
-                <span>Entregas em Franca e Região</span>
-              </div>
-
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight leading-tight">
-                Tudo para sua obra do <span className="text-lopes-orange-400">básico</span> ao <span className="text-sky-300">acabamento</span>
-              </h1>
-
-              <p className="text-slate-200 text-base sm:text-lg max-w-2xl leading-relaxed">
-                Catálogo completo de materiais de construção, hidráulica, elétrica, tintas e ferramentas. Envie sua lista e feche negócio direto com nossos especialistas pelo WhatsApp!
-              </p>
-
-              {/* CTAs do Hero */}
-              <div className="flex flex-wrap items-center gap-3 pt-1">
-                <Link
-                  href="/produtos"
-                  className="px-6 py-3.5 bg-lopes-orange hover:bg-lopes-orange-600 text-white font-bold text-sm sm:text-base rounded-xl transition-all duration-200 shadow-lg hover:shadow-xl flex items-center gap-2"
-                >
-                  <span>Ver Todos os Materiais</span>
-                  <ArrowRight className="w-4 h-4" />
-                </Link>
-
-                <a
-                  href={`https://api.whatsapp.com/send?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(
-                    'Olá, equipe Lopes e Lopes! Gostaria de cotar materiais para minha obra.'
-                  )}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-6 py-3.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm sm:text-base rounded-xl transition-all duration-200 shadow-lg flex items-center gap-2"
-                >
-                  <WhatsAppIcon className="w-5 h-5 fill-white" />
-                  <span>Pedir Orçamento no WhatsApp</span>
-                </a>
-              </div>
-
-              {/* Pilares de Confiança */}
-              <div className="pt-5 border-t border-lopes-blue-700/60 grid grid-cols-1 sm:grid-cols-3 gap-4 text-xs text-slate-200">
-                <div className="flex items-center gap-2">
-                  <Truck className="w-4 h-4 text-lopes-orange-400 shrink-0" />
-                  <span>Entregas em Franca e Região</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <ShieldCheck className="w-4 h-4 text-sky-300 shrink-0" />
-                  <span>As melhores marcas do mercado</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />
-                  <span>Retirada no balcão ou entrega na obra</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-      </div>
+      {/* 1. Banners Principais */}
+      <HomeBannerSlider />
 
       {/* 3. Seção de Departamentos */}
       <section className="max-w-7xl mx-auto px-4">

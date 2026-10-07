@@ -77,7 +77,7 @@ const MODEL_INFO: Record<
   cta: 'Ver materiais',
   link: '/produtos?depto=construcao-basica',
   imagens: [
-    '/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa.webp',
+    '/images/produtos/argamassa-aciii-alta-performance-cinza-20kg-votomassa-2.webp',
     '/images/produtos/resina-adesiva-chapisco-bianco-vedacit.webp',
     '/images/produtos/cimento-itau-todas-as-obras-50kg-votoran.webp',
   ],
