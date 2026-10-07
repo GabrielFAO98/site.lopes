@@ -136,19 +136,21 @@ export function Footer() {
               </a>
             </div>
 
-            {/* Redes Sociais: Botão Instagram colorido logo após os dados de contato */}
-            <div className="pt-2">
-              <a
-                href={STORE_CONFIG.instagram}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-slate-800 border border-slate-700/80 hover:border-[#E4405F] text-[#E4405F] hover:bg-[#E4405F] hover:text-white transition-all shadow-sm group"
-                title="Siga a Lopes e Lopes no Instagram (@lopeselopes_mc)"
-                aria-label="Instagram da Lopes e Lopes"
-              >
-                <Instagram className="w-5 h-5 text-[#E4405F] group-hover:text-white transition-colors" />
-              </a>
-            </div>
+            {/* Redes Sociais: Instagram no mesmo padrão dos dados de contato (ícone + texto clicável) */}
+            {STORE_CONFIG.instagram && (
+              <div className="flex items-center gap-2.5">
+                <a
+                  href={STORE_CONFIG.instagram}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2.5 hover:text-white transition-colors group"
+                  title="Siga a Lopes e Lopes no Instagram (@lopeselopes_mc)"
+                >
+                  <Instagram className="w-4 h-4 text-[#E4405F] shrink-0" />
+                  <span>{STORE_CONFIG.instagramDisplay || '@lopeselopes_mc'}</span>
+                </a>
+              </div>
+            )}
           </div>
         </div>
       </div>

@@ -60,6 +60,7 @@ export interface StoreInfo {
   state: string;
   cep: string;
   instagram?: string;
+  instagramDisplay?: string;
   openingHours: {
     weekdays: string;
     saturday: string;

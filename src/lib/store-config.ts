@@ -19,6 +19,7 @@ export const STORE_CONFIG: StoreInfo = {
     saturday: 'Sábado: 7h às 12h',
   },
   instagram: 'https://www.instagram.com/lopeselopes_mc/',
+  instagramDisplay: '@lopeselopes_mc',
 };
 
 export const STORE_FULL_ADDRESS = `${STORE_CONFIG.address} ${STORE_CONFIG.neighborhood} - ${STORE_CONFIG.city} - ${STORE_CONFIG.state} CEP: ${STORE_CONFIG.cep}`;
