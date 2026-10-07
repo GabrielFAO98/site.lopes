@@ -212,7 +212,7 @@ export function ProductActions({ product }: ProductActionsProps) {
           className="flex-1 py-3.5 px-6 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white font-bold text-sm sm:text-base rounded-xl flex items-center justify-center gap-2.5 shadow-md hover:shadow-lg transition-all duration-200"
         >
           <WhatsAppIcon className="w-5 h-5 fill-white shrink-0" />
-          <span>Comprar / Orçamento no WhatsApp</span>
+          <span>Comprar no WhatsApp</span>
         </a>
 
         {/* CTA Secundário: Adicionar à Lista de Orçamento */}

@@ -108,10 +108,10 @@ export function ProductCard({ product }: ProductCardProps) {
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-1 sm:gap-1.5 bg-lopes-whatsapp hover:bg-lopes-whatsapp-hover text-white text-[11px] sm:text-xs font-semibold h-8 sm:h-8.5 px-1.5 sm:px-2 rounded-lg transition-colors shadow-xs"
-              title="Pedir orçamento direto no WhatsApp"
+              title="Comprar direto no WhatsApp"
             >
               <WhatsAppIcon className="w-3.5 h-3.5 fill-white shrink-0" />
-              <span>Orçamento</span>
+              <span>Comprar</span>
             </a>
 
             {/* Adicionar à Lista de Cotação ou Ver Opções */}

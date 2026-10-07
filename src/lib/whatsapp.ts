@@ -32,7 +32,7 @@ export function getProductWhatsAppUrl(
 
   const messageLines = [
     `Olá, equipe *${STORE_CONFIG.shortName}*! 👋`,
-    `Gostaria de solicitar um orçamento para o seguinte produto:\n`,
+    `Gostaria de comprar o seguinte produto:\n`,
     `📦 *Item:* ${product.name}`,
   ];
 
@@ -45,8 +45,7 @@ export function getProductWhatsAppUrl(
     `🏷️ *Código/SKU:* ${effectiveSku}`,
     `🏭 *Marca:* ${product.brand}`,
     `💰 *Preço:* ${priceText} (${product.unit})`,
-    `🔗 *Link:* ${urlText}\n`,
-    `Vocês possuem para pronta entrega em Franca - SP? Poderiam me passar as condições de pagamento?`
+    `🔗 *Link:* ${urlText}`
   );
 
   return `${WHATSAPP_BASE_URL}?phone=${STORE_CONFIG.whatsapp}&text=${encodeURIComponent(messageLines.join('\n'))}`;
