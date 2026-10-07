@@ -78,10 +78,10 @@ export function Header() {
       </div>
 
       {/* Barra Principal (Logo, Busca, Ações) */}
-      <div className="max-w-7xl mx-auto px-4 py-3 sm:py-4 flex items-center justify-between gap-4">
+      <div className="max-w-7xl mx-auto px-4 py-2 sm:py-2.5 flex items-center justify-between gap-4">
         {/* Logotipo */}
         <Link href="/" className="flex items-center gap-3 shrink-0">
-          <div className="relative w-36 sm:w-44 h-12 sm:h-14">
+          <div className="relative h-16 sm:h-20 md:h-24 lg:h-[104px] aspect-[784/766]">
             <Image
               src="/images/logo.png"
               alt="Lopes e Lopes Materiais para Construção Franca"

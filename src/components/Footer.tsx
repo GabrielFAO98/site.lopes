@@ -21,8 +21,8 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
         {/* Coluna 1: Sobre a Loja & Identidade */}
         <div className="space-y-4">
-          <div className="bg-white p-2 rounded-lg inline-block">
-            <div className="relative w-40 h-14">
+          <div className="bg-white p-3 sm:p-3.5 rounded-xl inline-block shadow-md">
+            <div className="relative w-44 sm:w-48 h-36 sm:h-40">
               <Image
                 src="/images/logo.png"
                 alt="Lopes e Lopes Materiais para Construção"
