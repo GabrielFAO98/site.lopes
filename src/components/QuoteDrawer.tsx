@@ -132,10 +132,13 @@ export function QuoteDrawer() {
         <div className="w-screen max-w-full sm:max-w-md bg-white shadow-2xl flex flex-col">
           {/* Header do Drawer */}
           <div className="px-5 py-4 bg-lopes-blue text-white flex items-center justify-between">
-            <div className="flex items-center gap-2">
-              <ClipboardList className="w-5 h-5 text-lopes-orange-400" />
+            <div className="flex items-center gap-2.5">
+              <ClipboardList className="w-5 h-5 text-lopes-orange-400 shrink-0" />
               <div>
-                <h3 className="font-bold text-base">Lista de Cotação de Obra</h3>
+                <h3 className="font-bold text-sm uppercase tracking-wider text-white">
+                  Lista de Cotação de Obra
+                </h3>
+                <div className="w-10 h-0.5 bg-lopes-orange rounded-full mt-1 mb-1" />
                 <p className="text-xs text-slate-200">
                   {totalCount} {totalCount === 1 ? 'material selecionado' : 'materiais selecionados'}
                 </p>

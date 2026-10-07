@@ -235,13 +235,10 @@ export default function BannersPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-12">
         <div className="flex items-center justify-between mb-4">
           <div>
-            <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-lopes-orange">
-              <Zap className="w-4 h-4" />
-              Ao Vivo no Componente Real
-            </div>
-            <h2 className="text-xl sm:text-2xl font-black text-slate-900">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
               Carrossel Interativo com os Modelos
             </h2>
+            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
           </div>
           <span className="text-xs text-slate-500 hidden sm:inline">
             Troca a cada 5.5s ou use as setas / arraste
@@ -256,10 +253,11 @@ export default function BannersPage() {
       {/* Detalhamento dos Modelos */}
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <div className="border-b border-slate-200 pb-4 mb-8">
-          <h2 className="text-xl sm:text-3xl font-black text-slate-900">
+          <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
             Catálogo de Modelos Prontos
           </h2>
-          <p className="text-slate-600 text-sm sm:text-base mt-1">
+          <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-3" />
+          <p className="text-slate-600 text-sm sm:text-base">
             Veja como cada modelo se comporta em tela de computador e tela de smartphone, com seu respectivo exemplo de configuração.
           </p>
         </div>
@@ -365,9 +363,10 @@ export default function BannersPage() {
               <span className="text-xs font-extrabold uppercase tracking-wider text-purple-600 bg-purple-50 px-2.5 py-1 rounded-md">
                 Modelo: Imagem Pronta
               </span>
-              <h3 className="text-lg sm:text-2xl font-bold text-slate-900 mt-2">
+              <h3 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase mt-2">
                 6. Banners Feitos no Canva / Photoshop (tipo: 'imagem')
               </h3>
+              <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-3" />
             </div>
             <FileImage className="w-6 h-6 text-purple-600" />
           </div>
@@ -406,13 +405,10 @@ export default function BannersPage() {
       <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16">
         <div className="bg-gradient-to-br from-lopes-blue-900 to-lopes-blue-800 text-white rounded-2xl p-8 sm:p-10 shadow-lg">
           <div className="max-w-3xl">
-            <div className="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-lopes-orange-400 mb-2">
-              <Layers className="w-4 h-4" />
-              Guia Rápido
-            </div>
-            <h2 className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+            <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-white uppercase">
               Como colocar um banner novo no ar?
             </h2>
+            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-3" />
             <p className="mt-2 text-blue-100 text-sm sm:text-base">
               Todo o controle dos banners da Home fica centralizado em um único arquivo:
             </p>

@@ -175,9 +175,10 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
       {/* Ficha Técnica & Aplicações */}
       <div className="bg-white rounded-2xl border border-slate-200 p-6 sm:p-8 space-y-8">
         <div>
-          <h2 className="text-xl font-bold text-slate-900 mb-4 pb-2 border-b border-slate-200">
+          <h2 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
             Especificações Técnicas
           </h2>
+          <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-5" />
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-3">
             {Object.entries(product.technicalSpecs).map(([key, value]) => (
               <div
@@ -193,10 +194,11 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
 
         {/* Onde Utilizar / Aplicações */}
         {product.applications && product.applications.length > 0 && (
-          <div>
-            <h3 className="text-lg font-bold text-slate-900 mb-3">
+          <div className="pt-6 border-t border-slate-100">
+            <h3 className="text-lg sm:text-xl font-bold tracking-wider text-lopes-blue uppercase">
               Indicações e Aplicações Recomendadas
             </h3>
+            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-4" />
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
               {product.applications.map((app, idx) => (
                 <div key={idx} className="flex items-center gap-2 text-xs text-slate-700">
@@ -212,11 +214,14 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
       {/* Produtos Relacionados / Compre Junto */}
       {relatedProducts.length > 0 && (
         <section className="space-y-4 pt-6">
-          <div className="flex items-center justify-between">
-            <h3 className="text-xl font-bold text-slate-900">
-              Geralmente Levado Junto
-            </h3>
-            <span className="text-xs text-slate-500">Materiais complementares</span>
+          <div className="flex items-end justify-between">
+            <div>
+              <h3 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
+                Geralmente Levado Junto
+              </h3>
+              <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
+            </div>
+            <span className="text-xs text-slate-500 pb-1 hidden sm:inline">Materiais complementares</span>
           </div>
 
           <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-6">

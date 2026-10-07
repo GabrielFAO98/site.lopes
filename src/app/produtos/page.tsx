@@ -61,10 +61,11 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
 
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
           <div>
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
+            <h1 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
               {currentDepartment !== 'todos' ? selectedDepartmentName : 'Catálogo Completo de Materiais'}
             </h1>
-            <p className="text-xs sm:text-sm text-slate-500 mt-1">
+            <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2 mb-3" />
+            <p className="text-xs sm:text-sm text-slate-500">
               Encontrados <strong>{products.length}</strong> {products.length === 1 ? 'produto' : 'produtos'} em estoque na loja de Franca - SP
             </p>
           </div>

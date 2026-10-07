@@ -77,7 +77,7 @@ export function ProductFilters({
       >
         {/* Cabeçalho do Card (Desktop) */}
         <div className="hidden lg:flex items-center justify-between pb-3 border-b border-slate-200">
-          <h3 className="font-bold text-sm text-slate-900 flex items-center gap-2">
+          <h3 className="font-bold text-xs uppercase tracking-wider text-lopes-blue flex items-center gap-2">
             <SlidersHorizontal className="w-4 h-4 text-lopes-blue" />
             <span>Filtrar Catálogo</span>
           </h3>
@@ -93,9 +93,10 @@ export function ProductFilters({
 
         {/* Filtro por Departamento */}
         <div>
-          <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
+          <h4 className="text-xs font-bold uppercase tracking-wider text-lopes-blue">
             Departamentos
           </h4>
+          <div className="w-8 h-0.5 bg-lopes-orange rounded-full mt-1 mb-2.5" />
           <ul className="space-y-1 text-xs">
             <li>
               <Link
@@ -137,9 +138,10 @@ export function ProductFilters({
 
         {/* Filtro por Marca */}
         <div>
-          <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">
+          <h4 className="text-xs font-bold uppercase tracking-wider text-lopes-blue">
             Marcas Parceiras
           </h4>
+          <div className="w-8 h-0.5 bg-lopes-orange rounded-full mt-1 mb-2.5" />
           <div className="space-y-1 text-xs max-h-48 overflow-y-auto pr-1">
             <Link
               href={`/produtos?depto=${currentDepartment}&q=${currentQuery}&ordem=${currentSort}`}

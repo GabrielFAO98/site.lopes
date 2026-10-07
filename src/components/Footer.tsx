@@ -41,9 +41,10 @@ export function Footer() {
 
         {/* Coluna 2: Departamentos */}
         <div>
-          <h4 className="text-white font-semibold text-base mb-4 border-b border-slate-800 pb-2">
+          <h4 className="text-white font-bold text-xs uppercase tracking-wider">
             Departamentos
           </h4>
+          <div className="w-10 h-0.5 bg-lopes-orange rounded-full mt-1.5 mb-4" />
           <ul className="space-y-2 text-sm">
             {DEPARTMENTS.map((dept) => (
               <li key={dept.id}>
@@ -61,9 +62,10 @@ export function Footer() {
 
         {/* Coluna 3: Atendimento & Horários */}
         <div>
-          <h4 className="text-white font-semibold text-base mb-4 border-b border-slate-800 pb-2">
+          <h4 className="text-white font-bold text-xs uppercase tracking-wider">
             Horário de Funcionamento
           </h4>
+          <div className="w-10 h-0.5 bg-lopes-orange rounded-full mt-1.5 mb-4" />
           <div className="space-y-3 text-sm text-slate-300">
             <div className="flex items-start gap-2.5">
               <Clock className="w-4 h-4 text-lopes-orange-400 shrink-0 mt-0.5" />
@@ -84,9 +86,10 @@ export function Footer() {
 
         {/* Coluna 4: Contato & Endereço em Franca */}
         <div>
-          <h4 className="text-white font-semibold text-base mb-4 border-b border-slate-800 pb-2">
+          <h4 className="text-white font-bold text-xs uppercase tracking-wider">
             Onde Estamos e Contato
           </h4>
+          <div className="w-10 h-0.5 bg-lopes-orange rounded-full mt-1.5 mb-4" />
           <div className="space-y-3 text-sm">
             <div className="flex items-start gap-2.5">
               <MapPin className="w-4 h-4 text-lopes-orange-400 shrink-0 mt-1" />
