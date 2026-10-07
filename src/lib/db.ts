@@ -2,6 +2,7 @@ import { Product, Department } from '@/types';
 import { DEPARTMENTS } from './departments';
 import productsData from '../../data/products.json';
 import { supabase, isSupabaseConfigured } from './supabase';
+import { searchProductsSmart } from './search';
 
 const localProducts: Product[] = productsData as unknown as Product[];
 
@@ -164,19 +165,11 @@ export async function searchProducts(params: {
     );
   }
 
-  if (params.query) {
-    const q = params.query.toLowerCase().trim();
-    filtered = filtered.filter(
-      (p) =>
-        p.name.toLowerCase().includes(q) ||
-        p.sku.toLowerCase().includes(q) ||
-        p.brand.toLowerCase().includes(q) ||
-        p.category.toLowerCase().includes(q) ||
-        p.applications.some((app) => app.toLowerCase().includes(q))
-    );
+  if (params.query && params.query.trim()) {
+    filtered = searchProductsSmart(filtered, params.query.trim());
   }
 
-  if (params.sortBy) {
+  if (params.sortBy && params.sortBy !== 'featured') {
     switch (params.sortBy) {
       case 'price-asc':
         filtered.sort((a, b) => (a.price ?? 999999) - (b.price ?? 999999));
@@ -187,12 +180,12 @@ export async function searchProducts(params: {
       case 'name-asc':
         filtered.sort((a, b) => a.name.localeCompare(b.name));
         break;
-      case 'featured':
-      default:
-        filtered.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
-        break;
     }
+  } else if (!params.query || !params.query.trim()) {
+    // Se não há termo de busca, mantém o padrão com produtos em destaque primeiro
+    filtered.sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0));
   }
+  // Se há termo de busca e a ordenação é 'featured' (padrão), preserva o ranqueamento por relevância!
 
   return filtered;
 }
