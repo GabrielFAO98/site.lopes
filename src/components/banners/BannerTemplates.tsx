@@ -367,61 +367,99 @@ export function BannerInstitucionalTemplate({
   const isDesktop = variant === 'desktop';
 
   if (!isDesktop) {
-    // Layout Vertical Especial para Mobile (ocupa a maior parte da tela inicial)
+    // Layout Vertical Especial para Mobile (fundo azul limpo e foto em card centralizado)
     return (
       <div
-        className="relative w-full h-full overflow-hidden bg-lopes-blue-900"
+        className="relative w-full h-full overflow-hidden bg-gradient-to-br from-[#02182B] via-[#04223A] to-[#0A5C9C]"
         style={{ containerType: 'inline-size' }}
       >
-        <Image src={banner.fundo} alt="" fill className="object-cover" sizes="100vw" priority />
-        <div className="absolute inset-0 bg-gradient-to-t from-lopes-blue-950 via-lopes-blue-900/85 to-lopes-blue-950/60" />
+        {/* Elementos decorativos sutis da marca no fundo */}
+        <div className="absolute -top-16 -right-16 w-72 h-72 rounded-full bg-white/5 pointer-events-none" />
+        <div className="absolute -bottom-20 -left-20 w-80 h-80 rounded-full bg-lopes-orange/10 pointer-events-none" />
 
-        {/* Barra laranja da marca */}
+        {/* Barra laranja da marca na base */}
         <div className="absolute inset-x-0 bottom-0 bg-lopes-orange" style={{ height: '1.2cqw' }} />
 
-        {/* Conteúdo espaçoso e centralizado verticalmente */}
+        {/* Conteúdo estruturado em 3 blocos harmônicos */}
         <div
-          className="absolute inset-0 flex flex-col justify-center text-white"
+          className="absolute inset-0 flex flex-col justify-between text-white"
           style={{
-            padding: '8cqw 6.5cqw 14cqw 6.5cqw',
-            gap: '3.2cqw',
+            padding: '7cqw 6cqw 14cqw 6cqw',
           }}
         >
-          {banner.tag && <Tag texto={banner.tag} className="bg-lopes-orange text-white" variant={variant} />}
-          <h2 className="font-extrabold leading-[1.12] tracking-tight" style={t.titulo}>
-            <TituloComDestaque texto={banner.titulo} destaqueClass="text-lopes-orange-400" />
-          </h2>
-          {banner.subtitulo && (
-            <p className="leading-snug text-blue-100" style={t.subtitulo}>
-              {banner.subtitulo}
-            </p>
-          )}
-          {banner.topicos && banner.topicos.length > 0 && (
-            <ul className="flex flex-col text-blue-50" style={{ ...t.topico, gap: '2.2cqw', marginTop: '0.8cqw' }}>
-              {banner.topicos.slice(0, 3).map((topico) => (
-                <li key={topico} className="flex items-center gap-[0.5em] font-semibold">
-                  <CheckCircle2 className="w-[1.2em] h-[1.2em] text-lopes-orange-400 shrink-0" />
-                  <span>{topico}</span>
-                </li>
-              ))}
-            </ul>
-          )}
-          <div style={{ marginTop: '2cqw' }}>
-            <Cta texto={banner.cta} className="bg-lopes-orange text-white shadow-xl" variant={variant} />
+          {/* Topo: Tag e Título com legibilidade 100% cristalina */}
+          <div className="flex flex-col" style={{ gap: '1.8cqw' }}>
+            {banner.tag && <Tag texto={banner.tag} className="bg-lopes-orange text-white" variant={variant} />}
+            <h2 className="font-extrabold leading-[1.12] tracking-tight" style={t.titulo}>
+              <TituloComDestaque texto={banner.titulo} destaqueClass="text-lopes-orange-400" />
+            </h2>
+            {banner.subtitulo && (
+              <p className="leading-snug text-blue-100 line-clamp-2" style={t.subtitulo}>
+                {banner.subtitulo}
+              </p>
+            )}
+          </div>
+
+          {/* Centro: Foto da Fachada emoldurada com clareza (sem texto competindo por cima) */}
+          <div
+            className="relative self-center shadow-2xl overflow-hidden border-2 border-white/20 shrink-0 my-auto"
+            style={{
+              width: '88cqw',
+              height: '38cqw',
+              borderRadius: '3.5cqw',
+            }}
+          >
+            <Image
+              src={banner.fundo}
+              alt="Fachada da loja Lopes e Lopes Materiais para Construção em Franca"
+              fill
+              className="object-cover"
+              sizes="90vw"
+              priority
+            />
+            {/* Badge sutil sobre a foto */}
+            <div
+              className="absolute bottom-2 left-2.5 bg-black/65 backdrop-blur-xs text-white font-medium px-2.5 py-1 rounded-md flex items-center gap-1.5 shadow-sm"
+              style={{ fontSize: 'max(10px, 2.6cqw)' }}
+            >
+              <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+              <span>Loja física em Franca - SP</span>
+            </div>
+          </div>
+
+          {/* Base: 3 diferenciais com checkmark + Botão de ação destacado */}
+          <div className="flex flex-col" style={{ gap: '2.5cqw' }}>
+            {banner.topicos && banner.topicos.length > 0 && (
+              <ul className="flex flex-col text-blue-50" style={{ ...t.topico, gap: '1.6cqw' }}>
+                {banner.topicos.slice(0, 3).map((topico) => (
+                  <li key={topico} className="flex items-center gap-[0.5em] font-semibold">
+                    <CheckCircle2 className="w-[1.2em] h-[1.2em] text-lopes-orange-400 shrink-0" />
+                    <span>{topico}</span>
+                  </li>
+                ))}
+              </ul>
+            )}
+
+            <div>
+              <Cta texto={banner.cta} className="bg-lopes-orange text-white shadow-xl" variant={variant} />
+            </div>
           </div>
         </div>
       </div>
     );
   }
 
-  // Desktop (preservado)
+  // Desktop (preservado com degradê sólido à esquerda para legibilidade total)
   return (
     <div
-      className="relative w-full h-full overflow-hidden bg-lopes-blue-900"
+      className="relative w-full h-full overflow-hidden bg-[#04223A]"
       style={{ containerType: 'inline-size' }}
     >
-      <Image src={banner.fundo} alt="" fill className="object-cover" sizes="100vw" />
-      <div className="absolute inset-0 bg-gradient-to-r from-lopes-blue-900 via-lopes-blue-900/85 to-lopes-blue-900/0" />
+      <Image src={banner.fundo} alt="" fill className="object-cover object-right" sizes="100vw" />
+      <div
+        className="absolute inset-y-0 left-0 bg-gradient-to-r from-[#04223A] via-[#04223A] to-transparent"
+        style={{ width: '68%' }}
+      />
 
       {/* Barra laranja da marca */}
       <div className="absolute inset-x-0 bottom-0 bg-lopes-orange" style={{ height: '0.45cqw' }} />
