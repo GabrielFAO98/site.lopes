@@ -139,7 +139,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
               </span>
             </div>
 
-            <h1 className="text-2xl sm:text-3xl font-extrabold text-slate-900 leading-tight">
+            <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug">
               {product.name}
             </h1>
 
@@ -217,7 +217,7 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
           <div className="flex items-end justify-between">
             <div>
               <h3 className="text-xl sm:text-2xl font-bold tracking-wider text-lopes-blue uppercase">
-                Geralmente Levado Junto
+                Itens Relacionados
               </h3>
               <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
             </div>

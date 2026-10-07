@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
 import { STORE_CONFIG, STORE_FULL_ADDRESS } from '@/lib/store-config';
 import { Header } from '@/components/Header';
@@ -6,6 +7,13 @@ import { Footer } from '@/components/Footer';
 import { QuoteProvider } from '@/components/QuoteContext';
 import { QuoteDrawer } from '@/components/QuoteDrawer';
 import { WhatsAppFloatingButton } from '@/components/WhatsAppFloatingButton';
+
+const jakarta = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-sans',
+  display: 'swap',
+});
 
 export const metadata: Metadata = {
   metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000'),
@@ -93,14 +101,14 @@ export default function RootLayout({
   };
 
   return (
-    <html lang="pt-BR">
+    <html lang="pt-BR" className={jakarta.variable}>
       <head>
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
         />
       </head>
-      <body className="min-h-screen flex flex-col bg-slate-50 antialiased">
+      <body className="min-h-screen flex flex-col bg-slate-50 font-sans antialiased">
         <QuoteProvider>
           <Header />
           <main className="flex-1">{children}</main>
