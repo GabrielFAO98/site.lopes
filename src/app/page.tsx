@@ -55,31 +55,38 @@ export default async function HomePage() {
           <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3.5 sm:gap-4 md:gap-5">
           {departments.map((dept) => (
             <Link
               key={dept.id}
               href={`/produtos?depto=${dept.id}`}
-              className="bg-white p-3.5 sm:p-4 rounded-xl border border-slate-200 hover:border-lopes-blue hover:shadow-md transition-all group flex flex-col items-center text-center justify-between gap-2 min-h-[135px] sm:min-h-[145px]"
+              className="relative bg-white rounded-2xl border border-slate-200/90 hover:border-lopes-blue shadow-2xs hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 overflow-hidden group flex flex-col h-52 sm:h-56 md:h-60"
             >
-              <div className="relative w-16 h-16 sm:w-20 sm:h-20 shrink-0 flex items-center justify-center">
+              {/* Área da Imagem Ampliada com Respiro Superior */}
+              <div className="relative w-full h-full p-3 sm:p-4 pb-14 sm:pb-16 flex items-center justify-center bg-gradient-to-b from-slate-50/60 via-white to-white">
                 {dept.image ? (
                   <Image
                     src={dept.image}
                     alt={dept.name}
                     fill
-                    sizes="(max-width: 640px) 64px, 80px"
-                    className="object-contain p-1 group-hover:scale-105 transition-transform duration-200"
+                    sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
+                    className="object-contain p-2 sm:p-3 group-hover:scale-108 transition-transform duration-300 drop-shadow-xs"
                   />
                 ) : (
-                  <div className="w-12 h-12 rounded-xl bg-lopes-blue-50 text-lopes-blue flex items-center justify-center">
-                    {iconMap[dept.iconName] || <Building2 className="w-6 h-6" />}
+                  <div className="w-16 h-16 rounded-2xl bg-lopes-blue-50 text-lopes-blue flex items-center justify-center">
+                    {iconMap[dept.iconName] || <Building2 className="w-8 h-8" />}
                   </div>
                 )}
               </div>
-              <h3 className="font-bold text-xs sm:text-sm text-slate-800 group-hover:text-lopes-blue transition-colors leading-snug flex items-center justify-center break-words px-1 text-center">
-                {dept.name}
-              </h3>
+
+              {/* Título Sobreposto na Base com Altura Uniforme e Efeito Frosted Glass */}
+              <div className="absolute inset-x-2.5 bottom-2.5 sm:inset-x-3 sm:bottom-3 z-10">
+                <div className="bg-white/95 backdrop-blur-md px-2.5 py-1.5 rounded-xl border border-slate-200/80 shadow-xs group-hover:bg-lopes-blue group-hover:border-lopes-blue group-hover:shadow-md transition-all duration-300 text-center flex items-center justify-center h-[46px] sm:h-[50px]">
+                  <h3 className="font-bold text-xs sm:text-[13px] text-slate-800 group-hover:text-white transition-colors leading-snug line-clamp-2">
+                    {dept.name}
+                  </h3>
+                </div>
+              </div>
             </Link>
           ))}
         </div>
