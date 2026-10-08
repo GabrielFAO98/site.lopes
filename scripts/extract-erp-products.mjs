@@ -192,3 +192,4 @@ async function extractAllProducts() {
 }
 
 extractAllProducts().catch(console.error);
+

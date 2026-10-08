@@ -1,12 +1,12 @@
 [
   {
-    "id": "prod-100102",
-    "sku": "100102",
+    "id": "prod-2110",
+    "sku": "2110",
     "name": "Argamassa AC-I Interno Cinza 20kg Votomassa",
     "slug": "argamassa-aci-interno-votomassa-20kg",
     "description": "Argamassa colante industrializada AC-I Votomassa (Votoran), indicada para assentamento de placas cerâmicas em pisos e paredes exclusivamente em áreas internas. Proporciona excelente aderência, fácil trabalhabilidade e alto rendimento para obras residenciais e comerciais.",
-    "price": 14.9,
-    "unit": "Saco 20kg (UN)",
+    "price": 14,
+    "unit": "Saco 20kg",
     "departmentId": "pisos-e-revestimentos",
     "departmentName": "Pisos e Revestimentos",
     "category": "Argamassas Colantes e Especiais",
@@ -28,7 +28,9 @@
       "Liberação para Rejunte": "Mínimo de 72 horas após a aplicação",
       "Tamanho Máximo da Placa": "Cerâmicas até 60 x 60 cm",
       "Liberação para Tráfego": "Tráfego leve: 72 horas | Tráfego total: 7 dias",
-      "Consumo / Rendimento Médio": "Camada simples: ~4 a 5 kg/m² | Camada dupla: ~7 a 8 kg/m²"
+      "Consumo / Rendimento Médio": "Camada simples: ~4 a 5 kg/m² | Camada dupla: ~7 a 8 kg/m²",
+      "NCM": "32149000",
+      "Código ERP": "01.01.00005"
     },
     "applications": [
       "Assentamento de revestimentos cerâmicos em ambientes internos",
@@ -64,13 +66,13 @@
     ]
   },
   {
-    "id": "prod-100103",
-    "sku": "100103",
+    "id": "prod-1",
+    "sku": "1",
     "name": "Cimento Itaú Todas as Obras CP II-F-32 50kg Votoran",
     "slug": "cimento-itau-todas-as-obras-50kg-votoran",
     "description": "O Cimento Itaú Todas as Obras 50kg da Votorantim Cimentos é ideal para reboco, concreto, contrapiso e assentamento. Garante secagem rápida, alta resistência inicial e excelente acabamento para todos os tipos de obras residenciais e comerciais.",
-    "price": 34.9,
-    "unit": "Saco 50kg (UN)",
+    "price": 42,
+    "unit": "Saco 50kg",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Cimentos e Cal",
@@ -86,7 +88,9 @@
       "Fabricante": "Votorantim Cimentos",
       "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
       "Peso Líquido": "50 kg",
-      "Tempo de Secagem": "Pega normal com alta resistência mecânica"
+      "Tempo de Secagem": "Pega normal com alta resistência mecânica",
+      "NCM": "25232910",
+      "Código ERP": "01.00.00001"
     },
     "applications": [
       "Concreto estrutural para lajes, vigas e pilares",
@@ -97,7 +101,7 @@
     "relatedSkus": [
       "2882",
       "3",
-      "100104"
+      "3192"
     ],
     "variations": [],
     "detailedDescription": "O Cimento Itaú Todas as Obras CP II-F-32 da Votoran é o cimento mais tradicional e confiável do mercado da construção civil, desenvolvido para atender a todas as fases da sua obra, desde as fundações até o acabamento fino.\n\nClassificado como Cimento Portland Composto com Fíler Calcário (CP II-F) e classe de resistência 32 MPa, ele oferece rápida resistência inicial, secagem equilibrada e excelente rendimento em concretos e argamassas. Sua composição homogênea confere maior plasticidade à massa, facilitando o manuseio, a aplicação e o sarrafeamento pelos profissionais da obra.\n\nÉ altamente versátil: perfeito para preparo de concreto estrutural (lajes, vigas, colunas, sapatas e brocas), contrapiso, assentamento de tijolos e blocos, chapisco e reboco interno ou externo. Fabricado sob rigorosos padrões de controle de qualidade segundo as normas ABNT NBR 16697.",
@@ -121,13 +125,13 @@
     ]
   },
   {
-    "id": "prod-100104",
-    "sku": "100104",
+    "id": "prod-3192",
+    "sku": "3192",
     "name": "Cimento Itaú Todas as Obras CP II-F-32 25kg Votoran",
     "slug": "cimento-itau-todas-as-obras-25kg-votoran",
     "description": "O Cimento Itaú Todas as Obras em embalagem econômica de 25kg da Votorantim Cimentos. Muito mais leve e fácil de manusear, ideal para pequenos reparos, reformas e obras com espaço reduzido.",
-    "price": 19.9,
-    "unit": "Saco 25kg (UN)",
+    "price": 24,
+    "unit": "Saco 25kg",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Cimentos e Cal",
@@ -142,7 +146,9 @@
       "Fabricante": "Votorantim Cimentos",
       "Tipo / Norma": "CP II-F-32 (ABNT NBR 16697)",
       "Peso Líquido": "25 kg (embalagem leve e ergonômica)",
-      "Tempo de Secagem": "Pega normal com alta resistência mecânica"
+      "Tempo de Secagem": "Pega normal com alta resistência mecânica",
+      "NCM": "25232910",
+      "Código ERP": "01.00.00013"
     },
     "applications": [
       "Pequenos reparos, reformas e manutenções",
@@ -151,7 +157,7 @@
     ],
     "warranty": "Garantia de fábrica Votorantim Cimentos",
     "relatedSkus": [
-      "100103",
+      "1",
       "3"
     ],
     "variations": [],
@@ -172,13 +178,13 @@
     ]
   },
   {
-    "id": "prod-100105",
-    "sku": "100105",
+    "id": "prod-2106",
+    "sku": "2106",
     "name": "Argamassa AC-II Interno e Externo Cinza 20kg Votomassa",
     "slug": "argamassa-acii-interno-e-externo-cinza-20kg-votomassa",
     "description": "A Argamassa Colante AC-II Votomassa é indicada para assentamento de placas cerâmicas em pisos e paredes de áreas internas e externas. Possui excelente aderência e resistência a intempéries como sol, chuva e vento.",
-    "price": 19.9,
-    "unit": "Saco 20kg (UN)",
+    "price": 23,
+    "unit": "Saco 20kg",
     "departmentId": "pisos-e-revestimentos",
     "departmentName": "Pisos e Revestimentos",
     "category": "Argamassas Colantes e Especiais",
@@ -197,7 +203,9 @@
       "Peso Líquido": "20 kg",
       "Classificação": "AC-II (ABNT NBR 14081)",
       "Rendimento Médio": "~4 a 5 kg/m² camada simples | ~7 a 8 kg/m² camada dupla",
-      "Tamanho Máximo da Placa": "Até 80 x 80 cm"
+      "Tamanho Máximo da Placa": "Até 80 x 80 cm",
+      "NCM": "32149000",
+      "Código ERP": "01.01.00001"
     },
     "applications": [
       "Revestimentos cerâmicos em varandas, garagens e quintais",
@@ -206,7 +214,7 @@
     ],
     "warranty": "Garantia Votorantim Cimentos",
     "relatedSkus": [
-      "100102",
+      "2110",
       "20301"
     ],
     "variations": [],
@@ -231,13 +239,13 @@
     ]
   },
   {
-    "id": "prod-100106",
-    "sku": "100106",
+    "id": "prod-2109",
+    "sku": "2109",
     "name": "Argamassa AC-III Alta Performance Cinza 20kg Votomassa",
     "slug": "argamassa-aciii-alta-performance-cinza-20kg-votomassa",
     "description": "A Argamassa AC-III Votomassa é a solução de máxima aderência e flexibilidade para porcelanatos, grandes formatos, fachadas e piscinas. Resistente a tensões de dilatação e variações térmicas extremas.",
-    "price": 29.9,
-    "unit": "Saco 20kg (UN)",
+    "price": 37,
+    "unit": "Saco 20kg",
     "departmentId": "pisos-e-revestimentos",
     "departmentName": "Pisos e Revestimentos",
     "category": "Argamassas Colantes e Especiais",
@@ -254,7 +262,9 @@
       "Indicação": "Porcelanatos, grandes formatos, fachadas e piscinas",
       "Peso Líquido": "20 kg",
       "Classificação": "AC-III (ABNT NBR 14081)",
-      "Rendimento Médio": "~4,5 a 8,5 kg/m²"
+      "Rendimento Médio": "~4,5 a 8,5 kg/m²",
+      "NCM": "32149000",
+      "Código ERP": "01.01.00004"
     },
     "applications": [
       "Assentamento de porcelanatos e placas de grandes formatos",
@@ -263,7 +273,7 @@
     ],
     "warranty": "Garantia Votorantim Cimentos",
     "relatedSkus": [
-      "100105",
+      "2106",
       "20301"
     ],
     "variations": [],
@@ -288,13 +298,13 @@
     ]
   },
   {
-    "id": "prod-100107",
-    "sku": "100107",
+    "id": "prod-310",
+    "sku": "310",
     "name": "Argamassa Refratária Quartzolit 5kg",
     "slug": "argamassa-refrataria-quartzolit-5kg",
     "description": "A Argamassa Refratária Quartzolit foi especialmente desenvolvida para o assentamento e rejuntamento de plaquetas e tijolos refratários em locais sujeitos a altas temperaturas como churrasqueiras, lareiras, fornos e fogões a lenha (resiste até 400°C).",
-    "price": 26.9,
-    "unit": "Saco 5kg (UN)",
+    "price": 42,
+    "unit": "Saco 5kg",
     "departmentId": "pisos-e-revestimentos",
     "departmentName": "Pisos e Revestimentos",
     "category": "Argamassas Colantes e Especiais",
@@ -310,7 +320,9 @@
       "Peso Líquido": "5 kg",
       "Consumo Médio": "Aprox. 8 kg/m² para tijolos refratários",
       "Resistência Térmica": "Até 400°C",
-      "Cura para Primeiro Fogo": "Mínimo de 72 horas após aplicação"
+      "Cura para Primeiro Fogo": "Mínimo de 72 horas após aplicação",
+      "NCM": "32149000",
+      "Código ERP": "11.00.00008"
     },
     "applications": [
       "Churrasqueiras de alvenaria e pré-moldadas",
@@ -344,13 +356,13 @@
     ]
   },
   {
-    "id": "prod-100108",
-    "sku": "100108",
+    "id": "prod-118",
+    "sku": "118",
     "name": "Aditivo Impermeabilizante Vedacit para Concreto e Argamassa",
     "slug": "aditivo-impermeabilizante-vedacit",
     "description": "O Vedacit é o impermeabilizante clássico que age por hidrofugação dos capilares do concreto e da argamassa, bloqueando a penetração de umidade e água. Não altera o tempo de cura e garante proteção definitiva contra infiltrações.",
-    "price": 16.9,
-    "unit": "Pote 900ml (UN)",
+    "price": 18,
+    "unit": "UN",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Impermeabilizantes e Resinas",
@@ -368,7 +380,9 @@
     "technicalSpecs": {
       "Densidade": "1,00 g/cm³",
       "Composição": "Sais metálicos e ácidos graxos",
-      "Consumo Médio": "Aprox. 2 litros de Vedacit por saco de cimento de 50kg"
+      "Consumo Médio": "Aprox. 2 litros de Vedacit por saco de cimento de 50kg",
+      "NCM": "38244000",
+      "Código ERP": "08.00.00011"
     },
     "applications": [
       "Baldrames, alicerces e muros de arrimo",
@@ -378,27 +392,27 @@
     "warranty": "Garantia Vedacit",
     "relatedSkus": [
       "2882",
-      "100111"
+      "109"
     ],
     "variationType": "Embalagem",
     "variations": [
       {
-        "sku": "100108",
         "name": "Pote 900ml",
-        "image": "/images/produtos/vedacit_900ml_aditivo_impermeabilizante_profissional.JPG",
-        "price": 16.9
+        "sku": "118",
+        "price": 18,
+        "image": "/images/produtos/vedacit_900ml_aditivo_impermeabilizante_profissional.JPG"
       },
       {
-        "sku": "100109",
         "name": "Galão 3,6 Litros",
-        "image": "/images/produtos/vedacit_3.6lt_aditivo_impermeabilizante_profissional.jpg",
-        "price": 44.9
+        "sku": "117",
+        "price": 48,
+        "image": "/images/produtos/vedacit_3.6lt_aditivo_impermeabilizante_profissional.jpg"
       },
       {
-        "sku": "100110",
         "name": "Balde 18 Litros",
-        "image": "/images/produtos/vedacit_18lt_aditivo_impermeabilizante_profissional.jpg",
-        "price": 189.9
+        "sku": "116",
+        "price": 165,
+        "image": "/images/produtos/vedacit_18lt_aditivo_impermeabilizante_profissional.jpg"
       }
     ],
     "detailedDescription": "O Aditivo Impermeabilizante Vedacit é o hidrofugante mais confiável e utilizado na construção civil brasileira para proteger estruturas contra a umidade ascendente e infiltrações de água por capilaridade.\n\nAo ser adicionado na água de amassamento do concreto ou da argamassa, o Vedacit reage quimicamente com os componentes do cimento durante a hidratação, preenchendo e bloqueando os poros capilares por onde a água costuma penetrar. Ele preserva a respirabilidade dos materiais enquanto cria uma barreira impenetrável contra umidade, bolores, descascamento de tintas e eflorescências.\n\nÉ indispensável na execução de alvenarias de embasamento (baldrame), rebocos internos e externos, baldrames, assentamento de tijolos até a primeira fiada, subsolos, piscinas, caixas d'água enterradas e contrapisos em contato com o solo.",
@@ -422,13 +436,13 @@
     ]
   },
   {
-    "id": "prod-100111",
-    "sku": "100111",
+    "id": "prod-109",
+    "sku": "109",
     "name": "Resina Adesiva para Chapisco Bianco Vedacit",
     "slug": "resina-adesiva-chapisco-bianco-vedacit",
     "description": "Bianco é uma resina sintética de alto desempenho que proporciona excelente aderência das argamassas aos mais diversos substratos, evitando desplacamentos. Confere maior plasticidade, reduz a retração e evita o surgimento de fissuras.",
-    "price": 26.9,
-    "unit": "Frasco 900ml (UN)",
+    "price": 40,
+    "unit": "UN",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Impermeabilizantes e Resinas",
@@ -444,7 +458,9 @@
     "technicalSpecs": {
       "Aspecto": "Líquido branco leitoso de fácil homogeneização",
       "Rendimento Chapisco": "Aprox. 200 a 300 g/m²",
-      "Rendimento Argamassa": "Aprox. 400 g/m² por centímetro de espessura"
+      "Rendimento Argamassa": "Aprox. 400 g/m² por centímetro de espessura",
+      "NCM": "35061090",
+      "Código ERP": "08.00.00002"
     },
     "applications": [
       "Chapisco convencional e rolado em concreto e alvenaria",
@@ -454,27 +470,27 @@
     "warranty": "Garantia Vedacit",
     "relatedSkus": [
       "2882",
-      "100108"
+      "118"
     ],
     "variationType": "Embalagem",
     "variations": [
       {
-        "sku": "100111",
         "name": "Frasco 900ml",
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-900ml.jpg",
-        "price": 26.9
+        "sku": "109",
+        "price": 40,
+        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-900ml.jpg"
       },
       {
-        "sku": "100112",
         "name": "Galão 3,6kg",
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-3.6kg.jpg",
-        "price": 79.9
+        "sku": "110",
+        "price": 120,
+        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-3.6kg.jpg"
       },
       {
-        "sku": "100113",
         "name": "Balde 18kg",
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-18kg.jpg",
-        "price": 349.9
+        "sku": "108",
+        "price": 375,
+        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-18kg.jpg"
       }
     ],
     "detailedDescription": "O Bianco Vedacit é uma resina sintética de alta performance à base de acetato de polivinila (PVA), desenvolvida especialmente para conferir alta aderência, elasticidade e ancoragem mecânica em argamassas e chapiscos da construção civil.\n\nQuando misturado na água de amassamento, o Bianco forma uma película polimérica flexível que ancora firmemente a nova camada de argamassa sobre as mais diversas superfícies lisas ou porosas (concreto armado, vigas, pilares, tetos, alvenaria e blocos de concreto). Ele reduz drasticamente a permeabilidade da argamassa, melhora a plasticidade e previne fissuras de retração e desplacamentos indesejados.\n\nÉ amplamente utilizado para chapisco rolado ou tradicional, argamassa de emboço e reboco, fixação de caiação (evita que a cal solte pó na roupa), plastificação de gesso e reparos superficiais em concreto.",
@@ -498,13 +514,13 @@
     ]
   },
   {
-    "id": "prod-100202",
-    "sku": "100202",
+    "id": "prod-3173",
+    "sku": "3173",
     "name": "Caixa Padrão Sabesp para Hidrômetro Policarbonato",
     "slug": "caixa-sabesp-padrao-hidrometro",
     "description": "Caixa homologada segundo as normas da Sabesp para abrigo e proteção de cavalete e hidrômetro individual. Fabricada em policarbonato de alta resistência contra raios solares e impactos mecânicos.",
-    "price": 79.9,
-    "unit": "Unidade (UN)",
+    "price": 120,
+    "unit": "UN",
     "departmentId": "hidraulica",
     "departmentName": "Tubos e Conexões",
     "category": "Caixas Padrão de Água",
@@ -518,7 +534,9 @@
     "technicalSpecs": {
       "Norma": "Homologada Sabesp / NTS",
       "Tampa": "Transparente para fácil leitura da medição",
-      "Material": "Policarbonato com proteção anti-UV"
+      "Material": "Policarbonato com proteção anti-UV",
+      "NCM": "39259090",
+      "Código ERP": "18.00.00167"
     },
     "applications": [
       "Entrada de água e ligação padrão Sabesp em muros residenciais e comerciais"
@@ -547,13 +565,13 @@
     ]
   },
   {
-    "id": "prod-100203",
-    "sku": "100203",
+    "id": "prod-1619",
+    "sku": "1619",
     "name": "Engate Flexível em PVC Branco 1/2\" 40cm Amanco",
     "slug": "engate-flexivel-pvc-amanco-branco",
     "description": "Ligação flexível em PVC reforçado para alimentação de caixas acopladas, lavatórios, torneiras e bidês. Instalação manual simples com vedação confiável.",
-    "price": 8.9,
-    "unit": "Unidade (UN)",
+    "price": 7.5,
+    "unit": "UN",
     "departmentId": "hidraulica",
     "departmentName": "Tubos e Conexões",
     "category": "Engates e Flexíveis",
@@ -567,14 +585,16 @@
     "technicalSpecs": {
       "Comprimento": "40 cm",
       "Bitola / Rosca": "1/2\" macho x fêmea",
-      "Pressão Máxima de Serviço": "40 m.c.a."
+      "Pressão Máxima de Serviço": "40 m.c.a.",
+      "NCM": "39173300",
+      "Código ERP": "18.00.00047"
     },
     "applications": [
       "Conexão hidráulica entre o ponto da parede e caixas acopladas ou torneiras"
     ],
     "warranty": "Garantia Amanco Wavin",
     "relatedSkus": [
-      "100204"
+      "2802"
     ],
     "variations": [],
     "detailedDescription": "O Engate Flexível em PVC Branco 1/2\" com 40 cm da Amanco é a ligação hidráulica flexível mais confiável e durável para a alimentação de caixas acopladas de bacias sanitárias, lavatórios, bidês e pias de banheiro.\n\nFabricado em PVC de alta resistência com acabamento liso e higiênico, ele suporta pressões de trabalho de até 40 metros de coluna d'água (m.c.a.) sem dilatar ou estourar. Suas porcas de conexão rosqueável de 1/2\" padrão acompanham anéis de vedação elastoméricos internos de alta precisão, permitindo uma vedação estanque sem vazamentos com aperto manual ou leve ajuste, dispensando o uso excessivo de fita veda-rosca.\n\nCom 40 cm de comprimento, tem a medida ideal para absorver desalinhamentos entre o ponto de água na parede e a entrada da louça sem forçar as roscas.",
@@ -598,13 +618,13 @@
     ]
   },
   {
-    "id": "prod-100204",
-    "sku": "100204",
+    "id": "prod-2802",
+    "sku": "2802",
     "name": "Sifão Tubo Extensível Universal Branco Blukit",
     "slug": "sifao-tubo-extensivel-universal-blukit-branco",
     "description": "O sifão extensível Blukit é a solução prática e versátil para pias de cozinha, lavatórios e tanques. Suporta água quente e fria, adaptando-se a qualquer saída de esgoto com vedação perfeita anti-odor.",
-    "price": 11.9,
-    "unit": "Unidade (UN)",
+    "price": 8.5,
+    "unit": "UN",
     "departmentId": "hidraulica",
     "departmentName": "Tubos e Conexões",
     "category": "Sifões, Ralos e Grelhas",
@@ -619,14 +639,16 @@
       "Entradas": "7/8\", 1.1/4\" e 1.1/2\"",
       "Comprimento Máximo": "Aprox. 70 cm",
       "Saídas para Esgoto": "DN 38, DN 40, DN 48 e DN 50",
-      "Temperatura Máxima": "Suporta até 90°C"
+      "Temperatura Máxima": "Suporta até 90°C",
+      "NCM": "39174090",
+      "Código ERP": "18.00.00135"
     },
     "applications": [
       "Instalação sob pias de cozinha, lavatórios de banheiro e cubas"
     ],
     "warranty": "Garantia Blukit",
     "relatedSkus": [
-      "100702"
+      "3628"
     ],
     "variations": [],
     "detailedDescription": "O Sifão Extensível Universal Blukit é a solução definitiva e prática para escoamento de esgoto em pias de cozinha, lavatórios de banheiro, tanques e cubas de áreas de serviço.\n\nCom exclusivo sistema de conexão universal, ele resolve qualquer problema de desalinhamento ou distância entre a válvula da cuba e o cano de esgoto na parede. Acompanha porcas com roscas intercambiáveis de 7/8\", 1.1/4\" e 1.1/2\", conectando-se a qualquer válvula do mercado, e ponteira de saída escalonada com encaixe para tubulações de esgoto de 38mm, 40mm, 48mm e 50mm.\n\nSeu tubo corrugado em polipropileno de alta qualidade permite moldar facilmente o formato em \"U\" (fecho hídrico), que retém água permanentemente na curva e impede que o mau cheiro e os gases da rede de esgoto retornem para dentro da sua casa.",
@@ -650,13 +672,13 @@
     ]
   },
   {
-    "id": "prod-100302",
-    "sku": "100302",
+    "id": "prod-2978",
+    "sku": "2978",
     "name": "Lâmpada LED Bulbo 9W Bivolt Foxlux Luz Fria 6500K E27",
     "slug": "lampada-led-bulbo-foxlux-9w-bivolt-6500k",
     "description": "Lâmpada LED Bulbo Foxlux 9W com fluxo luminoso de 810 lúmens e soquete tradicional E27. Substitui com perfeição lâmpadas incandescentes de 60W com até 80% de economia de energia elétrica e vida útil de 25.000 horas.",
-    "price": 7.9,
-    "unit": "Unidade (UN)",
+    "price": 6,
+    "unit": "UN",
     "departmentId": "eletrica",
     "departmentName": "Elétrica e Iluminação",
     "category": "Iluminação LED",
@@ -673,7 +695,9 @@
       "Potência": "9 Watts",
       "Vida Útil": "25.000 horas",
       "Fluxo Luminoso": "810 lúmens",
-      "Temperatura de Cor": "6500K (Luz Fria / Branca)"
+      "Temperatura de Cor": "6500K (Luz Fria / Branca)",
+      "NCM": "85395200",
+      "Código ERP": "14.06.00032"
     },
     "applications": [
       "Iluminação residencial e comercial geral em salas, quartos, cozinhas e escritórios"
@@ -681,7 +705,7 @@
     "warranty": "1 ano de garantia Foxlux",
     "relatedSkus": [
       "20401",
-      "100301"
+      "100597"
     ],
     "variations": [],
     "detailedDescription": "A Lâmpada LED Bulbo 9W Bivolt Foxlux com Luz Fria (6500K) combina altíssima eficiência luminosa, durabilidade excepcional e até 85% de economia de energia na iluminação de residências e comércios.\n\nCom fluxo luminoso de 810 lumens, ela substitui diretamente as antigas lâmpadas incandescentes de 60W ou eletrônicas compactas de 16W, gerando claridade intensa com consumo mínimo de eletricidade e sem aquecer o ambiente. A tonalidade branca fria de 6500K é perfeita para locais que demandam atenção, produtividade e sensação de limpeza, como cozinhas, lavanderias, banheiros, escritórios e garagens.\n\nPossui tecnologia Bivolt Automático (opera perfeitamente entre 100V e 240V sem queimar com oscilações da rede) e base padrão rosqueável E27. Vida útil estimada em 25.000 horas de uso contínuo, livre de mercúrio e emissão de raios UV.",
@@ -705,13 +729,13 @@
     ]
   },
   {
-    "id": "prod-100501",
-    "sku": "100501",
+    "id": "prod-1851",
+    "sku": "1851",
     "name": "Adesivo Selante Fixa Tudo MS Profissional Amazonas 400g Branco",
     "slug": "adesivo-selante-fixa-tudo-ms-amazonas-400g",
     "description": "O Fixa Tudo MS Amazonas é um adesivo de alta tecnologia que cola, sela e veda diversos materiais até mesmo debaixo d’água! Possui agarre imediato, alta resistência a raios UV e intempéries, aceita pintura após curado e não mancha mármores ou espelhos.",
-    "price": 32.9,
-    "unit": "Cartucho 400g (UN)",
+    "price": 40,
+    "unit": "Tubo 400g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Adesivos de Fixação e Colas",
@@ -729,7 +753,9 @@
       "Base Química": "Polímero Híbrido MS de alta performance",
       "Cura na Água": "Capacidade de colagem e vedação debaixo d’água",
       "Peso Líquido": "400 g",
-      "Resistência UV": "Excelente resistência ao sol, não amarela"
+      "Resistência UV": "Excelente resistência ao sol, não amarela",
+      "NCM": "32141010",
+      "Código ERP": "18.01.00170"
     },
     "applications": [
       "Espelhos, cubas, pias e bancadas de mármore e granito",
@@ -738,8 +764,8 @@
     ],
     "warranty": "Garantia Amazonas",
     "relatedSkus": [
-      "100601",
-      "100502"
+      "778",
+      "2924"
     ],
     "variations": [],
     "detailedDescription": "O Fixa Tudo MS Profissional 400g da Amazonas é a versão em cartucho de alta capacidade do consagrado adesivo e selante à base de Polímero Híbrido MS (Silicone Modificado), projetado para obras, reformas e serviços profissionais pesados.\n\nDesenvolvido para uso com pistola aplicadora de silicone convencional, ele entrega grande rendimento linear para colagem e vedação de espelhos, cubas de inox e louça em pias, bancadas de mármore e granito, calhas, rufos, telhas, rodapés de madeira e PVC, canaletas e painéis decorativos. Com fórmula de alta viscosidade, não escorre mesmo em aplicações em tetos e paredes verticais.\n\nSua química neutra é 100% isenta de solventes e isocianatos, garantindo que não agrida a camada protetora (azougue) dos espelhos e não manche pedras naturais caras. Possui excelente resistência aos raios UV e variações climáticas, cura até mesmo em superfícies molhadas e aceita lixamento e pintura após a cura completa.",
@@ -763,13 +789,13 @@
     ]
   },
   {
-    "id": "prod-100502",
-    "sku": "100502",
-    "name": "Adesivo Fixa Tudo Amazonas Branco Bisnaga 50g",
+    "id": "prod-2924",
+    "sku": "2924",
+    "name": "Adesivo Fixa Tudo Amazonas Branco Bisnaga 85g",
     "slug": "adesivo-fixa-tudo-amazonas-branco-bisnaga-50g",
     "description": "Adesivo multiuso super prático em bisnaga de 50g para pequenos reparos do dia a dia. Dispensa uso de pistola aplicadora. Cola rápida, forte e flexível em madeira, metal, vidro, alvenaria e cerâmica.",
-    "price": 12.9,
-    "unit": "Bisnaga 50g (UN)",
+    "price": 16.5,
+    "unit": "Bisnaga 85g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Adesivos de Fixação e Colas",
@@ -790,7 +816,9 @@
       "Tempo de Agarre Inicial": "5 a 15 minutos",
       "Cura Total": "24 a 48 horas (dependendo da umidade e espessura)",
       "Resistência à Água": "Excelente (cura até debaixo d'água)",
-      "Aceita Pintura": "Sim (após cura completa)"
+      "Aceita Pintura": "Sim (após cura completa)",
+      "NCM": "32141010",
+      "Código ERP": "18.00.00140"
     },
     "applications": [
       "Fixação de rodapés, canaletas elétricas e placas decorativas",
@@ -798,7 +826,7 @@
     ],
     "warranty": "Garantia Amazonas",
     "relatedSkus": [
-      "100501"
+      "1851"
     ],
     "variations": [],
     "detailedDescription": "O Adesivo Fixa Tudo Amazonas é a solução definitiva e prática para quem precisa de colagem e vedação de máxima resistência sem complicação. Formulado com tecnologia avançada de Polímero Híbrido MS (Silicone Modificado), ele une o melhor de dois mundos: a elasticidade e resistência climática dos silicones de ponta com a força e capacidade de adesão estrutural do poliuretano (PU).\n\nSua embalagem em bisnaga prática de 50g foi especialmente projetada para o uso doméstico e profissional direto: dispensa completamente pistolas ou aplicadores de silicone, evitando desperdício em pequenos consertos e manutenções do dia a dia. Com consistência tixotrópica, não escorre mesmo em aplicações verticais e apresenta agarre inicial rápido (fixação inicial em menos de 5 a 15 minutos).\n\nUm dos grandes diferenciais do Fixa Tudo Amazonas é a sua fórmula química neutra, 100% isenta de solventes nocivos e isocianatos. Isso garante que ele não danifique o verso de espelhos (não mancha o azougue), não manche pedras porosas como mármores e granitos, e não tenha cheiro forte durante a aplicação. Além disso, possui alta resistência aos raios UV e intempéries, e tem a fantástica propriedade de aderir e curar até mesmo em superfícies úmidas e debaixo d'água, sendo perfeito para reparos de emergência em banheiros, calhas, telhados e piscinas. Após a cura total, aceita lixamento e pintura.",
@@ -831,13 +859,13 @@
     ]
   },
   {
-    "id": "prod-100504",
-    "sku": "100504",
+    "id": "prod-3551",
+    "sku": "3551",
     "name": "Selante Adesivo PU 40 Cibraflex 400g",
     "slug": "selante-pu40-cibraflex-400g",
     "description": "O PU 40 Cibraflex é um selante monocomponente à base de poliuretano, flexível e impermeável. Ideal para juntas de dilatação, vedação de calhas, rufos, esquadrias e conexões de concreto.",
-    "price": 26.9,
-    "unit": "Cartucho 400g (UN)",
+    "price": 17.5,
+    "unit": "Cartucho 400g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Selantes e Adesivos PU",
@@ -855,7 +883,9 @@
     "technicalSpecs": {
       "Peso Líquido": "400 g",
       "Dureza Shore A": "40",
-      "Temperatura de Trabalho": "-40°C a +80°C"
+      "Temperatura de Trabalho": "-40°C a +80°C",
+      "NCM": "35061090",
+      "Código ERP": "18.01.00256"
     },
     "applications": [
       "Juntas de movimentação em pisos de concreto e alvenaria",
@@ -864,27 +894,30 @@
     ],
     "warranty": "Garantia Cibraflex",
     "relatedSkus": [
-      "100601",
-      "100507"
+      "778",
+      "3630"
     ],
     "variationType": "Cor",
     "variations": [
       {
-        "hex": "#ffffff",
-        "sku": "100504",
         "name": "Branco",
+        "sku": "3551",
+        "price": 17.5,
+        "hex": "#ffffff",
         "image": "/images/produtos/selante-pu40-cibraflex-branco-400g.jpg"
       },
       {
-        "hex": "#9ca3af",
-        "sku": "100505",
         "name": "Cinza",
+        "sku": "3485",
+        "price": 17.5,
+        "hex": "#9ca3af",
         "image": "/images/produtos/selante-pu40-cibraflex-cinza-400g.jpg"
       },
       {
-        "hex": "#111827",
-        "sku": "100506",
         "name": "Preto",
+        "sku": "738",
+        "price": 17.5,
+        "hex": "#111827",
         "image": "/images/produtos/selante-pu40-cibraflex-preto-400g.jpg"
       }
     ],
@@ -909,13 +942,13 @@
     ]
   },
   {
-    "id": "prod-100507",
-    "sku": "100507",
+    "id": "prod-3630",
+    "sku": "3630",
     "name": "Selante Adesivo PU 40 Tekbond 387g",
     "slug": "selante-adesivo-pu40-tekbond-387g",
     "description": "O Selante PU 40 da Tekbond possui excelente poder de vedação e colagem com elasticidade permanente. Resistente às intempéries, não escorre ao ser aplicado e pode ser pintado após a cura total.",
-    "price": 25.9,
-    "unit": "Cartucho 387g (UN)",
+    "price": 21,
+    "unit": "Cartucho 387g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Selantes e Adesivos PU",
@@ -932,7 +965,9 @@
     "technicalSpecs": {
       "Dureza": "Shore A 40",
       "Peso Líquido": "387 g",
-      "Velocidade de Cura": "Aprox. 3 mm a cada 24 horas"
+      "Velocidade de Cura": "Aprox. 3 mm a cada 24 horas",
+      "NCM": "35061090",
+      "Código ERP": "18.01.00259"
     },
     "applications": [
       "Vedação perimetral de portas, janelas e fachadas",
@@ -941,27 +976,30 @@
     ],
     "warranty": "Garantia Tekbond",
     "relatedSkus": [
-      "100601",
-      "100504"
+      "778",
+      "3551"
     ],
     "variationType": "Cor",
     "variations": [
       {
-        "hex": "#9ca3af",
-        "sku": "100507",
-        "name": "Cinza",
-        "image": "/images/produtos/selante-pu40-tekbond-cinza-387g.jpg"
-      },
-      {
-        "hex": "#ffffff",
-        "sku": "100508",
         "name": "Branco",
+        "sku": "3630",
+        "price": 21,
+        "hex": "#ffffff",
         "image": "/images/produtos/selante-pu40-tekbond-branco.png"
       },
       {
-        "hex": "#111827",
-        "sku": "100509",
+        "name": "Cinza",
+        "sku": "100407",
+        "price": 21,
+        "hex": "#9ca3af",
+        "image": "/images/produtos/selante-pu40-tekbond-cinza-387g.jpg"
+      },
+      {
         "name": "Preto",
+        "sku": "100408",
+        "price": 21,
+        "hex": "#111827",
         "image": "/images/produtos/selante-pu40-tekbond-preto-387g.jpg"
       }
     ],
@@ -982,13 +1020,13 @@
     ]
   },
   {
-    "id": "prod-100510",
-    "sku": "100510",
+    "id": "prod-3438",
+    "sku": "3438",
     "name": "Silicone Acético Incolor Transparente 256g Tekbond",
     "slug": "silicone-incolor-acetico-256g-tekbond",
     "description": "Silicone monocomponente em cartucho de 256g com fungicida (antimofo), ideal para aplicação com pistola aplicadora em áreas não porosas de banheiros, cozinhas e esquadrias de alumínio e vidro. 100% à prova d’água.",
-    "price": 19.9,
-    "unit": "Cartucho 256g (UN)",
+    "price": 19,
+    "unit": "Cartucho 256g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Silicones e Espumas Expansivas",
@@ -1004,7 +1042,9 @@
       "Cor": "Incolor / Transparente",
       "Tipo de Cura": "Acética com aditivo antimofo",
       "Peso Líquido": "256 g (cartucho para pistola aplicadora)",
-      "Tempo de Secagem": "Formação de película em 5 a 15 minutos"
+      "Tempo de Secagem": "Formação de película em 5 a 15 minutos",
+      "NCM": "35061090",
+      "Código ERP": "18.00.00181"
     },
     "applications": [
       "Box de banheiro, cubas, pias e louças sanitárias",
@@ -1013,8 +1053,8 @@
     ],
     "warranty": "Garantia Tekbond",
     "relatedSkus": [
-      "100601",
-      "100511"
+      "778",
+      "2123"
     ],
     "variations": [],
     "detailedDescription": "O Silicone Acético Incolor 256g Tekbond é o vedante antifungo mais confiável e utilizado para a vedação higiênica e estanque de áreas úmidas residenciais e comerciais.\n\nCom cura acética e aditivação antifungo e antimofo de alta eficiência, ele impede a proliferação de bolor preto nas juntas de box de banheiro, pias de cozinha, lavatórios, banheiras e cubas de inox ou louça. Ao curar, transforma-se em uma borracha transparente, flexível e totalmente impermeável que suporta ciclos contínuos de água quente e fria.\n\nPossui excelente aderência em superfícies lisas e vitrificadas, como vidro comum e temperado, azulejos, cerâmicas esmaltadas, metais sanitários e alumínio anodizado.",
@@ -1038,13 +1078,13 @@
     ]
   },
   {
-    "id": "prod-100511",
-    "sku": "100511",
+    "id": "prod-2123",
+    "sku": "2123",
     "name": "Silicone Acético Incolor Transparente Bisnaga 50g Tekbond",
     "slug": "silicone-incolor-acetico-bisnaga-50g-tekbond",
     "description": "Silicone acético incolor em prática bisnaga de 50g. Dispensa uso de pistola aplicadora, perfeito para pequenos reparos domésticos e vedações pontuais em pias, louças e box de banheiro.",
-    "price": 9.9,
-    "unit": "Bisnaga 50g (UN)",
+    "price": 8,
+    "unit": "Bisnaga 50g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Silicones e Espumas Expansivas",
@@ -1060,7 +1100,9 @@
       "Cor": "Incolor / Transparente",
       "Aplicação": "Manual direto da bisnaga sem pistola",
       "Tipo de Cura": "Acética com aditivo antimofo",
-      "Peso Líquido": "50 g (formato bisnaga com bico dosador)"
+      "Peso Líquido": "50 g (formato bisnaga com bico dosador)",
+      "NCM": "35061090",
+      "Código ERP": "18.00.00097"
     },
     "applications": [
       "Pequenos consertos em pias, cubas e banheiros",
@@ -1068,7 +1110,7 @@
     ],
     "warranty": "Garantia Tekbond",
     "relatedSkus": [
-      "100510"
+      "3438"
     ],
     "variations": [],
     "detailedDescription": "O Silicone Acético Incolor em Bisnaga de 50g Tekbond oferece toda a qualidade, elasticidade e poder antifungo da versão em cartucho com a máxima comodidade e economia para reparos pontuais.\n\nPronto para aplicação manual direta: basta desrosquear a tampa, cortar o bico dosador e aplicar com os dedos, dispensando completamente o uso de pistolas de silicone ou ferramentas caras. É a quantidade exata para refazer a vedação ao redor de um vaso sanitário, vedar a pia da cozinha, retocar o box ou reparar uma fresta na janela sem sobras volumosas que acabam secando na gaveta.\n\nPossui fórmula incolor com ação antimofo e cria uma vedação elástica e 100% impermeável.",
@@ -1088,13 +1130,13 @@
     ]
   },
   {
-    "id": "prod-100512",
-    "sku": "100512",
+    "id": "prod-3216",
+    "sku": "3216",
     "name": "Espuma Expansiva de Poliuretano Tekbond 500ml / 320g",
     "slug": "espuma-expansiva-pu-tekbond-500ml-320g",
     "description": "Espuma expansiva monocomponente pronta para uso com cânula aplicadora inclusa. Ideal para fixação e isolamento de batentes de portas, janelas, caixilhos e preenchimento de vãos e passagens de tubulações.",
-    "price": 28.9,
-    "unit": "Lata 500ml / 320g (UN)",
+    "price": 23.5,
+    "unit": "Lata 500ml / 320g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Silicones e Espumas Expansivas",
@@ -1110,7 +1152,9 @@
     "technicalSpecs": {
       "Isolamento": "Alta proteção termoacústica",
       "Volume / Peso": "500 ml (320 g)",
-      "Rendimento Livre": "Aprox. 20 a 25 litros após expansão total"
+      "Rendimento Livre": "Aprox. 20 a 25 litros após expansão total",
+      "NCM": "39095019",
+      "Código ERP": "14.00.00137"
     },
     "applications": [
       "Instalação e fixação firme de batentes e janelas",
@@ -1119,7 +1163,7 @@
     ],
     "warranty": "Garantia Tekbond",
     "relatedSkus": [
-      "100501"
+      "1851"
     ],
     "variations": [],
     "detailedDescription": "A Espuma Expansiva de Poliuretano Tekbond 500ml / 320g é a solução rápida, limpa e eficiente para fixação, vedação e isolamento termoacústico na construção civil e montagem de esquadrias.\n\nAo ser ejetada através do bico aplicador fornecido na lata, a espuma monocomponente reage com a umidade do ar e expande de 2 a 3 vezes o seu volume inicial, preenchendo completamente frestas, buracos, vãos e cavidades irregulares. Após curada, transforma-se em uma espuma rígida e estável que fixa batentes de portas e janelas sem necessidade de parafusos adicionais, além de vedar passagens de ar-condicionado, tubulações hidráulicas e conduítes elétricos.\n\nOferece isolamento térmico contra calor e frio, isolamento acústico contra ruídos externos e pode ser facilmente cortada com estilete, lixada e pintada após a secagem completa.",
@@ -1143,13 +1187,13 @@
     ]
   },
   {
-    "id": "prod-100513",
-    "sku": "100513",
-    "name": "Massa Plástica Adesiva com Catalisador 400g Lopes",
+    "id": "prod-3072",
+    "sku": "3072",
+    "name": "Massa Plástica Adesiva Car Plast com Catalisador 400g",
     "slug": "massa-plastica-adesiva-400g",
     "description": "Massa plástica adesiva à base de poliéster com secagem ultrarrápida. Indicada para colagem, assentamento e restauração de mármores, granitos, cubas, cerâmicas e reparos na construção civil e funilaria.",
-    "price": 17.9,
-    "unit": "Lata 400g com catalisador (UN)",
+    "price": 14.5,
+    "unit": "Lata 400g",
     "departmentId": "quimicos-e-adesivos",
     "departmentName": "Impermeabilizantes e Químicos",
     "category": "Adesivos de Fixação e Colas",
@@ -1166,7 +1210,9 @@
     "technicalSpecs": {
       "Peso Líquido": "400 g + bisnaga de catalisador inclusa",
       "Tempo de Trabalho": "5 a 10 minutos após mistura",
-      "Tempo de Lixamento": "Aprox. 2 horas"
+      "Tempo de Lixamento": "Aprox. 2 horas",
+      "NCM": "35061090",
+      "Código ERP": "18.00.00150"
     },
     "applications": [
       "Colagem de cubas em bancadas de granito e mármore",
@@ -1175,7 +1221,7 @@
     ],
     "warranty": "Qualidade Garantida",
     "relatedSkus": [
-      "100603"
+      "100534"
     ],
     "variationType": "Cor",
     "variations": [
@@ -1213,13 +1259,13 @@
     ]
   },
   {
-    "id": "prod-100601",
-    "sku": "100601",
+    "id": "prod-778",
+    "sku": "778",
     "name": "Aplicador de Silicone Manual Tipo Esqueleto Reforçado Nove54",
     "slug": "aplicador-de-silicone-manual-nove54",
     "description": "Pistola aplicadora de silicone e selantes tipo esqueleto, fabricada em chapa de aço estampada com acabamento zincado e gatilho reforçado. Proporciona aplicação suave e contínua de cartuchos padrão até 300ml / 400g.",
-    "price": 18.9,
-    "unit": "Unidade (UN)",
+    "price": 20,
+    "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
     "category": "Aplicadores e Acessórios",
@@ -1234,7 +1280,9 @@
     "technicalSpecs": {
       "Estrutura": "Aço carbono reforçado zincado anti-ferrugem",
       "Capacidade": "Cartuchos padrão até 300 ml / 400 g",
-      "Comprimento": "Aprox. 30 cm"
+      "Comprimento": "Aprox. 30 cm",
+      "NCM": "82055900",
+      "Código ERP": "19.00.00002"
     },
     "applications": [
       "Aplicação de silicones, PU 40 e adesivos Fixa Tudo",
@@ -1242,9 +1290,9 @@
     ],
     "warranty": "Garantia Nove54 / Vonder",
     "relatedSkus": [
-      "100504",
-      "100507",
-      "100510"
+      "3551",
+      "3630",
+      "3438"
     ],
     "variations": [],
     "detailedDescription": "O Aplicador de Silicone tipo Esqueleto Reforçado da Nove54 é a ferramenta leve, resistente e prática indispensável para a aplicação controlada de selantes e adesivos em cartucho de até 300 ml / 400 g.\n\nConstruído em chapa de aço estampada reforçada com pintura eletrostática anticorrosiva, ele possui corpo aberto tipo esqueleto que facilita a colocação e retirada rápida do cartucho. O mecanismo de gatilho manual com mola e placa de avanço entrega força de prensagem uniforme, permitindo cordões contínuos sem esforço na mão do operador.\n\nPossui trava de alívio de pressão na traseira da haste: ao terminar de apertar o cordão, basta pressionar a alavanca para recuar a haste e interromper imediatamente a saída do produto, evitando desperdícios e sujeira na obra.",
@@ -1290,8 +1338,8 @@
     ],
     "warranty": "Garantia Idea",
     "relatedSkus": [
-      "100501",
-      "100504"
+      "1851",
+      "3551"
     ],
     "variations": [],
     "detailedDescription": "O Aplicador de Silicone e Selantes Profissional Tubular Fechado da Idea é a ferramenta pesada projetada para vidraceiros, calheiros, instaladores de pisos e profissionais da construção civil que exigem máxima força de prensagem e vida útil prolongada.\n\nCom corpo tubular em alumínio e aço reforçado que envolve e protege totalmente o cartucho, ele elimina qualquer risco de torção ou entortamento da estrutura, mesmo ao extrudar selantes de altíssima viscosidade como PU 40, PU 50 e polímeros híbridos MS em dias frios. Seu sistema de alavanca multiplicadora de força reduz a fadiga nas mãos em trabalhos contínuos.\n\nPossui bico frontal rosqueável com rosca metálica resistente e haste de tração reforçada que garante avanço milimétrico e estanque sem folgas.",
@@ -1311,13 +1359,13 @@
     ]
   },
   {
-    "id": "prod-100603",
-    "sku": "100603",
-    "name": "Jogo de Espátulas Celuloide Plásticas Atlas / Baricar",
+    "id": "prod-100534",
+    "sku": "100534",
+    "name": "Espátula Celuloide Plástica Baricar",
     "slug": "espatula-celuloide-plastica-para-massa-atlas",
     "description": "Espátulas flexíveis em plástico celuloide para aplicação uniforme de massa corrida, massa plástica, texturas e gesso sem riscar a superfície nem deixar rebarbas.",
-    "price": 4.9,
-    "unit": "Jogo / Unidade (UN)",
+    "price": 3,
+    "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
     "category": "Ferramentas Manuais de Obra",
@@ -1333,7 +1381,9 @@
     ],
     "technicalSpecs": {
       "Borda": "Chanfrada fina para acabamento impecável",
-      "Material": "Plástico celuloide virgem flexível"
+      "Material": "Plástico celuloide virgem flexível",
+      "NCM": "39269090",
+      "Código ERP": "19.00.00338"
     },
     "applications": [
       "Aplicação e mistura de massa plástica com catalisador",
@@ -1341,7 +1391,7 @@
     ],
     "warranty": "Qualidade Atlas",
     "relatedSkus": [
-      "100513"
+      "3072"
     ],
     "variations": [],
     "detailedDescription": "O Jogo de Espátulas de Celuloide Plásticas da Atlas / Baricar é o kit indispensável para a aplicação limpa, nivelada e precisa de massa plástica, massa corrida, rejuntes, resinas e colas em superfícies delicadas.\n\nFabricadas em celuloide flexível de alta durabilidade e cantos polidos, as espátulas deslizam suavemente sobre mármores, granitos, porcelanatos e azulejos sem arranhar, riscar ou manchar o acabamento das peças. A flexibilidade do material permite moldar a curvatura ideal para preencher reentrâncias, cantos e juntas de dilatação com acabamento liso perfeito.\n\nO jogo acompanha 4 peças em tamanhos graduados, atendendo desde pequenos retoques em bancadas de pia até espalhamento em áreas maiores de funilaria e marcenaria.",
@@ -1361,13 +1411,13 @@
     ]
   },
   {
-    "id": "prod-100604",
-    "sku": "100604",
+    "id": "prod-2291",
+    "sku": "2291",
     "name": "Lápis de Carpinteiro e Pedreiro Profissional Irwin",
     "slug": "lapis-carpinteiro-pedreiro-irwin-profissional",
     "description": "Lápis profissional com corpo oval achatado que evita rolamento em superfícies inclinadas e mina de grafite reforçada especial para marcações nítidas em madeira bruta, concreto, blocos e alvenaria.",
-    "price": 3.5,
-    "unit": "Unidade (UN)",
+    "price": 3,
+    "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
     "category": "Instrumentos de Medição",
@@ -1381,7 +1431,9 @@
     ],
     "technicalSpecs": {
       "Mina": "Grafite médio-duro resistente a quebras",
-      "Corpo": "Madeira especial em perfil oval achatado"
+      "Corpo": "Madeira especial em perfil oval achatado",
+      "NCM": "96091000",
+      "Código ERP": "19.00.00141"
     },
     "applications": [
       "Marcação em caixarias de madeira, vigas e sarrafos",
@@ -1409,13 +1461,13 @@
     ]
   },
   {
-    "id": "prod-100605",
-    "sku": "100605",
+    "id": "prod-1284",
+    "sku": "1284",
     "name": "Bloco de Espuma para Limpeza de Rejunte Cortag",
     "slug": "bloco-de-espuma-limpeza-rejunte-cortag",
     "description": "Esponja especial Cortag de alta densidade desenvolvida para acabamento e limpeza rápida de rejunte em pisos e porcelanatos sem riscar o esmalte nem cavar a junta.",
-    "price": 6.9,
-    "unit": "Unidade (UN)",
+    "price": 8.5,
+    "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
     "category": "Ferramentas Manuais de Obra",
@@ -1431,7 +1483,9 @@
       "Marca": "Cortag",
       "Material": "Poliuretano expandido de alta absorção",
       "Densidade": "Especial para não agredir o esmalte das peças",
-      "Dimensões": "Aprox. 20 x 13 x 7 cm"
+      "Dimensões": "Aprox. 20 x 13 x 7 cm",
+      "NCM": "39095029",
+      "Código ERP": "20.00.00021"
     },
     "applications": [
       "Frisamento e limpeza pós-rejuntamento em pisos e paredes",
@@ -1440,7 +1494,7 @@
     "warranty": "Qualidade Cortag",
     "relatedSkus": [
       "20301",
-      "100607"
+      "3488"
     ],
     "variations": [],
     "detailedDescription": "O Bloco de Espuma para Limpeza de Rejunte Cortag é o acessório técnico indispensável para o acabamento estético perfeito, friso uniforme e limpeza pós-aplicação de rejuntes cimentícios e acrílicos em pisos e azulejos.\n\nFabricado em espuma de poliuretano de alta densidade com estrutura de células abertas selecionadas, ele retém a quantidade exata de água necessária para emulsionar e remover os resíduos superficiais de rejunte sobre as peças de porcelanato, cerâmica e pastilhas, sem cavoucar, rebaixar ou manchar o cordão fresco do rejunte.\n\nPossui formato anatômico de 20 x 13 x 6 cm que proporciona excelente empunhadura e grande rendimento de limpeza com menos esforço do azulejista. Também é amplamente utilizado na lavagem de veículos e limpeza pós-obra em geral.",
@@ -1460,13 +1514,13 @@
     ]
   },
   {
-    "id": "prod-100606",
-    "sku": "100606",
+    "id": "prod-2182",
+    "sku": "2182",
     "name": "Desengripante e Lubrificante Spray 300ml / 200g Vonder",
     "slug": "desengripante-lubrificante-spray-vonder-300ml",
     "description": "O Desengripante Vonder possui alto poder de penetração para soltar porcas, parafusos e peças emperradas pela ferrugem. Lubrifica, elimina rangidos e forma película protetora contra oxidação e umidade.",
-    "price": 15.9,
-    "unit": "Lata 300ml / 200g (UN)",
+    "price": 17.5,
+    "unit": "Lata 300ml / 200g",
     "departmentId": "jardim-e-utilidades",
     "departmentName": "Jardim e Área Externa",
     "category": "Lubrificantes e Manutenção",
@@ -1481,7 +1535,9 @@
     "technicalSpecs": {
       "Ação": "Desengripante, lubrificante e anticorrosivo",
       "Conteúdo": "300 ml (200 g)",
-      "Acessório": "Bico prolongador aplicador incluso"
+      "Acessório": "Bico prolongador aplicador incluso",
+      "NCM": "38249941",
+      "Código ERP": "20.00.00074"
     },
     "applications": [
       "Fechaduras, dobradiças, trilhos, correntes e ferramentas",
@@ -1509,13 +1565,13 @@
     ]
   },
   {
-    "id": "prod-100607",
-    "sku": "100607",
+    "id": "prod-3488",
+    "sku": "3488",
     "name": "Bloco de Espuma para Limpeza de Rejunte Tafort",
     "slug": "bloco-de-espuma-limpeza-rejunte-tafort",
     "description": "Bloco de espuma macia de alto rendimento Tafort para remoção de excessos de rejunte, lavagem pós-obra e limpeza geral de superfícies cerâmicas e azulejos.",
-    "price": 5.9,
-    "unit": "Unidade (UN)",
+    "price": 5,
+    "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
     "category": "Ferramentas Manuais de Obra",
@@ -1530,7 +1586,9 @@
       "Marca": "Tafort",
       "Material": "Espuma de poliuretano de alta retenção de água",
       "Dimensões": "Aprox. 20 x 13 x 6 cm",
-      "Indicação": "Limpeza de rejuntes, azulejos e lavagem de obras"
+      "Indicação": "Limpeza de rejuntes, azulejos e lavagem de obras",
+      "NCM": "39095029",
+      "Código ERP": "20.00.00139"
     },
     "applications": [
       "Remoção de resíduos frescos de rejuntamento",
@@ -1538,7 +1596,7 @@
     ],
     "warranty": "Qualidade Tafort",
     "relatedSkus": [
-      "100605"
+      "1284"
     ],
     "variations": [],
     "detailedDescription": "O Bloco de Espuma Especial Tafort foi desenvolvido para oferecer alto poder de absorção, maciez e rendimento na limpeza e frisamento de rejuntes em pisos cerâmicos, porcelanatos e azulejos de parede.\n\nSua espuma densa e resistente suporta o atrito constante sobre as superfícies cerâmicas sem esfarelar ou soltar fiapos. Proporciona um acabamento uniforme e liso às juntas de rejunte, facilitando a remoção da névoa de pó (\"haze\") que fica sobre os pisos após o assentamento.\n\nCom dimensões generosas e alta capacidade de retenção de líquidos, também é muito procurada para serviços de pintura (efeitos e texturas esponjadas), lavagem profissional de automóveis e limpezas gerais na obra.",
@@ -1558,13 +1616,13 @@
     ]
   },
   {
-    "id": "prod-100702",
-    "sku": "100702",
-    "name": "Válvula Americana em Inox 3.1/2\" com Cesta para Pia de Cozinha",
+    "id": "prod-3628",
+    "sku": "3628",
+    "name": "Válvula Americana para Pia de Cozinha em Inox 3.1/2 Ema",
     "slug": "valvula-americana-3-meia-pia-cozinha-cesta",
     "description": "Válvula modelo americana para cubas de pia de cozinha com cesto coletor removível em aço inoxidável. Retém restos de alimentos e resíduos sólidos, evitando entupimentos da rede de esgoto.",
-    "price": 22.9,
-    "unit": "Unidade (UN)",
+    "price": 16.5,
+    "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
     "departmentName": "Banheiro e Cozinha",
     "category": "Pias e Bancadas",
@@ -1579,14 +1637,16 @@
     "technicalSpecs": {
       "Material": "Aço inoxidável e polímeros nobres",
       "Saída Inferior": "1.1/2 polegada",
-      "Diâmetro Superior": "3.1/2 polegadas"
+      "Diâmetro Superior": "3.1/2 polegadas",
+      "NCM": "84819010",
+      "Código ERP": "19.13.00017"
     },
     "applications": [
       "Cubas de inox e pias de cozinha em granito ou mármore sintético"
     ],
     "warranty": "Garantia de fábrica",
     "relatedSkus": [
-      "100204"
+      "2802"
     ],
     "variations": [],
     "detailedDescription": "A Válvula Americana 3.1/2\" em Aço Inox com Cestinha Removível é o acessório indispensável para cubas de pia de cozinha e áreas gourmet que exigem alta durabilidade, vazão e higiene.\n\nFabricada com tampa e corpo superior em aço inoxidável polido de alta qualidade, ela é imune à ferrugem, não oxida e mantém o brilho mesmo com o uso frequente de detergentes e desengordurantes. Acompanha uma prática cestinha de retenção em inox com puxador e pino de vedação de borracha: quando levantada, permite o escoamento rápido da água enquanto retém restos de comida e cascas; quando pressionada para baixo, veda completamente o ralo para encher a cuba de água.\n\nPossui rosca inferior de 1.1/2\" compatível com todos os sifões universais do mercado e acompanha anéis de vedação de borracha para instalação estanque sem vazamentos embaixo da bancada.",
@@ -1616,7 +1676,7 @@
     "slug": "prego-com-cabeca-gerdau-17x21-1kg",
     "description": "O prego 17x21 da Gerdau é o mais utilizado na construção civil para confecção e travamento de caixarias de madeira, formas para vigas, baldrames e andaimes. Possui cabeça cônica e corpo liso com ponta perfeita.",
     "price": 19,
-    "unit": "Pacote 1kg (KG)",
+    "unit": "Pacote 1kg",
     "departmentId": "ferragens",
     "departmentName": "Ferragens e Segurança",
     "category": "Pregos e Fixadores Metálicos",
@@ -1633,7 +1693,9 @@
       "Aproximadamente": "400 pregos por kg",
       "Medida JP x LPP": "17 x 21",
       "Tipo de Cabeça": "Com Cabeça Cônica Axadrezada",
-      "Dimensões em Polegadas": "2\" x 11 (50,8 mm x 3,0 mm)"
+      "Dimensões em Polegadas": "2\" x 11 (50,8 mm x 3,0 mm)",
+      "NCM": "73170090",
+      "Código ERP": "21.00.00018"
     },
     "applications": [
       "Montagem de caixarias para concreto (tábuas e sarrafos)",
@@ -1668,8 +1730,8 @@
     "name": "Tijolo Baiano Cerâmico 8 Furos 9x19x19cm Vargem Grande",
     "slug": "tijolo-baiano-ceramico-8-furos-vargem-grande",
     "description": "Bloco cerâmico de vedação (Tijolo Baiano) 8 furos da Cerâmica Vargem Grande. Medidas precisas, alta queima uniforme e ranhuras que garantem ótima aderência da massa de reboco e isolamento térmico.",
-    "price": 1.4,
-    "unit": "Unidade (UN)",
+    "price": 1.5,
+    "unit": "Milheiro / UN",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Tijolos e Blocos Cerâmicos",
@@ -1685,7 +1747,9 @@
       "Norma": "ABNT NBR 15270",
       "Dimensões": "9 x 19 x 19 cm (Largura x Altura x Comprimento)",
       "Peso Unitário": "Aprox. 2,1 kg",
-      "Consumo Médio por m²": "Aprox. 25 a 27 peças/m²"
+      "Consumo Médio por m²": "Aprox. 25 a 27 peças/m²",
+      "NCM": "69041000",
+      "Código ERP": "02.00.00007"
     },
     "applications": [
       "Alvenaria de vedação residencial e comercial",
@@ -1722,7 +1786,7 @@
     "slug": "tijolinho-macico-maquinado-9x19x4-5cm",
     "description": "Tijolo maciço cerâmico maquinado de barro cozido com acabamento liso e cantos vivos. Ideal para churrasqueiras, fogões a lenha, paredes aparentes e reforço de bases de alvenaria.",
     "price": 0.66,
-    "unit": "Unidade (UN)",
+    "unit": "Milheiro / UN",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Tijolos e Blocos Cerâmicos",
@@ -1737,7 +1801,9 @@
       "Tipo": "Maciço Maquinado Liso",
       "Queima": "Cerâmica vermelha uniforme",
       "Dimensões": "9 x 19 x 4,5 cm",
-      "Consumo Médio": "Aprox. 80 a 90 peças/m² (dependendo da espessura da junta)"
+      "Consumo Médio": "Aprox. 80 a 90 peças/m² (dependendo da espessura da junta)",
+      "NCM": "69041000",
+      "Código ERP": "02.00.00016"
     },
     "applications": [
       "Construção de churrasqueiras, fornos e fogões a lenha",
@@ -1774,7 +1840,7 @@
     "slug": "arame-recozido-torcido-bwg-18-1kg",
     "description": "Arame recozido torcido duplo de alta flexibilidade e resistência à tração. Facilita e agiliza a amarração de estribos, colunas e vigas de aço sem quebrar durante a torção com a torquês.",
     "price": 18,
-    "unit": "Kg (KG)",
+    "unit": "Rolo 1kg",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Aço, Treliças e Arames",
@@ -1789,7 +1855,9 @@
       "Bitola": "BWG 18 Duplo Torcido (1,24 mm cada perna)",
       "Acabamento": "Preto / Fosco oleado",
       "Características": "Ductilidade superior, não arrebenta na torquês",
-      "Tratamento Térmico": "Recozido em forno contínuo"
+      "Tratamento Térmico": "Recozido em forno contínuo",
+      "NCM": "72171090",
+      "Código ERP": "05.00.00009"
     },
     "applications": [
       "Amarração de estribos em barras de ferro",
@@ -1824,8 +1892,8 @@
     "name": "Cimento Portland CSN CP II-E-32 50kg",
     "slug": "cimento-portland-csn-cp-ii-e-32-50kg",
     "description": "O Cimento CSN CP II-E-32 de 50kg oferece excelente resistência mecânica, secagem uniforme e ótima trabalhabilidade. Perfeito para todas as fases da obra, desde fundações até contrapisos e rebocos estruturados.",
-    "price": 40,
-    "unit": "Saco 50kg (UN)",
+    "price": 42,
+    "unit": "Saco 50kg",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Cimentos e Cal",
@@ -1842,7 +1910,9 @@
       "Armazenamento": "Conservar em local coberto, seco e sobre estrado",
       "Norma Técnica": "ABNT NBR 16697",
       "Peso da Embalagem": "50 kg",
-      "Classe de Resistência": "32 MPa aos 28 dias"
+      "Classe de Resistência": "32 MPa aos 28 dias",
+      "NCM": "25232990",
+      "Código ERP": "01.00.00011"
     },
     "applications": [
       "Concreto estrutural (lajes, vigas, sapatas e baldrames)",
@@ -1879,7 +1949,7 @@
     "slug": "cal-hidratada-itau-ch-1-20kg",
     "description": "A Cal Hidratada Itaú CH-I é sinônimo de maciez e trabalhabilidade na argamassa. Proporciona excelente retenção de água, evitando trincas no reboco e garantindo economia de cimento e liga perfeita.",
     "price": 23,
-    "unit": "Saco 20kg (UN)",
+    "unit": "Saco 20kg",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Cimentos e Cal",
@@ -1894,7 +1964,9 @@
       "Norma": "ABNT NBR 7175",
       "Ação": "Plastificante natural e bactericida para argamassas",
       "Peso Líquido": "20 kg",
-      "Classificação": "CH-I (Cal Hidratada Especial)"
+      "Classificação": "CH-I (Cal Hidratada Especial)",
+      "NCM": "25221000",
+      "Código ERP": "01.00.00003"
     },
     "applications": [
       "Argamassas de reboco interno e externo",
@@ -1935,7 +2007,7 @@
     "slug": "areia-media-lavada-a-granel-m3",
     "description": "Areia média natural lavada, isenta de terra, matéria orgânica e impurezas. Proporciona o traço perfeito para concreto resistente, assentamento de tijolos e contrapisos resistentes e duradouros.",
     "price": 180,
-    "unit": "Metro Cúbico (MT)",
+    "unit": "M³",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Areia, Brita e Agregados",
@@ -1951,7 +2023,9 @@
       "Norma": "ABNT NBR 7211",
       "Processo": "Lavada e decantada em jazida",
       "Densidade Aprox.": "1.500 kg/m³ úmida",
-      "Módulo de Finura": "2,2 a 2,8 (Média)"
+      "Módulo de Finura": "2,2 a 2,8 (Média)",
+      "NCM": "25051000",
+      "Código ERP": "12.00.00003"
     },
     "applications": [
       "Concreto para lajes, pilares e fundações",
@@ -1992,7 +2066,7 @@
     "slug": "areia-fina-lavada-ibiraci-a-granel-m3",
     "description": "A famosa areia fina de Ibiraci, reconhecida pelos melhores mestres de obra de Franca pela finura impecável e brancura. Ideal para rebocos finos, emboço desempenado liso e acabamentos sem trincas.",
     "price": 175,
-    "unit": "Metro Cúbico (MT)",
+    "unit": "M³",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Areia, Brita e Agregados",
@@ -2007,7 +2081,9 @@
       "Cor": "Clara / Esbranquiçada",
       "Origem": "Jazidas de Ibiraci - MG / Região de Franca",
       "Pureza": "Lavada e selecionada para acabamento fino",
-      "Módulo de Finura": "Fina (inferior a 2,0)"
+      "Módulo de Finura": "Fina (inferior a 2,0)",
+      "NCM": "25059000",
+      "Código ERP": "12.00.00004"
     },
     "applications": [
       "Reboco fino interno e externo desempenado",
@@ -2043,7 +2119,7 @@
     "slug": "pedra-brita-01-a-granel-m3",
     "description": "Pedra britada nº 1 lavada e classificada (granulometria de 9,5mm a 19mm). Agregado graúdo essencial para produção de concreto estrutural, vigas, lajes, sapatas e contrapisos com alta compacidade.",
     "price": 150,
-    "unit": "Metro Cúbico (MT)",
+    "unit": "M³",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Areia, Brita e Agregados",
@@ -2059,7 +2135,9 @@
       "Norma": "ABNT NBR 7211",
       "Origem": "Rocha basáltica sã britada e lavada",
       "Granulometria": "Faixa 1 (9,5 mm a 19 mm)",
-      "Densidade Média": "Aprox. 1.400 kg/m³"
+      "Densidade Média": "Aprox. 1.400 kg/m³",
+      "NCM": "25171000",
+      "Código ERP": "12.00.00006"
     },
     "applications": [
       "Concreto usinado e virado na obra (lajes, vigas e pilares)",
@@ -2111,7 +2189,9 @@
       "Categoria": "CA-50 Nervurado Soldável",
       "Comprimento": "12 metros",
       "Bitola Nominal": "5/16\" (8,0 mm)",
-      "Massa Linear Teórica": "0,395 kg/m"
+      "Massa Linear Teórica": "0,395 kg/m",
+      "NCM": "72142000",
+      "Código ERP": "06.00.00006"
     },
     "applications": [
       "Vigas, sapatas, pilares e cintas de amarração",
@@ -2147,7 +2227,7 @@
     "slug": "trelica-nervurada-de-aco-tr-08",
     "description": "Treliça eletrosoldada modelo TR 08 fabricada com aço CA-60 nervurado. Indicada para fabricação de lajes pré-moldadas treliçadas e vigotas, garantindo menor peso e alta resistência com economia de concreto.",
     "price": 7,
-    "unit": "Metro (MT)",
+    "unit": "Metro Linear",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Aço, Treliças e Arames",
@@ -2163,7 +2243,9 @@
       "Modelo": "TR 08 (Altura nominal 80 mm)",
       "Fio Superior": "6,0 mm CA-60",
       "Fios Inferiores": "5,0 mm CA-60",
-      "Fios da Diagonal (Sinusoide)": "4,2 mm CA-60"
+      "Fios da Diagonal (Sinusoide)": "4,2 mm CA-60",
+      "NCM": "73084000",
+      "Código ERP": "06.00.00012"
     },
     "applications": [
       "Vigotas de lajes treliçadas residenciais",
@@ -2312,7 +2394,7 @@
     ],
     "warranty": "Garantia Cortag",
     "relatedSkus": [
-      "100102",
+      "2110",
       "2882"
     ],
     "variationType": "Espessura",
@@ -2351,12 +2433,12 @@
     ]
   },
   {
-    "id": "prod-fio-sil",
-    "sku": "100301",
+    "id": "prod-100597",
+    "sku": "100597",
     "name": "Cabo Flexível 2,5mm² 750V Rolo 100 Metros Sil (Azul)",
     "slug": "cabo-flexivel-2-5mm-750v-100m-sil-azul",
     "description": "Fio flexível condutor em cobre puro eletrolítico 99,9% com isolamento em PVC antichama (BWF-B). Recomendado para circuitos de tomadas de uso geral e iluminação residencial.",
-    "price": 189.9,
+    "price": 280,
     "unit": "Rolo 100m",
     "departmentId": "eletrica",
     "departmentName": "Elétrica e Iluminação",
@@ -2373,7 +2455,9 @@
       "Norma": "NBR NM 247-3",
       "Condutor": "Cobre puro têmpera mole, classe 4 de flexibilidade",
       "Seção Nominal": "2,5 mm²",
-      "Tensão de Isolamento": "450/750 V"
+      "Tensão de Isolamento": "450/750 V",
+      "NCM": "84444900",
+      "Código ERP": "14.01.00229"
     },
     "applications": [
       "Circuitos de tomadas de 10A e 20A",
@@ -2435,7 +2519,7 @@
     ],
     "warranty": "1 ano de garantia Lorenzetti",
     "relatedSkus": [
-      "100301"
+      "100597"
     ],
     "variationType": "Voltagem",
     "variations": [
@@ -2706,12 +2790,12 @@
     ]
   },
   {
-    "id": "pa-de-bico-com-cabo-tramontina-77459",
-    "sku": "30201",
+    "id": "prod-3342",
+    "sku": "3342",
     "name": "Pá de Bico com Cabo de Madeira 71cm Tramontina N° 3",
     "slug": "pa-de-bico-com-cabo-tramontina-77459",
     "description": "Pá de bico n° 3 em aço carbono especial temperado com cabo de madeira renovável 71cm e empunhadura ergonômica Y.",
-    "price": 54.9,
+    "price": 65,
     "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
@@ -2731,7 +2815,9 @@
       "Material do cabo": "Madeira nobre de origem renovável envernizada",
       "Empunhadura": "Ergonômica plástica em formato Y (tipo muleta)",
       "Peso aproximado": "1,45 kg",
-      "Referência Tramontina": "77459/434"
+      "Referência Tramontina": "77459/434",
+      "NCM": "82011000",
+      "Código ERP": "19.00.00244"
     },
     "applications": [
       "Cavação, carregamento e transbordo de terra, areia, brita, saibro e entulhos de construção",
@@ -2740,10 +2826,10 @@
     ],
     "warranty": "1 ano de garantia contra defeitos de fabricação (Tramontina)",
     "relatedSkus": [
-      "30204",
+      "2654",
       "397",
       "400",
-      "100103"
+      "1"
     ],
     "detailedDescription": "A Pá de Bico com Cabo de Madeira 71cm Tramontina N° 3 (Ref. 77459/434) é a ferramenta essencial e tradicional indispensável em todo canteiro de obras. Fabricada em aço carbono especial com tratamento térmico por têmpera em todo o corpo da lâmina, oferece resistência mecânica superior contra envergamentos e desgastes mesmo sob uso contínuo em materiais pesados e abrasivos como pedras e terra compactada.\n\nA lâmina conta com pintura eletrostática a pó que cria uma camada protetora contra ferrugem e umidade. Seu desenho com bico pontiagudo e centro côncavo facilita a penetração no solo e o corte de raízes leves, permitindo erguer grandes volumes de areia, brita ou concreto com estabilidade.\n\nO cabo de 71 cm é confeccionado em madeira de lei de reflorestamento, lixado e envernizado para um manuseio agradável sem farpas. A empunhadura plástica ergonômica em formato de \"Y\" reduz o esforço nos punhos e na coluna, proporcionando excelente controle de carga e segurança durante o trabalho repetitivo.",
     "faq": [
@@ -3019,12 +3105,12 @@
     ]
   },
   {
-    "id": "grelha-aluminio-com-caixilho-stuqui-15x15",
-    "sku": "30301",
+    "id": "prod-154",
+    "sku": "154",
     "name": "Grelha de Alumínio Fundido com Caixilho Stuqui 15x15cm",
     "slug": "grelha-aluminio-com-caixilho-stuqui-15x15",
     "description": "Grelha quadrada para ralo em alumínio fundido polido 15x15cm com caixilho de embutir, alta resistência mecânica e tela anti-insetos.",
-    "price": 32.9,
+    "price": 27,
     "unit": "UN",
     "departmentId": "hidraulica",
     "departmentName": "Tubos e Conexões",
@@ -3041,7 +3127,9 @@
       "Material": "Alumínio fundido maciço polido",
       "Itens inclusos": "Grelha removível + Caixilho (aro porta-grelha)",
       "Resistência": "Imune à corrosão e ferrugem, suporta passagens de pedestres e peso moderado",
-      "Acabamento": "Polido brilhante"
+      "Acabamento": "Polido brilhante",
+      "NCM": "76169100",
+      "Código ERP": "09.03.00003"
     },
     "applications": [
       "Drenagem de água pluvial e lavagem em quintais, corredores, garagens residenciais e varandas",
@@ -3050,9 +3138,9 @@
     ],
     "warranty": "5 anos contra corrosão natural (Stuqui)",
     "relatedSkus": [
-      "30302",
-      "100204",
-      "30601"
+      "100025",
+      "2802",
+      "100757"
     ],
     "detailedDescription": "A Grelha de Alumínio Fundido com Caixilho 15x15cm Stuqui é uma solução definitiva e durável para a drenagem de águas pluviais e lavagens em áreas residenciais e comerciais. Produzida em liga nobre de alumínio fundido maciço, não enferruja, não descasca e suporta a exposição severa ao sol, chuva e produtos de limpeza pesada utilizados em quintais e garagens.\n\nO conjunto é composto pelo caixilho (aro de embutir) e pela grelha removível com encaixe preciso. O caixilho é assentado diretamente na massa de cimento nivelado ao piso cerâmico ou pedras, facilitando o rejuntamento e garantindo que a grelha fique perfeitamente alinhada, evitando degraus perigosos para pedestres.\n\nSeu desenho com fendas paralelas dimensionadas garante excelente vazão de água para escoamento rápido de enxurradas, ao mesmo tempo em que retém folhas, pedriscos e detritos que poderiam entupir a rede de esgoto pluvial. A tampa é facilmente removível para manutenção e desobstrução da caixa do ralo.",
     "faq": [
@@ -3071,12 +3159,12 @@
     ]
   },
   {
-    "id": "gabinete-pia-aco-cozimax-atena-120cm-branco",
-    "sku": "30401",
+    "id": "prod-3135",
+    "sku": "3135",
     "name": "Gabinete de Cozinha em Aço Atena 120cm Cozimax Branco",
     "slug": "gabinete-pia-aco-cozimax-atena-120cm-branco",
     "description": "Gabinete de cozinha em aço eletrogalvanizado 120cm Atena Cozimax com 2 portas, 3 gavetas em polipropileno virgem e 5 anos de garantia.",
-    "price": 499,
+    "price": 800,
     "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
     "departmentName": "Banheiro e Cozinha",
@@ -3098,7 +3186,9 @@
       "Gavetas": "3 gavetas em polipropileno virgem lavável (com divisor de talheres na primeira gaveta)",
       "Pés": "4 pés com regulagem de altura para nivelamento fino",
       "Cor": "Branco acetinado",
-      "Montagem": "Fornecido montado de fábrica (apenas rosquear os pés e puxadores)"
+      "Montagem": "Fornecido montado de fábrica (apenas rosquear os pés e puxadores)",
+      "NCM": "94032010",
+      "Código ERP": "17.00.00069"
     },
     "applications": [
       "Cozinhas residenciais, áreas gourmet, copas comerciais e edículas",
@@ -3107,8 +3197,8 @@
     "warranty": "5 anos de garantia de fábrica Cozimax contra corrosão no aço",
     "relatedSkus": [
       "30402",
-      "100702",
-      "100204"
+      "3628",
+      "2802"
     ],
     "detailedDescription": "O Gabinete de Cozinha em Aço Atena 120cm Cozimax Branco é sinônimo de resistência, higiene e durabilidade no coração da casa. Produzido com a exclusiva tecnologia DiferentAço da Cozimax, o móvel é construído em aço eletrogalvanizado que recebe tratamento contra ferrugem e pintura eletrostática a pó com secagem em estufa a alta temperatura, resultando em uma garantia de fábrica imbatível de 5 anos.\n\nProjetado para receber perfeitamente tampos e pias de 120 cm (em granito, inox ou mármore sintético), conta com 2 portas amplas com espaço interno generoso para panelas e mantimentos, além de 3 gavetas injetadas em polipropileno 100% virgem — material higiênico, inodoro, que não resseca e pode ser lavado diretamente com água. A primeira gaveta já inclui divisor organizador de talheres integrado.\n\nSeus pés em material plástico possuem sapatas com regulagem independente de altura, permitindo nivelamento perfeito mesmo em pisos com declives para ralos, além de afastar o móvel do chão para facilitar a limpeza da cozinha com rodo e água sem risco de molhar a estrutura.",
     "faq": [
@@ -3165,9 +3255,9 @@
     ],
     "warranty": "1 ano de garantia contra defeitos de colagem e fabricação",
     "relatedSkus": [
-      "30401",
-      "100702",
-      "100204",
+      "3135",
+      "3628",
+      "2802",
       "30404"
     ],
     "detailedDescription": "A Pia de Granito Natural 120cm Cinza Andorinha com Cuba Inox é o padrão de excelência, elegância e robustez para compor a bancada da sua cozinha. Cortada a partir de rocha natural de granito selecionada e polida em processo industrial, oferece altíssima resistência a riscos, impacto, calor de panelas quentes e manchas de uso culinário diário.\n\nAcompanha cuba profunda em aço inoxidável fixada por processo duplo com adesivo poliuretano estrutural e travas de fixação mecânica inferior, impedindo descolamentos mesmo sob o peso de panelas pesadas e cubas cheias de água. A furação da cuba é projetada para receber válvula americana de 3.1/2\", permitindo o uso de cestas de retenção de restos de comida.\n\nPossui canaletas e caimento suave em direção à cuba para que a água escorra naturalmente sem empoçar sobre a pedra. O frontão traseiro integrado protege a parede de respingos e previne a umidade na alvenaria atrás do móvel, combinando perfeitamente com gabinetes de 1,20m de aço ou madeira.",
@@ -3220,8 +3310,8 @@
     ],
     "warranty": "1 ano contra defeitos de fabricação (Atlas)",
     "relatedSkus": [
-      "30405",
-      "100510"
+      "821",
+      "3438"
     ],
     "detailedDescription": "O Assento Sanitário Oval Soft Close Atlas (Ref. AT4063-2) proporciona o máximo de conforto, elegância e silêncio para o seu banheiro. Equipado com o renomado mecanismo de amortecimento Soft Close nos eixos da tampa e do anel do assento, ele garante um fechamento suave e progressivo com apenas um leve toque, eliminando batidas estrondosas contra a louça, protegendo a cerâmica do vaso e prevenindo acidentes com os dedos de crianças e idosos.\n\nInjetado em polipropileno de engenharia virgem de alto impacto, possui acabamento esmaltado branco de alto brilho com proteção antibacteriana que impede o acúmulo de microrganismos e facilita a higienização diária com pano úmido e sabão neutro. Não amarela com o passar dos anos e mantém a tonalidade da bacia sanitária.\n\nConta com ferragens de fixação reguláveis de montagem simplificada, compatíveis com os principais vasos sanitários ovais do mercado brasileiro, incluindo a bacia Deca Izy, Deca Ravena, Celite Eco, Icasa Sabará e similares.",
     "faq": [
@@ -3240,12 +3330,12 @@
     ]
   },
   {
-    "id": "modulo-tomada-20a-sleek-margirius-branco",
-    "sku": "30501",
+    "id": "prod-3124",
+    "sku": "3124",
     "name": "Módulo de Tomada 20A 250V 2P+T Sleek MarGirius Branco",
     "slug": "modulo-tomada-20a-sleek-margirius-branco",
     "description": "Módulo de tomada elétrica 20A 250V padrão brasileiro NBR 14136, linha modular Sleek MarGirius em termoplástico anti-chama e anti-UV.",
-    "price": 9.9,
+    "price": 10,
     "unit": "UN",
     "departmentId": "eletrica",
     "departmentName": "Elétrica e Iluminação",
@@ -3266,7 +3356,9 @@
       "Material": "Termoplástico de engenharia autoextinguível com aditivo anti-UV",
       "Contatos": "Liga de cobre fosforoso com mola de alta condutividade e retenção de plugue",
       "Cor": "Branco acetinado",
-      "Código do fabricante": "16048"
+      "Código do fabricante": "16048",
+      "NCM": "85366910",
+      "Código ERP": "14.05.00089"
     },
     "applications": [
       "Alimentação elétrica de aparelhos de maior potência: micro-ondas, fornos elétricos, fritadeiras airfryer, secadores de cabelo, máquinas de lavar e lava-louças",
@@ -3274,8 +3366,8 @@
     ],
     "warranty": "5 anos contra defeitos de fabricação (MarGirius)",
     "relatedSkus": [
-      "100301",
-      "100302"
+      "100597",
+      "2978"
     ],
     "detailedDescription": "O Módulo de Tomada 20A 250V 2P+T da Linha Sleek MarGirius (Ref. 16048) é a escolha ideal para instalações elétricas modernas que exigem segurança absoluta, alto desempenho e estética refinada. Com orifícios dimensionados para plugues de 4,8 mm (padrão 20A), é a tomada obrigatória para ligar eletrodomésticos de média e alta potência como fornos elétricos, fornos micro-ondas, fritadeiras sem óleo (airfryer), ferros de passar e lavadoras de roupas.\n\nProduzido em termoplástico de alta tecnologia com proteção anti-chama e aditivação contra raios ultravioleta, o módulo não propaga fogo e resiste ao envelhecimento natural, mantendo sua tonalidade branca sem amarelar ao longo dos anos. Seus bornes internos contam com contatos de cobre fosforoso de alta pressão, garantindo conexão perfeita que evita aquecimento indesejado e faiscamento.\n\nO encaixe modular na placa Sleek é prático e rápido, com fixação por clique seguro. Atende rigorosamente a todas as exigências das normas ABNT NBR 14136 e portarias do Inmetro.",
     "faq": [
@@ -3327,8 +3419,8 @@
     "warranty": "1 ano contra defeitos de fabricação (Ema Metais)",
     "relatedSkus": [
       "30402",
-      "100702",
-      "100204"
+      "3628",
+      "2802"
     ],
     "detailedDescription": "A Torneira de Parede para Pia de Cozinha Ema Metais é a união perfeita de funcionalidade prática, economia de água e acabamento cromado durável. Projetada para ser instalada diretamente no ponto de água da parede sobre pias e bancadas, ela proporciona ampla altura e liberdade de movimentos para a lavagem de panelas grandes, travessas e alimentos volumosos.\n\nSua bica móvel conta com rotação livre de 360 graus com vedação dupla por anéis de borracha nitrílica, permitindo alternar facilmente o jato entre cubas de pias duplas sem vazamentos no corpo. O mecanismo com pastilha cerâmica de 1/4 de volta permite abrir e fechar a água com extrema suavidade, mesmo com as mãos molhadas ou engorduradas, além de evitar o desgaste por atrito que provoca o clássico pinga-pinga de torneiras convencionais.\n\nPossui arejador na ponta da bica que injeta ar no jato d'água, produzindo uma ducha suave e volumosa que não espirra água para fora da cuba e economiza até 40% no consumo de água da residência.",
     "faq": [
@@ -3347,12 +3439,12 @@
     ]
   },
   {
-    "id": "bacia-sanitaria-convencional-deca-izy-branca",
-    "sku": "30405",
+    "id": "prod-821",
+    "sku": "821",
     "name": "Bacia Sanitária Convencional Deca Linha Izy Branca P.11.17",
     "slug": "bacia-sanitaria-convencional-deca-izy-branca",
     "description": "Vaso sanitário convencional em cerâmica vitrificada Deca linha Izy modelo P.11, com tecnologia de descarga ecológica Duo e 10 anos de garantia.",
-    "price": 189.9,
+    "price": 270,
     "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
     "departmentName": "Banheiro e Cozinha",
@@ -3374,7 +3466,9 @@
       "Profundidade": "47,5 cm",
       "Peso líquido": "13,4 kg",
       "Saída de esgoto": "Vertical padrão de 100 mm para o piso",
-      "Consumo de descarga": "Preparada para descarga econômica de 6 litros ou duplo acionamento 3/6 litros"
+      "Consumo de descarga": "Preparada para descarga econômica de 6 litros ou duplo acionamento 3/6 litros",
+      "NCM": "69109000",
+      "Código ERP": "18.02.00006"
     },
     "applications": [
       "Banheiros residenciais, suítes, lavabos e estabelecimentos comerciais com válvula de descarga de parede ou caixa de descarga acoplada externa",
@@ -3383,7 +3477,7 @@
     "warranty": "10 anos de garantia Deca para louças sanitárias",
     "relatedSkus": [
       "30403",
-      "100510"
+      "3438"
     ],
     "detailedDescription": "A Bacia Sanitária Convencional Deca Linha Izy (P.11.17) é a louça sanitária mais vendida e respeitada do Brasil, símbolo de eficiência, design clássico e durabilidade comprovada. Projetada pela Deca para oferecer o melhor custo-benefício do mercado, ela se adapta perfeitamente a banheiros de todos os estilos, desde reformas práticas até residências de alto padrão.\n\nFabricada em cerâmica vitrificada com processo rigoroso de queima e esmaltação uniforme, sua superfície ultra lisa e não porosa evita o acúmulo de sujeira e bactérias, facilitando a limpeza diária e mantendo o branco impecável por décadas. Seu sifão interno é 100% esmaltado, o que garante vazão total dos dejetos em uma única descarga sem risco de entupimentos e com baixo ruído.\n\nDesenvolvida para operar em conjunto com válvulas de parede modernas (Duo 3/6L) ou caixas plásticas de embutir, proporciona economia de até 60% no consumo de água da residência. Compatível com assentos sanitários ovais universais.",
     "faq": [
@@ -3406,12 +3500,12 @@
     ]
   },
   {
-    "id": "piso-palau-brilhante-61x61-ceral",
-    "sku": "30601",
+    "id": "prod-100757",
+    "sku": "100757",
     "name": "Piso Cerâmico Palau Brilhante 61x61cm HD Ceral (2,65m²/cx)",
     "slug": "piso-palau-brilhante-61x61-ceral",
     "description": "Revestimento cerâmico esmaltado brilhante 61x61cm com impressão digital HD, 4 faces marmorizadas e rendimento de 2,65m² por caixa.",
-    "price": 36.9,
+    "price": 27,
     "unit": "M²",
     "departmentId": "pisos-e-revestimentos",
     "departmentName": "Pisos e Revestimentos",
@@ -3432,7 +3526,9 @@
       "Indicação de uso": "LC (Ambientes residenciais internos sem acesso direto para a rua: salas, quartos, banheiros)",
       "Metragem por caixa": "2,65 m²",
       "Peças por caixa": "7 peças",
-      "Junta mínima recomendada": "5 mm"
+      "Junta mínima recomendada": "5 mm",
+      "NCM": "69072200",
+      "Código ERP": "01.01.00132"
     },
     "applications": [
       "Pisos e paredes internas residenciais: salas de estar, quartos, corredores e banheiros",
@@ -3440,9 +3536,9 @@
     ],
     "warranty": "5 anos pelo fabricante (Grupo Ceral)",
     "relatedSkus": [
-      "100105",
+      "2106",
       "20301",
-      "100605"
+      "1284"
     ],
     "detailedDescription": "O Piso Cerâmico Palau Brilhante 61x61cm HD do Grupo Ceral traduz a nobreza e a elegância dos mármores clássicos em uma cerâmica esmaltada de alta qualidade. Com esmalte brilhante de alto índice de reflexão luminosa, ele amplia visualmente os ambientes e confere sofisticação imediata a salas, quartos e corredores residenciais.\n\nProduzido com impressão digital Full HD de última geração, possui 4 faces com desenhos distintos (variação V3), garantindo um assentamento natural onde as peças não se repetem de maneira óbvia, reproduzindo com fidelidade os veios e texturas dos minerais nobres. Seu formato quadrado moderno de 61x61 cm reduz a quantidade de linhas de rejunte no chão.\n\nClassificado na categoria LC, é indicado para áreas residenciais cobertas sem acesso direto para a rua. Para o assentamento correto, recomenda-se o uso de argamassa colante AC-II interna e espaçadores niveladores Cortag para assegurar alinhamento impecável e planicidade perfeita.",
     "faq": [
@@ -3461,12 +3557,12 @@
     ]
   },
   {
-    "id": "fechadura-banheiro-wc-stam-1820-21-inox",
-    "sku": "30701",
+    "id": "prod-3391",
+    "sku": "3391",
     "name": "Fechadura de Embutir para Banheiro WC 40mm Stam 1820/21 Inox",
     "slug": "fechadura-banheiro-wc-stam-1820-21-inox",
     "description": "Fechadura para porta de banheiro WC com broca de 40mm, maçaneta alavanca, tranqueta interna com destravamento externo de emergência e acabamento em inox.",
-    "price": 49.9,
+    "price": 90,
     "unit": "Conjunto",
     "departmentId": "ferragens",
     "departmentName": "Ferragens e Segurança",
@@ -3486,7 +3582,9 @@
       "Acabamento": "Espelho e maçaneta em aço inox escovado / polido",
       "Maçaneta": "Tipo alavanca ergonômica",
       "Trinco": "Trinco reversível (funciona em portas com abertura para direita ou esquerda)",
-      "Norma técnica": "ABNT NBR 14913"
+      "Norma técnica": "ABNT NBR 14913",
+      "NCM": "83014000",
+      "Código ERP": "10.00.00049"
     },
     "applications": [
       "Portas de madeira ou metal para banheiros residenciais, lavabos e sanitários comerciais",
@@ -3494,7 +3592,7 @@
     ],
     "warranty": "1 ano de garantia de fábrica (Stam)",
     "relatedSkus": [
-      "30702",
+      "1077",
       "1453"
     ],
     "detailedDescription": "A Fechadura para Banheiro WC Stam 1820/21 Inox é uma das opções mais confiáveis e populares do Brasil para portas internas de sanitários e lavabos. Desenvolvida em conformidade rigorosa com a norma técnica ABNT NBR 14913, oferece funcionamento suave, trancamento seguro e alta durabilidade contra a umidade típica do ambiente de banho.\n\nSua máquina possui distância de broca de 40 mm e trinco bipartido reversível, permitindo instalação imediata tanto em portas que abrem para a direita quanto para a esquerda sem necessidade de desmontar o maquinário. Acompanha espelhos em aço inoxidável e maçaneta anatômica tipo alavanca em zamac com acabamento resistente a marcas de dedos e oxidação.\n\nO sistema de travamento para banheiro conta com tranqueta giratória interna para trancar com comodidade e chave de emergência externa (fenda/chave reserva) que possibilita o destravamento rápido pelo lado de fora em caso de necessidade ou socorro a crianças e idosos trancados.",
@@ -3514,12 +3612,12 @@
     ]
   },
   {
-    "id": "joelho-90-soldavel-25mm-amanco",
-    "sku": "30302",
+    "id": "prod-100025",
+    "sku": "100025",
     "name": "Joelho 90° Soldável 25mm (3/4\") PVC Água Fria Amanco Wavin",
     "slug": "joelho-90-soldavel-25mm-amanco",
     "description": "Cotovelo 90 graus soldável em PVC marrom de 25mm para sistemas prediais de água fria, imune à corrosão e com garantia de estanqueidade.",
-    "price": 1.8,
+    "price": 1.3,
     "unit": "UN",
     "departmentId": "hidraulica",
     "departmentName": "Tubos e Conexões",
@@ -3539,7 +3637,9 @@
       "Pressão nominal de serviço": "7,5 kgf/cm² (750 kPa ou 75 m.c.a.) a 20°C",
       "Temperatura máxima de trabalho": "45°C (água fria)",
       "Tipo de junta": "Soldável a frio com adesivo plástico para PVC",
-      "Norma técnica": "ABNT NBR 5648 e NBR 5626"
+      "Norma técnica": "ABNT NBR 5648 e NBR 5626",
+      "NCM": "39174090",
+      "Código ERP": "18.01.00264"
     },
     "applications": [
       "Mudança de direção em 90° de tubulações de água fria em paredes e pisos de banheiros, cozinhas e lavanderias",
@@ -3547,9 +3647,9 @@
     ],
     "warranty": "50 anos de vida útil estimada conforme normas técnicas do fabricante",
     "relatedSkus": [
-      "100203",
-      "100204",
-      "30301"
+      "1619",
+      "2802",
+      "154"
     ],
     "detailedDescription": "O Joelho 90° Soldável 25mm (3/4\") Amanco Wavin é um componente fundamental para a execução de redes hidráulicas prediais seguras e livres de vazamentos. Fabricado em PVC rígido de alta resistência e espessura controlada, é projetado para desviar o fluxo da tubulação em ângulo reto de 90 graus em sistemas de condução de água fria potável.\n\nPossui paredes internas lisas com baixíssimo coeficiente de atrito, o que minimiza a perda de carga na pressão da água e impede o acúmulo de incrustações minerais ou limo com o passar dos anos. Por ser imune à corrosão galvânica e eletroquímica, não oxida e garante água pura e cristalina durante toda a sua vida útil.\n\nA instalação é realizada pelo processo de soldagem a frio: basta lixar levemente as superfícies de contato, aplicar solução limpadora preparadora e colar com adesivo plástico para PVC, criando uma fusão molecular perfeita e estanque entre o tubo e a conexão.",
     "faq": [
@@ -3568,12 +3668,12 @@
     ]
   },
   {
-    "id": "disco-de-corte-ferro-inox-4-1-2-norton-classic",
-    "sku": "30202",
+    "id": "prod-100689",
+    "sku": "100689",
     "name": "Disco de Corte Fino para Ferro e Inox 4.1/2\" (115x1,0mm) Norton Classic",
     "slug": "disco-de-corte-ferro-inox-4-1-2-norton-classic",
     "description": "Disco abrasivo de corte fino 4.1/2\" (115mm x 1,0mm x 22,23mm) Norton Classic com reforço de 2 telas de fibra de vidro para cortes rápidos e sem rebarba em aço carbono e inox.",
-    "price": 6.9,
+    "price": 4.5,
     "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
@@ -3593,7 +3693,9 @@
       "Reforço": "2 telas de fibra de vidro de alta segurança",
       "Rotação máxima": "13.300 RPM (80 m/s)",
       "Aplicação": "Aço carbono, ferro fundido, aço inox e tubos metálicos",
-      "Linha": "Classic AR302 / AR312"
+      "Linha": "Classic AR302 / AR312",
+      "NCM": "68042211",
+      "Código ERP": "20.00.00188"
     },
     "applications": [
       "Corte de vergalhões de ferro CA-50, perfis metálicos, cantoneiras, chapas e tubos industriais",
@@ -3604,7 +3706,7 @@
     "relatedSkus": [
       "86",
       "92",
-      "30203"
+      "3347"
     ],
     "detailedDescription": "O Disco de Corte Fino 4.1/2\" Norton Linha Classic é referência nacional em rendimento, velocidade e segurança operacional para cortes em metais ferrosos e aço inoxidável. Desenvolvido com grãos de óxido de alumínio de alta performance e resinas nobres, ele realiza cortes frios e extremamente rápidos sem queimar o metal ou alterar a têmpera do aço trabalhado.\n\nSua espessura fina de apenas 1,0 mm reduz drasticamente a remoção de material e a geração de fagulhas, exigindo menos potência da esmerilhadeira angular e proporcionando cortes limpos, retos e praticamente livres de rebarbas, o que poupa tempo valioso de acabamento e lixamento posterior.\n\nConstruído com duas telas de fibra de vidro de alta resistência que garantem total integridade estrutural contra estilhaçamento, atendendo às normas de segurança ABNT e internacionais para rotações de até 13.300 RPM.",
     "faq": [
@@ -3623,12 +3725,12 @@
     ]
   },
   {
-    "id": "chave-combinada-14mm-cromo-vanadio",
-    "sku": "30203",
+    "id": "prod-3347",
+    "sku": "3347",
     "name": "Chave Combinada 14mm em Aço Cromo Vanádio Tramontina PRO / Vonder",
     "slug": "chave-combinada-14mm-cromo-vanadio",
     "description": "Chave combinada de 14mm forjada em aço cromo vanádio com acabamento cromado fosco, um lado boca fixa e um lado estrela com inclinação de 15°.",
-    "price": 19.9,
+    "price": 13.5,
     "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
@@ -3646,7 +3748,9 @@
       "Acabamento": "Cromado e niquelado anticorrosivo",
       "Perfil": "Boca fixa + Estrela (Unit Drive) com perfil estriado",
       "Inclinação da cabeça": "15 graus em relação ao corpo",
-      "Norma técnica": "DIN 3113 / ISO 7738"
+      "Norma técnica": "DIN 3113 / ISO 7738",
+      "NCM": "82041100",
+      "Código ERP": "19.05.00084"
     },
     "applications": [
       "Aperto e desaperto de parafusos e porcas sextavadas de 14mm",
@@ -3655,9 +3759,9 @@
     ],
     "warranty": "Garantia vitalícia contra defeitos de fabricação (linhas industriais)",
     "relatedSkus": [
-      "30202",
-      "30205",
-      "100606"
+      "100689",
+      "100472",
+      "2182"
     ],
     "detailedDescription": "A Chave Combinada 14mm em Aço Cromo Vanádio é uma ferramenta profissional indispensável para mecânicos, instaladores e mestres de obra. Forjada a quente em aço especial com liga de cromo e vanádio e submetida a tratamento térmico integral, ela suporta torques extremos sem deformar as bocas nem abrir folgas.\n\nPossui design inteligente que reúne duas ferramentas em uma única peça: de um lado, a boca fixa tradicional para aproximações rápidas e encaixes em locais de espaço restrito; do outro lado, a cabeça estrela estriada que abraça os seis vértices da porca de maneira uniforme, distribuindo a força e prevenindo o arredondamento das cabeças dos parafusos.\n\nA inclinação de 15 graus da cabeça em relação à haste proporciona folga perfeita para os dedos e junta da mão durante o giro, garantindo segurança contra impactos contra a superfície de trabalho. Acabamento cromado acetinado que facilita a limpeza e impede o avanço da ferrugem.",
     "faq": [
@@ -3676,12 +3780,12 @@
     ]
   },
   {
-    "id": "telha-fibrocimento-ondulada-6mm-244x110m-eternit",
-    "sku": "30801",
+    "id": "prod-2998",
+    "sku": "2998",
     "name": "Telha de Fibrocimento Ondulada 6mm 2,44 x 1,10m Eternit CRFS",
     "slug": "telha-fibrocimento-ondulada-6mm-244x110m-eternit",
     "description": "Telha ondulada de fibrocimento 6mm com tecnologia CRFS 100% sem amianto, largura de 1,10m e 2,44m de comprimento para coberturas residenciais e industriais.",
-    "price": 68.9,
+    "price": 74.5,
     "unit": "UN",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
@@ -3703,7 +3807,9 @@
       "Tecnologia": "CRFS (Cimento Reforçado com Fios Sintéticos) 100% livre de amianto",
       "Vão livre máximo": "1,69 metros entre apoios",
       "Inclinação mínima": "5° (9%) - Recomendado: 15° (27%)",
-      "Norma técnica": "ABNT NBR 15210-1 e NBR 15210-2"
+      "Norma técnica": "ABNT NBR 15210-1 e NBR 15210-2",
+      "NCM": "68118200",
+      "Código ERP": "03.00.00045"
     },
     "applications": [
       "Coberturas de residências, garagens, galpões industriais, comércios e edículas",
@@ -3711,8 +3817,8 @@
     ],
     "warranty": "5 anos de garantia contra defeitos de fabricação (Eternit)",
     "relatedSkus": [
-      "30802",
-      "100108",
+      "40",
+      "118",
       "86"
     ],
     "detailedDescription": "A Telha de Fibrocimento Ondulada 6mm Eternit no tamanho 2,44 x 1,10m é o padrão absoluto de cobertura para obras que buscam máxima economia estrutural, resistência e velocidade de montagem. Fabricada com a consagrada tecnologia CRFS (Cimento Reforçado com Fios Sintéticos de Polipropileno), ela é 100% isenta de amianto, ecológica e segura para instaladores e moradores.\n\nSua espessura robusta de 6 mm confere alta rigidez mecânica contra fortes rajadas de vento, impactos e granizo leve, além de excelente estabilidade térmica que mantém a temperatura interna mais amena. Permite vãos livres entre apoios de até 1,69 m, reduzindo significativamente o volume de madeira ou ferragem necessária para o madeiramento do telhado.\n\nA fixação deve ser realizada na 2ª e 5ª crista das ondas com parafusos ou ganchos com arruelas de vedação adequadas. Nas sobreposições de quatro peças, deve-se realizar o corte de cantos (canto cortado) conforme o manual da ABNT NBR 7196 para evitar frestas e garantir estanqueidade total contra goteiras.",
@@ -3768,8 +3874,8 @@
     ],
     "warranty": "1 ano de garantia contra rachaduras de fabricação (Durin)",
     "relatedSkus": [
-      "30302",
-      "100606"
+      "100025",
+      "2182"
     ],
     "detailedDescription": "A Mangueira de Jardim Trançada Siliconada 1/2\" com parede grossa de 2,0 mm Durin foi desenvolvida para solucionar de forma definitiva o problema clássico de mangueiras comuns que dobram, torcem e interrompem o fluxo de água. Fabricada com tecnologia de três camadas concêntricas, ela combina resistência mecânica, flexibilidade superior e longa vida útil.\n\nSua camada intermediária é composta por uma trama de 26 fios de poliéster trançado de alta tenacidade, que suporta picos de pressão de até 10 kgf/cm² sem estufar ou romper, mesmo quando a torneira é aberta com esguicho fechado na ponta. A camada externa siliconada recebe aditivos que protegem contra o ressecamento causado pela radiação solar e atrito com calçadas ásperas.\n\nProduzida com matéria-prima 100% virgem, não solta gosto ou cheiro na água, é maleável para enrolar no carretel e desenrola suavemente pelo quintal sem criar nós que estressam o usuário.",
     "faq": [
@@ -3788,12 +3894,12 @@
     ]
   },
   {
-    "id": "suporte-mao-francesa-cantoneira-branca-20cm",
-    "sku": "30702",
+    "id": "prod-1077",
+    "sku": "1077",
     "name": "Suporte Mão Francesa Cantoneira Reforçada Branca 20cm",
     "slug": "suporte-mao-francesa-cantoneira-branca-20cm",
     "description": "Suporte cantoneira mão francesa reforçada em aço carbono 20cm com pintura epóxi branca, suporte de alta carga para prateleiras e bancadas.",
-    "price": 7.5,
+    "price": 8,
     "unit": "UN",
     "departmentId": "ferragens",
     "departmentName": "Ferragens e Segurança",
@@ -3810,7 +3916,9 @@
       "Material": "Chapa de aço carbono laminado com reforço diagonal estampado",
       "Acabamento": "Pintura eletrostática epóxi em pó branca anticorrosiva",
       "Capacidade de carga": "Até 25 kg por suporte (50 kg o par distribuídos uniformemente)",
-      "Furação": "Furos escareados para encaixe embutido de parafusos"
+      "Furação": "Furos escareados para encaixe embutido de parafusos",
+      "NCM": "72162100",
+      "Código ERP": "19.00.00053"
     },
     "applications": [
       "Sustentação de prateleiras de madeira, MDF, vidro ou aço em quartos, despensas, cozinhas e lavanderias",
@@ -3818,7 +3926,7 @@
     ],
     "warranty": "1 ano contra defeitos de fabricação",
     "relatedSkus": [
-      "30701",
+      "3391",
       "1453"
     ],
     "detailedDescription": "O Suporte Mão Francesa Reforçada Branca 20cm é o elemento indispensável para a fixação estável e resistente de prateleiras em paredes de alvenaria ou madeira. Estampada em chapa espessa de aço carbono laminado com barra diagonal soldada de reforço estrutural, ela impede qualquer flexão ou empenamento do braço mesmo sob cargas contínuas pesadas.\n\nRecebe acabamento com pintura eletrostática a pó na cor branca, proporcionando acabamento liso e discreto que harmoniza com qualquer ambiente residencial ou comercial, além de proteger o metal contra a oxidação. Possui furos pré-moldados e escareados que permitem que a cabeça do parafuso fique rente à superfície do suporte, garantindo apoio plano para a prateleira.\n\nSuporta até 25 kg de carga por suporte (50 kg o par) quando fixada com buchas adequadas (tamanho 8 ou 10) em alvenaria sólida. O espaçamento ideal recomendado entre suportes consecutivos é de aproximadamente 50 a 60 cm.",
@@ -3838,12 +3946,12 @@
     ]
   },
   {
-    "id": "carrinho-de-mao-carriola-fischer-chapa-24-50l",
-    "sku": "30204",
+    "id": "prod-2654",
+    "sku": "2654",
     "name": "Carrinho de Mão Carriola Caçamba Chapa 24 Reforçada 50L Fischer",
     "slug": "carrinho-de-mao-carriola-fischer-chapa-24-50l",
     "description": "Carrinho de mão para construção civil com caçamba estampada em aço chapa 24 (50 litros), chassi tubular reforçado e roda com pneu e câmara.",
-    "price": 199,
+    "price": 245,
     "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
@@ -3862,7 +3970,9 @@
       "Pintura": "Eletrostática a pó protetora contra corrosão",
       "Roda": "Roda metálica completa com pneu 3.25-8 e câmara de ar de alta absorção de impacto",
       "Empunhadura": "Manoplas plásticas antiderrapantes",
-      "Capacidade de peso": "Até 100 kg de carga"
+      "Capacidade de peso": "Até 100 kg de carga",
+      "NCM": "87168000",
+      "Código ERP": "19.00.00165"
     },
     "applications": [
       "Transporte de concreto fresco, massa de assentamento, areia, brita, entulho e cimento no canteiro de obras",
@@ -3870,10 +3980,10 @@
     ],
     "warranty": "6 meses contra defeitos de fabricação (Fischer)",
     "relatedSkus": [
-      "30201",
+      "3342",
       "397",
       "400",
-      "100103"
+      "1"
     ],
     "detailedDescription": "O Carrinho de Mão Fischer Chapa 24 (50 Litros) é a ferramenta de transporte mais clássica, ágil e resistente para o dia a dia da construção civil e reformas residenciais. Projetado para suportar o rigor diário do canteiro de obras, possui caçamba estampada em chapa de aço especial com bordas vincadas que conferem extrema rigidez estrutural, evitando que as laterais amassem ao descarregar concreto ou entulho.\n\nSeu chassi tubular de aço é desenhado com centro de gravidade rebaixado e braços longos, o que alivia consideravelmente a carga que o mestre de obra ergue com as mãos, transferindo o peso para o eixo da roda e permitindo manobras precisas mesmo em passarelas estreitas de tábuas de obra. Conta com ponta dianteira com batente de báscula para virar o carrinho suavemente sem esforço.\n\nAcompanha conjunto de rodagem com pneu e câmara de ar, garantindo rolagem suave e excelente amortecimento sobre terrenos acidentados, pedregulhos e valas, reduzindo impactos nas costas do operador.",
     "faq": [
@@ -3892,13 +4002,13 @@
     ]
   },
   {
-    "id": "calco-celote-vedacao-telha-colonial",
-    "sku": "30802",
+    "id": "prod-40",
+    "sku": "40",
     "name": "Calço Plástico Celote para Telha Colonial e Cumeeira com Vedação",
     "slug": "calco-celote-vedacao-telha-colonial",
     "description": "Kit de calços plásticos de apoio e vedação (celotes) para fixação de telhas coloniais de PVC e cumeeiras, impedindo esmagamento e infiltrações.",
-    "price": 19.9,
-    "unit": "Pacote com 20 Peças",
+    "price": 4.5,
+    "unit": "UN",
     "departmentId": "construcao-basica",
     "departmentName": "Construção Básica",
     "category": "Telhas e Coberturas",
@@ -3914,7 +4024,9 @@
       "Material": "Polipropileno virgem com aditivos anti-UV e antioxidantes",
       "Cor": "Terracota / Cerâmica (harmoniza com a cor da telha colonial)",
       "Compatibilidade": "Telhas coloniais de PVC, cumeeiras articuladas e coberturas plásticas",
-      "Função": "Suporte interno na crista da onda para evitar amassamento e garantir aperto estanque do parafuso"
+      "Função": "Suporte interno na crista da onda para evitar amassamento e garantir aperto estanque do parafuso",
+      "NCM": "69051000",
+      "Código ERP": "03.00.00025"
     },
     "applications": [
       "Fixação de telhas coloniais de PVC e cumeeiras em estruturas de madeira ou metalon",
@@ -3922,8 +4034,8 @@
     ],
     "warranty": "5 anos pelo fabricante (Afort)",
     "relatedSkus": [
-      "30801",
-      "100108"
+      "2998",
+      "118"
     ],
     "detailedDescription": "O Calço Plástico Celote para Telha Colonial é um acessório de engenharia obrigatório para a correta instalação de telhados com telhas modelo colonial (PVC ou plástico termoformado) e suas respectivas cumeeiras. Injetado em polímero técnico virgem com aditivos especiais contra a radiação solar ultravioleta, ele mantém sua flexibilidade e resistência estrutural por décadas sem ressecar ou quebrar sob intempéries.\n\nSua geometria reproduz com exatidão a curvatura interna da crista da onda da telha colonial, servindo como calço amortecedor interno posicionado entre a telha e a viga/terça do madeiramento. Quando o parafuso autobrocante é apertado, o celote impede que a onda da telha seja esmagada ou trincada pela força do aperto, garantindo a integridade estética da cobertura.\n\nAlém de preservar o desenho perfeito das ondas do telhado, ele assegura a pressão ideal sobre a arruela de vedação superior, blindando o ponto de fixação contra a penetração de água da chuva e eliminando goteiras indesejadas no forro da casa.",
     "faq": [
@@ -3942,12 +4054,12 @@
     ]
   },
   {
-    "id": "trena-metrica-profissional-5m-irwin-iw13947",
-    "sku": "30205",
+    "id": "prod-100472",
+    "sku": "100472",
     "name": "Trena Métrica Profissional 5 Metros com Trava IW13947 Irwin",
     "slug": "trena-metrica-profissional-5m-irwin-iw13947",
     "description": "Trena profissional de 5m (16 pés) com fita de aço revestida em nylon, caixa em ABS antichoque, botão de freio rápido e presilha para cinto.",
-    "price": 24.9,
+    "price": 30,
     "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
@@ -3968,7 +4080,9 @@
       "Mecanismos": "Trava deslizante frontal + Freio rápido de fita",
       "Gancho": "Ponta com gancho zero absoluto rebitado com rebites duplos",
       "Acessórios": "Presilha de aço para cinto e alça de mão",
-      "Código de referência": "IW13947"
+      "Código de referência": "IW13947",
+      "NCM": "90178010",
+      "Código ERP": "19.13.00018"
     },
     "applications": [
       "Medições de alta precisão em canteiros de obra, reformas, alvenaria e carpintaria",
@@ -3977,9 +4091,9 @@
     ],
     "warranty": "1 ano de garantia contra defeitos de fabricação (Irwin Tools)",
     "relatedSkus": [
-      "100604",
-      "30201",
-      "30601"
+      "2291",
+      "3342",
+      "100757"
     ],
     "detailedDescription": "A Trena Métrica Profissional 5 Metros Irwin IW13947 combina durabilidade industrial, leitura rápida e ergonomia precisa em uma das ferramentas de medição mais confiáveis do mercado mundial. Projetada para resistir a quedas acidentais e poeira intensa de canteiro de obras, possui caixa compacta moldada em ABS de alto impacto que se acomoda com conforto na palma da mão.\n\nSua fita de aço de 19 mm de largura conta com tratamento especial de cobertura com polímero de nylon sobre a graduação numérica, garantindo até 2 vezes mais resistência ao atrito e à abrasão do que fitas com verniz convencional, impedindo que os números se apaguem com o atrito da areia e poeira. A largura generosa de 19mm confere excelente alcance vertical e horizontal sem que a fita dobre no ar.\n\nPossui gancho na ponta com tecnologia de \"zero absoluto\" que se ajusta automaticamente para compensar a espessura da chapa metálica em medições internas e externas. O botão superior com trava dupla permite travar a fita na medida desejada com um simples toque do polegar. Acompanha presilha metálica para fixação no cinto de trabalho.",
     "faq": [
