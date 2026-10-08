@@ -99,7 +99,7 @@ export function Header() {
               type="text"
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
-              placeholder="Buscar materiais (ex: tubo tigre, cimento, tinta coral, fiação)..."
+              placeholder="Buscar materiais (ex: cimento votoran, tubo amanco, vedacit, cabo sil)..."
               className="w-full pl-4 pr-11 py-2.5 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-lopes-blue focus:border-transparent text-sm text-slate-900 placeholder-slate-400"
             />
             <button
@@ -172,7 +172,7 @@ export function Header() {
             type="text"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            placeholder="Buscar materiais de construção..."
+            placeholder="Buscar materiais (ex: cimento, amanco, vedacit)..."
             className="w-full pl-3.5 pr-10 py-2 rounded-lg border border-slate-300 focus:outline-none focus:ring-2 focus:ring-lopes-blue text-sm"
           />
           <button

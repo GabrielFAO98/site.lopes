@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     'hidraulica franca sp',
     'eletrica franca',
     'cimento pronta entrega franca',
-    'tubo tigre franca',
+    'tubos amanco franca',
     'tintas franca',
     'lopes e lopes franca',
     'ferramentas obra franca',
