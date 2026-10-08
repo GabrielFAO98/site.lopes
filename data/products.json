@@ -400,19 +400,19 @@
         "name": "Pote 900ml",
         "sku": "118",
         "price": 18,
-        "image": "/images/produtos/vedacit_900ml_aditivo_impermeabilizante_profissional.JPG"
+        "image": "/images/produtos/aditivo-impermeabilizante-vedacit-2.webp"
       },
       {
         "name": "Galão 3,6 Litros",
         "sku": "117",
         "price": 48,
-        "image": "/images/produtos/vedacit_3.6lt_aditivo_impermeabilizante_profissional.jpg"
+        "image": "/images/produtos/aditivo-impermeabilizante-vedacit-3.webp"
       },
       {
         "name": "Balde 18 Litros",
         "sku": "116",
         "price": 165,
-        "image": "/images/produtos/vedacit_18lt_aditivo_impermeabilizante_profissional.jpg"
+        "image": "/images/produtos/aditivo-impermeabilizante-vedacit-4.webp"
       }
     ],
     "detailedDescription": "O Aditivo Impermeabilizante Vedacit é o hidrofugante mais confiável e utilizado na construção civil brasileira para proteger estruturas contra a umidade ascendente e infiltrações de água por capilaridade.\n\nAo ser adicionado na água de amassamento do concreto ou da argamassa, o Vedacit reage quimicamente com os componentes do cimento durante a hidratação, preenchendo e bloqueando os poros capilares por onde a água costuma penetrar. Ele preserva a respirabilidade dos materiais enquanto cria uma barreira impenetrável contra umidade, bolores, descascamento de tintas e eflorescências.\n\nÉ indispensável na execução de alvenarias de embasamento (baldrame), rebocos internos e externos, baldrames, assentamento de tijolos até a primeira fiada, subsolos, piscinas, caixas d'água enterradas e contrapisos em contato com o solo.",
@@ -478,19 +478,19 @@
         "name": "Frasco 900ml",
         "sku": "109",
         "price": 40,
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-900ml.jpg"
+        "image": "/images/produtos/resina-adesiva-chapisco-bianco-vedacit.webp"
       },
       {
         "name": "Galão 3,6kg",
         "sku": "110",
         "price": 120,
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-3.6kg.jpg"
+        "image": "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-2.webp"
       },
       {
         "name": "Balde 18kg",
         "sku": "108",
         "price": 375,
-        "image": "/images/produtos/bianco-resina-adesiva-chapisco-vedacit-18kg.jpg"
+        "image": "/images/produtos/resina-adesiva-chapisco-bianco-vedacit-3.webp"
       }
     ],
     "detailedDescription": "O Bianco Vedacit é uma resina sintética de alta performance à base de acetato de polivinila (PVA), desenvolvida especialmente para conferir alta aderência, elasticidade e ancoragem mecânica em argamassas e chapiscos da construção civil.\n\nQuando misturado na água de amassamento, o Bianco forma uma película polimérica flexível que ancora firmemente a nova camada de argamassa sobre as mais diversas superfícies lisas ou porosas (concreto armado, vigas, pilares, tetos, alvenaria e blocos de concreto). Ele reduz drasticamente a permeabilidade da argamassa, melhora a plasticidade e previne fissuras de retração e desplacamentos indesejados.\n\nÉ amplamente utilizado para chapisco rolado ou tradicional, argamassa de emboço e reboco, fixação de caiação (evita que a cal solte pó na roupa), plastificação de gesso e reparos superficiais em concreto.",
@@ -904,21 +904,21 @@
         "sku": "3551",
         "price": 17.5,
         "hex": "#ffffff",
-        "image": "/images/produtos/selante-pu40-cibraflex-branco-400g.jpg"
+        "image": "/images/produtos/selante-pu40-cibraflex-400g.webp"
       },
       {
         "name": "Cinza",
         "sku": "3485",
         "price": 17.5,
         "hex": "#9ca3af",
-        "image": "/images/produtos/selante-pu40-cibraflex-cinza-400g.jpg"
+        "image": "/images/produtos/selante-pu40-cibraflex-400g-2.webp"
       },
       {
         "name": "Preto",
         "sku": "738",
         "price": 17.5,
         "hex": "#111827",
-        "image": "/images/produtos/selante-pu40-cibraflex-preto-400g.jpg"
+        "image": "/images/produtos/selante-pu40-cibraflex-400g-3.webp"
       }
     ],
     "detailedDescription": "O Selante e Adesivo PU 40 Cibraflex é um elastômero monocomponente à base de poliuretano de alta performance, projetado para juntas de dilatação, colagens e vedações estruturais de alta flexibilidade na construção civil e indústria.\n\nCom dureza Shore A 40 e capacidade de acomodar movimentações de juntas de até ±25%, o Cibraflex absorve impactos mecânicos, vibrações severas e dilatações térmicas sem descolar ou romper. É amplamente utilizado na vedação de calhas, rufos, dutos de ar, esquadrias de alumínio e madeira, painéis pré-moldados e juntas de dilatação de pisos de concreto.\n\nDisponível nas cores Branco, Cinza e Preto, tem excelente aderência em concreto, alvenaria, metais, madeira e pedras. É resistente aos raios UV e aceita pintura com tintas à base de água após a cura.",
@@ -986,21 +986,21 @@
         "sku": "3630",
         "price": 21,
         "hex": "#ffffff",
-        "image": "/images/produtos/selante-pu40-tekbond-branco.png"
+        "image": "/images/produtos/selante-adesivo-pu40-tekbond-387g-2.webp"
       },
       {
         "name": "Cinza",
         "sku": "100407",
         "price": 21,
         "hex": "#9ca3af",
-        "image": "/images/produtos/selante-pu40-tekbond-cinza-387g.jpg"
+        "image": "/images/produtos/selante-adesivo-pu40-tekbond-387g.webp"
       },
       {
         "name": "Preto",
         "sku": "100408",
         "price": 21,
         "hex": "#111827",
-        "image": "/images/produtos/selante-pu40-tekbond-preto-387g.jpg"
+        "image": "/images/produtos/selante-adesivo-pu40-tekbond-387g-3.webp"
       }
     ],
     "detailedDescription": "O Selante e Adesivo PU 40 Tekbond é a referência profissional para vedação técnica e fixação elástica na construção civil, calafetação predial e serralheria.\n\nDesenvolvido com polímeros de poliuretano de última geração, ele cura em contato com a umidade do ar, formando uma borracha elástica flexível, resistente e impermeável com dureza Shore A 40. Previne infiltrações de água, pó e ar em juntas de fachadas, esquadrias de portas e janelas, cubas, rodapés e calhas metálicas.\n\nDisponível nas cores Branco, Cinza e Preto, não resseca com o tempo, tem ótima aderência sem primer na maioria dos substratos da construção civil e aceita aplicação de tintas após a secagem completa.",
@@ -1229,13 +1229,13 @@
         "hex": "#9ca3af",
         "sku": "100513",
         "name": "Cinza",
-        "image": "/images/produtos/massa-plastica-adesiva-400g-cinza-lopes.jpg"
+        "image": "/images/produtos/massa-plastica-adesiva-400g.webp"
       },
       {
         "hex": "#111827",
         "sku": "100514",
         "name": "Preta",
-        "image": "/images/produtos/massa-plastica-adesiva-400g-preta-lopes.jpg"
+        "image": "/images/produtos/massa-plastica-adesiva-400g-3.webp"
       }
     ],
     "detailedDescription": "A Massa Plástica Adesiva com Catalisador 400g é uma resina poliéster bicomponente de alta aderência e cura ultrarrápida, desenvolvida para colagem estrutural, chumbamento e restauração de mármores, granitos, cubas e funilaria.\n\nAo ser misturada na proporção correta com o catalisador em pasta que acompanha a lata, a massa passa por uma reação termoquímica que proporciona endurecimento maciço em apenas 10 a 20 minutos. Permite lixamento, polimento mecânico com brilho e acabamento impecável em emendas de bancadas de cozinha, cubas de inox sob pedra e nichos de banheiro.\n\nDisponível nas cores Branco e Cinza para combinar com as tonalidades das pedras mais populares. Não escorre e apresenta excelente dureza final.",
@@ -2633,7 +2633,10 @@
     "featured": true,
     "images": [
       "/images/produtos/tinta-spray-uso-geral-tekbond-400ml.webp",
-      "/images/produtos/tinta-spray-uso-geral-tekbond-cores.webp"
+      "/images/produtos/tinta-spray-uso-geral-tekbond-cores.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-branco.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-vermelho.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-amarelo.webp"
     ],
     "technicalSpecs": {
       "Conteúdo": "400ml / 250g",
@@ -2658,63 +2661,72 @@
         "name": "Branco Brilhante",
         "hex": "#ffffff",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-branco.webp"
       },
       {
         "sku": "2136",
         "name": "Preto Brilhante",
         "hex": "#111827",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-400ml.webp"
       },
       {
         "sku": "352",
         "name": "Preto Fosco",
         "hex": "#1f2937",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-preto-fosco.webp"
       },
       {
         "sku": "347",
         "name": "Alumínio / Prata",
         "hex": "#9ca3af",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-aluminio.webp"
       },
       {
         "sku": "3641",
         "name": "Amarelo",
         "hex": "#f59e0b",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-amarelo.webp"
       },
       {
         "sku": "3235",
         "name": "Vermelho",
         "hex": "#ef4444",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-vermelho.webp"
       },
       {
         "sku": "100053",
         "name": "Grafite",
         "hex": "#4b5563",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-grafite.webp"
       },
       {
         "sku": "100274",
         "name": "Verde Escuro",
         "hex": "#15803d",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-verde-escuro.webp"
       },
       {
         "sku": "3330",
         "name": "Verniz",
         "hex": "#f3f4f6",
         "price": 23,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/tinta-spray-uso-geral-tekbond-verniz.webp"
       }
     ],
     "detailedDescription": "A Tinta Spray Uso Geral Tekbond 400ml / 250g é a solução perfeita para pintura, customização e restauração rápida de móveis, metais, ferramentas, objetos decorativos e peças automotivas com acabamento profissional.\n\nFormulada com resina acrílica de secagem rápida e alta cobertura, ela proporciona uma película lisa, uniforme e resistente às intempéries tanto em ambientes internos quanto externos. Sua válvula e atuador anatômico em leque garantem excelente atomização da tinta, evitando respingos, gotejamentos e marcas de pincel.\n\nAdere com facilidade em metal, ferro, madeira, cerâmica, gesso, alvenaria, papel e diversos plásticos. Disponível em ampla variedade de cores e acabamentos (Preto Fosco, Preto Brilhante, Branco Brilhante, Branco Fosco, Prata Metálico, Ouro/Dourado, Vermelho, Azul, Amarelo e Verniz Incolor).",
@@ -3261,7 +3273,9 @@
     "stockBadge": "Pronta Entrega",
     "featured": true,
     "images": [
-      "/images/produtos/pia-granito-120cm-cuba-inox.webp"
+      "/images/produtos/pia-granito-120cm-cuba-inox.webp",
+      "/images/produtos/pia-granito-120cm-verde-ubatuba.webp",
+      "/images/produtos/pia-granito-120cm-bege-arabesco.webp"
     ],
     "technicalSpecs": {
       "Comprimento": "120 cm",
@@ -3308,21 +3322,24 @@
         "name": "Cinza Corumbá",
         "hex": "#71717a",
         "price": 520,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/pia-granito-120cm-cuba-inox.webp"
       },
       {
         "sku": "1388",
         "name": "Verde Ubatuba",
         "hex": "#14532d",
         "price": 520,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/pia-granito-120cm-verde-ubatuba.webp"
       },
       {
         "sku": "2388",
         "name": "Bege Arabesco",
         "hex": "#d4b896",
         "price": 520,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/pia-granito-120cm-bege-arabesco.webp"
       }
     ]
   },
@@ -3342,7 +3359,10 @@
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "/images/produtos/assento-sanitario-astra-oval-soft.webp"
+      "/images/produtos/assento-sanitario-atlas-oval-soft.webp",
+      "/images/produtos/assento-sanitario-atlas-oval-soft-bege.webp",
+      "/images/produtos/assento-sanitario-atlas-oval-soft-cinza.webp",
+      "/images/produtos/assento-sanitario-atlas-oval-soft-cinza-escuro.webp"
     ],
     "technicalSpecs": {
       "Marca": "Astra",
@@ -3379,28 +3399,32 @@
         "name": "Branco",
         "hex": "#ffffff",
         "price": 41,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/assento-sanitario-atlas-oval-soft.webp"
       },
       {
         "sku": "804",
         "name": "Bege",
         "hex": "#f5f5dc",
         "price": 41,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/assento-sanitario-atlas-oval-soft-bege.webp"
       },
       {
         "sku": "801",
         "name": "Cinza Claro",
         "hex": "#d1d5db",
         "price": 41,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/assento-sanitario-atlas-oval-soft-cinza.webp"
       },
       {
         "sku": "2243",
         "name": "Cinza Escuro",
         "hex": "#4b5563",
         "price": 41,
-        "inStock": true
+        "inStock": true,
+        "image": "/images/produtos/assento-sanitario-atlas-oval-soft-cinza-escuro.webp"
       }
     ]
   },

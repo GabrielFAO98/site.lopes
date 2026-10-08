@@ -21,6 +21,7 @@ import { ProductShareButton } from '@/components/ProductShareButton';
 import { ProductDetailedDescription } from '@/components/ProductDetailedDescription';
 import { ProductFaq } from '@/components/ProductFaq';
 import { ProductActions } from './ProductActions';
+import { ProductViewProvider } from './ProductViewContext';
 
 // Permite gerar páginas para produtos novos criados no Supabase e atualiza dados a cada 60s
 export const dynamicParams = true;
@@ -140,65 +141,67 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
         </nav>
 
         {/* Seção Principal do Produto */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-          {/* Coluna da Galeria de Imagens e Vídeo */}
-          <div className="lg:col-span-6 bg-white p-5 rounded-2xl border border-slate-200">
-            <ProductGallery
-              images={product.images}
-              name={product.name}
-            />
-          </div>
-
-          {/* Coluna de Informações e Ações de Compra */}
-          <div className="lg:col-span-6 space-y-6">
-            <div className="space-y-2">
-              <div className="flex items-center justify-between gap-3">
-                <div className="flex items-center gap-2 flex-wrap">
-                  <span className="text-xs font-bold uppercase tracking-wider text-lopes-blue bg-lopes-blue-50 px-2.5 py-0.5 rounded">
-                    Marca: {product.brand}
-                  </span>
-                  <span className="text-xs text-slate-400">•</span>
-                  <span className="text-xs text-slate-500 font-mono">
-                    SKU / Código: <strong>{product.sku}</strong>
-                  </span>
-                </div>
-
-                {/* Botão de compartilhar discreto sem texto */}
-                <ProductShareButton title={product.name} />
-              </div>
-
-              <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug font-display">
-                {product.name}
-              </h1>
-
-              <p className="text-sm text-slate-600 leading-relaxed pt-1">
-                {product.description}
-              </p>
+        <ProductViewProvider product={product}>
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            {/* Coluna da Galeria de Imagens e Vídeo */}
+            <div className="lg:col-span-6 bg-white p-5 rounded-2xl border border-slate-200">
+              <ProductGallery
+                images={product.images}
+                name={product.name}
+              />
             </div>
 
-            {/* Componente Interativo de Preço, Variações, Ações WhatsApp e Cotação */}
-            <ProductActions product={product} />
+            {/* Coluna de Informações e Ações de Compra */}
+            <div className="lg:col-span-6 space-y-6">
+              <div className="space-y-2">
+                <div className="flex items-center justify-between gap-3">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-xs font-bold uppercase tracking-wider text-lopes-blue bg-lopes-blue-50 px-2.5 py-0.5 rounded">
+                      Marca: {product.brand}
+                    </span>
+                    <span className="text-xs text-slate-400">•</span>
+                    <span className="text-xs text-slate-500 font-mono">
+                      SKU / Código: <strong>{product.sku}</strong>
+                    </span>
+                  </div>
 
-            {/* Box de Confiança Local (Franca - SP) */}
-            <div className="bg-white p-4 rounded-xl border border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
-              <div className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-lopes-orange-500 shrink-0 mt-0.5" />
-                <div>
-                  <strong className="block text-slate-800">Retirada Imediata no Balcão</strong>
-                  <span className="text-slate-500">{STORE_CONFIG.address}, {STORE_CONFIG.neighborhood}</span>
+                  {/* Botão de compartilhar discreto sem texto */}
+                  <ProductShareButton title={product.name} />
                 </div>
+
+                <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 leading-snug font-display">
+                  {product.name}
+                </h1>
+
+                <p className="text-sm text-slate-600 leading-relaxed pt-1">
+                  {product.description}
+                </p>
               </div>
 
-              <div className="flex items-start gap-2.5">
-                <Truck className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
-                <div>
-                  <strong className="block text-slate-800">Entrega Rápida em Franca</strong>
-                  <span className="text-slate-500">Consulte condições para seu bairro no WhatsApp</span>
+              {/* Componente Interativo de Preço, Variações, Ações WhatsApp e Cotação */}
+              <ProductActions product={product} />
+
+              {/* Box de Confiança Local (Franca - SP) */}
+              <div className="bg-white p-4 rounded-xl border border-slate-200 grid grid-cols-1 sm:grid-cols-2 gap-4 text-xs">
+                <div className="flex items-start gap-2.5">
+                  <MapPin className="w-4 h-4 text-lopes-orange-500 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="block text-slate-800">Retirada Imediata no Balcão</strong>
+                    <span className="text-slate-500">{STORE_CONFIG.address}, {STORE_CONFIG.neighborhood}</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-2.5">
+                  <Truck className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                  <div>
+                    <strong className="block text-slate-800">Entrega Rápida em Franca</strong>
+                    <span className="text-slate-500">Consulte condições para seu bairro no WhatsApp</span>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </ProductViewProvider>
 
         {/* Descrição Detalhada (colapsável com SSR para não bloquear rolagem no mobile e manter SEO) */}
         {product.detailedDescription && (

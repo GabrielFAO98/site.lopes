@@ -6,6 +6,7 @@ import { WhatsAppIcon } from '@/components/WhatsAppIcon';
 import { Product, ProductVariation } from '@/types';
 import { getProductWhatsAppUrl, formatCurrency } from '@/lib/whatsapp';
 import { useQuote, getQuoteItemKey } from '@/components/QuoteContext';
+import { useProductView } from './ProductViewContext';
 
 interface ProductActionsProps {
   product: Product;
@@ -13,9 +14,20 @@ interface ProductActionsProps {
 
 export function ProductActions({ product }: ProductActionsProps) {
   const { addItem, items } = useQuote();
-  const [selectedVariation, setSelectedVariation] = useState<ProductVariation | undefined>(
+  const view = useProductView();
+  const [localVariation, setLocalVariation] = useState<ProductVariation | undefined>(
     product.variations && product.variations.length > 0 ? product.variations[0] : undefined
   );
+
+  const selectedVariation = view ? view.selectedVariation : localVariation;
+  const setSelectedVariation = (v: ProductVariation | undefined) => {
+    if (view) {
+      view.setSelectedVariation(v);
+    } else {
+      setLocalVariation(v);
+    }
+  };
+
   const [quantity, setQuantity] = useState<number>(1);
   const [quantityInput, setQuantityInput] = useState<string>('1');
 

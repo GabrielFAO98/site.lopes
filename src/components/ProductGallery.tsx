@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useProductView } from '@/app/produto/[slug]/ProductViewContext';
 
 interface ProductGalleryProps {
   images: string[];
@@ -10,17 +11,44 @@ interface ProductGalleryProps {
 }
 
 export function ProductGallery({ images, name }: ProductGalleryProps) {
-  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const view = useProductView();
+  const [localIndex, setLocalIndex] = useState<number>(0);
 
-  const validImages = images && images.length > 0 ? images : ['/images/logo.png'];
+  // Lista dinâmica de imagens (usa o contexto compartilhado quando disponível)
+  const validImages = view
+    ? view.galleryImages
+    : images && images.length > 0
+    ? images
+    : ['/images/logo.png'];
+
+  // Imagem ativa atual (acompanha a cor/variação selecionada)
+  const currentImage = view
+    ? view.activeImage
+    : validImages[localIndex] || validImages[0];
+
+  // Índice da imagem atual para destacar a miniatura correspondente
+  const activeIndex = view
+    ? Math.max(0, validImages.indexOf(currentImage))
+    : localIndex;
+
   const hasMultipleImages = validImages.length > 1;
 
+  const handleSelectImage = (idx: number) => {
+    if (view) {
+      view.setActiveImage(validImages[idx]);
+    } else {
+      setLocalIndex(idx);
+    }
+  };
+
   const handlePrev = () => {
-    setActiveIndex((prev) => (prev > 0 ? prev - 1 : validImages.length - 1));
+    const nextIdx = activeIndex > 0 ? activeIndex - 1 : validImages.length - 1;
+    handleSelectImage(nextIdx);
   };
 
   const handleNext = () => {
-    setActiveIndex((prev) => (prev < validImages.length - 1 ? prev + 1 : 0));
+    const nextIdx = activeIndex < validImages.length - 1 ? activeIndex + 1 : 0;
+    handleSelectImage(nextIdx);
   };
 
   return (
@@ -29,11 +57,12 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
       <div className="relative aspect-square w-full rounded-2xl overflow-hidden bg-slate-50 border border-slate-200 shadow-xs flex items-center justify-center">
         <div className="relative w-full h-full">
           <Image
-            src={validImages[activeIndex] || validImages[0]}
+            key={currentImage}
+            src={currentImage}
             alt={`${name} - foto ${activeIndex + 1}`}
             fill
             sizes="(max-width: 1024px) 100vw, 50vw"
-            className="object-contain p-2"
+            className="object-contain p-2 transition-opacity duration-300"
             priority
           />
         </div>
@@ -66,9 +95,9 @@ export function ProductGallery({ images, name }: ProductGalleryProps) {
         <div className="flex items-center gap-2.5 overflow-x-auto pb-1">
           {validImages.map((img, idx) => (
             <button
-              key={idx}
+              key={`${img}-${idx}`}
               type="button"
-              onClick={() => setActiveIndex(idx)}
+              onClick={() => handleSelectImage(idx)}
               className={`relative w-16 h-16 sm:w-20 sm:h-20 rounded-xl overflow-hidden shrink-0 border-2 transition-all bg-white cursor-pointer ${
                 activeIndex === idx
                   ? 'border-lopes-blue ring-2 ring-lopes-blue/20 scale-102 shadow-xs'
