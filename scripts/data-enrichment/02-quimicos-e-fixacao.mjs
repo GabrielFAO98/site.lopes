@@ -23,29 +23,6 @@ export const quimicosEFixacaoData = {
     ]
   },
 
-  // 2. Adesivo Fixa Tudo Tekbond Transparente 400g
-  '100503': {
-    detailedDescription:
-      'O Adesivo Selante Fixa Tudo Transparente 400g Tekbond é a escolha número um para aplicações onde a colagem de alta resistência precisa ser completamente invisível e esteticamente perfeita.\n\nCom formulação híbrida de última geração, ele cura formando uma junta flexível 100% cristalina e translúcida. É ideal para a fixação de vidros, box de banheiro, placas de acrílico, espelhos, tampos de vidro em móveis metálicos ou de madeira, luminárias e cubas transparentes onde qualquer sobra de adesivo colorido ficaria antiestética.\n\nPossui alto agarre inicial, excelente resistência aos raios solares UV e intempéries climáticas, e adere com força extrema tanto em superfícies secas quanto ligeiramente úmidas. É isento de solventes agressivos e não corrói metais.',
-    faq: [
-      {
-        question: 'O adesivo fica realmente transparente após a secagem?',
-        answer: 'Sim! Ele cura com acabamento totalmente cristalino e translúcido, tornando-se praticamente invisível em vidros, espelhos e superfícies transparentes.'
-      },
-      {
-        question: 'Ele amarela com o tempo exposto ao sol?',
-        answer: 'Não. Sua formulação com polímero híbrido de alta pureza possui aditivos anti-UV que evitam o amarelamento prematuro comum em colas convencionais.'
-      },
-      {
-        question: 'Pode ser utilizado para colar e vedar box de banheiro?',
-        answer: 'Sim, é perfeito para o perfil de alumínio e os vidros temperados do box, pois veda a passagem de água e não mancha.'
-      },
-      {
-        question: 'Precisa de pistola aplicadora?',
-        answer: 'Sim, por ser em cartucho de 400g, deve ser utilizado com aplicador manual de silicone convencional.'
-      }
-    ]
-  },
 
   // 3. Selante Adesivo PU 40 Cibraflex 400g
   '100504': {
