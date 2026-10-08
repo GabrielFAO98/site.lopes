@@ -296,11 +296,6 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/thinner-solvente-multiuso-maza</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
     <loc>https://site-lopes-eight.vercel.app/produto/trincha-media-cerdas-gris-atlas-395</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -326,7 +321,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://site-lopes-eight.vercel.app/produto/assento-sanitario-oval-soft-close-atlas</loc>
+    <loc>https://site-lopes-eight.vercel.app/produto/assento-sanitario-oval-universal-astra-soft</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -397,6 +392,41 @@
   </url>
   <url>
     <loc>https://site-lopes-eight.vercel.app/produto/trena-metrica-profissional-5m-irwin-iw13947</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/resistencia-para-chuveiro-maxi-ducha-lorenzetti</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/espacador-nivelador-de-piso-cortag-caixa-500-pecas</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/thinner-116-900ml-maza</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/thinner-116-5l-maza</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/thinner-800-900ml-maza</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/thinner-800-5l-maza</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://site-lopes-eight.vercel.app/produto/tinta-latex-acrilica-renove-balde-16l-branco</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

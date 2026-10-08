@@ -2633,10 +2633,14 @@
     "featured": true,
     "images": [
       "/images/produtos/tinta-spray-uso-geral-tekbond-400ml.webp",
-      "/images/produtos/tinta-spray-uso-geral-tekbond-cores.webp",
       "/images/produtos/tinta-spray-uso-geral-tekbond-branco.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-preto-fosco.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-aluminio.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-amarelo.webp",
       "/images/produtos/tinta-spray-uso-geral-tekbond-vermelho.webp",
-      "/images/produtos/tinta-spray-uso-geral-tekbond-amarelo.webp"
+      "/images/produtos/tinta-spray-uso-geral-tekbond-grafite.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-verde-escuro.webp",
+      "/images/produtos/tinta-spray-uso-geral-tekbond-verniz.webp"
     ],
     "technicalSpecs": {
       "Conteúdo": "400ml / 250g",
@@ -2682,7 +2686,7 @@
       },
       {
         "sku": "347",
-        "name": "Alumínio / Prata",
+        "name": "Alumínio",
         "hex": "#9ca3af",
         "price": 23,
         "inStock": true,
@@ -2729,7 +2733,7 @@
         "image": "/images/produtos/tinta-spray-uso-geral-tekbond-verniz.webp"
       }
     ],
-    "detailedDescription": "A Tinta Spray Uso Geral Tekbond 400ml / 250g é a solução perfeita para pintura, customização e restauração rápida de móveis, metais, ferramentas, objetos decorativos e peças automotivas com acabamento profissional.\n\nFormulada com resina acrílica de secagem rápida e alta cobertura, ela proporciona uma película lisa, uniforme e resistente às intempéries tanto em ambientes internos quanto externos. Sua válvula e atuador anatômico em leque garantem excelente atomização da tinta, evitando respingos, gotejamentos e marcas de pincel.\n\nAdere com facilidade em metal, ferro, madeira, cerâmica, gesso, alvenaria, papel e diversos plásticos. Disponível em ampla variedade de cores e acabamentos (Preto Fosco, Preto Brilhante, Branco Brilhante, Branco Fosco, Prata Metálico, Ouro/Dourado, Vermelho, Azul, Amarelo e Verniz Incolor).",
+    "detailedDescription": "A Tinta Spray Uso Geral Tekbond 400ml / 250g é a solução perfeita para pintura, customização e restauração rápida de móveis, metais, ferramentas, objetos decorativos e peças automotivas com acabamento profissional.\n\nFormulada com resina acrílica de secagem rápida e alta cobertura, ela proporciona uma película lisa, uniforme e resistente às intempéries tanto em ambientes internos quanto externos. Sua válvula e atuador anatômico em leque garantem excelente atomização da tinta, evitando respingos, gotejamentos e marcas de pincel.\n\nAdere com facilidade em metal, ferro, madeira, cerâmica, gesso, alvenaria, papel e diversos plásticos. Disponível em ampla variedade de cores e acabamentos (Preto Fosco, Preto Brilhante, Branco Brilhante, Alumínio, Amarelo, Vermelho, Grafite, Verde Escuro e Verniz Incolor).",
     "faq": [
       {
         "question": "Quantos metros quadrados rende uma lata de spray de 400ml?",
@@ -3346,9 +3350,9 @@
   {
     "id": "prod-799",
     "sku": "799",
-    "name": "Assento Sanitário Oval Soft Almofadado Astra TPJ/AS",
-    "slug": "assento-sanitario-oval-soft-close-atlas",
-    "description": "Assento sanitário oval universal com fechamento suave Soft Close, acabamento brilhante antibacteriano e fixação regulável para bacias ovais.",
+    "name": "Assento Sanitário Oval Astra Soft Anatômico Universal",
+    "slug": "assento-sanitario-oval-universal-astra-soft",
+    "description": "Assento sanitário oval universal Astra linha Soft modelo TPJ/AS com arco anatômico soprado liso sem espuma. Confortável, durável, altamente higiênico e com fixação regulável para louças ovais.",
     "price": 41,
     "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
@@ -3359,37 +3363,46 @@
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "/images/produtos/assento-sanitario-atlas-oval-soft.webp",
-      "/images/produtos/assento-sanitario-atlas-oval-soft-bege.webp",
-      "/images/produtos/assento-sanitario-atlas-oval-soft-cinza.webp",
-      "/images/produtos/assento-sanitario-atlas-oval-soft-cinza-escuro.webp"
+      "/images/produtos/assento-sanitario-astra-oval-soft.webp",
+      "/images/produtos/assento-sanitario-astra-oval-soft-bege.webp",
+      "/images/produtos/assento-sanitario-astra-oval-soft-cinza-claro.webp",
+      "/images/produtos/assento-sanitario-astra-oval-soft-cinza-escuro.webp"
     ],
     "technicalSpecs": {
       "Marca": "Astra",
-      "Linha": "Soft Almofadado TPJ/AS",
+      "Modelo / Linha": "Soft TPJ/AS Anatômico",
       "Formato": "Oval Universal",
-      "Material": "Polipropileno e Polietileno Soprado Macio",
+      "Material": "Tampo em Polipropileno e Arco Anatômico em Polietileno Soprado Rígido (Sem Espuma)",
+      "Tipo de Fechamento": "Convencional",
       "NCM": "39222000",
-      "Compatibilidade": "Bacias Sanitárias Ovais Universais (Deca, Celite, Incepa, Icasa)"
+      "Compatibilidade": "Bacias sanitárias ovais universais (Deca, Celite, Incepa, Icasa, Fiori, Santa Marina e Logasa)"
     },
     "applications": [
-      "Bacias sanitárias convencionais e caixas acopladas de formato oval (universal)",
-      "Banheiros residenciais, suítes, lavabos e sanitários comerciais"
+      "Bacias sanitárias convencionais e caixas acopladas de formato oval universal",
+      "Banheiros residenciais, suítes, lavabos e sanitários comerciais de alto tráfego"
     ],
-    "warranty": "1 ano contra defeitos de fabricação (Atlas)",
+    "warranty": "1 ano de garantia de fábrica Astra",
     "relatedSkus": [
       "821",
       "3438"
     ],
-    "detailedDescription": "Assento sanitário almofadado Astra linha Soft modelo TPJ/AS para bacias ovais universais. Proporciona conforto com toque macio e acabamento higiênico de fácil limpeza.\n\nPossui fixadores ajustáveis que garantem firmeza e compatibilidade perfeita com todas as louças sanitárias de formato oval do mercado (Deca, Incepa, Celite, Icasa, Logasa). Acompanha parafusos de fixação.",
+    "detailedDescription": "O Assento Sanitário Oval Astra Soft (modelo TPJ/AS) é a escolha tradicional e consagrada para quem busca durabilidade, conforto anatômico e facilidade de higienização em bacias ovais universais.\n\nFabricado com tampa em polipropileno de cobertura total e arco ergonômico em polietileno soprado rígido sem forro de espuma (não é almofadado), ele elimina qualquer risco de rasgos, furos ou infiltração de água e odores no interior do arco, garantindo máxima assepsia diária com simples uso de água e sabão neutro.\n\nPossui conjunto de fixação ajustável com parafusos reforçados, permitindo regulagem precisa da distância entre furos e perfeito encaixe em louças ovais de todas as principais marcas (Deca modelos Izy e Ravena, Celite modelos Eco e Acesso, Incepa Fiore, Icasa Sabará, Fiori, Logasa, etc.).",
     "faq": [
       {
-        "question": "Esse assento serve em qualquer vaso sanitário?",
-        "answer": "Serve em todas as bacias sanitárias de formato oval convencional (como Deca Izy, Celite Eco, Icasa Sabará, Incepa Fiore, etc.). Não é compatível com bacias quadradas ou retangulares."
+        "question": "Esse assento sanitário é almofadado?",
+        "answer": "Não. O assento Astra Soft TPJ/AS possui arco anatômico soprado rígido sem espuma interna e sem forro plástico. Por ser liso e rígido, não rasga, não mofa e não acumula sujeira ou água por dentro, oferecendo durabilidade muito superior aos modelos almofadados."
       },
       {
-        "question": "O arco é macio e confortável?",
-        "answer": "Sim, o arco é produzido com tecnologia soft soprada de polietileno, conferindo maciez e conforto anatômico."
+        "question": "Ele serve em qualquer vaso sanitário?",
+        "answer": "Serve em qualquer bacia sanitária de formato oval universal convencional (como Deca Izy, Celite Eco, Icasa Sabará, Incepa Fiore, etc.). Não é compatível com louças sanitárias de formato quadrado ou retangular."
+      },
+      {
+        "question": "O produto acompanha os parafusos de fixação?",
+        "answer": "Sim, o assento acompanha o kit completo de fixação regulável com parafusos e porcas para instalação rápida sem necessidade de ferramentas especiais."
+      },
+      {
+        "question": "Como fazer a limpeza correta do assento?",
+        "answer": "Recomenda-se limpar apenas com pano úmido e sabão ou detergente neutro. Não utilize produtos clorados concentrados, solventes ou esponjas abrasivas para preservar o brilho original do plástico."
       }
     ],
     "variationType": "Cor",
@@ -3400,31 +3413,31 @@
         "hex": "#ffffff",
         "price": 41,
         "inStock": true,
-        "image": "/images/produtos/assento-sanitario-atlas-oval-soft.webp"
+        "image": "/images/produtos/assento-sanitario-astra-oval-soft.webp"
       },
       {
         "sku": "804",
         "name": "Bege",
-        "hex": "#f5f5dc",
+        "hex": "#ded5be",
         "price": 41,
         "inStock": true,
-        "image": "/images/produtos/assento-sanitario-atlas-oval-soft-bege.webp"
+        "image": "/images/produtos/assento-sanitario-astra-oval-soft-bege.webp"
       },
       {
         "sku": "801",
         "name": "Cinza Claro",
-        "hex": "#d1d5db",
+        "hex": "#cbd0d4",
         "price": 41,
         "inStock": true,
-        "image": "/images/produtos/assento-sanitario-atlas-oval-soft-cinza.webp"
+        "image": "/images/produtos/assento-sanitario-astra-oval-soft-cinza-claro.webp"
       },
       {
         "sku": "2243",
         "name": "Cinza Escuro",
-        "hex": "#4b5563",
+        "hex": "#787a7d",
         "price": 41,
         "inStock": true,
-        "image": "/images/produtos/assento-sanitario-atlas-oval-soft-cinza-escuro.webp"
+        "image": "/images/produtos/assento-sanitario-astra-oval-soft-cinza-escuro.webp"
       }
     ]
   },
