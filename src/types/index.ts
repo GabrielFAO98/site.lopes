@@ -44,6 +44,7 @@ export interface Department {
   id: string;
   slug: string;
   name: string;
+  navName?: string;
   description: string;
   iconName: string;
   color: string;
