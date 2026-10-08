@@ -186,8 +186,8 @@ export function Header() {
 
       {/* Navegação por Departamentos (Desktop) */}
       <nav className="hidden md:block bg-lopes-blue text-white border-t border-lopes-blue-700">
-        <div className="w-full px-2 sm:px-4 lg:px-6 flex items-center text-xs lg:text-[13px]">
-          <div className="flex items-center space-x-0.5 lg:space-x-1 overflow-x-auto py-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden w-full">
+        <div className="w-full px-2 sm:px-4 lg:px-6 flex items-center justify-center text-xs lg:text-[13px]">
+          <div className="flex items-center justify-center space-x-0.5 lg:space-x-1 xl:space-x-1.5 overflow-x-auto py-1 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden w-full">
             <Link
               href="/produtos"
               className="px-2 py-1.5 font-semibold hover:bg-lopes-blue-700 rounded-md transition-colors shrink-0 whitespace-nowrap"
