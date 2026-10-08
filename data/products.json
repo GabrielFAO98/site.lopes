@@ -1312,13 +1312,13 @@
     ]
   },
   {
-    "id": "prod-100602",
-    "sku": "100602",
-    "name": "Aplicador de Silicone Profissional Fechado Idea",
+    "id": "prod-2199",
+    "sku": "2199",
+    "name": "Aplicador de Silicone Profissional Reforçado Tipo Esqueleto",
     "slug": "aplicador-de-silicone-manual-idea-reforcado",
     "description": "Pistola aplicadora profissional com corpo tubular fechado e mecanismo reforçado de alta pressão. Ideal para cartuchos pesados como PU40 e massas espessas, garantindo mínimo esforço físico.",
-    "price": 29.9,
-    "unit": "Unidade (UN)",
+    "price": 37,
+    "unit": "UN",
     "departmentId": "ferramentas",
     "departmentName": "Ferramentas e Equipamentos",
     "category": "Aplicadores e Acessórios",
@@ -1330,8 +1330,9 @@
       "/images/produtos/aplicador-de-silicone-manual-idea-reforcado.webp"
     ],
     "technicalSpecs": {
-      "Estrutura": "Tubo fechado em aço especial",
-      "Empunhadura": "Ergonômica com sistema corta-fluxo"
+      "Estrutura": "Chapa de Aço Reforçada com Cremalheira Dentada",
+      "Empunhadura": "Ergonômica com sistema corta-fluxo",
+      "NCM": "82055900"
     },
     "applications": [
       "Aplicação profissional contínua de selantes PU e colas pesadas"
@@ -2275,13 +2276,13 @@
     ]
   },
   {
-    "id": "prod-corante-liquido-xadrez-50ml",
-    "sku": "20201",
+    "id": "prod-1236",
+    "sku": "1236",
     "name": "Corante Líquido Xadrez 50ml",
     "slug": "corante-liquido-xadrez-50ml",
     "description": "O Corante Líquido Xadrez é um pigmento concentrado de alto poder de tingimento e resistência. Indicado para colorir tintas à base de água (látex PVA e acrílicas), texturas, argamassas, rejuntes e cal.",
-    "price": 6.9,
-    "unit": "Frasco 50ml (UN)",
+    "price": 7.5,
+    "unit": "Frasco 50ml",
     "departmentId": "pintura",
     "departmentName": "Pintura e Acessórios",
     "category": "Pigmentos e Corantes",
@@ -2296,7 +2297,8 @@
     "technicalSpecs": {
       "Base": "Dispersão aquosa de pigmentos orgânicos e inorgânicos",
       "Volume": "50ml",
-      "Rendimento": "Até 1 bisnaga para cada galão de 3,6L de tinta"
+      "Rendimento": "Até 1 bisnaga para cada galão de 3,6L de tinta",
+      "NCM": "32064990"
     },
     "applications": [
       "Coloração de tintas látex acrílicas e PVA",
@@ -2311,39 +2313,74 @@
     "variationType": "Cor",
     "variations": [
       {
-        "hex": "#c28135",
-        "sku": "20201",
-        "name": "Ocre"
-      },
-      {
-        "hex": "#b91c1c",
-        "sku": "20202",
-        "name": "Vermelho"
-      },
-      {
+        "sku": "1236",
+        "name": "Amarelo",
         "hex": "#eab308",
-        "sku": "20203",
-        "name": "Amarelo"
+        "price": 7.5,
+        "inStock": true
       },
       {
-        "hex": "#1d4ed8",
-        "sku": "20204",
-        "name": "Azul"
+        "sku": "1237",
+        "name": "Azul",
+        "hex": "#2563eb",
+        "price": 7.5,
+        "inStock": true
       },
       {
-        "hex": "#15803d",
-        "sku": "20205",
-        "name": "Verde"
+        "sku": "3516",
+        "name": "Branco",
+        "hex": "#ffffff",
+        "price": 7.5,
+        "inStock": true
       },
       {
-        "hex": "#171717",
-        "sku": "20206",
-        "name": "Preto"
+        "sku": "1238",
+        "name": "Laranja",
+        "hex": "#f97316",
+        "price": 7.5,
+        "inStock": true
       },
       {
+        "sku": "1239",
+        "name": "Marrom",
         "hex": "#78350f",
-        "sku": "20207",
-        "name": "Marrom"
+        "price": 7.5,
+        "inStock": true
+      },
+      {
+        "sku": "1240",
+        "name": "Ocre",
+        "hex": "#d97706",
+        "price": 7.5,
+        "inStock": true
+      },
+      {
+        "sku": "1241",
+        "name": "Preto",
+        "hex": "#111827",
+        "price": 7.5,
+        "inStock": true
+      },
+      {
+        "sku": "1242",
+        "name": "Verde",
+        "hex": "#16a34a",
+        "price": 7.5,
+        "inStock": true
+      },
+      {
+        "sku": "1243",
+        "name": "Vermelho",
+        "hex": "#dc2626",
+        "price": 7.5,
+        "inStock": true
+      },
+      {
+        "sku": "1244",
+        "name": "Violeta",
+        "hex": "#7c3aed",
+        "price": 7.5,
+        "inStock": true
       }
     ],
     "detailedDescription": "O Corante Líquido Xadrez 50ml é o pigmento aquoso concentrado mais tradicional e renomado do Brasil para o tingimento e personalização de cores em tintas imobiliárias e materiais de construção civil.\n\nCom alto poder de dispersão e rendimento, ele permite criar uma infinidade de tons pastel e cores personalizadas misturando gotas do corante em tintas à base de água (látex PVA ou acrílica). Também é amplamente utilizado no tingimento de cal de pintura (caiação), gesso em pó, texturas decorativas, rejuntes cimentícios e massas para artesanato.\n\nDisponível nas cores clássicas: Preto, Vermelho, Azul, Amarelo, Verde, Castanho e Ocre. A embalagem com bico conta-gotas permite dosagem precisa para replicar a mesma tonalidade em diferentes baldes de tinta.",
@@ -2363,13 +2400,13 @@
     ]
   },
   {
-    "id": "prod-espacador-nivelador-cortag",
-    "sku": "20301",
+    "id": "prod-2940",
+    "sku": "2940",
     "name": "Espaçador Nivelador de Piso e Porcelanato Cortag (Pacote 50 Peças)",
     "slug": "espacador-nivelador-de-piso-cortag-50-pecas",
     "description": "O clipe espaçador nivelador tradicional da Cortag garante o nivelamento perfeito entre as peças de porcelanato e cerâmica, além de manter o espaçamento uniforme da junta de dilatação.",
-    "price": 18.9,
-    "unit": "Pacote 50 peças (UN)",
+    "price": 22.5,
+    "unit": "Pacote 50 Peças",
     "departmentId": "pisos-e-revestimentos",
     "departmentName": "Pisos e Revestimentos",
     "category": "Niveladores e Assentamento",
@@ -2385,7 +2422,8 @@
       "Material": "Polímero virgem de alta resistência",
       "Quantidade": "50 clips espaçadores por embalagem",
       "Indicação": "Pisos e porcelanatos de 3,5 mm a 15 mm de espessura",
-      "Compatibilidade": "Cunha niveladora tradicional Cortag e alicate de tração"
+      "Compatibilidade": "Cunha niveladora tradicional Cortag e alicate de tração",
+      "NCM": "39259090"
     },
     "applications": [
       "Assentamento de porcelanatos retificados e cerâmicas em pisos e paredes",
@@ -2395,21 +2433,34 @@
     "warranty": "Garantia Cortag",
     "relatedSkus": [
       "2110",
-      "2882"
+      "2882",
+      "3161"
     ],
-    "variationType": "Espessura",
+    "variationType": "Espessura da Junta",
     "variations": [
       {
-        "sku": "20301",
-        "name": "1.0 mm"
+        "sku": "2940",
+        "name": "1.0 mm",
+        "price": 22.5,
+        "inStock": true
       },
       {
-        "sku": "20302",
-        "name": "1.5 mm"
+        "sku": "2941",
+        "name": "1.5 mm",
+        "price": 22.5,
+        "inStock": true
       },
       {
-        "sku": "20303",
-        "name": "2.0 mm"
+        "sku": "3191",
+        "name": "2.0 mm",
+        "price": 22.5,
+        "inStock": true
+      },
+      {
+        "sku": "100177",
+        "name": "3.0 mm",
+        "price": 22.5,
+        "inStock": true
       }
     ],
     "detailedDescription": "Os Espaçadores Niveladores de Piso Cortag são o sistema indispensável para assentamento de porcelanatos polidos, retificados e pisos cerâmicos de grande formato sem desníveis ou o indesejado efeito \"dente\".\n\nFabricados em polipropileno virgem de alta precisão, os clipes possuem estrutura robusta que suporta a tração da cunha niveladora sem romper antes da hora, e ponto de ruptura estratégica na base para um descarte limpo com um chute lateral ou golpe de martelo de borracha após a cura da argamassa.\n\nGarantem o nivelamento milimétrico entre as bordas das peças e o espaçamento uniforme das juntas de assentamento. Disponíveis nas espessuras de junta de 1,0 mm, 1,5 mm e 2,0 mm, são compatíveis com as cunhas e alicates de nivelamento padrão Cortag.",
@@ -2487,13 +2538,13 @@
     ]
   },
   {
-    "id": "prod-maxi-ducha-lorenzetti",
-    "sku": "20401",
+    "id": "prod-1577",
+    "sku": "1577",
     "name": "Chuveiro Elétrico Maxi Ducha 3 Temperaturas Lorenzetti",
     "slug": "chuveiro-eletrico-maxi-ducha-lorenzetti",
     "description": "A clássica Maxi Ducha da Lorenzetti oferece banho relaxante com espalhador de grandes dimensões. Conta com 3 opções de temperatura (Frio, Morno, Quente), fácil troca de resistência e excelente vazão para momentos confortáveis.",
-    "price": 54.9,
-    "unit": "Unidade (UN)",
+    "price": 95,
+    "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
     "departmentName": "Banheiro e Cozinha",
     "category": "Chuveiros e Duchas",
@@ -2510,7 +2561,10 @@
       "Grau de Proteção": "IP 24",
       "Disjuntor Recomendado": "50A para 127V / 32A para 220V",
       "Pressão de Funcionamento": "10 a 400 kPa (1 a 40 m.c.a.)",
-      "Fiação Mínima Recomendada": "10 mm² para 127V / 4 mm² para 220V"
+      "Fiação Mínima Recomendada": "10 mm² para 127V / 4 mm² para 220V",
+      "NCM": "85161000",
+      "Código ERP 127V": "14.02.00010",
+      "Código ERP 220V": "14.02.00011"
     },
     "applications": [
       "Banheiros residenciais e comerciais",
@@ -2519,17 +2573,27 @@
     ],
     "warranty": "1 ano de garantia Lorenzetti",
     "relatedSkus": [
-      "100597"
+      "100597",
+      "700",
+      "699"
     ],
     "variationType": "Voltagem",
     "variations": [
       {
-        "sku": "20401",
-        "name": "127V (5500W)"
+        "sku": "1577",
+        "name": "127V (5500W)",
+        "voltage": "127V",
+        "power": "5500W",
+        "price": 95,
+        "inStock": true
       },
       {
-        "sku": "20402",
-        "name": "220V (5500W)"
+        "sku": "1578",
+        "name": "220V (5500W)",
+        "voltage": "220V",
+        "power": "5500W",
+        "price": 95,
+        "inStock": true
       }
     ],
     "detailedDescription": "O Chuveiro Elétrico Maxi Ducha da Lorenzetti é o clássico consagrado de milhões de lares brasileiros, sinônimo de banho confortável, durabilidade, economia e excelente custo-benefício.\n\nEquipado com um grande espalhador de água que distribui o jato de maneira uniforme e relaxante, ele oferece 3 opções de temperatura ajustáveis (Verão / Morno / Inverno), permitindo dosar a quantidade exata de calor e economizar energia nos dias mais amenos. Seu design tradicional e compacto é fácil de instalar e harmoniza com qualquer estilo de banheiro.\n\nConta com resistência de troca rápida tipo refil (fácil de substituir sem ferramentas complexas), é compatível com sistemas de aquecimento solar e atende a residências com disjuntor diferencial residual (DR). Disponível nas opções 127V (5500W) e 220V (5500W).",
@@ -2553,13 +2617,13 @@
     ]
   },
   {
-    "id": "prod-tinta-spray-tekbond",
-    "sku": "20101",
+    "id": "prod-2138",
+    "sku": "2138",
     "name": "Tinta Spray Uso Geral 400ml / 250g Tekbond",
     "slug": "tinta-spray-uso-geral-400ml-tekbond",
     "description": "A Tinta Spray Uso Geral Tekbond foi desenvolvida para pinturas em ambientes internos e externos. Indicada para ferro, madeira, cerâmica, gesso e alvenaria, proporciona secagem rápida, excelente cobertura e acabamento impecável.",
-    "price": 24.9,
-    "unit": "Lata 400ml (UN)",
+    "price": 23,
+    "unit": "Lata 400ml",
     "departmentId": "pintura",
     "departmentName": "Pintura e Acessórios",
     "category": "Tintas e Sprays",
@@ -2575,7 +2639,8 @@
       "Conteúdo": "400ml / 250g",
       "Secagem total": "24 horas",
       "Secagem ao toque": "15 minutos",
-      "Rendimento aproximado": "1,3 m² a 1,6 m² por embalagem/demão"
+      "Rendimento aproximado": "1,3 m² a 1,6 m² por embalagem/demão",
+      "NCM": "32082019"
     },
     "applications": [
       "Reparos, decoração e pinturas automotivas e artesanais",
@@ -2589,54 +2654,67 @@
     "variationType": "Cor",
     "variations": [
       {
-        "hex": "#1c1917",
-        "sku": "20101",
-        "name": "Preto Fosco"
-      },
-      {
-        "hex": "#000000",
-        "sku": "20102",
-        "name": "Preto Brilhante"
-      },
-      {
+        "sku": "2138",
+        "name": "Branco Brilhante",
         "hex": "#ffffff",
-        "sku": "20103",
-        "name": "Branco Brilhante"
+        "price": 23,
+        "inStock": true
       },
       {
-        "hex": "#f1f5f9",
-        "sku": "20104",
-        "name": "Branco Fosco"
+        "sku": "2136",
+        "name": "Preto Brilhante",
+        "hex": "#111827",
+        "price": 23,
+        "inStock": true
       },
       {
-        "hex": "#dc2626",
-        "sku": "20105",
-        "name": "Vermelho"
+        "sku": "352",
+        "name": "Preto Fosco",
+        "hex": "#1f2937",
+        "price": 23,
+        "inStock": true
       },
       {
-        "hex": "#2563eb",
-        "sku": "20106",
-        "name": "Azul"
+        "sku": "347",
+        "name": "Alumínio / Prata",
+        "hex": "#9ca3af",
+        "price": 23,
+        "inStock": true
       },
       {
-        "hex": "#eab308",
-        "sku": "20107",
-        "name": "Amarelo"
+        "sku": "3641",
+        "name": "Amarelo",
+        "hex": "#f59e0b",
+        "price": 23,
+        "inStock": true
       },
       {
-        "hex": "#16a34a",
-        "sku": "20108",
-        "name": "Verde"
+        "sku": "3235",
+        "name": "Vermelho",
+        "hex": "#ef4444",
+        "price": 23,
+        "inStock": true
       },
       {
-        "hex": "#94a3b8",
-        "sku": "20109",
-        "name": "Prata / Alumínio"
+        "sku": "100053",
+        "name": "Grafite",
+        "hex": "#4b5563",
+        "price": 23,
+        "inStock": true
       },
       {
-        "hex": "#e2e8f0",
-        "sku": "20110",
-        "name": "Verniz Brilhante"
+        "sku": "100274",
+        "name": "Verde Escuro",
+        "hex": "#15803d",
+        "price": 23,
+        "inStock": true
+      },
+      {
+        "sku": "3330",
+        "name": "Verniz",
+        "hex": "#f3f4f6",
+        "price": 23,
+        "inStock": true
       }
     ],
     "detailedDescription": "A Tinta Spray Uso Geral Tekbond 400ml / 250g é a solução perfeita para pintura, customização e restauração rápida de móveis, metais, ferramentas, objetos decorativos e peças automotivas com acabamento profissional.\n\nFormulada com resina acrílica de secagem rápida e alta cobertura, ela proporciona uma película lisa, uniforme e resistente às intempéries tanto em ambientes internos quanto externos. Sua válvula e atuador anatômico em leque garantem excelente atomização da tinta, evitando respingos, gotejamentos e marcas de pincel.\n\nAdere com facilidade em metal, ferro, madeira, cerâmica, gesso, alvenaria, papel e diversos plásticos. Disponível em ampla variedade de cores e acabamentos (Preto Fosco, Preto Brilhante, Branco Brilhante, Branco Fosco, Prata Metálico, Ouro/Dourado, Vermelho, Azul, Amarelo e Verniz Incolor).",
@@ -2660,12 +2738,12 @@
     ]
   },
   {
-    "id": "tinta-latex-acrilica-renove-3-6l",
-    "sku": "30101",
+    "id": "prod-192",
+    "sku": "192",
     "name": "Tinta Látex Acrílica Fosca Renove 3,6L",
     "slug": "tinta-latex-acrilica-renove-3-6l",
     "description": "Tinta látex acrílica para pintura interna com acabamento fosco aveludado, baixo odor e excelente poder de cobertura.",
-    "price": 49.9,
+    "price": 68,
     "unit": "Galão 3.6L",
     "departmentId": "pintura",
     "departmentName": "Pintura e Acessórios",
@@ -2686,7 +2764,8 @@
       "Secagem ao toque": "1 hora",
       "Entre demãos": "4 horas",
       "Secagem final": "12 horas",
-      "Composição": "Resina à base de dispersão aquosa de copolímero acrílico-estirenado, pigmentos isentos de metais pesados e aditivos."
+      "Composição": "Resina à base de dispersão aquosa de copolímero acrílico-estirenado, pigmentos isentos de metais pesados e aditivos.",
+      "NCM": "32091010"
     },
     "applications": [
       "Paredes internas de alvenaria, reboco, concreto e gesso",
@@ -2697,20 +2776,23 @@
     "relatedSkus": [
       "30102",
       "30104",
-      "20201"
+      "20201",
+      "224"
     ],
     "variationType": "Cor",
     "variations": [
       {
+        "sku": "192",
         "name": "Branco Neve",
-        "sku": "30101-BR",
-        "hex": "#FFFFFF",
+        "hex": "#ffffff",
+        "price": 70,
         "inStock": true
       },
       {
+        "sku": "100000",
         "name": "Gelo",
-        "sku": "30101-GE",
-        "hex": "#E2E6E9",
+        "hex": "#f1f5f9",
+        "price": 68,
         "inStock": true
       }
     ],
@@ -2735,17 +2817,17 @@
     ]
   },
   {
-    "id": "fita-crepe-automotiva-verde-48mm-adtex",
-    "sku": "30102",
-    "name": "Fita Crepe Automotiva Verde 48mm x 40m ADTEX",
+    "id": "prod-100746",
+    "sku": "100746",
+    "name": "Fita Crepe Automotiva Verde Adere 45mm x 40m",
     "slug": "fita-crepe-automotiva-verde-48mm-adtex",
     "description": "Fita crepe profissional verde de alta performance, resistente a solventes e raios UV, com remoção limpa sem resíduos em até 72 horas.",
-    "price": 18.5,
-    "unit": "Rolo 48mm x 40m",
+    "price": 20,
+    "unit": "Rolo 45mm x 40m",
     "departmentId": "pintura",
     "departmentName": "Pintura e Acessórios",
     "category": "Fitas e Acessórios de Pintura",
-    "brand": "ADTEX",
+    "brand": "Adere",
     "inStock": true,
     "stockBadge": "Pronta Entrega",
     "featured": false,
@@ -2760,7 +2842,10 @@
       "Adesivo": "Borracha natural com resinas sintéticas",
       "Resistência térmica": "Suporta até 100°C por 1 hora (estufas de pintura)",
       "Resistência UV": "Até 72 horas sob incidência solar sem degradar",
-      "Remoção": "Remoção limpa sem transferência de cola"
+      "Remoção": "Remoção limpa sem transferência de cola",
+      "Marca": "Adere",
+      "Medida": "45mm x 40m",
+      "NCM": "48114110"
     },
     "applications": [
       "Mascaramento automotivo em funilaria, pintura e polimento técnico",
@@ -2848,79 +2933,12 @@
     ]
   },
   {
-    "id": "thinner-solvente-multiuso-maza",
-    "sku": "30103",
-    "name": "Thinner Solvente Multiuso para Limpeza e Diluição Maza",
-    "slug": "thinner-solvente-multiuso-maza",
-    "description": "Solvente industrial e automotivo de alta pureza para diluição de tintas sintéticas, esmaltes, primers e limpeza profunda de ferramentas de pintura.",
-    "price": 19.9,
-    "unit": "Frasco / Galão",
-    "departmentId": "pintura",
-    "departmentName": "Pintura e Acessórios",
-    "category": "Solventes e Diluentes",
-    "brand": "Maza",
-    "inStock": true,
-    "stockBadge": "Pronta Entrega",
-    "featured": false,
-    "images": [
-      "/images/produtos/thinner-solvente-maza.webp"
-    ],
-    "technicalSpecs": {
-      "Tipo": "Thinner desengraxante e solvente aromático balanceado",
-      "Embalagens disponíveis": "900ml e 5 Litros",
-      "Densidade": "0,840 a 0,870 g/cm³",
-      "Inflamabilidade": "Produto inflamável (ponto de fulgor < 23°C)",
-      "Validade": "24 meses a partir da data de fabricação em embalagem lacrada"
-    },
-    "applications": [
-      "Diluição de esmaltes sintéticos, vernizes e primers automotivos/industriais",
-      "Limpeza de pistolas de pintura, bicos airless, trinchas, rolos e espátulas",
-      "Desengraxe e remoção de óleos, graxas e resíduos de cola em chapas de ferro e alumínio"
-    ],
-    "warranty": "2 anos pelo fabricante (Maza)",
-    "relatedSkus": [
-      "30104",
-      "30105",
-      "20101"
-    ],
-    "variationType": "Embalagem",
-    "variations": [
-      {
-        "name": "Frasco 900ml",
-        "sku": "30103-900",
-        "price": 19.9,
-        "inStock": true
-      },
-      {
-        "name": "Galão 5L",
-        "sku": "30103-5L",
-        "price": 79.9,
-        "inStock": true
-      }
-    ],
-    "detailedDescription": "O Thinner Multiuso Maza é um solvente formulado com uma composição balanceada de hidrocarbonetos e solventes oxigenados de alta pureza. Desenvolvido para atuar com máxima eficácia tanto na diluição correta de tintas e vernizes quanto na limpeza profunda e desengraxe de ferramentas e equipamentos mecânicos.\n\nSua taxa controlada de evaporação permite uma secagem homogênea da película de tinta, garantindo excelente alastramento, alto brilho e evitando o aparecimento de bolhas ou branqueamento na pintura. É amplamente utilizado em oficinas de serralheria, marcenarias e canteiros de obra para a diluição de esmaltes sintéticos e fundos zarcão.\n\nPara a limpeza de ferramentas, remove rapidamente resíduos secos de tintas em pincéis, trinchas e bicos de pistola, preservando a vida útil dos equipamentos. Deve ser manuseado sempre em ambientes bem ventilados, utilizando luvas de proteção química e máscara contra vapores orgânicos.",
-    "faq": [
-      {
-        "question": "Qual a diferença entre thinner e aguarrás?",
-        "answer": "O thinner possui poder solvente muito mais forte e evaporação rápida, sendo indicado para tintas à base de nitrocelulose, poliuretano, primers e limpeza profunda. A aguarrás é um solvente mineral mais suave, ideal para diluir esmaltes e vernizes sintéticos imobiliários sem acelerar a secagem."
-      },
-      {
-        "question": "O thinner Maza serve para limpar cola e gordura de superfícies?",
-        "answer": "Sim, o thinner é um poderoso desengraxante e removedor de resíduos de cola de fitas, adesivos e graxas em metais, vidros e cerâmicas."
-      },
-      {
-        "question": "Posso usar thinner para diluir tinta látex ou acrílica de parede?",
-        "answer": "Não! Tintas látex e acrílicas para paredes de alvenaria são à base de água. O contato com thinner destrói a resina da tinta aquosa e inviabiliza o produto."
-      }
-    ]
-  },
-  {
-    "id": "trincha-media-cerdas-gris-atlas-395",
-    "sku": "30104",
+    "id": "prod-242",
+    "sku": "242",
     "name": "Trincha Média Cerdas Gris Selecionadas Atlas Linha 395",
     "slug": "trincha-media-cerdas-gris-atlas-395",
     "description": "Trincha profissional com cerdas gris naturais selecionadas e cabo anatômico vermelho, ideal para tintas látex, acrílicas e recortes de precisão.",
-    "price": 8.9,
+    "price": 2.5,
     "unit": "UN",
     "departmentId": "pintura",
     "departmentName": "Pintura e Acessórios",
@@ -2937,7 +2955,8 @@
       "Tipo de Cerdas": "Naturais gris selecionadas de alta retenção",
       "Cabo": "Polipropileno anatômico vermelho resistente a solventes",
       "Virola": "Aço estanhado cravado resistente à corrosão",
-      "Indicação principal": "Tintas látex PVA, tintas acrílicas à base de água e impermeabilizantes"
+      "Indicação principal": "Tintas látex PVA, tintas acrílicas à base de água e impermeabilizantes",
+      "NCM": "96034090"
     },
     "applications": [
       "Pintura de paredes, tetos, rodapés, guarnições e recortes entre teto e parede",
@@ -2950,46 +2969,63 @@
       "30102",
       "30105"
     ],
-    "variationType": "Largura",
+    "variationType": "Medida",
     "variations": [
       {
+        "sku": "242",
         "name": "1/2\"",
-        "sku": "30104-05",
+        "size": "1/2\"",
+        "price": 2.5,
         "inStock": true
       },
       {
+        "sku": "243",
         "name": "3/4\"",
-        "sku": "30104-07",
+        "size": "3/4\"",
+        "price": 2.6,
+        "professional": false,
         "inStock": true
       },
       {
+        "sku": "244",
         "name": "1\"",
-        "sku": "30104-10",
+        "size": "1\"",
+        "price": 4.1,
         "inStock": true
       },
       {
+        "sku": "245",
         "name": "1.1/2\"",
-        "sku": "30104-15",
+        "size": "1.1/2\"",
+        "price": 5.2,
         "inStock": true
       },
       {
+        "sku": "246",
         "name": "2\"",
-        "sku": "30104-20",
+        "size": "2\"",
+        "price": 6.7,
         "inStock": true
       },
       {
+        "sku": "247",
         "name": "2.1/2\"",
-        "sku": "30104-25",
+        "size": "2.1/2\"",
+        "price": 11,
         "inStock": true
       },
       {
+        "sku": "248",
         "name": "3\"",
-        "sku": "30104-30",
+        "size": "3\"",
+        "price": 13,
         "inStock": true
       },
       {
+        "sku": "250",
         "name": "4\"",
-        "sku": "30104-40",
+        "size": "4\"",
+        "price": 16,
         "inStock": true
       }
     ],
@@ -3010,12 +3046,12 @@
     ]
   },
   {
-    "id": "trincha-cerdas-pretas-esmalte-atlas-319",
-    "sku": "30105",
+    "id": "prod-100304",
+    "sku": "100304",
     "name": "Trincha Cerdas Pretas para Esmalte e Verniz Atlas Linha 319",
     "slug": "trincha-cerdas-pretas-esmalte-atlas-319",
     "description": "Trincha profissional com cerdas pretas naturais, virola metálica e cabo amarelo, desenvolvida para acabamento fino com esmaltes sintéticos, vernizes e tintas a óleo.",
-    "price": 9.5,
+    "price": 3.5,
     "unit": "UN",
     "departmentId": "pintura",
     "departmentName": "Pintura e Acessórios",
@@ -3032,7 +3068,8 @@
       "Tipo de Cerdas": "Cerdas pretas naturais selecionadas e tratadas",
       "Cabo": "Polipropileno anatômico amarelo de alta resistência",
       "Virola": "Aço niquelado anticorrosivo",
-      "Indicação principal": "Esmaltes sintéticos, vernizes marítimos e poliuretano, tintas a óleo e stain protetor"
+      "Indicação principal": "Esmaltes sintéticos, vernizes marítimos e poliuretano, tintas a óleo e stain protetor",
+      "NCM": "96034090"
     },
     "applications": [
       "Pintura de portas, janelas, portões de ferro, grades e estruturas metálicas",
@@ -3045,46 +3082,34 @@
       "30102",
       "30104"
     ],
-    "variationType": "Largura",
+    "variationType": "Medida",
     "variations": [
       {
-        "name": "1/2\"",
-        "sku": "30105-05",
-        "inStock": true
-      },
-      {
+        "sku": "100304",
         "name": "3/4\"",
-        "sku": "30105-07",
+        "size": "3/4\"",
+        "price": 3.5,
         "inStock": true
       },
       {
+        "sku": "100306",
         "name": "1\"",
-        "sku": "30105-10",
+        "size": "1\"",
+        "price": 5.2,
         "inStock": true
       },
       {
+        "sku": "100305",
         "name": "1.1/2\"",
-        "sku": "30105-15",
+        "size": "1.1/2\"",
+        "price": 6.5,
         "inStock": true
       },
       {
+        "sku": "100307",
         "name": "2\"",
-        "sku": "30105-20",
-        "inStock": true
-      },
-      {
-        "name": "2.1/2\"",
-        "sku": "30105-25",
-        "inStock": true
-      },
-      {
-        "name": "3\"",
-        "sku": "30105-30",
-        "inStock": true
-      },
-      {
-        "name": "4\"",
-        "sku": "30105-40",
+        "size": "2\"",
+        "price": 7.5,
         "inStock": true
       }
     ],
@@ -3221,12 +3246,12 @@
     ]
   },
   {
-    "id": "pia-granito-120cm-cuba-inox-cozimax",
-    "sku": "30402",
+    "id": "prod-1387",
+    "sku": "1387",
     "name": "Pia de Granito Natural 120cm com Cuba em Inox Cinza Andorinha",
     "slug": "pia-granito-120cm-cuba-inox-cozimax",
     "description": "Bancada pia em pedra de granito natural 1,20m com cuba central em aço inox colada e travada, frontão traseiro e acabamento polido.",
-    "price": 349,
+    "price": 520,
     "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
     "departmentName": "Banheiro e Cozinha",
@@ -3247,7 +3272,8 @@
       "Dimensões da cuba": "Aproximadamente 46 x 30 x 14 cm",
       "Furação": "Furação padrão para válvula americana 3.1/2\"",
       "Frontão": "Frontão traseiro elevado para proteção de parede contra infiltrações",
-      "Peso aproximado": "38 kg"
+      "Peso aproximado": "38 kg",
+      "NCM": "68022300"
     },
     "applications": [
       "Pia de cozinha residencial para sobrepor em gabinetes de 120cm ou alvenaria",
@@ -3274,35 +3300,57 @@
         "question": "Qual válvula de pia devo comprar para instalar nesta bancada?",
         "answer": "A furação é padrão para Válvula Americana de 3.1/2\" em inox (como a disponível em nosso catálogo SKU 100702)."
       }
+    ],
+    "variationType": "Cor do Granito",
+    "variations": [
+      {
+        "sku": "1387",
+        "name": "Cinza Corumbá",
+        "hex": "#71717a",
+        "price": 520,
+        "inStock": true
+      },
+      {
+        "sku": "1388",
+        "name": "Verde Ubatuba",
+        "hex": "#14532d",
+        "price": 520,
+        "inStock": true
+      },
+      {
+        "sku": "2388",
+        "name": "Bege Arabesco",
+        "hex": "#d4b896",
+        "price": 520,
+        "inStock": true
+      }
     ]
   },
   {
-    "id": "assento-sanitario-oval-soft-close-atlas",
-    "sku": "30403",
-    "name": "Assento Sanitário Oval Soft Close Fechamento Suave Atlas AT4063-2",
+    "id": "prod-799",
+    "sku": "799",
+    "name": "Assento Sanitário Oval Soft Almofadado Astra TPJ/AS",
     "slug": "assento-sanitario-oval-soft-close-atlas",
     "description": "Assento sanitário oval universal com fechamento suave Soft Close, acabamento brilhante antibacteriano e fixação regulável para bacias ovais.",
-    "price": 79.9,
+    "price": 41,
     "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
     "departmentName": "Banheiro e Cozinha",
     "category": "Louças Sanitárias e Assentos",
-    "brand": "Atlas",
+    "brand": "Astra",
     "inStock": true,
     "stockBadge": "Pronta Entrega",
     "featured": false,
     "images": [
-      "/images/produtos/assento-sanitario-atlas-oval-soft.webp"
+      "/images/produtos/assento-sanitario-astra-oval-soft.webp"
     ],
     "technicalSpecs": {
-      "Formato": "Oval Universal (compatível com louças Deca Izy/Raveena, Celite Eco/Acesso, Incepa, Icasa e similares)",
-      "Tecnologia": "Soft Close (amortecimento hidráulico de fechamento suave do assento e da tampa)",
-      "Material": "Polipropileno virgem injetado de alto brilho",
-      "Cor": "Branco",
-      "Dimensões": "42,5 cm (comprimento) x 37,5 cm (largura)",
-      "Fixação": "Parafusos em nylon de alta resistência com regulagem de distância entre furos (14 a 16,5 cm)",
-      "Higiene": "Superfície lisa com proteção antibacteriana, fácil remoção para lavagem",
-      "Referência": "AT4063-2"
+      "Marca": "Astra",
+      "Linha": "Soft Almofadado TPJ/AS",
+      "Formato": "Oval Universal",
+      "Material": "Polipropileno e Polietileno Soprado Macio",
+      "NCM": "39222000",
+      "Compatibilidade": "Bacias Sanitárias Ovais Universais (Deca, Celite, Incepa, Icasa)"
     },
     "applications": [
       "Bacias sanitárias convencionais e caixas acopladas de formato oval (universal)",
@@ -3313,19 +3361,46 @@
       "821",
       "3438"
     ],
-    "detailedDescription": "O Assento Sanitário Oval Soft Close Atlas (Ref. AT4063-2) proporciona o máximo de conforto, elegância e silêncio para o seu banheiro. Equipado com o renomado mecanismo de amortecimento Soft Close nos eixos da tampa e do anel do assento, ele garante um fechamento suave e progressivo com apenas um leve toque, eliminando batidas estrondosas contra a louça, protegendo a cerâmica do vaso e prevenindo acidentes com os dedos de crianças e idosos.\n\nInjetado em polipropileno de engenharia virgem de alto impacto, possui acabamento esmaltado branco de alto brilho com proteção antibacteriana que impede o acúmulo de microrganismos e facilita a higienização diária com pano úmido e sabão neutro. Não amarela com o passar dos anos e mantém a tonalidade da bacia sanitária.\n\nConta com ferragens de fixação reguláveis de montagem simplificada, compatíveis com os principais vasos sanitários ovais do mercado brasileiro, incluindo a bacia Deca Izy, Deca Ravena, Celite Eco, Icasa Sabará e similares.",
+    "detailedDescription": "Assento sanitário almofadado Astra linha Soft modelo TPJ/AS para bacias ovais universais. Proporciona conforto com toque macio e acabamento higiênico de fácil limpeza.\n\nPossui fixadores ajustáveis que garantem firmeza e compatibilidade perfeita com todas as louças sanitárias de formato oval do mercado (Deca, Incepa, Celite, Icasa, Logasa). Acompanha parafusos de fixação.",
     "faq": [
       {
-        "question": "O que significa o sistema Soft Close?",
-        "answer": "É o sistema de fechamento suave e silencioso. Ao soltar a tampa ou o assento, pistões internos amortecem a descida, fazendo com que ele feche lentamente sem bater na louça."
+        "question": "Esse assento serve em qualquer vaso sanitário?",
+        "answer": "Serve em todas as bacias sanitárias de formato oval convencional (como Deca Izy, Celite Eco, Icasa Sabará, Incepa Fiore, etc.). Não é compatível com bacias quadradas ou retangulares."
       },
       {
-        "question": "Este assento é compatível com a bacia Deca Izy?",
-        "answer": "Sim! Ele tem formato oval universal e regulagem de furação perfeitamente compatível com a bacia Deca Izy e demais modelos convencionais ovais."
+        "question": "O arco é macio e confortável?",
+        "answer": "Sim, o arco é produzido com tecnologia soft soprada de polietileno, conferindo maciez e conforto anatômico."
+      }
+    ],
+    "variationType": "Cor",
+    "variations": [
+      {
+        "sku": "799",
+        "name": "Branco",
+        "hex": "#ffffff",
+        "price": 41,
+        "inStock": true
       },
       {
-        "question": "Como limpar o assento para evitar riscos e manter o brilho?",
-        "answer": "Utilize apenas esponja macia ou pano com água e sabão neutro. Nunca utilize esponjas de aço, saponáceos ou solventes como cloro e álcool puro, que podem agredir o acabamento polido."
+        "sku": "804",
+        "name": "Bege",
+        "hex": "#f5f5dc",
+        "price": 41,
+        "inStock": true
+      },
+      {
+        "sku": "801",
+        "name": "Cinza Claro",
+        "hex": "#d1d5db",
+        "price": 41,
+        "inStock": true
+      },
+      {
+        "sku": "2243",
+        "name": "Cinza Escuro",
+        "hex": "#4b5563",
+        "price": 41,
+        "inStock": true
       }
     ]
   },
@@ -3386,12 +3461,12 @@
     ]
   },
   {
-    "id": "torneira-pia-cozinha-parede-bica-movel-ema-metais",
-    "sku": "30404",
-    "name": "Torneira de Parede para Pia de Cozinha Bica Móvel Ema Metais Cromada",
+    "id": "prod-2639",
+    "sku": "2639",
+    "name": "Torneira de Parede para Pia de Cozinha Bica Móvel Cromada Ema Metais",
     "slug": "torneira-pia-cozinha-parede-bica-movel-ema-metais",
     "description": "Torneira de parede para pia de cozinha com bica móvel giratória 360°, acabamento em metal cromado de alto brilho e arejador econômico.",
-    "price": 49.9,
+    "price": 65,
     "unit": "UN",
     "departmentId": "banheiro-e-cozinha",
     "departmentName": "Banheiro e Cozinha",
@@ -3410,7 +3485,8 @@
       "Mecanismo": "Vedação com mecanismo 1/4 de volta cerâmico de alta durabilidade",
       "Bica": "Móvel giratória em 360 graus",
       "Arejador": "Arejador embutido para fluxo laminar sem respingos e economia de até 40% de água",
-      "Pressão de funcionamento": "2 a 40 m.c.a. (metros de coluna d'água)"
+      "Pressão de funcionamento": "2 a 40 m.c.a. (metros de coluna d'água)",
+      "NCM": "84818011"
     },
     "applications": [
       "Pias de cozinha com ponto de água na parede, bancadas com frontão e áreas de churrasqueira",
@@ -3435,6 +3511,33 @@
       {
         "question": "O acabamento cromado oxida com o tempo?",
         "answer": "O metal recebe tripla camada de cromo para proteção anticorrosiva. Para mantê-la como nova, basta limpar semanalmente com flanela úmida e sabão neutro, sem usar esponja de aço ou saponáceos."
+      }
+    ],
+    "variationType": "Modelo do Volante",
+    "variations": [
+      {
+        "sku": "2639",
+        "name": "Cruzeta Clássica (C-40)",
+        "price": 65,
+        "inStock": true
+      },
+      {
+        "sku": "3066",
+        "name": "Alavanca Moderna (C-50)",
+        "price": 65,
+        "inStock": true
+      },
+      {
+        "sku": "746",
+        "name": "Manopla C-52",
+        "price": 65,
+        "inStock": true
+      },
+      {
+        "sku": "721",
+        "name": "Manopla C-53",
+        "price": 65,
+        "inStock": true
       }
     ]
   },
@@ -3842,13 +3945,13 @@
     ]
   },
   {
-    "id": "mangueira-jardim-trancada-1-2-durin-2mm",
-    "sku": "30901",
-    "name": "Mangueira de Jardim Trançada Siliconada 1/2\" Parede 2,0mm Durin",
+    "id": "prod-3227",
+    "sku": "3227",
+    "name": "Mangueira de Jardim Trançada Siliconada 1/2\" Parede 2,0mm Durin (Por Metro)",
     "slug": "mangueira-jardim-trancada-1-2-durin-2mm",
     "description": "Mangueira trançada reforçada em PVC virgem siliconado com malha interna de poliéster, parede grossa de 2,0mm e bitola de 1/2 polegada.",
-    "price": 49.9,
-    "unit": "Rolo 20 Metros",
+    "price": 5.5,
+    "unit": "Metro",
     "departmentId": "jardim-e-utilidades",
     "departmentName": "Jardim e Área Externa",
     "category": "Mangueiras e Irrigação",
@@ -3865,7 +3968,9 @@
       "Comprimento do rolo": "20 metros",
       "Estrutura": "3 camadas (camada interna de PVC virgem, intermediária com malha de poliéster trançado e externa em PVC cristal verde siliconado)",
       "Pressão de trabalho": "Suporta até 10 kgf/cm² (142 psi)",
-      "Anti-dobra": "Elevada flexibilidade que não torce nem bloqueia o fluxo de água"
+      "Anti-dobra": "Elevada flexibilidade que não torce nem bloqueia o fluxo de água",
+      "NCM": "39173290",
+      "Tipo de Venda": "Fracionada por Metro Linear"
     },
     "applications": [
       "Irrigação de jardins, canteiros, gramados e hortas domésticas",
@@ -4108,6 +4213,366 @@
       {
         "question": "Qual o alcance da fita sem dobrar no ar?",
         "answer": "Por ter fita larga de 19mm (3/4\"), ela permite esticar aproximadamente 1,80m a 2 metros no ar sem dobrar, facilitando medições individuais sem ajudante."
+      }
+    ]
+  },
+  {
+    "id": "prod-700",
+    "sku": "700",
+    "name": "Resistência para Chuveiro Maxi Ducha Lorenzetti 5500W",
+    "slug": "resistencia-para-chuveiro-maxi-ducha-lorenzetti",
+    "description": "Resistência original de reposição Lorenzetti 5500W para chuveiros Maxi Ducha, Bello Banho e Maxi Banho.",
+    "price": 22,
+    "unit": "UN",
+    "departmentId": "banheiro-e-cozinha",
+    "departmentName": "Banheiro e Cozinha",
+    "category": "Chuveiros e Duchas",
+    "brand": "Lorenzetti",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/resistencia-maxi-ducha-lorenzetti.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Lorenzetti",
+      "Modelo Compatível": "Maxi Ducha, Maxi Banho, Bello Banho e Bella Ducha",
+      "Potência": "5500W",
+      "NCM": "85168010",
+      "Garantia": "3 meses pelo fabricante"
+    },
+    "applications": [
+      "Substituição de resistência queimada em chuveiros Lorenzetti Maxi Ducha 5500W",
+      "Manutenção preventiva e corretiva de duchas residenciais"
+    ],
+    "warranty": "3 meses legais contra defeitos de fabricação pelo fabricante Lorenzetti",
+    "relatedSkus": [
+      "1577",
+      "1578"
+    ],
+    "variationType": "Voltagem",
+    "variations": [
+      {
+        "sku": "700",
+        "name": "127V (5500W - Ref. 055-J)",
+        "voltage": "127V",
+        "price": 37.5,
+        "inStock": true
+      },
+      {
+        "sku": "699",
+        "name": "220V (5500W)",
+        "voltage": "220V",
+        "price": 22,
+        "inStock": true
+      }
+    ],
+    "detailedDescription": "Resistência original Lorenzetti para chuveiros da linha Maxi Ducha, proporcionando aquecimento rápido, segurança e durabilidade. Peça de reposição genuína que garante o perfeito funcionamento do aparelho sem riscos elétricos.\n\nCompatível com os modelos Maxi Ducha, Maxi Banho, Bello Banho e Bella Ducha com potência de 5500W. Antes de instalar, desligue o disjuntor geral da residência e lembre-se de deixar a água correr fria antes de ligar a energia para evitar a queima imediata da nova resistência.",
+    "faq": [
+      {
+        "question": "Como saber qual a resistência certa para o meu chuveiro?",
+        "answer": "Verifique no corpo do seu chuveiro Lorenzetti a voltagem (127V ou 220V) e a potência (5500W). A referência 055-J atende 127V e a referência tradicional atende 220V."
+      },
+      {
+        "question": "Preciso passar fita veda rosca na resistência?",
+        "answer": "Não. A resistência do chuveiro Maxi Ducha possui encaixe e terminais de contato por pressão, sem necessidade de veda rosca."
+      },
+      {
+        "question": "Por que deixar correr água fria após trocar a resistência?",
+        "answer": "Esse procedimento enche a câmara do chuveiro de água. Se a energia for ligada com a câmara seca, a resistência queima instantaneamente."
+      }
+    ]
+  },
+  {
+    "id": "prod-3161",
+    "sku": "3161",
+    "name": "Espaçador Nivelador de Piso e Porcelanato Cortag (Caixa 500 Peças)",
+    "slug": "espacador-nivelador-de-piso-cortag-caixa-500-pecas",
+    "description": "Caixa econômica com 500 espaçadores niveladores de piso Cortag para obras e assentamento de grandes formatos.",
+    "price": 125,
+    "unit": "Caixa 500 Peças",
+    "departmentId": "pisos-e-revestimentos",
+    "departmentName": "Pisos e Revestimentos",
+    "category": "Acessórios para Assentamento",
+    "brand": "Cortag",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/espacador-nivelador-de-piso-cortag-50-pecas.webp",
+      "/images/produtos/espacador-nivelador-de-piso-cortag-detalhe.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Cortag",
+      "Embalagem": "Caixa com 500 unidades",
+      "Material": "Polipropileno virgem virgem reciclável",
+      "NCM": "39259090",
+      "Compatibilidade": "Cunhas niveladoras tradicionais Cortag"
+    },
+    "applications": [
+      "Nivelamento perfeito de porcelanatos, pisos cerâmicos e revestimentos retificados em grandes áreas",
+      "Obras residenciais e comerciais de médio e grande porte"
+    ],
+    "warranty": "3 meses legais contra defeitos de fabricação",
+    "relatedSkus": [
+      "2940",
+      "2110",
+      "2106",
+      "2109"
+    ],
+    "variationType": "Espessura da Junta",
+    "variations": [
+      {
+        "sku": "3161",
+        "name": "1.0 mm",
+        "price": 125,
+        "inStock": true
+      },
+      {
+        "sku": "2945",
+        "name": "1.5 mm",
+        "price": 125,
+        "inStock": true
+      },
+      {
+        "sku": "100028",
+        "name": "2.0 mm",
+        "price": 125,
+        "inStock": true
+      },
+      {
+        "sku": "100265",
+        "name": "3.0 mm",
+        "price": 125,
+        "inStock": true
+      }
+    ],
+    "detailedDescription": "Caixa com 500 espaçadores niveladores Cortag desenvolvida para azulejistas e mestres de obra que buscam alto rendimento e economia em grandes reformas e construções.\n\nGarante alinhamento milimétrico, eliminando \"dentes\" e desníveis entre as peças cerâmicas. O ponto de ruptura estrategicamente posicionado na base permite remoção limpa com martelo de borracha ou chute sem lascar o esmalte das peças.",
+    "faq": [
+      {
+        "question": "Quantos espaçadores são necessários por metro quadrado?",
+        "answer": "Para peças de 60x60cm, calcula-se em média de 7 a 9 espaçadores por metro quadrado. Para peças maiores (80x80cm ou 120x60cm), cerca de 5 a 8 peças/m²."
+      },
+      {
+        "question": "As cunhas acompanham a caixa de 500 espaçadores?",
+        "answer": "Não. Os espaçadores são descartáveis e vendidos separadamente das cunhas, que são reutilizáveis por diversas obras."
+      }
+    ]
+  },
+  {
+    "id": "prod-345",
+    "sku": "345",
+    "name": "Thinner Solvente Limpeza e Diluição 116 900ml Maza",
+    "slug": "thinner-116-900ml-maza",
+    "description": "Thinner SM 116 Maza frasco 900ml indicado para diluição de tintas sintéticas, esmaltes, primers e limpeza de ferramentas.",
+    "price": 19,
+    "unit": "Frasco 900ml",
+    "departmentId": "pintura",
+    "departmentName": "Pintura",
+    "category": "Solventes e Removedores",
+    "brand": "Maza",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/thinner-116-maza.webp",
+      "/images/produtos/thinner-solvente-maza.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Maza",
+      "Linha": "SM 116 Tradicional",
+      "Embalagem": "Lata 900ml",
+      "NCM": "38140090",
+      "Aplicação": "Diluição e limpeza de equipamentos de pintura"
+    },
+    "applications": [
+      "Diluição de esmaltes sintéticos e vernizes",
+      "Limpeza pesada de trinchas, rolos e pistolas de pintura"
+    ],
+    "warranty": "Legal de 3 meses pelo fabricante",
+    "relatedSkus": [
+      "346",
+      "242",
+      "100746"
+    ],
+    "detailedDescription": "O Thinner SM 116 da Maza é a escolha clássica para pintores e profissionais da construção civil. Desenvolvido para oferecer excelente rendimento na diluição de esmaltes sintéticos, primers e vernizes, além de desengordurar e limpar pincéis, pistolas de pintura e superfícies metálicas.",
+    "faq": [
+      {
+        "question": "Para que serve o Thinner 116?",
+        "answer": "É indicado para a diluição de esmaltes e tintas à base de solvente, além da limpeza profunda de ferramentas e respingos de obra."
+      }
+    ]
+  },
+  {
+    "id": "prod-346",
+    "sku": "346",
+    "name": "Thinner Solvente Limpeza e Diluição 116 Galão 5L Maza",
+    "slug": "thinner-116-5l-maza",
+    "description": "Thinner SM 116 Maza em embalagem econômica galão de 5 litros para obras e uso contínuo de pintura e limpeza.",
+    "price": 95,
+    "unit": "Galão 5L",
+    "departmentId": "pintura",
+    "departmentName": "Pintura",
+    "category": "Solventes e Removedores",
+    "brand": "Maza",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/thinner-116-maza.webp",
+      "/images/produtos/thinner-solvente-maza.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Maza",
+      "Linha": "SM 116 Tradicional",
+      "Embalagem": "Galão 5 Litros",
+      "NCM": "38140090"
+    },
+    "applications": [
+      "Obras de pintura predial e reformas",
+      "Diluição de esmaltes e vernizes",
+      "Limpeza de compressores e pistolas"
+    ],
+    "warranty": "Legal de 3 meses pelo fabricante",
+    "relatedSkus": [
+      "345",
+      "242",
+      "100746"
+    ],
+    "detailedDescription": "Embalagem galão de 5 litros de Thinner SM 116 Maza, ideal para pintores profissionais e construtoras que demandam alto volume para diluição e limpeza constante em obras.",
+    "faq": [
+      {
+        "question": "O galão de 5L compensa para obra?",
+        "answer": "Sim, o galão oferece custo por litro muito mais vantajoso para obras com grande volume de pintura em portas, grades e ferragens."
+      }
+    ]
+  },
+  {
+    "id": "prod-2616",
+    "sku": "2616",
+    "name": "Thinner Acabamento Profissional 800 900ml Maza",
+    "slug": "thinner-800-900ml-maza",
+    "description": "Thinner SM 800 Maza frasco 900ml de alta pureza e secagem controlada para lacas, seladoras, automotivo e acabamentos finos.",
+    "price": 20,
+    "unit": "Frasco 900ml",
+    "departmentId": "pintura",
+    "departmentName": "Pintura",
+    "category": "Solventes e Removedores",
+    "brand": "Maza",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/thinner-800-maza.webp",
+      "/images/produtos/thinner-solvente-maza.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Maza",
+      "Linha": "SM 800 Extra Puro",
+      "Embalagem": "Lata 900ml",
+      "NCM": "38140090"
+    },
+    "applications": [
+      "Diluição de lacas nitrocelulose, primers PU e tintas automotivas",
+      "Marcenaria de alto padrão e repintura"
+    ],
+    "warranty": "Legal de 3 meses pelo fabricante",
+    "relatedSkus": [
+      "100674",
+      "242",
+      "100746"
+    ],
+    "detailedDescription": "O Thinner SM 800 Maza é formulado com solventes puros de alta evaporação equilibrada, conferindo brilho superior e evitando o embranquecimento (blush) na aplicação de vernizes, lacas e seladoras em marcenarias e funilarias.",
+    "faq": [
+      {
+        "question": "Qual a diferença entre o Thinner 116 e o Thinner 800?",
+        "answer": "O Thinner 800 é mais nobre e indicado para acabamentos nobres (lacas, marcenaria e vernizes finos), enquanto o 116 é excelente para esmaltes tradicionais e limpeza."
+      }
+    ]
+  },
+  {
+    "id": "prod-100674",
+    "sku": "100674",
+    "name": "Thinner Acabamento Profissional 800 Galão 5L Maza",
+    "slug": "thinner-800-5l-maza",
+    "description": "Thinner SM 800 Maza galão 5 litros de alto padrão para marcenarias, oficinas e acabamentos requintados.",
+    "price": 110,
+    "unit": "Galão 5L",
+    "departmentId": "pintura",
+    "departmentName": "Pintura",
+    "category": "Solventes e Removedores",
+    "brand": "Maza",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/thinner-800-maza.webp",
+      "/images/produtos/thinner-solvente-maza.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Maza",
+      "Linha": "SM 800 Extra Puro",
+      "Embalagem": "Galão 5 Litros",
+      "NCM": "38140090"
+    },
+    "applications": [
+      "Marcenarias, serralherias técnicas e oficinas de repintura",
+      "Diluição de primers nobres e seladoras"
+    ],
+    "warranty": "Legal de 3 meses pelo fabricante",
+    "relatedSkus": [
+      "2616",
+      "346",
+      "100746"
+    ],
+    "detailedDescription": "Embalagem galão de 5 litros de Thinner SM 800 Maza. Solvente profissional com excelente resistência ao branqueamento e retenção de brilho em vernizes e lacas.",
+    "faq": [
+      {
+        "question": "O Thinner 800 evita branqueamento em dias úmidos?",
+        "answer": "Sim, a formulação do 800 possui balanço químico especial que minimiza o choque térmico e o branqueamento da laca/verniz."
+      }
+    ]
+  },
+  {
+    "id": "prod-224",
+    "sku": "224",
+    "name": "Tinta Látex Acrílica Fosca Renove Balde 16L Branco",
+    "slug": "tinta-latex-acrilica-renove-balde-16l-branco",
+    "description": "Tinta látex acrílica fosca Renove balde de 16 litros com alto rendimento para paredes internas.",
+    "price": 175,
+    "unit": "Balde 16L",
+    "departmentId": "pintura",
+    "departmentName": "Pintura",
+    "category": "Tintas Imobiliárias",
+    "brand": "Renove",
+    "inStock": true,
+    "stockBadge": "Pronta Entrega",
+    "featured": false,
+    "images": [
+      "/images/produtos/tinta-latex-renove-3-6l.webp"
+    ],
+    "technicalSpecs": {
+      "Marca": "Renove",
+      "Volume": "Balde 16 Litros",
+      "Acabamento": "Fosco Aveludado",
+      "Cor": "Branco",
+      "NCM": "32091010",
+      "Rendimento": "Até 250m² por demão"
+    },
+    "applications": [
+      "Paredes internas de alvenaria, gesso, reboco e massa corrida"
+    ],
+    "warranty": "Legal de 3 meses pelo fabricante",
+    "relatedSkus": [
+      "192",
+      "242",
+      "100746"
+    ],
+    "detailedDescription": "Balde econômico de 16 litros de Tinta Látex Acrílica Renove Branco. Proporciona excelente cobertura, baixo odor após a aplicação e acabamento fosco suave que disfarça pequenas imperfeições nas paredes.",
+    "faq": [
+      {
+        "question": "Quantas demãos são recomendadas?",
+        "answer": "Recomenda-se de 2 a 3 demãos para cobertura uniforme e homogênea."
       }
     ]
   }
