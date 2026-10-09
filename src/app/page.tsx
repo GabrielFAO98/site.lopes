@@ -60,32 +60,35 @@ export default async function HomePage() {
             <Link
               key={dept.id}
               href={`/produtos?depto=${dept.id}`}
-              className="relative bg-white rounded-2xl border border-slate-200/90 hover:border-lopes-blue shadow-2xs hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 overflow-hidden group flex flex-col h-52 sm:h-56 md:h-60"
+              className="group flex flex-col bg-white rounded-2xl border border-slate-200/90 hover:border-lopes-blue/60 shadow-xs hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 overflow-hidden"
             >
-              {/* Área da Imagem Ampliada com Respiro Superior */}
-              <div className="relative w-full h-full p-3 sm:p-4 pb-14 sm:pb-16 flex items-center justify-center bg-gradient-to-b from-slate-50/60 via-white to-white">
+              {/* Área da Imagem 100% Livre e Desobstruída */}
+              <div className="relative w-full aspect-[4/3] sm:aspect-square flex items-center justify-center bg-gradient-to-b from-slate-50/80 via-white to-slate-50/30 p-3 sm:p-4 group-hover:from-blue-50/30 group-hover:via-white transition-colors">
                 {dept.image ? (
                   <Image
                     src={dept.image}
                     alt={dept.name}
                     fill
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
-                    className="object-contain p-2 sm:p-3 group-hover:scale-108 transition-transform duration-300 drop-shadow-xs"
+                    className="object-contain p-2.5 sm:p-3.5 group-hover:scale-106 transition-transform duration-300 drop-shadow-xs"
                   />
                 ) : (
-                  <div className="w-16 h-16 rounded-2xl bg-lopes-blue-50 text-lopes-blue flex items-center justify-center">
-                    {iconMap[dept.iconName] || <Building2 className="w-8 h-8" />}
+                  <div className="w-14 h-14 rounded-2xl bg-lopes-blue-50 text-lopes-blue flex items-center justify-center">
+                    {iconMap[dept.iconName] || <Building2 className="w-7 h-7" />}
                   </div>
                 )}
               </div>
 
-              {/* Título Sobreposto na Base com Altura Uniforme e Efeito Frosted Glass */}
-              <div className="absolute inset-x-2.5 bottom-2.5 sm:inset-x-3 sm:bottom-3 z-10">
-                <div className="bg-white/95 backdrop-blur-md px-2.5 py-1.5 rounded-xl border border-slate-200/80 shadow-xs group-hover:bg-lopes-blue group-hover:border-lopes-blue group-hover:shadow-md transition-all duration-300 text-center flex items-center justify-center h-[46px] sm:h-[50px]">
-                  <h3 className="font-bold text-xs sm:text-[13px] text-slate-800 group-hover:text-white transition-colors leading-snug line-clamp-2">
-                    {dept.name}
-                  </h3>
-                </div>
+              {/* Bloco de Texto Separado Abaixo da Imagem */}
+              <div className="flex flex-col items-center justify-center text-center px-3 py-3 sm:py-3.5 bg-white border-t border-slate-100 group-hover:border-slate-200/80 transition-colors min-h-[56px] sm:min-h-[64px]">
+                <h3 className="font-display font-bold text-xs sm:text-sm md:text-[14px] text-slate-800 group-hover:text-lopes-blue transition-colors leading-snug line-clamp-2">
+                  {dept.name}
+                </h3>
+                {dept.count !== undefined && (
+                  <span className="text-[10px] sm:text-[11px] font-medium text-slate-400 group-hover:text-lopes-orange transition-colors mt-0.5">
+                    {dept.count} {dept.count === 1 ? 'produto' : 'produtos'}
+                  </span>
+                )}
               </div>
             </Link>
           ))}
