@@ -55,43 +55,66 @@ export default async function HomePage() {
           <div className="w-14 sm:w-16 h-1 bg-lopes-orange rounded-full mt-2" />
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3.5 sm:gap-4 md:gap-5">
-          {departments.map((dept) => (
-            <Link
-              key={dept.id}
-              href={`/produtos?depto=${dept.id}`}
-              className="group flex flex-col bg-white rounded-2xl border border-slate-200/90 hover:border-lopes-blue/60 shadow-xs hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 overflow-hidden"
-            >
-              {/* Área da Imagem 100% Livre e Desobstruída */}
-              <div className="relative w-full aspect-[4/3] sm:aspect-square flex items-center justify-center bg-gradient-to-b from-slate-50/80 via-white to-slate-50/30 p-3 sm:p-4 group-hover:from-blue-50/30 group-hover:via-white transition-colors">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5">
+          {departments.map((dept) => {
+            const gradientColors: Record<string, string> = {
+              'construcao-basica': 'from-amber-950/95 via-amber-900/40 to-transparent',
+              'pisos-e-revestimentos': 'from-slate-950/95 via-slate-900/40 to-transparent',
+              'quimicos-e-adesivos': 'from-blue-950/95 via-blue-900/40 to-transparent',
+              'pintura': 'from-red-950/95 via-rose-900/40 to-transparent',
+              'hidraulica': 'from-sky-950/95 via-blue-900/40 to-transparent',
+              'eletrica': 'from-amber-950/95 via-yellow-900/40 to-transparent',
+              'banheiro-e-cozinha': 'from-teal-950/95 via-teal-900/40 to-transparent',
+              'ferramentas': 'from-orange-950/95 via-orange-900/40 to-transparent',
+              'ferragens': 'from-zinc-950/95 via-neutral-900/40 to-transparent',
+              'jardim-e-utilidades': 'from-emerald-950/95 via-emerald-900/40 to-transparent',
+            };
+
+            const deptGradient = gradientColors[dept.id] || 'from-slate-950/95 via-slate-900/40 to-transparent';
+
+            return (
+              <Link
+                key={dept.id}
+                href={`/produtos?depto=${dept.id}`}
+                className="group relative aspect-square rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 border border-slate-200/80 hover:border-lopes-orange/80 bg-slate-900"
+              >
+                {/* Imagem de Fundo em Sangria Total (Full-Bleed) */}
                 {dept.image ? (
                   <Image
                     src={dept.image}
                     alt={dept.name}
                     fill
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
-                    className="object-contain p-2.5 sm:p-3.5 group-hover:scale-106 transition-transform duration-300 drop-shadow-xs"
+                    className="object-cover group-hover:scale-108 transition-transform duration-500 ease-out"
                   />
                 ) : (
-                  <div className="w-14 h-14 rounded-2xl bg-lopes-blue-50 text-lopes-blue flex items-center justify-center">
-                    {iconMap[dept.iconName] || <Building2 className="w-7 h-7" />}
+                  <div className="absolute inset-0 bg-slate-800 flex items-center justify-center text-white/50">
+                    {iconMap[dept.iconName] || <Building2 className="w-10 h-10" />}
                   </div>
                 )}
-              </div>
 
-              {/* Bloco de Texto Separado Abaixo da Imagem */}
-              <div className="flex flex-col items-center justify-center text-center px-3 py-3 sm:py-3.5 bg-white border-t border-slate-100 group-hover:border-slate-200/80 transition-colors min-h-[56px] sm:min-h-[64px]">
-                <h3 className="font-display font-bold text-xs sm:text-sm md:text-[14px] text-slate-800 group-hover:text-lopes-blue transition-colors leading-snug line-clamp-2">
-                  {dept.name}
-                </h3>
-                {dept.count !== undefined && (
-                  <span className="text-[10px] sm:text-[11px] font-medium text-slate-400 group-hover:text-lopes-orange transition-colors mt-0.5">
-                    {dept.count} {dept.count === 1 ? 'produto' : 'produtos'}
-                  </span>
-                )}
-              </div>
-            </Link>
-          ))}
+                {/* Camada 1: Degradê Escuro Base na parte inferior (35%) para Garantir Legibilidade Máxima */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 via-35% to-transparent pointer-events-none" />
+
+                {/* Camada 2: Degradê Temático do Departamento */}
+                <div
+                  className={`absolute inset-0 bg-gradient-to-t ${deptGradient} opacity-85 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none`}
+                />
+
+                {/* Tipografia Interna no Rodapé do Card (Estilo Referência Leroy Merlin, sem legenda externa) */}
+                <div className="absolute inset-x-0 bottom-0 p-3 sm:p-4 pb-3.5 sm:pb-4 flex flex-col items-center justify-end text-center z-10">
+                  <h3 className="font-display font-extrabold text-white text-xs sm:text-sm md:text-[15px] leading-tight tracking-tight drop-shadow-md group-hover:text-amber-300 transition-colors">
+                    {dept.name}
+                  </h3>
+                  {dept.count !== undefined && (
+                    <span className="text-[10px] sm:text-[11px] font-medium text-white/80 mt-1 drop-shadow-xs">
+                      {dept.count} {dept.count === 1 ? 'produto' : 'produtos'}
+                    </span>
+                  )}
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
