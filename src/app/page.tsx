@@ -102,15 +102,10 @@ export default async function HomePage() {
                 />
 
                 {/* Tipografia Interna no Rodapé do Card (Estilo Referência Leroy Merlin, sem legenda externa) */}
-                <div className="absolute inset-x-0 bottom-0 p-3 sm:p-4 pb-3.5 sm:pb-4 flex flex-col items-center justify-end text-center z-10">
-                  <h3 className="font-display font-extrabold text-white text-xs sm:text-sm md:text-[15px] leading-tight tracking-tight drop-shadow-md group-hover:text-amber-300 transition-colors">
+                <div className="absolute inset-x-0 bottom-0 p-3.5 sm:p-4.5 pb-4 sm:pb-5 flex flex-col items-center justify-end text-center z-10">
+                  <h3 className="font-display font-extrabold text-white text-xs sm:text-sm md:text-[16px] leading-tight tracking-tight drop-shadow-md group-hover:text-amber-300 transition-colors">
                     {dept.name}
                   </h3>
-                  {dept.count !== undefined && (
-                    <span className="text-[10px] sm:text-[11px] font-medium text-white/80 mt-1 drop-shadow-xs">
-                      {dept.count} {dept.count === 1 ? 'produto' : 'produtos'}
-                    </span>
-                  )}
                 </div>
               </Link>
             );
