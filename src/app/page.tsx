@@ -56,37 +56,60 @@ export default async function HomePage() {
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-3 sm:gap-4 md:gap-5">
-          {departments.map((dept) => (
-            <Link
-              key={dept.id}
-              href={`/produtos?depto=${dept.id}`}
-              className="group relative aspect-square rounded-2xl bg-white border border-slate-200/90 hover:border-lopes-blue/60 shadow-xs hover:shadow-xl hover:-translate-y-1.5 transition-all duration-300 overflow-hidden flex flex-col justify-between p-2.5 sm:p-3.5"
-            >
-              {/* Área da Imagem do Produto: Ampla, Centralizada e Totalmente Desobstruída */}
-              <div className="relative w-full flex-1 min-h-0 flex items-center justify-center p-1 sm:p-2">
+          {departments.map((dept) => {
+            const gradientColors: Record<string, string> = {
+              'construcao-basica': 'from-amber-950/95 via-amber-900/40 to-transparent',
+              'pisos-e-revestimentos': 'from-slate-950/95 via-slate-900/40 to-transparent',
+              'quimicos-e-adesivos': 'from-blue-950/95 via-blue-900/40 to-transparent',
+              'pintura': 'from-red-950/95 via-rose-900/40 to-transparent',
+              'hidraulica': 'from-sky-950/95 via-blue-900/40 to-transparent',
+              'eletrica': 'from-amber-950/95 via-yellow-900/40 to-transparent',
+              'banheiro-e-cozinha': 'from-teal-950/95 via-teal-900/40 to-transparent',
+              'ferramentas': 'from-orange-950/95 via-orange-900/40 to-transparent',
+              'ferragens': 'from-zinc-950/95 via-neutral-900/40 to-transparent',
+              'jardim-e-utilidades': 'from-emerald-950/95 via-emerald-900/40 to-transparent',
+            };
+
+            const deptGradient = gradientColors[dept.id] || 'from-slate-950/95 via-slate-900/40 to-transparent';
+
+            return (
+              <Link
+                key={dept.id}
+                href={`/produtos?depto=${dept.id}`}
+                className="group relative aspect-square rounded-2xl overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 border border-slate-200/80 hover:border-lopes-orange/80 bg-slate-900"
+              >
+                {/* Imagem de Fundo em Sangria Total (Full-Bleed) Cobrindo Todo o Espaço */}
                 {dept.image ? (
                   <Image
                     src={dept.image}
                     alt={dept.name}
                     fill
                     sizes="(max-width: 640px) 50vw, (max-width: 1024px) 25vw, 20vw"
-                    className="object-contain p-1 sm:p-1.5 group-hover:scale-108 transition-transform duration-300 drop-shadow-xs"
+                    className="object-cover group-hover:scale-108 transition-transform duration-500 ease-out"
                   />
                 ) : (
-                  <div className="w-12 h-12 rounded-2xl bg-lopes-blue-50 text-lopes-blue flex items-center justify-center">
-                    {iconMap[dept.iconName] || <Building2 className="w-6 h-6" />}
+                  <div className="absolute inset-0 bg-slate-800 flex items-center justify-center text-white/50">
+                    {iconMap[dept.iconName] || <Building2 className="w-10 h-10" />}
                   </div>
                 )}
-              </div>
 
-              {/* Título Integrado no Próprio Card (Sem Divisória, Sem Cobrir a Foto) */}
-              <div className="w-full pt-1 pb-1 sm:pb-1.5 px-1 text-center flex flex-col items-center justify-center">
-                <h3 className="font-display font-bold text-xs sm:text-sm md:text-[14px] text-slate-800 group-hover:text-lopes-blue transition-colors leading-tight line-clamp-2">
-                  {dept.name}
-                </h3>
-              </div>
-            </Link>
-          ))}
+                {/* Camada 1: Degradê Escuro Base na parte inferior (35%) para Garantir Legibilidade Máxima */}
+                <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/35 via-35% to-transparent pointer-events-none" />
+
+                {/* Camada 2: Degradê Temático do Departamento */}
+                <div
+                  className={`absolute inset-0 bg-gradient-to-t ${deptGradient} opacity-85 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none`}
+                />
+
+                {/* Tipografia Interna por cima da imagem na base do card */}
+                <div className="absolute inset-x-0 bottom-0 p-3.5 sm:p-4.5 pb-4 sm:pb-5 flex flex-col items-center justify-end text-center z-10">
+                  <h3 className="font-display font-extrabold text-white text-xs sm:text-sm md:text-[16px] leading-tight tracking-tight drop-shadow-md group-hover:text-amber-300 transition-colors">
+                    {dept.name}
+                  </h3>
+                </div>
+              </Link>
+            );
+          })}
         </div>
       </section>
 
