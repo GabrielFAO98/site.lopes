@@ -153,6 +153,8 @@ export async function searchProducts(params: {
   departmentId?: string;
   brand?: string;
   sortBy?: 'price-asc' | 'price-desc' | 'name-asc' | 'featured';
+  minPrice?: number;
+  maxPrice?: number;
 }): Promise<Product[]> {
   const allProducts = await getAllProducts();
   let filtered = [...allProducts];
@@ -168,6 +170,14 @@ export async function searchProducts(params: {
     );
   }
 
+  if (params.minPrice !== undefined && !isNaN(params.minPrice)) {
+    filtered = filtered.filter((p) => p.price !== null && p.price >= params.minPrice!);
+  }
+
+  if (params.maxPrice !== undefined && !isNaN(params.maxPrice)) {
+    filtered = filtered.filter((p) => p.price !== null && p.price <= params.maxPrice!);
+  }
+
   if (params.query && params.query.trim()) {
     filtered = searchProductsSmart(filtered, params.query.trim());
   }
@@ -181,7 +191,7 @@ export async function searchProducts(params: {
         filtered.sort((a, b) => (b.price ?? 0) - (a.price ?? 0));
         break;
       case 'name-asc':
-        filtered.sort((a, b) => a.name.localeCompare(b.name));
+        filtered.sort((a, b) => a.name.localeCompare(b.name, 'pt-BR', { sensitivity: 'base' }));
         break;
     }
   } else if (!params.query || !params.query.trim()) {

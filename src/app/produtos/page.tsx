@@ -1,10 +1,11 @@
 import React from 'react';
 import { Metadata } from 'next';
 import Link from 'next/link';
-import { Filter, SlidersHorizontal, ArrowUpDown, X } from 'lucide-react';
+import { X, ArrowUpDown, CircleDollarSign } from 'lucide-react';
 import { searchProducts, getAllBrands, getDepartmentsWithCount } from '@/lib/db';
 import { ProductCard } from '@/components/ProductCard';
 import { ProductFilters } from '@/components/ProductFilters';
+import { ProductSortBar } from '@/components/ProductSortBar';
 import { STORE_CONFIG } from '@/lib/store-config';
 
 export const revalidate = 60;
@@ -21,6 +22,8 @@ interface ProdutosPageProps {
     depto?: string;
     marca?: string;
     ordem?: 'price-asc' | 'price-desc' | 'name-asc' | 'featured';
+    minPreco?: string;
+    maxPreco?: string;
   };
 }
 
@@ -29,12 +32,19 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
   const currentDepartment = searchParams.depto || 'todos';
   const currentBrand = searchParams.marca || 'todas';
   const currentSort = searchParams.ordem || 'featured';
+  const currentMinPrice = searchParams.minPreco || '';
+  const currentMaxPrice = searchParams.maxPreco || '';
+
+  const minPriceNum = currentMinPrice ? parseFloat(currentMinPrice) : undefined;
+  const maxPriceNum = currentMaxPrice ? parseFloat(currentMaxPrice) : undefined;
 
   const products = await searchProducts({
     query: currentQuery,
     departmentId: currentDepartment,
     brand: currentBrand,
     sortBy: currentSort,
+    minPrice: minPriceNum,
+    maxPrice: maxPriceNum,
   });
 
   const departments = await getDepartmentsWithCount();
@@ -42,6 +52,36 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
 
   const selectedDepartmentName =
     departments.find((d) => d.id === currentDepartment)?.name || 'Todos os Departamentos';
+
+  const hasPriceFilter = Boolean(currentMinPrice || currentMaxPrice);
+  const hasSortFilter = currentSort && currentSort !== 'featured';
+
+  // Helper para construir links removendo parâmetros específicos
+  const buildChipUrl = (removals: {
+    q?: boolean;
+    depto?: boolean;
+    marca?: boolean;
+    ordem?: boolean;
+    preco?: boolean;
+  }) => {
+    const params = new URLSearchParams();
+    if (!removals.q && currentQuery) params.set('q', currentQuery);
+    if (!removals.depto && currentDepartment !== 'todos') params.set('depto', currentDepartment);
+    if (!removals.marca && currentBrand !== 'todas') params.set('marca', currentBrand);
+    if (!removals.ordem && currentSort !== 'featured') params.set('ordem', currentSort);
+    if (!removals.preco) {
+      if (currentMinPrice) params.set('minPreco', currentMinPrice);
+      if (currentMaxPrice) params.set('maxPreco', currentMaxPrice);
+    }
+    const qs = params.toString();
+    return qs ? `/produtos?${qs}` : '/produtos';
+  };
+
+  const sortLabels: Record<string, string> = {
+    'price-asc': 'Menor Preço',
+    'price-desc': 'Maior Preço',
+    'name-asc': 'Nome A-Z',
+  };
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8 space-y-6">
@@ -71,12 +111,12 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
           </div>
 
           {/* Filtros ativos (Chips) */}
-          {(currentDepartment !== 'todos' || currentBrand !== 'todas' || currentQuery) && (
+          {(currentDepartment !== 'todos' || currentBrand !== 'todas' || currentQuery || hasPriceFilter || hasSortFilter) && (
             <div className="flex flex-wrap items-center gap-2">
               <span className="text-xs text-slate-400">Filtros:</span>
               {currentQuery && (
                 <Link
-                  href={`/produtos?depto=${currentDepartment}&marca=${currentBrand}&ordem=${currentSort}`}
+                  href={buildChipUrl({ q: true })}
                   className="inline-flex items-center gap-1 text-xs bg-slate-100 hover:bg-slate-200 text-slate-700 px-2.5 py-1 rounded-full border border-slate-300"
                 >
                   <span>Busca: "{currentQuery}"</span>
@@ -85,7 +125,7 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
               )}
               {currentDepartment !== 'todos' && (
                 <Link
-                  href={`/produtos?q=${currentQuery}&marca=${currentBrand}&ordem=${currentSort}`}
+                  href={buildChipUrl({ depto: true })}
                   className="inline-flex items-center gap-1 text-xs bg-lopes-blue-50 text-lopes-blue px-2.5 py-1 rounded-full border border-lopes-blue-200"
                 >
                   <span>{selectedDepartmentName}</span>
@@ -94,15 +134,40 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
               )}
               {currentBrand !== 'todas' && (
                 <Link
-                  href={`/produtos?q=${currentQuery}&depto=${currentDepartment}&ordem=${currentSort}`}
+                  href={buildChipUrl({ marca: true })}
                   className="inline-flex items-center gap-1 text-xs bg-slate-100 text-slate-700 px-2.5 py-1 rounded-full border border-slate-300"
                 >
                   <span>Marca: {currentBrand}</span>
                   <X className="w-3 h-3" />
                 </Link>
               )}
+              {hasPriceFilter && (
+                <Link
+                  href={buildChipUrl({ preco: true })}
+                  className="inline-flex items-center gap-1 text-xs bg-emerald-50 text-emerald-800 px-2.5 py-1 rounded-full border border-emerald-200"
+                >
+                  <span>
+                    Preço:{' '}
+                    {currentMinPrice && currentMaxPrice
+                      ? `R$ ${currentMinPrice} a R$ ${currentMaxPrice}`
+                      : currentMinPrice
+                      ? `Acima de R$ ${currentMinPrice}`
+                      : `Até R$ ${currentMaxPrice}`}
+                  </span>
+                  <X className="w-3 h-3" />
+                </Link>
+              )}
+              {hasSortFilter && (
+                <Link
+                  href={buildChipUrl({ ordem: true })}
+                  className="inline-flex items-center gap-1 text-xs bg-blue-50 text-lopes-blue px-2.5 py-1 rounded-full border border-blue-200"
+                >
+                  <span>Ordem: {sortLabels[currentSort] || currentSort}</span>
+                  <X className="w-3 h-3" />
+                </Link>
+              )}
               <Link
-                href="/produtos"
+                href={currentDepartment !== 'todos' ? `/produtos?depto=${currentDepartment}` : '/produtos'}
                 className="text-xs text-red-600 hover:underline font-medium ml-1"
               >
                 Limpar todos
@@ -122,10 +187,18 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
           currentBrand={currentBrand}
           currentQuery={currentQuery}
           currentSort={currentSort}
+          currentMinPrice={currentMinPrice}
+          currentMaxPrice={currentMaxPrice}
         />
 
-        {/* Lista de Resultados */}
-        <section className="lg:col-span-3 space-y-6">
+        {/* Lista de Resultados com Barra de Ordenação no Topo */}
+        <section className="lg:col-span-3 space-y-4 sm:space-y-6">
+          {/* Barra Superior de Ordenação */}
+          <ProductSortBar
+            currentSort={currentSort}
+            totalProducts={products.length}
+          />
+
           {products.length === 0 ? (
             <div className="bg-white rounded-xl border border-slate-200 p-12 text-center space-y-4">
               <span className="text-4xl block">🔍</span>
@@ -133,13 +206,13 @@ export default async function ProdutosPage({ searchParams }: ProdutosPageProps) 
                 Nenhum material encontrado com estes filtros
               </h3>
               <p className="text-xs sm:text-sm text-slate-500 max-w-md mx-auto">
-                Tente ajustar a busca ou limpar os filtros para encontrar o que procura no estoque de Franca.
+                Tente ajustar a faixa de preço, a busca ou limpar os filtros para encontrar o que procura no estoque de Franca.
               </p>
               <Link
-                href="/produtos"
+                href={currentDepartment !== 'todos' ? `/produtos?depto=${currentDepartment}` : '/produtos'}
                 className="inline-block px-5 py-2.5 bg-lopes-blue text-white text-xs font-semibold rounded-lg hover:bg-lopes-blue-700"
               >
-                Ver todos os produtos
+                Ver todos os materiais deste departamento
               </Link>
             </div>
           ) : (
