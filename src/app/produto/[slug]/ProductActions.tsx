@@ -161,11 +161,10 @@ export function ProductActions({ product }: ProductActionsProps) {
                   >
                     {variation.name}
                     {variation.price !== undefined &&
-                      variation.price !== null &&
-                      variation.price !== product.price && (
+                      variation.price !== null && (
                         <span
-                          className={`ml-1 text-[11px] ${
-                            isSelected ? 'text-blue-100' : 'text-slate-400'
+                          className={`ml-1 text-[11px] font-normal ${
+                            isSelected ? 'text-blue-100' : 'text-slate-500'
                           }`}
                         >
                           ({formatCurrency(variation.price)})
